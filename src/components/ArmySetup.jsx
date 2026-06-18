@@ -4,7 +4,7 @@ import { listArmies, deleteArmy } from '../utils/storage';
 
 export default function ArmySetup({ faction, onSetFaction, pointLimit, onSetPointLimit, onLoadArmy }) {
   const [open, setOpen] = useState(false);
-  const [saved, setSaved] = useState(listArmies);
+  const [saved, setSaved] = useState(listArmies());
 
   const handleLoad = (name) => {
     if (confirm('Discard unsaved changes and load this list?')) {

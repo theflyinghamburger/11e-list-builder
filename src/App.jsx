@@ -8,8 +8,11 @@ import ArmyList from './components/ArmyList';
 import './App.css';
 
 function App() {
-  const { state, setPointLimit, setFaction, setDetachment, addUnit, removeUnit, loadArmy } = useArmy();
+  const { state, setPointLimit, setFaction, addDetachment, removeDetachment, updateDetachmentEnhancements, addUnit, removeUnit, loadArmy, setData } = useArmy();
   const data = getData(state.faction);
+
+  setData(data);
+
   const handleLoadArmy = (name) => {
     const saved = loadArmyFromStorage(name);
     if (saved) loadArmy(saved);
@@ -31,8 +34,11 @@ function App() {
       <div className="detachment-bar">
         <DetachmentSelector
           data={data}
-          detachment={state.detachment}
-          onSetDetachment={setDetachment}
+          detachments={state.detachments}
+          pointLimit={state.pointLimit}
+          onAddDetachment={addDetachment}
+          onRemoveDetachment={removeDetachment}
+          onUpdateEnhancements={updateDetachmentEnhancements}
         />
       </div>
 

@@ -11,22 +11,12 @@ export default function ArmyList({ data, army, onRemoveUnit }) {
   const issues = validateArmy(army, data);
   const issueIds = new Set(issues.map((i) => i.unitId));
 
-  const getDetachmentPoints = () => {
-    if (!army.detachment) return 0;
-    const detData = data.detachments.find((d) => d.name === army.detachment.name);
-    if (!detData) return 0;
-    return (
-      detData.enhancements
-        .filter((e) => army.detachment.enhancements.includes(e.name))
-        .reduce((sum, e) => sum + e.pts, 0)
-    );
-  };
-
-  const grandTotal = totalPoints + getDetachmentPoints();
-
-  const handlePrint = () => {
-    window.print();
-  };
+  const detPts = (army.detachments || []).reduce((sum, det) => {
+    const detData = data.detachments.find((d) => d.name === det.name);
+    if (!detData) return sum;
+    return sum + detData.enhancements.filter((e) => det.enhancements?.includes(e.name)).reduce((s, e) => s + e.pts, 0);
+  }, 0);
+  const grandTotal = totalPoints + detPts;
 
   return (
     <div className="army-list">
@@ -39,23 +29,31 @@ export default function ArmyList({ data, army, onRemoveUnit }) {
           }}>
             Save
           </button>
-          <button className="print-btn" onClick={handlePrint}>
+          <button className="print-btn" onClick={() => window.print()}>
             Print
           </button>
         </div>
       </div>
 
-      {army.detachment && (
+      {(army.detachments || []).length > 0 && (
         <div className="detachment-info">
-          <strong>{army.detachment.name}</strong>
-          <span>DP: {data.detachments.find((d) => d.name === army.detachment.name)?.dpCost}</span>
-          {army.detachment.enhancements.length > 0 && (
-            <div className="det-enhancements">
-              {army.detachment.enhancements.map((e) => (
-                <span key={e} className="enh-tag">{e}</span>
-              ))}
-            </div>
-          )}
+          {(army.detachments || []).map((det) => {
+            const detData = data.detachments.find((d) => d.name === det.name);
+            if (!detData) return null;
+            return (
+              <div key={det.name} className="det-entry">
+                <strong>{det.name}</strong>
+                <span>DP: {detData.dpCost}</span>
+                {det.enhancements?.length > 0 && (
+                  <div className="det-enhancements">
+                    {det.enhancements.map((e) => (
+                      <span key={e} className="enh-tag">{e}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
       )}
 
@@ -105,8 +103,8 @@ return (
           <tr className={isOver ? 'over-budget' : ''}>
             <td colSpan="2">
               <strong>Total</strong>
-              {getDetachmentPoints() > 0 && (
-                <span className="det-pts"> (incl. {getDetachmentPoints()} pts enhancements)</span>
+              {detPts > 0 && (
+                <span className="det-pts"> (incl. {detPts} pts enhancements)</span>
               )}
             </td>
             <td>
@@ -129,19 +127,15 @@ return (
         </div>
       )}
 
-      {(() => {
- const issues = validateArmy(army, data);
-        if (issues.length === 0) return null;
-        return (
-          <div className="validation-issues">
-            {issues.map((issue) => (
-              <div key={issue.unitId} className="validation-issue">
-                <strong>{issue.unitName}</strong> — {issue.reason}
-              </div>
-            ))}
-          </div>
-        );
-      })()}
+     {issues.length > 0 && (
+        <div className="validation-issues">
+          {issues.map((issue) => (
+            <div key={issue.unitId} className="validation-issue">
+              <strong>{issue.unitName}</strong> — {issue.reason}
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

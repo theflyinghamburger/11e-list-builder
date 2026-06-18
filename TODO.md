@@ -72,12 +72,12 @@ Goal: select multiple detachments within a DP budget. Breaks single-detachment m
 { detachments: [ { name, enhancements: [] }, ... ] }
 ```
 
-- [ ] 6.1 Create `src/utils/dpBudget.js` — `getDpBudget(pointLimit)` returns max DP
-- [ ] 6.2 Change `useArmy.js` state: `detachment` (single) → `detachments` (array)
-- [ ] 6.3 Replace `SET_DETACHMENT` with `ADD_DETACHMENT` and `REMOVE_DETACHMENT` actions
-- [ ] 6.4 `ADD_DETACHMENT`: reject if sum of DP costs would exceed budget for current point limit
-- [ ] 6.5 Rewrite `DetachmentSelector.jsx`: show selected detachments list, remaining DP, add/remove per detachment, enhancements per detachment
-- [ ] 6.6 Update `ArmyList.jsx`: render multiple detachment blocks, sum all enhancement points
-- [ ] 6.7 Update `validate.js`: no detachment-specific rules, but flag if DP budget exceeded
-- [ ] 6.8 Update `SET_POINT_LIMIT`: if new budget < current DP spent, warn (do not auto-remove)
-- [ ] 6.9 Migrate saved lists: Phase 5 saves with `detachment` (single) → Phase 6 load wraps in array
+- [x] 6.1 Create `src/utils/dpBudget.js` — `getDpBudget(pointLimit)` returns max DP
+- [x] 6.2 Change `useArmy.js` state: `detachment` (single) → `detachments` (array)
+- [x] 6.3 Replace `SET_DETACHMENT` with `ADD_DETACHMENT` and `REMOVE_DETACHMENT` actions
+- [x] 6.4 `ADD_DETACHMENT`: reject if sum of DP costs would exceed budget for current point limit
+- [x] 6.5 Rewrite `DetachmentSelector.jsx`: show selected detachments list, remaining DP, add/remove per detachment, enhancements per detachment
+- [x] 6.6 Update `ArmyList.jsx`: render multiple detachment blocks, sum all enhancement points
+- [x] 6.7 Update `validate.js`: no detachment-specific rules, but flag if DP budget exceeded
+- [x] 6.8 Update `SET_POINT_LIMIT`: if new budget < current DP spent, warn (do not auto-remove)
+- [x] 6.9 Migrate saved lists: Phase 5 saves with `detachment` (single) → Phase 6 load wraps in array
