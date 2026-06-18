@@ -1,0 +1,155 @@
+# Warhammer 40k 11e List Builder - Architecture
+
+## Overview
+
+A web app for building Warhammer 40k 11th edition army lists. Starts with Adeptus Mechanicus only, extensible to other factions.
+
+Point costs sourced from the Munitorum Field Manual (mfm.warhammer-community.com). UI inspired by New Recruit (newrecruit.eu).
+
+## Tech Stack
+
+- **React + Vite** — build tooling, JSX
+- **window.print() + @media print CSS** — PDF export (no deps)
+- **useReducer** — army state management (no Redux/Zustand)
+- No router, no backend, no database
+
+## Project Structure
+
+```
+11e-list-builder/
+├── package.json
+├── vite.config.js
+├── index.html
+├── src/
+│   ├── main.jsx
+│   ├── App.jsx
+│   ├── data/
+│   │   └── adeptus-mechanicus.json
+│   ├── components/
+│   │   ├── ArmySetup.jsx          // Faction + point size setup
+│   │   ├── DetachmentSelector.jsx // Pick detachment + enhancements
+│   │   ├── UnitList.jsx           // Browse + manage units (merged browser + config)
+│   │   └── ArmyList.jsx           // Built army display + totals + print button
+│   ├── hooks/
+│   │   └── useArmy.js
+│   └── utils/
+│       └── validate.js
+```
+
+## Data Model
+
+### Faction Data (`data/adeptus-mechanicus.json`)
+
+Single JSON per faction containing:
+
+**detachments** — array of:
+- `name`, `dpCost`, `doctrine`, `enhancements[]` (name + pts)
+
+**units** — array of:
+- `name`
+- `modelOptions[]` — `{ count, cost }` pairs
+- `tieredPricing` — optional, `{ firstN: { modelOptions[] }, rest: { modelOptions[] } }` for units like HASTARII EXTERMINATORS (different cost for 1st-2nd vs 3rd+)
+- `wargearOptions[]` — `{ name, costPerModel }` for units like IRONSTRIDER BALLISTARII
+- `leaderOf[]` — unit names this unit can lead (empty or absent = not a leader)
+- `supportFor[]` — unit names this unit can support (empty or absent = not a support)
+
+### Army State (useReducer)
+
+```js
+{
+  faction: "adeptus-mechanicus",
+  pointLimit: 2000,
+  detachment: { name, enhancements: [] },
+  units: [
+    {
+      id,           // unique per army slot (same unit can appear multiple times)
+      unitName,     // references data
+      modelCount,
+      wargear: {},  // { "Twin cognis lascannon": 2 }
+      // tierIndex is derived: count how many of same unitName exist, compute at render time
+    }
+  ]
+}
+```
+
+## Point Cost Data (Extracted from MFM)
+
+### Detachments (10)
+
+| Name | DP | Doctrine | Enhancements |
+|------|----|----------|-------------|
+| Cohort Acquisitus | 1 | Reconnaissance | Explorator Dispensation (20), Stealth-screened Cybercanids (15) |
+| Cohort Cybernetica | 2 | Take and Hold | Arch-negator (5), Emotionless Clarity (10), Lord of Machines (15), Necromechanic (20) |
+| Data-Psalm Conclave | 2 | Disruption | Data-blessed Autosermon (15), Mantle of the Gnosticarch (10), Mechanicus Locum (5), Temporcopia (20) |
+| Eradication Cohort | 3 | Purge the Foe | Belicosa-class Capacitor Vanes (25), Martial Signatum Amplificator (15), Omnicogitator (25), Omnissiah's Fury (10) |
+| Explorator Maniple | 2 | Priority Assets | Artisan (10), Genetor (20), Logis (15), Magos (10) |
+| Haloscreed Battle Clade | 3 | Purge the Foe | Cognitive Reinforcement (30), Inloaded Lethality (15), Sanctified Ordnance (10), Transoracular Dyad Wafers (15) |
+| Lords of the Forge | 1 | Priority Assets | TL-4ø9 (30), Vingh's Wafers of Dynamism (25) |
+| Luminen Auto-Choir | 1 | Disruption | Electromiasmic Brazier (10), Voltagheist Reliquary (15) |
+| Rad-Zone Corps | 2 | Take and Hold | Autoclavic Denunciation (15), Malphonic Susurrus (20), Peerless Eradicator (20), Radial Suffusion (25) |
+| Skitarii Hunter Cohort | 2 | Reconnaissance | Battle-sphere Uplink (25), Cantic Thrallnet (25), Clandestine Infiltrator (15), Veiled Hunter (10) |
+
+### Units (34)
+
+| Unit | Models | Cost(s) | Notes |
+|------|--------|---------|-------|
+| Archaeopter Fusilave | 1 | 160 | |
+| Archaeopter Stratoraptor | 1 | 185 | |
+| Archaeopter Transvector | 1 | 145 | |
+| Belisarius Cawl | 1 | 220 | |
+| Corpuscarii Electro-Priests | 5, 10 | 65, 130 | |
+| Cybernetica Datasmit | 1 | 25 | Support: Kastelan Robots |
+| Fulgure Electro-Priests | 5, 10 | 70, 140 | |
+| Hastarii Exterminators | 5 | 115 (1st-2nd), 130 (3rd+) | Tiered |
+| Hastarii Fusiliers | 5 | 115 (1st-2nd), 130 (3rd+) | Tiered |
+| Ironstrider Ballistarii | 1, 2, 3 | 80/160/240 (1st-2nd), 95/175/255 (3rd+) | Tiered, wargear: Twin cognis lascannon |
+| Kastelan Robots | 2, 4 | 160/320 (1st), 180/340 (2nd+) | Tiered |
+| Kataphron Breachers | 3, 6 | 150, 320 | |
+| Kataphron Destroyers | 3, 6 | 100, 210 | |
+| Onager Dunecrawler | 1 | 155 | |
+| Pteraxii Skystalkers | 5, 10 | 80/150 (1st-2nd), 90/160 (3rd+) | Tiered |
+| Pteraxii Sterylizors | 5, 10 | 80/160 (1st-2nd), 90/170 (3rd+) | Tiered |
+| Serberys Raiders | 3, 6 | 60, 120 | |
+| Serberys Sulphurhounds | 3, 6 | 55, 110 | |
+| Servitor Battleclade | 9 | 65 | |
+| Sicarian Infiltrators | 5, 10 | 75/155 (1st-2nd), 85/165 (3rd+) | Tiered |
+| Sicarian Ruststalkers | 5, 10 | 75/160 (1st-2nd), 85/170 (3rd+) | Tiered |
+| Skitarii Marshal | 1 | 35 | Support: Hastarii Exterminators, Hastarii Fusiliers, Skitarii Rangers, Skitarii Vanguard |
+| Skitarii Rangers | 10 | 85 | |
+| Skitarii Vanguard | 10 | 90 | |
+| Skorpius Disintegrator | 1 | 160 | Wargear: Ferrumite cannon (10 pts) |
+| Skorpius Dunerider | 1 | 85 | |
+| Sydonian Dragoons w/ Radium Jezails | 1, 2, 3 | 55, 100, 150 | |
+| Sydonian Dragoons w/ Taser Lances | 1, 2, 3 | 60, 120, 170 | |
+| Sydonian Skatros | 1 | 50 | |
+| Technoarchaeologist | 1 | 45 | Leader: Corpuscarii, Fulgurite, Hastarii, Kataphron, Servitor, Skitarii |
+| Tech-Priest Dominus | 1 | 65 | Leader: Corpuscarii, Fulgurite, Hastarii, Kataphron, Servitor, Skitarii |
+| Tech-Priest Enginseer | 1 | 55 | Leader: Corpuscarii, Fulgurite, Kataphron, Skitarii |
+| Tech-Priest Manipulus | 1 | 60 | Leader: Corpuscarii, Fulgurite, Hastarii, Kataphron, Servitor, Skitarii |
+| Thulia Ghuld | 1 | 180 | |
+
+### Leader/Support Relationships
+
+**Leaders** (attach to unit, not separate):
+- Tech-Priest Dominus → Corpuscarii, Fulgurite, Hastarii Exterminators/Fusiliers, Kataphron Breachers/Destroyers, Servitor Battleclade, Skitarii Rangers/Vanguard
+- Tech-Priest Enginseer → Corpuscarii, Fulgurite, Kataphron Breachers/Destroyers, Skitarii Rangers/Vanguard
+- Tech-Priest Manipulus → Corpuscarii, Fulgurite, Hastarii Exterminators/Fusiliers, Kataphron Breachers/Destroyers, Servitor Battleclade, Skitarii Rangers/Vanguard
+- Technoarchaeologist → Corpuscarii, Fulgurite, Hastarii Exterminators/Fusiliers, Kataphron Breachers/Destroyers, Servitor Battleclade, Skitarii Rangers/Vanguard
+
+**Support** (separate unit, must have valid target in army):
+- Skitarii Marshal → Hastarii Exterminators, Hastarii Fusiliers, Skitarii Rangers, Skitarii Vanguard
+- Technoarchaeologist → Corpuscarii, Fulgurite, Hastarii, Kataphron, Servitor, Skitarii
+- Cybernetica Datasmit → Kastelan Robots
+
+## Validation Rules
+
+1. Total points ≤ selected point limit (1000 / 2000 / 3000)
+2. Detachment DP cost tracked (informational)
+3. Leaders can only be added if their valid target unit exists in the army
+4. Support units can only be added if their valid target unit exists
+5. Model counts constrained to defined options
+6. Tiered pricing: count same-named units in army to derive which tier a new unit falls into
+
+## PDF Export
+
+`window.print()` with `@media print` CSS. No external dependency. The army list renders as a clean table in print layout.

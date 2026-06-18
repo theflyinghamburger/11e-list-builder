@@ -1,0 +1,827 @@
+{
+  "detachments": [
+    {
+      "name": "Cohort Acquisitus",
+      "dpCost": 1,
+      "doctrine": "Reconnaissance",
+      "enhancements": [
+        {
+          "name": "Explorator Dispensation",
+          "pts": 20
+        },
+        {
+          "name": "Stealth-screened Cybercanids",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "Cohort Cybernetica",
+      "dpCost": 2,
+      "doctrine": "Take and Hold",
+      "enhancements": [
+        {
+          "name": "Arch-negator",
+          "pts": 5
+        },
+        {
+          "name": "Emotionless Clarity",
+          "pts": 10
+        },
+        {
+          "name": "Lord of Machines",
+          "pts": 15
+        },
+        {
+          "name": "Necromechanic",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "Data-Psalm Conclave",
+      "dpCost": 2,
+      "doctrine": "Disruption",
+      "enhancements": [
+        {
+          "name": "Data-blessed Autosermon",
+          "pts": 15
+        },
+        {
+          "name": "Mantle of the Gnosticarch",
+          "pts": 10
+        },
+        {
+          "name": "Mechanicus Locum",
+          "pts": 5
+        },
+        {
+          "name": "Temporcopia",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "Eradication Cohort",
+      "dpCost": 3,
+      "doctrine": "Purge the Foe",
+      "enhancements": [
+        {
+          "name": "Belicosa-class Capacitor Vanes",
+          "pts": 25
+        },
+        {
+          "name": "Martial Signatum Amplificator",
+          "pts": 15
+        },
+        {
+          "name": "Omnicogitator",
+          "pts": 25
+        },
+        {
+          "name": "Omnissiahs Fury",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "Explorator Maniple",
+      "dpCost": 2,
+      "doctrine": "Priority Assets",
+      "enhancements": [
+        {
+          "name": "Artisan",
+          "pts": 10
+        },
+        {
+          "name": "Genetor",
+          "pts": 20
+        },
+        {
+          "name": "Logis",
+          "pts": 15
+        },
+        {
+          "name": "Magos",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "Haloscreed Battle Clade",
+      "dpCost": 3,
+      "doctrine": "Purge the Foe",
+      "enhancements": [
+        {
+          "name": "Cognitive Reinforcement",
+          "pts": 30
+        },
+        {
+          "name": "Inloaded Lethality",
+          "pts": 15
+        },
+        {
+          "name": "Sanctified Ordnance",
+          "pts": 10
+        },
+        {
+          "name": "Transoracular Dyad Wafers",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "Lords of the Forge",
+      "dpCost": 1,
+      "doctrine": "Priority Assets",
+      "enhancements": [
+        {
+          "name": "TL-4o9",
+          "pts": 30
+        },
+        {
+          "name": "Vings Wafers of Dynamism",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "Luminen Auto-Choir",
+      "dpCost": 1,
+      "doctrine": "Disruption",
+      "enhancements": [
+        {
+          "name": "Electromiasmic Brazier",
+          "pts": 10
+        },
+        {
+          "name": "Voltagheist Reliquary",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "Rad-Zone Corps",
+      "dpCost": 2,
+      "doctrine": "Take and Hold",
+      "enhancements": [
+        {
+          "name": "Autoclavic Denunciation",
+          "pts": 15
+        },
+        {
+          "name": "Malphonic Susurrus",
+          "pts": 20
+        },
+        {
+          "name": "Peerless Eradicator",
+          "pts": 20
+        },
+        {
+          "name": "Radial Suffusion",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "Skitarii Hunter Cohort",
+      "dpCost": 2,
+      "doctrine": "Reconnaissance",
+      "enhancements": [
+        {
+          "name": "Battle-sphere Uplink",
+          "pts": 25
+        },
+        {
+          "name": "Cantic Thrallnet",
+          "pts": 25
+        },
+        {
+          "name": "Clandestine Infiltrator",
+          "pts": 15
+        },
+        {
+          "name": "Veiled Hunter",
+          "pts": 10
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Archaeopter Fusilave",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Archaeopter Stratoraptor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 185
+        }
+      ]
+    },
+    {
+      "name": "Archaeopter Transvector",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Belisarius Cawl",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 220
+        }
+      ]
+    },
+    {
+      "name": "Corpuscarii Electro-Priests",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 65
+        },
+        {
+          "count": 10,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Cybernetica Datasmit",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 25
+        }
+      ],
+      "supportFor": [
+        "Kastelan Robots"
+      ]
+    },
+    {
+      "name": "Fulgure Electro-Priests",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 70
+        },
+        {
+          "count": 10,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Hastarii Exterminators",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 115
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 115
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 130
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hastarii Fusiliers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 115
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 115
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 130
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ironstrider Ballistarii",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        },
+        {
+          "count": 2,
+          "cost": 160
+        },
+        {
+          "count": 3,
+          "cost": 240
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 80
+          },
+          {
+            "count": 2,
+            "cost": 160
+          },
+          {
+            "count": 3,
+            "cost": 240
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 95
+          },
+          {
+            "count": 2,
+            "cost": 175
+          },
+          {
+            "count": 3,
+            "cost": 255
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Twin cognis lascannon",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Kastelan Robots",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 160
+        },
+        {
+          "count": 4,
+          "cost": 320
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 2,
+            "cost": 160
+          },
+          {
+            "count": 4,
+            "cost": 320
+          }
+        ],
+        "secondary": [
+          {
+            "count": 2,
+            "cost": 180
+          },
+          {
+            "count": 4,
+            "cost": 340
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kataphron Breachers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 150
+        },
+        {
+          "count": 6,
+          "cost": 320
+        }
+      ]
+    },
+    {
+      "name": "Kataphron Destroyers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 100
+        },
+        {
+          "count": 6,
+          "cost": 210
+        }
+      ]
+    },
+    {
+      "name": "Onager Dunecrawler",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 155
+        }
+      ]
+    },
+    {
+      "name": "Pteraxii Skystalkers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 80
+          },
+          {
+            "count": 10,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 90
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pteraxii Sterylizors",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 80
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 90
+          },
+          {
+            "count": 10,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Serberys Raiders",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 60
+        },
+        {
+          "count": 6,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Serberys Sulphurhounds",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 55
+        },
+        {
+          "count": 6,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Servitor Battleclade",
+      "modelOptions": [
+        {
+          "count": 9,
+          "cost": 65
+        }
+      ]
+    },
+    {
+      "name": "Sicarian Infiltrators",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 155
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 155
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 85
+          },
+          {
+            "count": 10,
+            "cost": 165
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sicarian Ruststalkers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 85
+          },
+          {
+            "count": 10,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Skitarii Marshal",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 35
+        }
+      ],
+      "supportFor": [
+        "Hastarii Exterminators",
+        "Hastarii Fusiliers",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ]
+    },
+    {
+      "name": "Skitarii Rangers",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Skitarii Vanguard",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Skorpius Disintegrator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 160
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Ferrumite cannon",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Skorpius Dunerider",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Sydonian Dragoons w/ Radium Jezails",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        },
+        {
+          "count": 2,
+          "cost": 100
+        },
+        {
+          "count": 3,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Sydonian Dragoons w/ Taser Lances",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        },
+        {
+          "count": 2,
+          "cost": 120
+        },
+        {
+          "count": 3,
+          "cost": 170
+        }
+      ]
+    },
+    {
+      "name": "Sydonian Skatros",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ]
+    },
+    {
+      "name": "Technoarchaeologist",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "leaderOf": [
+        "Corpuscarii Electro-Priests",
+        "Fulgure Electro-Priests",
+        "Hastarii Exterminators",
+        "Hastarii Fusiliers",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Servitor Battleclade",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ],
+      "supportFor": [
+        "Corpuscarii Electro-Priests",
+        "Fulgure Electro-Priests",
+        "Hastarii Exterminators",
+        "Hastarii Fusiliers",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Servitor Battleclade",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ]
+    },
+    {
+      "name": "Tech-Priest Dominus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Corpuscarii Electro-Priests",
+        "Fulgure Electro-Priests",
+        "Hastarii Exterminators",
+        "Hastarii Fusiliers",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Servitor Battleclade",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ]
+    },
+    {
+      "name": "Tech-Priest Enginseer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Corpuscarii Electro-Priests",
+        "Fulgure Electro-Priests",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ]
+    },
+    {
+      "name": "Tech-Priest Manipulus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Corpuscarii Electro-Priests",
+        "Fulgure Electro-Priests",
+        "Hastarii Exterminators",
+        "Hastarii Fusiliers",
+        "Kataphron Breachers",
+        "Kataphron Destroyers",
+        "Servitor Battleclade",
+        "Skitarii Rangers",
+        "Skitarii Vanguard"
+      ]
+    },
+    {
+      "name": "Thulia Ghuld",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ]
+    }
+  ]
+}
