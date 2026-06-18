@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useArmy } from './hooks/useArmy';
 import { getData } from './data';
 import { loadArmy as loadArmyFromStorage } from './utils/storage';
@@ -9,14 +10,19 @@ import './App.css';
 
 function App() {
   const { state, setPointLimit, setFaction, addDetachment, removeDetachment, updateDetachmentEnhancements, addUnit, removeUnit, loadArmy, setData } = useArmy();
-  const data = getData(state.faction);
 
-  setData(data);
+  useEffect(() => {
+    setData(getData(state.faction));
+  }, [state.faction, setData]);
+
+  const data = state._data;
 
   const handleLoadArmy = (name) => {
     const saved = loadArmyFromStorage(name);
     if (saved) loadArmy(saved);
   };
+
+  if (!data) return null;
 
   return (
     <div className="app">
