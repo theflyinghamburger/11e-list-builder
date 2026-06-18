@@ -22,8 +22,22 @@ No lint, typecheck, or test commands configured.
 - `src/utils/validate.js` — army composition validation (leader/support rules).
 - `TODO.md` — phased implementation plan. Check before adding features to avoid duplicating in-progress work.
 
-## Conventions
+## Adding a new faction
 
-- No TypeScript. No linting framework. No test framework.
-- State is centralized in `useArmy` reducer; components read from it.
-- Tiered pricing: 1st-2nd instances of a unit cost less than 3rd+. Wargear is per-model.
+1. Create `src/data/<faction-key>.json` with `detachments` and `units` arrays. Use `adeptus-mechanicus.json` as a template.
+2. In `src/data/index.js`, import the new file and add it to the `factions` object:
+   ```js
+   import newFaction from './new-faction.json';
+   const factions = { 'adeptus-mechanicus': admech, 'new-faction': newFaction };
+   ```
+
+**Data format:**
+
+- `detachments`: `{ name, dpCost, doctrine, enhancements: [{ name, pts }] }`
+- `units`: `{ name, modelOptions: [{ count, cost }] }` plus optional fields:
+  - `tiered: { primary, secondary }` — arrays of `{ count, cost }` for 1st-2nd vs 3rd+ instance pricing
+  - `wargearOptions: [{ name, costPerModel }]` — per-model add-ons
+  - `leaderOf: [unitName, ...]` — unit must have one of these in the army
+  - `supportFor: [unitName, ...]` — unit must have one of these in the army
+
+No code changes needed beyond the data files — the UI is faction-agnostic.
