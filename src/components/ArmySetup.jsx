@@ -1,8 +1,9 @@
-import { useState } from 'react';
-import { getFactionKeys } from '../data';
+import { useRef, useState } from 'react';
+import { addFaction, getFactionKeys } from '../data';
 import { listArmies, deleteArmy } from '../utils/storage';
 
 export default function ArmySetup({ faction, onSetFaction, pointLimit, onSetPointLimit, onLoadArmy }) {
+  const fileInputRef = useRef(null);
   const [open, setOpen] = useState(false);
   const [saved, setSaved] = useState(listArmies());
 
@@ -18,6 +19,29 @@ export default function ArmySetup({ faction, onSetFaction, pointLimit, onSetPoin
     e.stopPropagation();
     deleteArmy(name);
     setSaved(listArmies());
+  };
+
+  const handleJsonUpload = (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      try {
+        const data = JSON.parse(ev.target.result);
+        const key = file.name.replace(/\.[^.]+$/, '').replace(/[^a-zA-Z0-9_-]/g, '-').toLowerCase() || 'custom';
+        const result = addFaction(key, data);
+        if (result.ok) {
+          onSetFaction(key);
+          setSaved(listArmies());
+        } else {
+          alert(result.reason);
+        }
+      } catch {
+        alert('Invalid JSON file');
+      }
+    };
+    reader.readAsText(file);
+    e.target.value = '';
   };
 
   return (
@@ -46,6 +70,10 @@ export default function ArmySetup({ faction, onSetFaction, pointLimit, onSetPoin
         <button className="load-btn" onClick={() => { setSaved(listArmies()); setOpen(!open); }}>
           Load
         </button>
+        <button className="load-btn" onClick={() => fileInputRef.current?.click()}>
+          Load JSON
+        </button>
+        <input ref={fileInputRef} type="file" accept=".json" style={{ display: 'none' }} onChange={handleJsonUpload} />
         {open && (
           <div className="saved-lists">
             {saved.length === 0 && <div className="no-saved">No saved lists</div>}
