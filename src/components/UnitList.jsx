@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import data from '../data/adeptus-mechanicus.json';
+import { getUnitPoints } from '../utils/costs';
+import { canAddUnit } from '../utils/validate';
 
-export default function UnitList({ units, onAddUnit }) {
+export default function UnitList({ data, units, onAddUnit }) {
   const [search, setSearch] = useState('');
   const [expandedUnit, setExpandedUnit] = useState(null);
   const [addForm, setAddForm] = useState(null);
@@ -15,7 +16,7 @@ export default function UnitList({ units, onAddUnit }) {
     setAddForm({
       unitName: unitData.name,
       modelCount: defaultOpt.count,
-      modelCost: defaultOpt.cost,
+      modelCost: getUnitPoints(unitData, defaultOpt.count, units, {}),
       wargear: {},
     });
     setExpandedUnit(unitData.name);
@@ -25,19 +26,8 @@ export default function UnitList({ units, onAddUnit }) {
     setAddForm((prev) => ({
       ...prev,
       modelCount: option.count,
-      modelCost: option.cost,
+      modelCost: getUnitPoints(unitData, option.count, units, prev.wargear),
     }));
-  };
-
-  const handleWargearChange = (wargear, count) => {
-    setAddForm((prev) => {
-      const current = prev.wargear[wargear.name] || 0;
-      const next = current >= count ? 0 : current + 1;
-      return {
-        ...prev,
-        wargear: { ...prev.wargear, [wargear.name]: next },
-      };
-    });
   };
 
   const handleAdd = () => {
@@ -50,17 +40,6 @@ export default function UnitList({ units, onAddUnit }) {
     });
     setAddForm(null);
     setExpandedUnit(null);
-  };
-
-  const calculateCost = (unitData, modelCost, wargear, modelCount) => {
-    let cost = modelCost;
-    if (wargear) {
-      for (const [name, count] of Object.entries(wargear)) {
-        const wg = unitData.wargearOptions?.find((w) => w.name === name);
-        if (wg) cost += wg.costPerModel * count;
-      }
-    }
-    return cost;
   };
 
   return (
@@ -83,22 +62,25 @@ export default function UnitList({ units, onAddUnit }) {
               <div className="unit-header" onClick={() => openAddForm(unitData)}>
                 <span className="unit-name">{unitData.name}</span>
                 <span className="unit-cost">
-                  {unitData.modelOptions[0].cost} pts
+                  {getUnitPoints(unitData, unitData.modelOptions[0].count, units, {})} pts
                 </span>
               </div>
 
               {isExpanded && (
                 <div className="unit-config">
                   <div className="model-options">
-                    {unitData.modelOptions.map((opt) => (
-                      <button
-                        key={opt.count}
-                        className={`model-btn ${form?.modelCount === opt.count ? 'active' : ''}`}
-                        onClick={() => handleModelChange(unitData, opt)}
-                      >
-                        {opt.count} model{opt.count > 1 ? 's' : ''} ({opt.cost} pts)
-                      </button>
-                    ))}
+                    {unitData.modelOptions.map((opt) => {
+                      const tieredCost = form ? getUnitPoints(unitData, opt.count, units, form.wargear) : opt.cost;
+                      return (
+                        <button
+                          key={opt.count}
+                          className={`model-btn ${form?.modelCount === opt.count ? 'active' : ''}`}
+                          onClick={() => handleModelChange(unitData, opt)}
+                        >
+                          {opt.count} model{opt.count > 1 ? 's' : ''} ({tieredCost} pts)
+                        </button>
+                      );
+                    })}
                   </div>
 
                   {unitData.wargearOptions && (
@@ -130,11 +112,24 @@ export default function UnitList({ units, onAddUnit }) {
                   {form && (
                     <div className="add-footer">
                       <span className="total-cost">
-                        {calculateCost(unitData, form.modelCost, form.wargear, form.modelCount)} pts
+                        {getUnitPoints(unitData, form.modelCount, units, form.wargear)} pts
+                        {unitData.tiered && (
+                          <span className="tier-label">
+                            {' '}(#{units.filter((u) => u.unitName === unitData.name).length + 1})
+                          </span>
+                        )}
                       </span>
-                      <button className="add-btn" onClick={handleAdd}>
-                        Add to Army
-                      </button>
+                      {(() => {
+                        const validation = canAddUnit(unitData.name, units, data);
+                        if (!validation.ok) {
+                          return <span className="validation-error">{validation.reason}</span>;
+                        }
+                        return (
+                          <button className="add-btn" onClick={handleAdd}>
+                            Add to Army
+                          </button>
+                        );
+                      })()}
                     </div>
                   )}
                 </div>

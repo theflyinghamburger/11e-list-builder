@@ -1,9 +1,11 @@
-import { useReducer, useCallback } from 'react';
+import { useReducer } from 'react';
 
 function armyReducer(state, action) {
   switch (action.type) {
     case 'SET_POINT_LIMIT':
       return { ...state, pointLimit: action.payload };
+    case 'SET_FACTION':
+      return { ...initialState, faction: action.payload };
     case 'SET_DETACHMENT':
       return { ...state, detachment: action.payload };
     case 'ADD_UNIT':
@@ -32,26 +34,13 @@ const initialState = {
 export function useArmy() {
   const [state, dispatch] = useReducer(armyReducer, initialState);
 
-  const setPointLimit = useCallback(
-    (limit) => dispatch({ type: 'SET_POINT_LIMIT', payload: limit }),
-    []
-  );
-  const setDetachment = useCallback(
-    (det) => dispatch({ type: 'SET_DETACHMENT', payload: det }),
-    []
-  );
-  const addUnit = useCallback(
-    (unit) => dispatch({ type: 'ADD_UNIT', payload: unit }),
-    []
-  );
-  const removeUnit = useCallback(
-    (id) => dispatch({ type: 'REMOVE_UNIT', payload: id }),
-    []
-  );
-  const updateUnit = useCallback(
-    (unit) => dispatch({ type: 'UPDATE_UNIT', payload: unit }),
-    []
-  );
-
-  return { state, setPointLimit, setDetachment, addUnit, removeUnit, updateUnit };
+  return {
+    state,
+    setPointLimit: (limit) => dispatch({ type: 'SET_POINT_LIMIT', payload: limit }),
+    setFaction: (faction) => dispatch({ type: 'SET_FACTION', payload: faction }),
+    setDetachment: (det) => dispatch({ type: 'SET_DETACHMENT', payload: det }),
+    addUnit: (unit) => dispatch({ type: 'ADD_UNIT', payload: unit }),
+    removeUnit: (id) => dispatch({ type: 'REMOVE_UNIT', payload: id }),
+    updateUnit: (unit) => dispatch({ type: 'UPDATE_UNIT', payload: unit }),
+  };
 }

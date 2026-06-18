@@ -1,34 +1,14 @@
-import data from '../data/adeptus-mechanicus.json';
+import { getUnitPoints } from '../utils/costs';
+import { validateArmy } from '../utils/validate';
 
-function getUnitPoints(unit, allUnits) {
-  const unitData = data.units.find((u) => u.name === unit.unitName);
-  if (!unitData) return 0;
-
-  let cost = unitData.modelOptions.find((o) => o.count === unit.modelCount)?.cost || 0;
-
-  if (unitData.tiered) {
-    const sameUnitCount = allUnits.filter((u) => u.unitName === unit.unitName).length;
-    const tierOptions =
-      sameUnitCount <= 2 ? unitData.tiered.primary : unitData.tiered.secondary;
-    cost = tierOptions.find((o) => o.count === unit.modelCount)?.cost || cost;
-  }
-
-  if (unit.wargear) {
-    for (const [name, count] of Object.entries(unit.wargear)) {
-      const wg = unitData.wargearOptions?.find((w) => w.name === name);
-      if (wg) cost += wg.costPerModel * count;
-    }
-  }
-
-  return cost;
-}
-
-export default function ArmyList({ army, onRemoveUnit }) {
-  const totalPoints = army.units.reduce(
-    (sum, u) => sum + getUnitPoints(u, army.units),
-    0
-  );
+export default function ArmyList({ data, army, onRemoveUnit }) {
+  const totalPoints = army.units.reduce((sum, u) => {
+    const unitData = data.units.find((d) => d.name === u.unitName);
+    return unitData ? sum + getUnitPoints(unitData, u.modelCount, army.units, u.wargear) : sum;
+  }, 0);
   const isOver = totalPoints > army.pointLimit;
+  const issues = validateArmy(army, data);
+  const issueIds = new Set(issues.map((i) => i.unitId));
 
   const getDetachmentPoints = () => {
     if (!army.detachment) return 0;
@@ -82,13 +62,13 @@ export default function ArmyList({ army, onRemoveUnit }) {
         <tbody>
           {army.units.map((unit) => {
             const unitData = data.units.find((u) => u.name === unit.unitName);
-            const pts = getUnitPoints(unit, army.units);
+            const pts = unitData ? getUnitPoints(unitData, unit.modelCount, army.units, unit.wargear) : 0;
             const sameCount = army.units.filter((u) => u.unitName === unit.unitName).length;
             const tierLabel =
               unitData?.tiered && sameCount > 2 ? ' (3rd+)' : '';
 
-            return (
-              <tr key={unit.id} className={isOver ? 'over-budget' : ''}>
+return (
+               <tr key={unit.id} className={`${isOver ? 'over-budget' : ''} ${issueIds.has(unit.id) ? 'orphaned' : ''}`}>
                 <td>
                   {unit.unitName}
                   {tierLabel}
@@ -139,6 +119,20 @@ export default function ArmyList({ army, onRemoveUnit }) {
           {army.pointLimit - grandTotal} points remaining
         </div>
       )}
+
+      {(() => {
+ const issues = validateArmy(army, data);
+        if (issues.length === 0) return null;
+        return (
+          <div className="validation-issues">
+            {issues.map((issue) => (
+              <div key={issue.unitId} className="validation-issue">
+                <strong>{issue.unitName}</strong> — {issue.reason}
+              </div>
+            ))}
+          </div>
+        );
+      })()}
     </div>
   );
 }

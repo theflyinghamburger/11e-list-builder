@@ -24,23 +24,26 @@ Point costs sourced from the Munitorum Field Manual (mfm.warhammer-community.com
 │   ├── main.jsx
 │   ├── App.jsx
 │   ├── data/
-│   │   └── adeptus-mechanicus.json
+│   │   ├── index.js               // Faction loader: getData(key), getFactionKeys()
+│   │   ├── adeptus-mechanicus.json
+│   │   └── [faction].json         // Additional factions (same schema)
 │   ├── components/
-│   │   ├── ArmySetup.jsx          // Faction + point size setup
+│   │   ├── ArmySetup.jsx          // Faction selector + point size setup
 │   │   ├── DetachmentSelector.jsx // Pick detachment + enhancements
 │   │   ├── UnitList.jsx           // Browse + manage units (merged browser + config)
 │   │   └── ArmyList.jsx           // Built army display + totals + print button
 │   ├── hooks/
 │   │   └── useArmy.js
 │   └── utils/
-│       └── validate.js
+│       ├── costs.js               // Generic cost calculation (faction-agnostic)
+│       └── validate.js            // Leader/support validation (data-driven)
 ```
 
 ## Data Model
 
-### Faction Data (`data/adeptus-mechanicus.json`)
+### Faction Data (`data/[faction].json`)
 
-Single JSON per faction containing:
+One JSON file per faction, registered in `data/index.js`. Each contains:
 
 **detachments** — array of:
 - `name`, `dpCost`, `doctrine`, `enhancements[]` (name + pts)
@@ -153,3 +156,39 @@ Single JSON per faction containing:
 ## PDF Export
 
 `window.print()` with `@media print` CSS. No external dependency. The army list renders as a clean table in print layout.
+
+## Multi-Faction Architecture
+
+The core logic is faction-agnostic. All faction-specific behavior comes from data files.
+
+### Data Loader (`src/data/index.js`)
+
+Registry pattern — register new factions by adding an import + key:
+
+```js
+import admech from './adeptus-mechanicus.json';
+const factions = { 'adeptus-mechanicus': admech };
+export function getData(key) { return factions[key]; }
+export function getFactionKeys() { return Object.keys(factions); }
+```
+
+### Data Flow
+
+1. `useArmy` reducer holds `state.faction` (key string) and exposes `SET_FACTION`
+2. `App.jsx` derives `data = getData(state.faction)` and passes it as a prop to `DetachmentSelector`, `UnitList`, `ArmyList`
+3. `validate.js` receives `data` as a parameter instead of importing statically
+4. Switching factions resets the army state (detachment, units) to avoid cross-faction data corruption
+
+### Adding a New Faction
+
+1. Create `src/data/[faction-slug].json` using the existing schema (detachments + units arrays)
+2. Register in `src/data/index.js` — one import + one key
+3. No other code changes required
+
+### Already Generic (No Changes Needed)
+
+- `costs.js` — operates on unit objects, no faction awareness
+- `useArmy.js` reducer — manages generic unit/detachment state
+- `validate.js` — validates leader/support rules against whatever `data.units` is passed
+- `ArmySetup.jsx` — point limit selector, no faction awareness
+- `App.jsx` layout — no faction awareness

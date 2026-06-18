@@ -12,13 +12,37 @@
 
 ## Phase 2: Detachments + Tiered Pricing + Wargear
 
-- [ ] 2.1 Create `src/components/DetachmentSelector.jsx` — pick detachment, toggle enhancements, show DP cost
-- [ ] 2.2 Handle tiered pricing in useArmy: derive tier from same-named unit count, apply 1st-2nd vs 3rd+ costs
-- [ ] 2.3 Handle wargear costs: per-model add-ons (Twin cognis lascannon, Ferrumite cannon)
-- [ ] 2.4 Add detachment info to ArmyList display
+- [x] 2.1 Create `src/components/DetachmentSelector.jsx` — pick detachment, toggle enhancements, show DP cost
+- [x] 2.2 Handle tiered pricing in useArmy: derive tier from same-named unit count, apply 1st-2nd vs 3rd+ costs
+- [x] 2.3 Handle wargear costs: per-model add-ons (Twin cognis lascannon, Ferrumite cannon)
+- [x] 2.4 Add detachment info to ArmyList display
+
+## Phase 2.5: Ponytail Cleanup
+
+- [x] Delete `handleWargearChange` — unused since wargear slider uses inline `setAddForm`
+- [x] Drop unused `modelCount` param from `calculateCost`
+- [x] Inline `getEnhancementsTotal` — one caller, 4 lines
+- [x] Remove `useCallback` wrappers in `useArmy.js` — `dispatch` is stable, bare arrows suffice
+- [x] Deduplicate tiered-pricing logic — extracted to `src/utils/costs.js`
+- [x] Drop redundant `label onClick` in enhancement toggles
+- [x] Delete empty `validate.js` stub
 
 ## Phase 3: Validation + Print + Polish
 
-- [ ] 3.1 Create `src/utils/validate.js` — leader/support target validation, point cap warnings
-- [ ] 3.2 Add `@media print` CSS for clean army list output via `window.print()`
+- [x] 3.1 Create `src/utils/validate.js` — leader/support target validation, point cap warnings
+- [x] 3.2 Add `@media print` CSS for clean army list output via `window.print()`
 - [ ] 3.3 Visual polish: over-budget red highlighting, faction branding, responsive layout
+
+## Phase 4: Multi-Faction Support
+
+Goal: switch factions without code changes — only new JSON + one-line registration.
+
+- [x] 4.1 Create `src/data/index.js` — faction loader (`getData`, `getFactionKeys`)
+- [x] 4.2 Add `SET_FACTION` action to `useArmy.js` reducer; reset army state on faction switch
+- [x] 4.3 Replace static `import data from '../data/adeptus-mechanicus.json'` in `DetachmentSelector.jsx` — accept `data` prop
+- [x] 4.4 Replace static import in `UnitList.jsx` — accept `data` prop
+- [x] 4.5 Replace static import in `ArmyList.jsx` — accept `data` prop
+- [x] 4.6 Replace static import in `validate.js` — accept `data` parameter
+- [x] 4.7 `App.jsx` — derive `data = getData(state.faction)`, pass as prop to children
+- [x] 4.8 `ArmySetup.jsx` — faction selector dropdown from `getFactionKeys()`
+- [ ] 4.9 Add second faction JSON (e.g. `imperium.json`) to verify flow

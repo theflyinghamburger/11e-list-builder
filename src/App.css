@@ -64,6 +64,157 @@ body {
   font-weight: 600;
 }
 
+.detachment-bar {
+  margin-bottom: 16px;
+  background: #16213e;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.detachment-selector h3 {
+  margin-bottom: 8px;
+  color: #c9a227;
+  font-size: 0.95rem;
+}
+
+.det-placeholder {
+  color: #888;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.det-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.det-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  background: #1a1a2e;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.det-card:hover {
+  background: #2a2a4a;
+}
+
+.det-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.dp-badge {
+  padding: 2px 8px;
+  background: #c9a227;
+  color: #1a1a2e;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.doctrine {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.det-selected {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.det-selected h3 {
+  margin-bottom: 0;
+}
+
+.det-selected-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.enh-pts {
+  color: #c9a227;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.enhancements-section {
+  margin-top: 8px;
+}
+
+.enh-toggle {
+  font-size: 0.85rem;
+  color: #888;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+
+.enh-toggle:hover {
+  color: #c9a227;
+}
+
+.enh-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.enh-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.enh-item:hover {
+  background: #1a1a2e;
+}
+
+.enh-item.active {
+  background: #2a2a4a;
+}
+
+.enh-item input[type="checkbox"] {
+  accent-color: #c9a227;
+}
+
+.enh-name {
+  flex: 1;
+}
+
+.enh-cost {
+  color: #c9a227;
+  font-size: 0.75rem;
+}
+
+.change-det-btn {
+  margin-top: 8px;
+  padding: 4px 12px;
+  background: none;
+  border: 1px solid #444;
+  color: #888;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.change-det-btn:hover {
+  border-color: #c9a227;
+  color: #c9a227;
+}
+
 .app-body {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -187,6 +338,12 @@ body {
 .total-cost {
   color: #c9a227;
   font-weight: 600;
+}
+
+.tier-label {
+  color: #ff9800;
+  font-size: 0.75rem;
+  font-weight: normal;
 }
 
 .add-btn {
@@ -320,6 +477,39 @@ body {
   font-weight: normal;
 }
 
+.validation-error {
+  color: #ff9800;
+  font-size: 0.8rem;
+  font-style: italic;
+  padding: 6px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.validation-issues {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.validation-issue {
+  padding: 8px 12px;
+  background: #3a2a1a;
+  border: 1px solid #ff9800;
+  border-radius: 4px;
+  color: #ff9800;
+  font-size: 0.8rem;
+}
+
+.orphaned {
+  background: #2a1a0a;
+}
+
+.orphaned td {
+  border-left: 3px solid #ff9800;
+}
+
 @media print {
   body {
     background: white;
@@ -327,16 +517,20 @@ body {
   }
 
   .app-header,
+  .detachment-bar,
   .left-panel,
   .print-btn,
   .remove-btn,
-  .search-input {
+  .search-input,
+  .validation-issues,
+  .over-warning,
+  .remaining {
     display: none !important;
   }
 
   .app {
     max-width: none;
-    padding: 0;
+    padding: 20px;
   }
 
   .app-body {
@@ -350,6 +544,12 @@ body {
     padding: 0;
   }
 
+  .army-list h3 {
+    color: black;
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+  }
+
   .army-table th {
     border-bottom: 2px solid black;
     color: black;
@@ -360,21 +560,66 @@ body {
     color: black;
   }
 
-  .army-list h3 {
-    color: black;
-  }
-
-  .over-warning,
-  .remaining {
-    border: 1px solid black;
-    color: black;
+  .army-table tfoot td {
+    border-top: 2px solid black;
   }
 
   .detachment-info {
     background: #f5f5f5;
+    color: black;
   }
 
   .detachment-info strong {
     color: black;
+  }
+
+  .enh-tag {
+    background: #e0e0e0;
+    color: black;
+  }
+
+  .det-pts {
+    color: #555;
+  }
+
+  .wargear-detail {
+    color: #555;
+  }
+
+  .orphaned td {
+    border-left: 3px solid #999;
+  }
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 8px;
+  }
+
+  .app-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .app-body {
+    grid-template-columns: 1fr;
+  }
+
+  .left-panel,
+  .right-panel {
+    max-height: none;
+  }
+
+  .det-selected {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .det-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
   }
 }
