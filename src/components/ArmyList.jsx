@@ -1,5 +1,6 @@
 import { getUnitPoints } from '../utils/costs';
 import { validateArmy } from '../utils/validate';
+import { saveArmy } from '../utils/storage';
 
 export default function ArmyList({ data, army, onRemoveUnit }) {
   const totalPoints = army.units.reduce((sum, u) => {
@@ -31,9 +32,17 @@ export default function ArmyList({ data, army, onRemoveUnit }) {
     <div className="army-list">
       <div className="army-header">
         <h3>Army List</h3>
-        <button className="print-btn" onClick={handlePrint}>
-          Print
-        </button>
+        <div className="army-actions">
+          <button className="save-btn" onClick={() => {
+            const name = prompt('Army list name:');
+            if (name) { saveArmy(name, army); alert('Saved'); }
+          }}>
+            Save
+          </button>
+          <button className="print-btn" onClick={handlePrint}>
+            Print
+          </button>
+        </div>
       </div>
 
       {army.detachment && (

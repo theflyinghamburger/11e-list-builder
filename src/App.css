@@ -364,6 +364,103 @@ body {
   margin-bottom: 12px;
 }
 
+.army-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.save-btn {
+  padding: 6px 16px;
+  background: #c9a227;
+  color: #1a1a2e;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.load-btn {
+  padding: 6px 16px;
+  background: #2a2a4a;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.load-section {
+  position: relative;
+  margin-left: auto;
+}
+
+.saved-lists {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 4px;
+  background: #16213e;
+  border: 1px solid #444;
+  border-radius: 4px;
+  min-width: 260px;
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.saved-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  border-bottom: 1px solid #2a2a4a;
+}
+
+.saved-item:last-child {
+  border-bottom: none;
+}
+
+.saved-info {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  flex: 1;
+}
+
+.saved-info:hover {
+  color: #c9a227;
+}
+
+.saved-name {
+  font-size: 0.85rem;
+}
+
+.saved-date {
+  font-size: 0.7rem;
+  color: #888;
+}
+
+.delete-saved-btn {
+  background: none;
+  border: none;
+  color: #ff6b6b;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+}
+
+.delete-saved-btn:hover {
+  color: #ff4444;
+}
+
+.no-saved {
+  padding: 8px 10px;
+  color: #888;
+  font-size: 0.8rem;
+}
+
 .print-btn {
   padding: 6px 16px;
   background: #2a2a4a;
@@ -520,6 +617,7 @@ body {
   .detachment-bar,
   .left-panel,
   .print-btn,
+  .save-btn,
   .remove-btn,
   .search-input,
   .validation-issues,

@@ -28,14 +28,16 @@ Point costs sourced from the Munitorum Field Manual (mfm.warhammer-community.com
 │   │   ├── adeptus-mechanicus.json
 │   │   └── [faction].json         // Additional factions (same schema)
 │   ├── components/
-│   │   ├── ArmySetup.jsx          // Faction selector + point size setup
-│   │   ├── DetachmentSelector.jsx // Pick detachment + enhancements
+│   │   ├── ArmySetup.jsx          // Faction selector + point size + load list
+│   │   ├── DetachmentSelector.jsx // Pick detachment(s) + enhancements
 │   │   ├── UnitList.jsx           // Browse + manage units (merged browser + config)
-│   │   └── ArmyList.jsx           // Built army display + totals + print button
+│   │   └── ArmyList.jsx           // Built army display + totals + save + print
 │   ├── hooks/
 │   │   └── useArmy.js
 │   └── utils/
 │       ├── costs.js               // Generic cost calculation (faction-agnostic)
+│       ├── dpBudget.js            // DP budget by point limit (Phase 6)
+│       ├── storage.js             // localStorage save/load (Phase 5)
 │       └── validate.js            // Leader/support validation (data-driven)
 ```
 
@@ -192,3 +194,76 @@ export function getFactionKeys() { return Object.keys(factions); }
 - `validate.js` — validates leader/support rules against whatever `data.units` is passed
 - `ArmySetup.jsx` — point limit selector, no faction awareness
 - `App.jsx` layout — no faction awareness
+
+## Save/Load (Phase 5)
+
+localStorage-based persistence. No backend, no IndexedDB — army state is small (<50KB).
+
+### Storage (`src/utils/storage.js`)
+
+All armies stored under a single localStorage key `army-lists`:
+
+```js
+{
+  "My AdMech Army": {
+    timestamp: 1718700000000,
+    name: "My AdMech Army",
+    state: { faction, pointLimit, detachments, units }
+  }
+}
+```
+
+Functions: `saveArmy(name, state)`, `loadArmy(name)`, `listArmies()`, `deleteArmy(name)`.
+
+### UI
+
+- **Save** — button in `ArmyList` header. `prompt()` for name, overwrites if exists.
+- **Load** — button in `ArmySetup`. Opens dropdown of saved lists (name + date). Select replaces state via `LOAD_ARMY`.
+- **Delete** — (x) button per entry in load dropdown.
+
+### Migration
+
+Phase 5 saves use `detachment` (single). Phase 6 load wraps single detachment in array for backward compatibility.
+
+## Multi-Detachment (Phase 6)
+
+Multiple detachments allowed within a DP budget tied to point limit.
+
+### DP Budget
+
+| Point Limit | Max DP |
+|-------------|--------|
+| 1000 | 2 |
+| 2000 | 3 |
+| 3000 | 4 |
+
+Budget recalculated on `SET_POINT_LIMIT`. If new budget < current DP spent, warn but do not auto-remove.
+
+### State Shape
+
+```js
+// Before (single):
+{ detachment: { name: "Cohort Acquisitus", enhancements: ["Explorator Dispensation"] } }
+
+// After (array):
+{
+  detachments: [
+    { name: "Cohort Acquisitus", enhancements: ["Explorator Dispensation"] },
+    { name: "Luminen Auto-Choir", enhancements: [] }
+  ]
+}
+```
+
+### Actions
+
+- `ADD_DETACHMENT` — add to array; reject if DP sum exceeds budget
+- `REMOVE_DETACHMENT` — remove by name
+- `UPDATE_DETACHMENT_ENHANCEMENTS` — toggle enhancements for a specific detachment (by name)
+
+### DetachmentSelector Changes
+
+- Show selected detachments as a list (name, DP, doctrine, enhancements toggle)
+- Show remaining DP budget (e.g. "DP: 1/3")
+- "Add Detachment" button opens browser (same card UI as before)
+- Each selected detachment has a remove (x) button
+- Clicking a detachment card while budget is full shows "DP limit reached"

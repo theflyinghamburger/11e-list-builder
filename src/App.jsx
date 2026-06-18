@@ -1,5 +1,6 @@
 import { useArmy } from './hooks/useArmy';
 import { getData } from './data';
+import { loadArmy as loadArmyFromStorage } from './utils/storage';
 import ArmySetup from './components/ArmySetup';
 import DetachmentSelector from './components/DetachmentSelector';
 import UnitList from './components/UnitList';
@@ -7,8 +8,12 @@ import ArmyList from './components/ArmyList';
 import './App.css';
 
 function App() {
-  const { state, setPointLimit, setFaction, setDetachment, addUnit, removeUnit } = useArmy();
+  const { state, setPointLimit, setFaction, setDetachment, addUnit, removeUnit, loadArmy } = useArmy();
   const data = getData(state.faction);
+  const handleLoadArmy = (name) => {
+    const saved = loadArmyFromStorage(name);
+    if (saved) loadArmy(saved);
+  };
 
   return (
     <div className="app">
@@ -19,6 +24,7 @@ function App() {
           onSetFaction={setFaction}
           pointLimit={state.pointLimit}
           onSetPointLimit={setPointLimit}
+          onLoadArmy={handleLoadArmy}
         />
       </header>
 

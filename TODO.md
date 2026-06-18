@@ -46,3 +46,38 @@ Goal: switch factions without code changes — only new JSON + one-line registra
 - [x] 4.7 `App.jsx` — derive `data = getData(state.faction)`, pass as prop to children
 - [x] 4.8 `ArmySetup.jsx` — faction selector dropdown from `getFactionKeys()`
 - [ ] 4.9 Add second faction JSON (e.g. `imperium.json`) to verify flow
+
+## Phase 5: Save/Load Lists
+
+Goal: persist armies to localStorage, list/load/delete them. No backend.
+
+- [x] 5.1 Create `src/utils/storage.js` — `saveArmy(name, state)`, `loadArmy(name)`, `listArmies()`, `deleteArmy(name)` (localStorage wrapper)
+- [x] 5.2 Add `LOAD_ARMY` action to `useArmy.js` — replaces entire state from saved data
+- [x] 5.3 Add "Save" button to `ArmyList.jsx` header — `prompt()` for name, calls `saveArmy`
+- [x] 5.4 Add "Load" button to `ArmySetup.jsx` — dropdown of saved lists (from `listArmies()`), select to load
+- [x] 5.5 Add delete (x) button per saved list in the load dropdown
+- [x] 5.6 Confirm on load: discard unsaved changes before replacing state
+
+## Phase 6: Multi-Detachment
+
+Goal: select multiple detachments within a DP budget. Breaks single-detachment model.
+
+**DP Budget:** 1000pts → 2 DP, 2000pts → 3 DP, 3000pts → 4 DP.
+
+**State shape change:**
+```js
+// Before:
+{ detachment: { name, enhancements: [] } }
+// After:
+{ detachments: [ { name, enhancements: [] }, ... ] }
+```
+
+- [ ] 6.1 Create `src/utils/dpBudget.js` — `getDpBudget(pointLimit)` returns max DP
+- [ ] 6.2 Change `useArmy.js` state: `detachment` (single) → `detachments` (array)
+- [ ] 6.3 Replace `SET_DETACHMENT` with `ADD_DETACHMENT` and `REMOVE_DETACHMENT` actions
+- [ ] 6.4 `ADD_DETACHMENT`: reject if sum of DP costs would exceed budget for current point limit
+- [ ] 6.5 Rewrite `DetachmentSelector.jsx`: show selected detachments list, remaining DP, add/remove per detachment, enhancements per detachment
+- [ ] 6.6 Update `ArmyList.jsx`: render multiple detachment blocks, sum all enhancement points
+- [ ] 6.7 Update `validate.js`: no detachment-specific rules, but flag if DP budget exceeded
+- [ ] 6.8 Update `SET_POINT_LIMIT`: if new budget < current DP spent, warn (do not auto-remove)
+- [ ] 6.9 Migrate saved lists: Phase 5 saves with `detachment` (single) → Phase 6 load wraps in array

@@ -19,6 +19,8 @@ function armyReducer(state, action) {
           u.id === action.payload.id ? { ...u, ...action.payload } : u
         ),
       };
+    case 'LOAD_ARMY':
+      return { ...initialState, ...action.payload };
     default:
       return state;
   }
@@ -42,5 +44,6 @@ export function useArmy() {
     addUnit: (unit) => dispatch({ type: 'ADD_UNIT', payload: unit }),
     removeUnit: (id) => dispatch({ type: 'REMOVE_UNIT', payload: id }),
     updateUnit: (unit) => dispatch({ type: 'UPDATE_UNIT', payload: unit }),
+    loadArmy: (state) => dispatch({ type: 'LOAD_ARMY', payload: state }),
   };
 }
