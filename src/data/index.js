@@ -1,8 +1,9 @@
 import admech from './adeptus-mechanicus.json';
+import iknights from './imperial-knights.json';
 
 const STORAGE_KEY = 'custom-factions';
 
-const factions = { 'adeptus-mechanicus': admech };
+const factions = { 'adeptus-mechanicus': admech, 'imperial-knights': iknights };
 
 try {
   const saved = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
