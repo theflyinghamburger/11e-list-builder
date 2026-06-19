@@ -1,0 +1,1112 @@
+{
+  "detachments": [
+    {
+      "name": "ANNIHILATION LEGION",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Eldritch Nightmare",
+          "pts": 10
+        },
+        {
+          "name": "Eternal Madness",
+          "pts": 20
+        },
+        {
+          "name": "Ingrained Superiority",
+          "pts": 5
+        },
+        {
+          "name": "Soulless Reaper",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "AWAKENED DYNASTY",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Enaegic Dermal Bond",
+          "pts": 30
+        },
+        {
+          "name": "Nether-realm Casket",
+          "pts": 20
+        },
+        {
+          "name": "Phasal Subjugator",
+          "pts": 35
+        },
+        {
+          "name": "Veil of Darkness",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "CANOPTEK COURT",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Autodivinator",
+          "pts": 15
+        },
+        {
+          "name": "Dimensional Sanctum",
+          "pts": 20
+        },
+        {
+          "name": "Hyperphasic Fulcrum",
+          "pts": 15
+        },
+        {
+          "name": "Metalodermal Tesla Weave",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "CRYPTEK CONCLAVE",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Atomic Disintegrators",
+          "pts": 10
+        },
+        {
+          "name": "Gauntlet of Compression",
+          "pts": 20
+        },
+        {
+          "name": "Gravitic Bolas",
+          "pts": 15
+        },
+        {
+          "name": "Quantum Abacus",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "CURSED LEGION",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Cursed Circlet",
+          "pts": 25
+        },
+        {
+          "name": "Destroyer Ankh",
+          "pts": 20
+        },
+        {
+          "name": "Mark of the Nekrosor",
+          "pts": 20
+        },
+        {
+          "name": "Murdermind",
+          "pts": 15
+        }
+      ],
+      "leaderOf": [
+        "LOKHUST DESTROYERS",
+        "SKORPEKH DESTROYERS",
+        "LOKHUST HEAVY DESTROYERS",
+        "OPHYDIAN DESTROYERS"
+      ]
+    },
+    {
+      "name": "HAND OF THE DYNASTY",
+      "dpCost": 1,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Enlivened Sentinels (Upgrade)",
+          "pts": 20
+        },
+        {
+          "name": "Tools of Dominion (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "HYPERCRYPT LEGION",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Arisen Tyrant",
+          "pts": 25
+        },
+        {
+          "name": "Dimensional Overseer",
+          "pts": 25
+        },
+        {
+          "name": "Hyperspatial Transfer Node",
+          "pts": 15
+        },
+        {
+          "name": "Osteoclave Fulcrum",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "OBEISANCE PHALANX",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Eternal Conqueror",
+          "pts": 25
+        },
+        {
+          "name": "Honourable Combatant",
+          "pts": 10
+        },
+        {
+          "name": "Unflinching Will",
+          "pts": 20
+        },
+        {
+          "name": "Warrior Noble",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "PANTHEON OF WOE",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Animus Damper",
+          "pts": 35
+        },
+        {
+          "name": "Quantum Goad",
+          "pts": 45
+        },
+        {
+          "name": "Reletavistic Tether",
+          "pts": 40
+        },
+        {
+          "name": "Singularity Matrix",
+          "pts": 45
+        }
+      ]
+    },
+    {
+      "name": "SKYSHROUD SPEARHEAD",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Deepening Madness (Upgrade)",
+          "pts": 20
+        },
+        {
+          "name": "Recursive Reanimation (Upgrade)",
+          "pts": 5
+        }
+      ]
+    },
+    {
+      "name": "STARSHATTER ARSENAL",
+      "dpCost": 3,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Chrono-impedance Fields",
+          "pts": 25
+        },
+        {
+          "name": "Demanding Leader",
+          "pts": 10
+        },
+        {
+          "name": "Dread Majesty",
+          "pts": 30
+        },
+        {
+          "name": "Miniaturised Nebuloscope",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "THE PHAERON'S ARMOURY",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Mortality Shroud (Aura) (Upgrade)",
+          "pts": 10
+        },
+        {
+          "name": "Prelocational Optimiser",
+          "pts": 25
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "ANNIHILATION BARGE",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ]
+    },
+    {
+      "name": "CANOPTEK DOOMSTALKER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "CANOPTEK MACROCYTES",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "CANOPTEK REANIMATOR",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "CANOPTEK SCARAB SWARMS",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 40
+        },
+        {
+          "count": 6,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "CANOPTEK SPYDERS",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        },
+        {
+          "count": 2,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "CANOPTEK TOMB CRAWLERS",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 50
+        }
+      ]
+    },
+    {
+      "name": "CANOPTEK WRAITHS",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 95
+        },
+        {
+          "count": 6,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 95
+          },
+          {
+            "count": 6,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 115
+          },
+          {
+            "count": 6,
+            "cost": 240
+          }
+        ]
+      }
+    },
+    {
+      "name": "CATACOMB COMMAND BARGE",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "CHRONOMANCER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 90
+          }
+        ]
+      }
+    },
+    {
+      "name": "CONVERGENCE OF DOMINION",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        },
+        {
+          "count": 2,
+          "cost": 120
+        },
+        {
+          "count": 3,
+          "cost": 180
+        }
+      ]
+    },
+    {
+      "name": "CRYPTOTHRALLS",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "C’TAN SHARD OF THE DECEIVER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 330
+        }
+      ]
+    },
+    {
+      "name": "C’TAN SHARD OF THE NIGHTBRINGER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 360
+        }
+      ]
+    },
+    {
+      "name": "C’TAN SHARD OF THE VOID DRAGON",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 345
+        }
+      ]
+    },
+    {
+      "name": "DEATHMARKS",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 60
+        },
+        {
+          "count": 10,
+          "cost": 120
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 60
+          },
+          {
+            "count": 10,
+            "cost": 120
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 70
+          },
+          {
+            "count": 10,
+            "cost": 130
+          }
+        ]
+      }
+    },
+    {
+      "name": "DOOM SCYTHE",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "name": "DOOMSDAY ARK",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 200
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 200
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ]
+      }
+    },
+    {
+      "name": "FLAYED ONES",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 55
+        },
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "GEOMANCER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "GHOST ARK",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "HEXMARK DESTROYER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "ILLUMINOR SZERAS",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 175
+        }
+      ]
+    },
+    {
+      "name": "IMMORTALS",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 70
+        },
+        {
+          "count": 10,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "IMOTEKH THE STORMLORD",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "LOKHUST DESTROYERS",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 40
+        },
+        {
+          "count": 2,
+          "cost": 55
+        },
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 40
+          },
+          {
+            "count": 2,
+            "cost": 55
+          },
+          {
+            "count": 3,
+            "cost": 80
+          },
+          {
+            "count": 6,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 50
+          },
+          {
+            "count": 2,
+            "cost": 65
+          },
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "LOKHUST HEAVY DESTROYERS",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        },
+        {
+          "count": 2,
+          "cost": 100
+        },
+        {
+          "count": 3,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 50
+          },
+          {
+            "count": 2,
+            "cost": 100
+          },
+          {
+            "count": 3,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 60
+          },
+          {
+            "count": 2,
+            "cost": 110
+          },
+          {
+            "count": 3,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "LOKHUST LORD",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "LYCHGUARD",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "MONOLITH",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 420
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 420
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 440
+          }
+        ]
+      }
+    },
+    {
+      "name": "NECRON WARRIORS",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 80
+        },
+        {
+          "count": 20,
+          "cost": 190
+        }
+      ]
+    },
+    {
+      "name": "NEKROSOR AMMENTAR",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 175
+        }
+      ]
+    },
+    {
+      "name": "NIGHT SCYTHE",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ]
+    },
+    {
+      "name": "OBELISK",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 280
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 280
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 310
+          }
+        ]
+      }
+    },
+    {
+      "name": "OPHYDIAN DESTROYERS",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 145
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 80
+          },
+          {
+            "count": 6,
+            "cost": 145
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 155
+          }
+        ]
+      }
+    },
+    {
+      "name": "ORIKAN THE DIVINER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "OVERLORD",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "OVERLORD WITH TRANSLOCATION SHROUD",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "PLASMANCER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ]
+    },
+    {
+      "name": "PSYCHOMANCER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ]
+    },
+    {
+      "name": "ROYAL WARDEN",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ]
+    },
+    {
+      "name": "SERAPTEK HEAVY CONSTRUCT",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 540
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 540
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 570
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKORPEKH DESTROYERS",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 85
+        },
+        {
+          "count": 6,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 85
+          },
+          {
+            "count": 6,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 95
+          },
+          {
+            "count": 6,
+            "cost": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "SKORPEKH LORD",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "TECHNOMANCER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 90
+          }
+        ]
+      }
+    },
+    {
+      "name": "TESSERACT VAULT",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 445
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 445
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 465
+          }
+        ]
+      }
+    },
+    {
+      "name": "THE SILENT KING",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 400
+        }
+      ]
+    },
+    {
+      "name": "TOMB BLADES",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 70
+        },
+        {
+          "count": 6,
+          "cost": 140
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 70
+          },
+          {
+            "count": 6,
+            "cost": 140
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 80
+          },
+          {
+            "count": 6,
+            "cost": 150
+          }
+        ]
+      }
+    },
+    {
+      "name": "TRANSCENDENT C’TAN",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 340
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 340
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 360
+          }
+        ]
+      }
+    },
+    {
+      "name": "TRAZYN THE INFINITE",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ]
+    },
+    {
+      "name": "TRIARCH PRAETORIANS",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "TRIARCH STALKER",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 110
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 120
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -81,3 +81,16 @@ Goal: select multiple detachments within a DP budget. Breaks single-detachment m
 - [x] 6.7 Update `validate.js`: no detachment-specific rules, but flag if DP budget exceeded
 - [x] 6.8 Update `SET_POINT_LIMIT`: if new budget < current DP spent, warn (do not auto-remove)
 - [x] 6.9 Migrate saved lists: Phase 5 saves with `detachment` (single) → Phase 6 load wraps in array
+
+## Phase 7: MFM Scraper
+
+Goal: scrape MFM faction pages to generate JSON data files.
+
+- [x] 7.1 Create `scripts/fetch-mfm.js` using Cheerio + native fetch
+- [x] 7.2 Parse detachments (name, DP cost, doctrine, enhancements with costs)
+- [x] 7.3 Parse units (name, model counts, point costs from hidden divs)
+- [x] 7.4 Add `npm run fetch-mfm` script
+- [x] 7.5 Extract leader/support relationships from detachments
+- [x] 7.6 Handle tiered pricing (detect "YOUR 1ST/2ND+" headers → primary/secondary)
+- [x] 7.7 Wargear options: MFM only documents wargear in instructions, not per-unit; skip
+- [x] 7.8 Test with multiple factions (Necrons, Adeptus Custodes)

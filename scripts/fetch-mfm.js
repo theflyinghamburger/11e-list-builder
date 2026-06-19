@@ -16,6 +16,19 @@ async function main() {
   const detachments = [];
   const units = [];
 
+  // Build cost map: template ID (P:X) → cost in pts
+  // MFM uses hidden divs with $RS() to map S:X → P:X
+  const costMap = {};
+  html.match(/\$RS\("S:([^"]+)",\s*"P:([^"]+)"\)/g)?.forEach(match => {
+    const [, srcId, targetId] = match.match(/\$RS\("S:([^"]+)",\s*"P:([^"]+)"\)/);
+    const srcDiv = $(`#S\\:${srcId}`);
+    const ptsText = srcDiv.find('span').text().trim();
+    const pts = parseInt(ptsText.replace('pts', '').trim(), 10);
+    if (!isNaN(pts)) {
+      costMap[`P:${targetId}`] = pts;
+    }
+  });
+
   // Parse detachments
   $('h3.font-header').each((_, el) => {
     if ($(el).text().trim() !== 'DETACHMENTS') return;
@@ -32,8 +45,14 @@ async function main() {
       const dpText = spans.eq(1)?.text().trim() || '';
       const dpCost = parseInt(dpText.replace('DP', ''), 10) || 0;
 
-      const doctrineEl = $(card).find('.m-0.px-1.py-0\\.5.text-white.font-bold').first();
-      const doctrine = doctrineEl.text().trim() || '';
+      // Doctrine is in a div with background-color style
+      let doctrine = '';
+      $(card).find('div[style*="background-color"]').each((_, el) => {
+        const text = $(el).text().trim();
+        if (text && !text.includes('DP') && text !== name) {
+          doctrine = text;
+        }
+      });
 
       const enhancements = [];
       $(card).find('ul.leaders li').each((_, li) => {
@@ -50,79 +69,100 @@ async function main() {
         }
       });
 
-      detachments.push({ name, dpCost, doctrine, enhancements });
+      // Check for detachment-level leader/support
+      const det = { name, dpCost, doctrine, enhancements };
+      const leaderDiv = $(card).find('.mx-3.font-bold');
+      if (leaderDiv.length) {
+        const leaderText = leaderDiv.text().trim();
+        if (leaderText.includes('LEADER:')) {
+          det.leaderOf = leaderText
+            .replace('LEADER:', '')
+            .split(',')
+            .map(s => s.trim().toUpperCase())
+            .filter(Boolean);
+        } else if (leaderText.includes('SUPPORT:')) {
+          det.supportFor = leaderText
+            .replace('SUPPORT:', '')
+            .split(',')
+            .map(s => s.trim().toUpperCase())
+            .filter(Boolean);
+        }
+      }
+
+      detachments.push(det);
     });
   });
 
-  // Parse units
-  $('h3.font-header').each((_, el) => {
-    if ($(el).text().trim() !== 'UNITS') return;
-
-    const container = $(el).next();
-    if (!container.length) return;
-
-    container.find('.flex.flex-col.space-y-1.m-1').each((_, card) => {
+  // Parse units - all cards with unit name headers on the page
+  $('.flex.flex-col.space-y-1.m-1').each((_, card) => {
       const nameEl = $(card).find('.bg-slate-500.font-bold.text-xl.text-white').first();
       const name = nameEl.text().trim();
       if (!name) return;
 
-      const modelCounts = [];
-      $(card).find('ul.leaders li span').each((_, span) => {
-        const text = $(span).text().trim();
-        const match = text.match(/(\d+)\s*model/);
-        if (match) {
-          modelCounts.push(parseInt(match[1], 10));
-        }
-      });
-
       const unit = { name, modelOptions: [] };
 
-      if (modelCounts.length) {
-        unit.modelOptions = modelCounts.map(count => ({
-          count,
-          cost: 0, // MFM calculates costs dynamically - fill from codex
-        }));
-      }
-
-      // Check for leader relationships
-      let leaderText = '';
-      $(card).find('.font-bold').each((_, el) => {
+      // Detect tiered pricing: count "YOUR X UNIT COSTS" headers
+      const costHeaders = [];
+      $(card).find('.bg-slate-200').each((_, el) => {
         const text = $(el).text().trim();
-        if (text.includes('LEADER:')) {
-          leaderText = text;
-        }
+        if (text.includes('YOUR')) costHeaders.push(text);
       });
 
-      if (leaderText) {
-        const leaderNames = leaderText
-          .replace('LEADER:', '')
-          .split(',')
-          .map(s => s.trim().toUpperCase())
-          .filter(Boolean);
-        unit.leaderOf = leaderNames;
-      }
+      const isTiered = costHeaders.length > 1;
 
-      // Check for support relationships
-      let supportText = '';
-      $(card).find('.font-bold').each((_, el) => {
-        const text = $(el).text().trim();
-        if (text.includes('SUPPORT:')) {
-          supportText = text;
-        }
+      // Collect model options grouped by tier
+      const allOptions = [];
+      $(card).find('ul.leaders').each((_, ul) => {
+        const options = [];
+        $(ul).find('li').each((_, li) => {
+          const text = $(li).find('span').first().text().trim();
+          const tplId = $(li).find('template').attr('id');
+          const match = text.match(/(\d+)\s*model/);
+          if (match) {
+            options.push({
+              count: parseInt(match[1], 10),
+              cost: costMap[tplId] || 0,
+            });
+          }
+        });
+        allOptions.push(options);
       });
 
-      if (supportText) {
-        const supportNames = supportText
-          .replace('SUPPORT:', '')
-          .split(',')
-          .map(s => s.trim().toUpperCase())
-          .filter(Boolean);
-        unit.supportFor = supportNames;
+      if (isTiered && allOptions.length === 2) {
+        // Tiered pricing: primary and secondary
+        unit.modelOptions = allOptions[0];
+        unit.tiered = {
+          primary: allOptions[0],
+          secondary: allOptions[1],
+        };
+      } else {
+        // Flat pricing
+        unit.modelOptions = allOptions.flat();
+      }
+
+      // Check for leader/support relationships
+      const leaderDiv = $(card).find('.mx-3.font-bold');
+      if (leaderDiv.length) {
+        const leaderText = leaderDiv.text().trim();
+        if (leaderText.includes('LEADER:')) {
+          const leaderNames = leaderText
+            .replace('LEADER:', '')
+            .split(',')
+            .map(s => s.trim().toUpperCase())
+            .filter(Boolean);
+          unit.leaderOf = leaderNames;
+        } else if (leaderText.includes('SUPPORT:')) {
+          const supportNames = leaderText
+            .replace('SUPPORT:', '')
+            .split(',')
+            .map(s => s.trim().toUpperCase())
+            .filter(Boolean);
+          unit.supportFor = supportNames;
+        }
       }
 
       units.push(unit);
     });
-  });
 
   const output = { detachments, units };
   console.log(JSON.stringify(output, null, 2));
