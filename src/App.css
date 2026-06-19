@@ -1,32 +1,32 @@
 /* Adeptus Mechanicus Terminal Theme */
 
 :root {
-  --bg-deep: #0a0a0c;
-  --bg-dark: #100e0c;
-  --bg-panel: #141210;
-  --bg-card: #1a1714;
-  --bg-card-hover: #221e18;
-  --bg-input: #12100e;
+  --bg-deep: #0a0808;
+  --bg-dark: #100c0c;
+  --bg-panel: #181010;
+  --bg-card: #1e1414;
+  --bg-card-hover: #2a1a1a;
+  --bg-input: #141010;
   --bg-warning: #2a1414;
   --bg-success: #142a14;
-  --bg-debt: #2a1a0e;
+  --bg-debt: #2a1414;
 
-  --gold: #c9a227;
-  --gold-dim: #7a5c1a;
-  --gold-glow: rgba(201, 162, 39, 0.35);
-  --gold-faint: rgba(201, 162, 39, 0.12);
+  --gold: #cc2222;
+  --gold-dim: #8b2020;
+  --gold-glow: rgba(204, 34, 34, 0.35);
+  --gold-faint: rgba(204, 34, 34, 0.12);
 
-  --red: #cc2222;
-  --red-dark: #6b1a1a;
-  --red-dim: #8b2020;
+  --red: #ff4444;
+  --red-dark: #992222;
+  --red-dim: #aa3333;
 
   --parchment: #c8b898;
   --parchment-bright: #e8dcc8;
   --parchment-dim: #8a7e6e;
 
-  --bronze: #2a2418;
-  --bronze-light: #4a3a18;
-  --bronze-border: #3a3020;
+  --bronze: #2a1414;
+  --bronze-light: #6b1a1a;
+  --bronze-border: #3a1a1a;
 
   --green: #4caf50;
   --green-dark: #2a5a2a;
@@ -114,7 +114,7 @@ body {
   font-size: 1.4rem;
   white-space: nowrap;
   color: var(--gold);
-  text-shadow: 0 0 10px var(--gold-glow), 0 0 20px rgba(201, 162, 39, 0.15);
+  text-shadow: 0 0 10px var(--gold-glow), 0 0 20px rgba(204, 34, 34, 0.15);
   letter-spacing: 0.05em;
 }
 
@@ -432,8 +432,8 @@ body {
 }
 .remove-det-btn:hover,
 .remove-btn:hover {
-  color: #ff4444;
-  text-shadow: 0 0 8px rgba(204, 34, 34, 0.5);
+  color: #ff6666;
+  text-shadow: 0 0 8px rgba(255, 68, 68, 0.5);
 }
 
 .delete-saved-btn {
@@ -447,8 +447,8 @@ body {
   transition: color 0.15s ease;
 }
 .delete-saved-btn:hover {
-  color: #ff4444;
-  text-shadow: 0 0 8px rgba(204, 34, 34, 0.5);
+  color: #ff6666;
+  text-shadow: 0 0 8px rgba(255, 68, 68, 0.5);
 }
 
 .model-btn {
