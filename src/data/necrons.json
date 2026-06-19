@@ -261,7 +261,7 @@
   ],
   "units": [
     {
-      "name": "ANNIHILATION BARGE",
+      "name": "Annihilation Barge",
       "modelOptions": [
         {
           "count": 1,
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "name": "CANOPTEK DOOMSTALKER",
+      "name": "Canoptek Doomstalker",
       "modelOptions": [
         {
           "count": 1,
@@ -279,7 +279,7 @@
       ]
     },
     {
-      "name": "CANOPTEK MACROCYTES",
+      "name": "Canoptek Macrocytes",
       "modelOptions": [
         {
           "count": 5,
@@ -288,7 +288,7 @@
       ]
     },
     {
-      "name": "CANOPTEK REANIMATOR",
+      "name": "Canoptek Reanimator",
       "modelOptions": [
         {
           "count": 1,
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "name": "CANOPTEK SCARAB SWARMS",
+      "name": "Canoptek Scarab Swarms",
       "modelOptions": [
         {
           "count": 3,
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "name": "CANOPTEK SPYDERS",
+      "name": "Canoptek Spyders",
       "modelOptions": [
         {
           "count": 1,
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "name": "CANOPTEK TOMB CRAWLERS",
+      "name": "Canoptek Tomb Crawlers",
       "modelOptions": [
         {
           "count": 2,
@@ -332,7 +332,7 @@
       ]
     },
     {
-      "name": "CANOPTEK WRAITHS",
+      "name": "Canoptek Wraiths",
       "modelOptions": [
         {
           "count": 3,
@@ -367,7 +367,7 @@
       }
     },
     {
-      "name": "CATACOMB COMMAND BARGE",
+      "name": "Catacomb Command Barge",
       "modelOptions": [
         {
           "count": 1,
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "name": "CHRONOMANCER",
+      "name": "Chronomancer",
       "modelOptions": [
         {
           "count": 1,
@@ -396,10 +396,14 @@
             "cost": 90
           }
         ]
-      }
+      },
+      "supportFor": [
+        "Immortals",
+        "Necron Warriors"
+      ]
     },
     {
-      "name": "CONVERGENCE OF DOMINION",
+      "name": "Convergence Of Dominion",
       "modelOptions": [
         {
           "count": 1,
@@ -416,7 +420,7 @@
       ]
     },
     {
-      "name": "CRYPTOTHRALLS",
+      "name": "Cryptothralls",
       "modelOptions": [
         {
           "count": 2,
@@ -425,7 +429,7 @@
       ]
     },
     {
-      "name": "C’TAN SHARD OF THE DECEIVER",
+      "name": "C’Tan Shard Of The Deceiver",
       "modelOptions": [
         {
           "count": 1,
@@ -434,7 +438,7 @@
       ]
     },
     {
-      "name": "C’TAN SHARD OF THE NIGHTBRINGER",
+      "name": "C’Tan Shard Of The Nightbringer",
       "modelOptions": [
         {
           "count": 1,
@@ -443,7 +447,7 @@
       ]
     },
     {
-      "name": "C’TAN SHARD OF THE VOID DRAGON",
+      "name": "C’Tan Shard Of The Void Dragon",
       "modelOptions": [
         {
           "count": 1,
@@ -452,7 +456,7 @@
       ]
     },
     {
-      "name": "DEATHMARKS",
+      "name": "Deathmarks",
       "modelOptions": [
         {
           "count": 5,
@@ -487,7 +491,7 @@
       }
     },
     {
-      "name": "DOOM SCYTHE",
+      "name": "Doom Scythe",
       "modelOptions": [
         {
           "count": 1,
@@ -496,7 +500,7 @@
       ]
     },
     {
-      "name": "DOOMSDAY ARK",
+      "name": "Doomsday Ark",
       "modelOptions": [
         {
           "count": 1,
@@ -519,7 +523,7 @@
       }
     },
     {
-      "name": "FLAYED ONES",
+      "name": "Flayed Ones",
       "modelOptions": [
         {
           "count": 5,
@@ -532,16 +536,21 @@
       ]
     },
     {
-      "name": "GEOMANCER",
+      "name": "Geomancer",
       "modelOptions": [
         {
           "count": 1,
           "cost": 75
         }
+      ],
+      "supportFor": [
+        "Canoptek Macrocytes",
+        "Immortals",
+        "Necron Warriors"
       ]
     },
     {
-      "name": "GHOST ARK",
+      "name": "Ghost Ark",
       "modelOptions": [
         {
           "count": 1,
@@ -550,7 +559,7 @@
       ]
     },
     {
-      "name": "HEXMARK DESTROYER",
+      "name": "Hexmark Destroyer",
       "modelOptions": [
         {
           "count": 1,
@@ -559,7 +568,7 @@
       ]
     },
     {
-      "name": "ILLUMINOR SZERAS",
+      "name": "Illuminor Szeras",
       "modelOptions": [
         {
           "count": 1,
@@ -568,7 +577,7 @@
       ]
     },
     {
-      "name": "IMMORTALS",
+      "name": "Immortals",
       "modelOptions": [
         {
           "count": 5,
@@ -581,16 +590,21 @@
       ]
     },
     {
-      "name": "IMOTEKH THE STORMLORD",
+      "name": "Imotekh The Stormlord",
       "modelOptions": [
         {
           "count": 1,
           "cost": 100
         }
+      ],
+      "leaderOf": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
       ]
     },
     {
-      "name": "LOKHUST DESTROYERS",
+      "name": "Lokhust Destroyers",
       "modelOptions": [
         {
           "count": 1,
@@ -649,7 +663,7 @@
       }
     },
     {
-      "name": "LOKHUST HEAVY DESTROYERS",
+      "name": "Lokhust Heavy Destroyers",
       "modelOptions": [
         {
           "count": 1,
@@ -696,16 +710,20 @@
       }
     },
     {
-      "name": "LOKHUST LORD",
+      "name": "Lokhust Lord",
       "modelOptions": [
         {
           "count": 1,
           "cost": 70
         }
+      ],
+      "leaderOf": [
+        "Lokhust Destroyers",
+        "Lokhust Heavy Destroyers"
       ]
     },
     {
-      "name": "LYCHGUARD",
+      "name": "Lychguard",
       "modelOptions": [
         {
           "count": 5,
@@ -718,7 +736,7 @@
       ]
     },
     {
-      "name": "MONOLITH",
+      "name": "Monolith",
       "modelOptions": [
         {
           "count": 1,
@@ -741,7 +759,7 @@
       }
     },
     {
-      "name": "NECRON WARRIORS",
+      "name": "Necron Warriors",
       "modelOptions": [
         {
           "count": 10,
@@ -754,7 +772,7 @@
       ]
     },
     {
-      "name": "NEKROSOR AMMENTAR",
+      "name": "Nekrosor Ammentar",
       "modelOptions": [
         {
           "count": 1,
@@ -763,7 +781,7 @@
       ]
     },
     {
-      "name": "NIGHT SCYTHE",
+      "name": "Night Scythe",
       "modelOptions": [
         {
           "count": 1,
@@ -772,7 +790,7 @@
       ]
     },
     {
-      "name": "OBELISK",
+      "name": "Obelisk",
       "modelOptions": [
         {
           "count": 1,
@@ -795,7 +813,7 @@
       }
     },
     {
-      "name": "OPHYDIAN DESTROYERS",
+      "name": "Ophydian Destroyers",
       "modelOptions": [
         {
           "count": 3,
@@ -830,61 +848,87 @@
       }
     },
     {
-      "name": "ORIKAN THE DIVINER",
+      "name": "Orikan The Diviner",
       "modelOptions": [
         {
           "count": 1,
           "cost": 90
         }
+      ],
+      "supportFor": [
+        "Immortals",
+        "Necron Warriors"
       ]
     },
     {
-      "name": "OVERLORD",
+      "name": "Overlord",
       "modelOptions": [
         {
           "count": 1,
           "cost": 90
         }
+      ],
+      "leaderOf": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
       ]
     },
     {
-      "name": "OVERLORD WITH TRANSLOCATION SHROUD",
+      "name": "Overlord With Translocation Shroud",
       "modelOptions": [
         {
           "count": 1,
           "cost": 90
         }
+      ],
+      "leaderOf": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
       ]
     },
     {
-      "name": "PLASMANCER",
+      "name": "Plasmancer",
       "modelOptions": [
         {
           "count": 1,
           "cost": 55
         }
+      ],
+      "supportFor": [
+        "Immortals",
+        "Necron Warriors"
       ]
     },
     {
-      "name": "PSYCHOMANCER",
+      "name": "Psychomancer",
       "modelOptions": [
         {
           "count": 1,
           "cost": 55
         }
+      ],
+      "supportFor": [
+        "Immortals",
+        "Necron Warriors"
       ]
     },
     {
-      "name": "ROYAL WARDEN",
+      "name": "Royal Warden",
       "modelOptions": [
         {
           "count": 1,
           "cost": 50
         }
+      ],
+      "leaderOf": [
+        "Immortals",
+        "Necron Warriors"
       ]
     },
     {
-      "name": "SERAPTEK HEAVY CONSTRUCT",
+      "name": "Seraptek Heavy Construct",
       "modelOptions": [
         {
           "count": 1,
@@ -907,7 +951,7 @@
       }
     },
     {
-      "name": "SKORPEKH DESTROYERS",
+      "name": "Skorpekh Destroyers",
       "modelOptions": [
         {
           "count": 3,
@@ -942,16 +986,19 @@
       }
     },
     {
-      "name": "SKORPEKH LORD",
+      "name": "Skorpekh Lord",
       "modelOptions": [
         {
           "count": 1,
           "cost": 90
         }
+      ],
+      "leaderOf": [
+        "Skorpekh Destroyers"
       ]
     },
     {
-      "name": "TECHNOMANCER",
+      "name": "Technomancer",
       "modelOptions": [
         {
           "count": 1,
@@ -971,10 +1018,15 @@
             "cost": 90
           }
         ]
-      }
+      },
+      "supportFor": [
+        "Canoptek Wraiths",
+        "Immortals",
+        "Necron Warriors"
+      ]
     },
     {
-      "name": "TESSERACT VAULT",
+      "name": "Tesseract Vault",
       "modelOptions": [
         {
           "count": 1,
@@ -997,7 +1049,7 @@
       }
     },
     {
-      "name": "THE SILENT KING",
+      "name": "The Silent King",
       "modelOptions": [
         {
           "count": 3,
@@ -1006,7 +1058,7 @@
       ]
     },
     {
-      "name": "TOMB BLADES",
+      "name": "Tomb Blades",
       "modelOptions": [
         {
           "count": 3,
@@ -1041,7 +1093,7 @@
       }
     },
     {
-      "name": "TRANSCENDENT C’TAN",
+      "name": "Transcendent C’Tan",
       "modelOptions": [
         {
           "count": 1,
@@ -1064,16 +1116,21 @@
       }
     },
     {
-      "name": "TRAZYN THE INFINITE",
+      "name": "Trazyn The Infinite",
       "modelOptions": [
         {
           "count": 1,
           "cost": 65
         }
+      ],
+      "leaderOf": [
+        "Immortals",
+        "Lychguard",
+        "Necron Warriors"
       ]
     },
     {
-      "name": "TRIARCH PRAETORIANS",
+      "name": "Triarch Praetorians",
       "modelOptions": [
         {
           "count": 5,
@@ -1086,7 +1143,7 @@
       ]
     },
     {
-      "name": "TRIARCH STALKER",
+      "name": "Triarch Stalker",
       "modelOptions": [
         {
           "count": 1,
