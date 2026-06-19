@@ -39,6 +39,8 @@ Point costs sourced from the Munitorum Field Manual (mfm.warhammer-community.com
 │       ├── dpBudget.js            // DP budget by point limit (Phase 6)
 │       ├── storage.js             // localStorage save/load (Phase 5)
 │       └── validate.js            // Leader/support validation (data-driven)
+│   └── scripts/
+│       └── fetch-mfm.js           // MFM scraper (Cheerio + native fetch)
 ```
 
 ## Data Model
@@ -183,9 +185,28 @@ export function getFactionKeys() { return Object.keys(factions); }
 
 ### Adding a New Faction
 
-1. Create `src/data/[faction-slug].json` using the existing schema (detachments + units arrays)
-2. Register in `src/data/index.js` — one import + one key
-3. No other code changes required
+**Option A — MFM scraper (fastest):** Run `npm run fetch-mfm <mfm-url>` to generate the JSON from mfm.warhammer-community.com. Register the output in `src/data/index.js`.
+
+**Option B — Manual:** Create `src/data/[faction-slug].json` using the existing schema (detachments + units arrays). Register in `src/data/index.js` — one import + one key. No other code changes required.
+
+### MFM Scraper (`scripts/fetch-mfm.js`)
+
+Scrapes MFM faction pages to generate JSON data files. Requires Node 22 (native `fetch` + Cheerio compatibility).
+
+**Usage:** `npm run fetch-mfm https://mfm.warhammer-community.com/en/necrons`
+
+**What it extracts:**
+- **Detachments:** name, DP cost, doctrine, enhancements (name + pts), leader/support targets
+- **Units:** name, model options (count + cost), tiered pricing (`primary`/`secondary`), leader/support targets
+- **Point costs:** extracted from hidden `<div>` elements mapped via `$RS()` template IDs
+
+**Tiered pricing:** detects "YOUR 1ST/2ND+" headers → outputs `tiered: { primary, secondary }` on unit objects.
+
+**Leader/support:** extracted from detachment cards (e.g. CURSED LEGION → `leaderOf: ["LOKHUST DESTROYERS", ...]`).
+
+**Limitations:**
+- Wargear options not extracted — MFM only documents wargear in instructions, not per-unit data
+- Some faction pages return 500 errors (e.g. Adeptus Telepathica, Idoneth Wyrmkin)
 
 ### Already Generic (No Changes Needed)
 

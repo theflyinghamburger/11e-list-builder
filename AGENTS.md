@@ -11,6 +11,7 @@ Warhammer 40k 11e army list builder for Adeptus Mechanicus. Vite + React, no Typ
 | `npm run dev` | Dev server |
 | `npm run build` | Production build → `dist/` |
 | `npm run preview` | Preview production build |
+| `npm run fetch-mfm <url>` | Scrape MFM faction page → JSON (requires Node 22) |
 
 No lint, typecheck, or test commands configured.
 
@@ -20,12 +21,14 @@ No lint, typecheck, or test commands configured.
 - `src/hooks/useArmy.js` — central state via `useReducer`. All army mutations flow here.
 - `src/components/` — UI components. `App.jsx` wires layout: setup (top), unit list (left), army list (right).
 - `src/utils/validate.js` — army composition validation (leader/support rules).
+- `scripts/fetch-mfm.js` — MFM scraper (Cheerio + native fetch). Extracts detachments, units, costs, tiered pricing, leader/support.
 - `TODO.md` — phased implementation plan. Check before adding features to avoid duplicating in-progress work.
 
 ## Adding a new faction
 
-1. Create `src/data/<faction-key>.json` with `detachments` and `units` arrays. Use `adeptus-mechanicus.json` as a template.
-2. In `src/data/index.js`, import the new file and add it to the `factions` object:
+**Option A — MFM scraper (fastest):** Run `npm run fetch-mfm <mfm-url>` to generate the JSON from mfm.warhammer-community.com. Register the output in `src/data/index.js`.
+
+**Option B — Manual:** Create `src/data/<faction-key>.json` with `detachments` and `units` arrays. Use `adeptus-mechanicus.json` as a template. Then register in `src/data/index.js`:
    ```js
    import newFaction from './new-faction.json';
    const factions = { 'adeptus-mechanicus': admech, 'new-faction': newFaction };
