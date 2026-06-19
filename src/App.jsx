@@ -25,7 +25,9 @@ function App() {
   if (!data) return null;
 
   return (
-    <div className="app">
+    <div className="app-layout">
+      <div className="side-banner" />
+      <div className="app">
       <header className="app-header">
         <h1>11e List Builder</h1>
         <ArmySetup
@@ -56,6 +58,8 @@ function App() {
           <ArmyList data={data} army={state} onRemoveUnit={removeUnit} />
         </div>
       </div>
+      </div>
+      <div className="side-banner" />
     </div>
   );
 }
