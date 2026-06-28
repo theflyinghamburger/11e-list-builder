@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { getUnitPoints } from '../utils/costs';
 import { validateArmy } from '../utils/validate';
 
@@ -7,6 +7,14 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetNa
   const [name, setName] = useState(army.name || '');
   const prevNameRef = useRef(army.name);
   if (army.name !== prevNameRef.current) { prevNameRef.current = army.name; setName(army.name || ''); }
+  const [menuOpen, setMenuOpen] = useState(false);
+  // ponytail: naive click-outside, no ref needed for the menu element itself
+  useEffect(() => {
+    if (!menuOpen) return;
+    const handler = () => setMenuOpen(false);
+    document.addEventListener('click', handler);
+    return () => document.removeEventListener('click', handler);
+  }, [menuOpen]);
   const totalPoints = army.units.reduce((sum, u) => {
     const unitData = data.units.find((d) => d.name === u.unitName);
     return unitData ? sum + getUnitPoints(unitData, u.modelCount, army.units, u.wargear) : sum;
@@ -25,17 +33,43 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetNa
   return (
     <div className="army-list">
       <div className="army-header">
-        <div className="army-title">
+       <div className="army-title">
           <h3>{name || 'Army List'}</h3>
-          <input
-            className="army-name-input"
-            type="text"
-            placeholder="Army name..."
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            onBlur={() => { if (name !== army.name) onSetName(name); }}
-            onKeyDown={(e) => { if (e.key === 'Enter') { onSetName(name); e.target.blur(); } }}
-          />
+          <div className="army-title-row">
+            <input
+              className="army-name-input"
+              type="text"
+              placeholder="Army name..."
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              onBlur={() => { if (name !== army.name) onSetName(name); }}
+              onKeyDown={(e) => { if (e.key === 'Enter') { onSetName(name); e.target.blur(); } }}
+            />
+            <button
+              className="mobile-kebab-btn"
+              onClick={(e) => { e.stopPropagation(); setMenuOpen(!menuOpen); }}
+            >
+              &#x22EE;
+            </button>
+          </div>
+          {menuOpen && (
+            <div className="mobile-kebab-menu" onClick={(e) => e.stopPropagation()}>
+              <button onClick={() => {
+                onSetName(name);
+                const exportData = { name: name || army.name, faction: army.faction, pointLimit: army.pointLimit, detachments: army.detachments, units: army.units };
+                const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `${(name || army.name || army.faction).replace(/[^a-zA-Z0-9_-]/g, '_')}-army.json`;
+                a.click();
+                URL.revokeObjectURL(url);
+                setMenuOpen(false);
+              }}>Save</button>
+              <button onClick={() => { fileInputRef.current?.click(); setMenuOpen(false); }}>Load</button>
+              <button onClick={() => { window.print(); setMenuOpen(false); }}>Print</button>
+            </div>
+          )}
         </div>
         <div className="army-actions">
           <button className="save-btn" onClick={() => {
