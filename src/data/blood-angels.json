@@ -1,0 +1,2390 @@
+{
+  "detachments": [
+    {
+      "name": "1ST COMPANY TASK FORCE",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Fear Made Manifest",
+          "pts": 30
+        },
+        {
+          "name": "Iron Resolve",
+          "pts": 15
+        },
+        {
+          "name": "Rites of War",
+          "pts": 10
+        },
+        {
+          "name": "The Imperium’s Sword",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "ANGELIC INHERITORS",
+      "dpCost": 3,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Blazing Icon",
+          "pts": 20
+        },
+        {
+          "name": "Ordained Sacrifice",
+          "pts": 25
+        },
+        {
+          "name": "Prescient Flash",
+          "pts": 20
+        },
+        {
+          "name": "Troubling Visions",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "ANVIL SIEGE FORCE",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Architect of War",
+          "pts": 25
+        },
+        {
+          "name": "Fleet Commander",
+          "pts": 15
+        },
+        {
+          "name": "Indomitable Fury",
+          "pts": 20
+        },
+        {
+          "name": "Stoic Defender",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "ARMOURED SPEARTIP",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Armoured Commander",
+          "pts": 25
+        },
+        {
+          "name": "Liberator",
+          "pts": 15
+        },
+        {
+          "name": "Shock Deployment",
+          "pts": 20
+        },
+        {
+          "name": "Tip of the Spear",
+          "pts": 40
+        }
+      ]
+    },
+    {
+      "name": "BASTION TASK FORCE",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Blades of Valour",
+          "pts": 15
+        },
+        {
+          "name": "Bombast Omnivox",
+          "pts": 15
+        },
+        {
+          "name": "Eye of the Primarch",
+          "pts": 10
+        },
+        {
+          "name": "Hero of the Chapter",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "CERAMITE SENTINELS",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Castellum Omnivox",
+          "pts": 20
+        },
+        {
+          "name": "Defensive Mastery",
+          "pts": 25
+        },
+        {
+          "name": "Honour Indefatigable",
+          "pts": 25
+        },
+        {
+          "name": "Spy-skull Data Link",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "ENCARMINE SPEARTIP",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Angelic Executioner",
+          "pts": 25
+        },
+        {
+          "name": "Shadow of Abomination",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "FIRESTORM ASSAULT FORCE",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Adamantine Mantle",
+          "pts": 20
+        },
+        {
+          "name": "Champion of Humanity",
+          "pts": 10
+        },
+        {
+          "name": "Forged in Battle",
+          "pts": 15
+        },
+        {
+          "name": "War-tempered Artifice",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "FULGURIS TASK FORCE",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Bellicose Weapon Spirits (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Raptorial Cogitator Core (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "GLADIUS TASK FORCE",
+      "dpCost": 3,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Adept of the Codex",
+          "pts": 20
+        },
+        {
+          "name": "Artificer Armour",
+          "pts": 10
+        },
+        {
+          "name": "Fire Discipline",
+          "pts": 25
+        },
+        {
+          "name": "The Honour Vehement",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "HEADHUNTER TASK FORCE",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Astartes Tank Ace",
+          "pts": 40
+        },
+        {
+          "name": "Firestorm Coordinators",
+          "pts": 20
+        },
+        {
+          "name": "Gunnery Honours",
+          "pts": 20
+        },
+        {
+          "name": "Redoubtable Machine Spirit",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "IRONSTORM SPEARHEAD",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Adept of the Omnissiah",
+          "pts": 35
+        },
+        {
+          "name": "Master of Machine War",
+          "pts": 20
+        },
+        {
+          "name": "Target Augury Web",
+          "pts": 30
+        },
+        {
+          "name": "The Flesh Is Weak",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "LEGACY OF GRACE",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Aureole of the Angel",
+          "pts": 20
+        },
+        {
+          "name": "Blood Boil",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "LIBERATOR ASSAULT GROUP",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Gift of Foresight",
+          "pts": 15
+        },
+        {
+          "name": "Icon of the Angel",
+          "pts": 20
+        },
+        {
+          "name": "Rage-fuelled Warrior",
+          "pts": 35
+        },
+        {
+          "name": "Speed of the Primarch",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "LIBRARIUS CONCLAVE",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Celerity",
+          "pts": 35
+        },
+        {
+          "name": "Fusillade",
+          "pts": 20
+        },
+        {
+          "name": "Obfuscation",
+          "pts": 25
+        },
+        {
+          "name": "Prescience",
+          "pts": 20
+        },
+        {
+          "name": "Temporal Corridor",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "ORBITAL ASSAULT FORCE",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Dedicated Gunship",
+          "pts": 15
+        },
+        {
+          "name": "Laurels of Thunder",
+          "pts": 15
+        },
+        {
+          "name": "Orbital Uplink Reliquary",
+          "pts": 25
+        },
+        {
+          "name": "Veteran of the Vanguard",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "RAGE-CURSED ONSLAUGHT",
+      "dpCost": 3,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Angel’s Fang",
+          "pts": 25
+        },
+        {
+          "name": "Carmine Reliquary",
+          "pts": 30
+        },
+        {
+          "name": "Master of the Red Thirst",
+          "pts": 25
+        },
+        {
+          "name": "Sanguinary Tear",
+          "pts": 35
+        }
+      ]
+    },
+    {
+      "name": "STORMLANCE TASK FORCE",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Feinting Withdrawal",
+          "pts": 10
+        },
+        {
+          "name": "Fury of the Storm",
+          "pts": 25
+        },
+        {
+          "name": "Hunter’s Instincts",
+          "pts": 25
+        },
+        {
+          "name": "Portents of Wisdom",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "SUBVERSION ASSETS",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Death in the Dark (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Shroud Field",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "THE ANGELIC HOST",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Archangel’s Shard",
+          "pts": 15
+        },
+        {
+          "name": "Artisan of War",
+          "pts": 20
+        },
+        {
+          "name": "Gleaming Pinions",
+          "pts": 25
+        },
+        {
+          "name": "Visage of Death",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "THE LOST BRETHREN",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Blood Shard",
+          "pts": 25
+        },
+        {
+          "name": "Sanguinius’ Grace",
+          "pts": 20
+        },
+        {
+          "name": "To Slay The Warmaster",
+          "pts": 15
+        },
+        {
+          "name": "Vengeful Onslaught",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "VANGUARD SPEARHEAD",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Execute and Redeploy",
+          "pts": 20
+        },
+        {
+          "name": "Ghostweave Cloak",
+          "pts": 15
+        },
+        {
+          "name": "Shadow War Veteran",
+          "pts": 30
+        },
+        {
+          "name": "The Blade Driven Deep",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "WRATH OF THE DOOMED",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Instinctive Interception",
+          "pts": 10
+        },
+        {
+          "name": "On the Archtraitor's Bridge",
+          "pts": 20
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Astorath",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "leaderOf": [
+        "Death Company Marines With Jump Packs"
+      ]
+    },
+    {
+      "name": "Baal Predator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blood Angels Captain",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Assault Intercessor Squad",
+        "Company Heroes",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Chief Librarian Mephiston",
+      "modelOptions": []
+    },
+    {
+      "name": "Commander Dante",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ],
+      "leaderOf": [
+        "Assault Intercessors With Jump Packs",
+        "Sanguinary Guard",
+        "Vanguard Veteran Squad With Jump Packs"
+      ]
+    },
+    {
+      "name": "Death Company Captain",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Death Company Marines",
+        "Death Company Marines With Bolt Rifles"
+      ]
+    },
+    {
+      "name": "Death Company Captain With Jump Pack",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Death Company Marines With Jump Packs"
+      ]
+    },
+    {
+      "name": "Death Company Dreadnought",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Death Company Marines",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 85
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 85
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 95
+          },
+          {
+            "count": 10,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Death Company Marines With Bolt Rifles",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 155
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 80
+          },
+          {
+            "count": 10,
+            "cost": 155
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 90
+          },
+          {
+            "count": 10,
+            "cost": 165
+          }
+        ]
+      }
+    },
+    {
+      "name": "Death Company Marines With Jump Packs",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 120
+        },
+        {
+          "count": 10,
+          "cost": 230
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 120
+          },
+          {
+            "count": 10,
+            "cost": 230
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 135
+          },
+          {
+            "count": 10,
+            "cost": 245
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lemartes",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "leaderOf": [
+        "Death Company Marines With Jump Packs"
+      ]
+    },
+    {
+      "name": "Sanguinary Guard",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 125
+        },
+        {
+          "count": 6,
+          "cost": 260
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 125
+          },
+          {
+            "count": 6,
+            "cost": 260
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 145
+          },
+          {
+            "count": 6,
+            "cost": 280
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sanguinary Priest",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ]
+      },
+      "supportFor": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "The Sanguinor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Aggressor Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 90
+        },
+        {
+          "count": 6,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 100
+          },
+          {
+            "count": 6,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ancient",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 40
+        }
+      ],
+      "supportFor": [
+        "Assault Intercessor Squad",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Ancient In Terminator Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "supportFor": []
+    },
+    {
+      "name": "Apothecary",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 40
+        }
+      ],
+      "supportFor": [
+        "Assault Intercessor Squad",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Apothecary Biologis",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "supportFor": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad",
+        "Indomitor Kill Team"
+      ]
+    },
+    {
+      "name": "Assault Intercessor Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Assault Intercessors With Jump Packs",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 95
+        },
+        {
+          "count": 10,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 95
+          },
+          {
+            "count": 10,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 105
+          },
+          {
+            "count": 10,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Astraeus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 525
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 525
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 575
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ballistus Dreadnought",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bladeguard Ancient",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 40
+        }
+      ],
+      "supportFor": [
+        "Bladeguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Bladeguard Veteran Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 85
+        },
+        {
+          "count": 6,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 85
+          },
+          {
+            "count": 6,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 95
+          },
+          {
+            "count": 6,
+            "cost": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "Brutalis Dreadnought",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Captain",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Company Heroes",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad",
+        "Victrix Honour Guard"
+      ]
+    },
+    {
+      "name": "Captain In Gravis Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Aggressor Squad",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad",
+        "Indomitor Kill Team"
+      ]
+    },
+    {
+      "name": "Captain In Phobos Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Eliminator Squad",
+        "Incursor Squad",
+        "Infiltrator Squad",
+        "Reiver Squad",
+        "Scout Squad",
+        "Spectrus Kill Team"
+      ]
+    },
+    {
+      "name": "Captain In Terminator Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "leaderOf": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
+    },
+    {
+      "name": "Captain With Jump Pack",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Assault Intercessors With Jump Packs",
+        "Sanguinary Guard",
+        "Talonstrike Kill Team",
+        "Vanguard Veteran Squad With Jump Packs"
+      ]
+    },
+    {
+      "name": "Centurion Assault Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 150
+        },
+        {
+          "count": 6,
+          "cost": 300
+        }
+      ]
+    },
+    {
+      "name": "Centurion Devastator Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 175
+        },
+        {
+          "count": 6,
+          "cost": 350
+        }
+      ]
+    },
+    {
+      "name": "Chaplain",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Crusader Squad",
+        "Death Company Marines",
+        "Death Company Marines With Bolt Rifles",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Chaplain In Terminator Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
+    },
+    {
+      "name": "Chaplain On Bike",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Outrider Squad",
+        "Ravenwing Black Knights"
+      ]
+    },
+    {
+      "name": "Chaplain With Jump Pack",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Assault Intercessors With Jump Packs",
+        "Death Company Marines With Jump Packs",
+        "Talonstrike Kill Team",
+        "Vanguard Veteran Squad With Jump Packs"
+      ]
+    },
+    {
+      "name": "Company Heroes",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 105
+        }
+      ]
+    },
+    {
+      "name": "Desolation Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 210
+          }
+        ]
+      }
+    },
+    {
+      "name": "Devastator Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 120
+        },
+        {
+          "count": 10,
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "name": "Dreadnought",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ]
+    },
+    {
+      "name": "Drop Pod",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Eliminator Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Eradicator Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 90
+        },
+        {
+          "count": 6,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 100
+          },
+          {
+            "count": 6,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eradicator Squad With Heavy Bolters",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 70
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 70
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 80
+          }
+        ]
+      }
+    },
+    {
+      "name": "Firestrike Servo-Turrets",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        },
+        {
+          "count": 2,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Gladiator Lancer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gladiator Reaper",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gladiator Valiant",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hammerfall Bunker",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 175
+        }
+      ]
+    },
+    {
+      "name": "Heavy Intercessor Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        },
+        {
+          "count": 10,
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "name": "Hellblaster Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 110
+        },
+        {
+          "count": 10,
+          "cost": 220
+        }
+      ]
+    },
+    {
+      "name": "Impulsor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Inceptor Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 120
+        },
+        {
+          "count": 6,
+          "cost": 240
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 120
+          },
+          {
+            "count": 6,
+            "cost": 240
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 135
+          },
+          {
+            "count": 6,
+            "cost": 255
+          }
+        ]
+      }
+    },
+    {
+      "name": "Incursor Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 85
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 85
+          },
+          {
+            "count": 10,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 95
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infernus Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 85
+        },
+        {
+          "count": 10,
+          "cost": 170
+        }
+      ]
+    },
+    {
+      "name": "Infiltrator Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 110
+        },
+        {
+          "count": 10,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 110
+          },
+          {
+            "count": 10,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 120
+          },
+          {
+            "count": 10,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Intercessor Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Invader Atv",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "Invictor Tactical Warsuit",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ]
+    },
+    {
+      "name": "Judiciar",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Land Raider",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 240
+          }
+        ]
+      }
+    },
+    {
+      "name": "Land Raider Crusader",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 240
+          }
+        ]
+      }
+    },
+    {
+      "name": "Land Raider Redeemer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 250
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 250
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 270
+          }
+        ]
+      }
+    },
+    {
+      "name": "Land Speeder",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 95
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 105
+          }
+        ]
+      }
+    },
+    {
+      "name": "Librarian",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Assault Intercessor Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Librarian In Phobos Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Eliminator Squad",
+        "Incursor Squad",
+        "Infiltrator Squad",
+        "Reiver Squad",
+        "Spectrus Kill Team"
+      ]
+    },
+    {
+      "name": "Librarian In Terminator Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
+    },
+    {
+      "name": "Lieutenant",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "supportFor": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Company Heroes",
+        "Crusader Squad",
+        "Deathwatch Veterans",
+        "Decimus Kill Team",
+        "Fortis Kill Team",
+        "Hellblaster Squad",
+        "Infernus Squad",
+        "Inner Circle Companions",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Lieutenant In Phobos Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "supportFor": [
+        "Incursor Squad",
+        "Infiltrator Squad",
+        "Reiver Squad",
+        "Spectrus Kill Team"
+      ]
+    },
+    {
+      "name": "Lieutenant In Reiver Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "supportFor": [
+        "Reiver Squad"
+      ]
+    },
+    {
+      "name": "Lieutenant With Combi-Weapon",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Outrider Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 75
+        },
+        {
+          "count": 6,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Predator Annihilator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 145
+          }
+        ]
+      }
+    },
+    {
+      "name": "Predator Destructor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 140
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ]
+      }
+    },
+    {
+      "name": "Razorback",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ]
+    },
+    {
+      "name": "Redemptor Dreadnought",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 195
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 195
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 210
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Macro Plasma Incinerator",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Reiver Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Repulsor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Repulsor Executioner",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 230
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 230
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 250
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rhino",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Scout Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 65
+        },
+        {
+          "count": 10,
+          "cost": 120
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 65
+          },
+          {
+            "count": 10,
+            "cost": 120
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 130
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sternguard Veteran Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        },
+        {
+          "count": 10,
+          "cost": 190
+        }
+      ]
+    },
+    {
+      "name": "Stormhawk Interceptor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 155
+        }
+      ]
+    },
+    {
+      "name": "Stormraven Gunship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 280
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 280
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 300
+          }
+        ]
+      }
+    },
+    {
+      "name": "Storm Speeder Hailstrike",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 105
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 105
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 115
+          }
+        ]
+      }
+    },
+    {
+      "name": "Storm Speeder Hammerstrike",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 130
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 140
+          }
+        ]
+      }
+    },
+    {
+      "name": "Storm Speeder Thunderstrike",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 145
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stormtalon Gunship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 165
+        }
+      ]
+    },
+    {
+      "name": "Suppressor Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Tactical Squad",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Techmarine",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Assault Intercessor Squad",
+        "Crusader Squad",
+        "Decimus Kill Team",
+        "Desolation Squad",
+        "Devastator Squad",
+        "Fortis Kill Team",
+        "Intercessor Squad",
+        "Sword Brethren Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Terminator Assault Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 155
+        },
+        {
+          "count": 10,
+          "cost": 310
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Thunder Hammer",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Terminator Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 160
+        },
+        {
+          "count": 10,
+          "cost": 320
+        }
+      ]
+    },
+    {
+      "name": "Thunderhawk Gunship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 840
+        }
+      ]
+    },
+    {
+      "name": "Vanguard Veteran Squad With Jump Packs",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 105
+        },
+        {
+          "count": 10,
+          "cost": 210
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 105
+          },
+          {
+            "count": 10,
+            "cost": 210
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 115
+          },
+          {
+            "count": 10,
+            "cost": 220
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vindicator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 185
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 185
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "Whirlwind",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 175
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 175
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 195
+          }
+        ]
+      }
+    }
+  ]
+}

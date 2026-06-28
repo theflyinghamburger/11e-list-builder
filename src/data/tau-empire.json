@@ -1,0 +1,892 @@
+{
+  "detachments": [
+    {
+      "name": "ADVANCED ACQUISITION CADRE",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Negation Emitters (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Unmasking Suite (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "AUXILIARY CADRE",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Admired Leader",
+          "pts": 20
+        },
+        {
+          "name": "Student of Kauyon",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "EXPERIMENTAL PROTOTYPE CADRE",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Plasma Accelerator Rifle",
+          "pts": 20
+        },
+        {
+          "name": "Supernova Launcher",
+          "pts": 15
+        },
+        {
+          "name": "Thermoneutronic Projector",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "KAUYON",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Exemplar of the Kauyon",
+          "pts": 20
+        },
+        {
+          "name": "Precision of the Patient Hunter",
+          "pts": 15
+        },
+        {
+          "name": "Solid-image Projection Unit",
+          "pts": 20
+        },
+        {
+          "name": "Through Unity, Devastation",
+          "pts": 30
+        }
+      ]
+    },
+    {
+      "name": "KROOT HUNTING PACK",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Borthrod Gland",
+          "pts": 15
+        },
+        {
+          "name": "Kroothawk Flock",
+          "pts": 10
+        },
+        {
+          "name": "Nomadic Hunter",
+          "pts": 20
+        },
+        {
+          "name": "Root-carved Weapons",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "MONT’KA",
+      "dpCost": 3,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Coordinated Exploitation",
+          "pts": 30
+        },
+        {
+          "name": "Exemplar of the Mont’ka",
+          "pts": 10
+        },
+        {
+          "name": "Strategic Conqueror",
+          "pts": 15
+        },
+        {
+          "name": "Strike Swiftly",
+          "pts": 35
+        }
+      ]
+    },
+    {
+      "name": "RETALIATION CADRE",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Internal Grenade Racks",
+          "pts": 20
+        },
+        {
+          "name": "Prototype Weapon System",
+          "pts": 15
+        },
+        {
+          "name": "Puretide Engram Neurochip",
+          "pts": 15
+        },
+        {
+          "name": "Starflare Ignition System",
+          "pts": 20
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Ax-1-0 Tiger Shark",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 315
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 315
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 375
+          }
+        ]
+      }
+    },
+    {
+      "name": "Breacher Team",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Broadside Battlesuits",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        },
+        {
+          "count": 2,
+          "cost": 150
+        },
+        {
+          "count": 3,
+          "cost": 240
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 75
+          },
+          {
+            "count": 2,
+            "cost": 150
+          },
+          {
+            "count": 3,
+            "cost": 240
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 95
+          },
+          {
+            "count": 2,
+            "cost": 170
+          },
+          {
+            "count": 3,
+            "cost": 260
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cadre Fireblade",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "leaderOf": [
+        "Breacher Team",
+        "Strike Team"
+      ]
+    },
+    {
+      "name": "Commander Farsight",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Crisis Fireknife Battlesuits",
+        "Crisis Starscythe Battlesuits",
+        "Crisis Sunforge Battlesuits"
+      ]
+    },
+    {
+      "name": "Commander In Coldstar Battlesuit",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "leaderOf": [
+        "Crisis Fireknife Battlesuits",
+        "Crisis Starscythe Battlesuits",
+        "Crisis Sunforge Battlesuits"
+      ]
+    },
+    {
+      "name": "Commander In Enforcer Battlesuit",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Crisis Fireknife Battlesuits",
+        "Crisis Starscythe Battlesuits",
+        "Crisis Sunforge Battlesuits"
+      ]
+    },
+    {
+      "name": "Commander Shadowsun",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Crisis Fireknife Battlesuits",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 100
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 100
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 110
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Missile Pod",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Crisis Starscythe Battlesuits",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 90
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 90
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 100
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "T'Au Flamer",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Crisis Sunforge Battlesuits",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Darkstrider",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Pathfinder Team"
+      ]
+    },
+    {
+      "name": "Devilfish",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Ethereal",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "leaderOf": [
+        "Breacher Team",
+        "Strike Team"
+      ]
+    },
+    {
+      "name": "Firesight Team",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ]
+    },
+    {
+      "name": "Ghostkeel Battlesuit",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Cyclic Ion Raker",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Hammerhead Gunship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 140
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kroot Carnivores",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 65
+        },
+        {
+          "count": 20,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Kroot Farstalkers",
+      "modelOptions": [
+        {
+          "count": 12,
+          "cost": 75
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 12,
+            "cost": 75
+          }
+        ],
+        "secondary": [
+          {
+            "count": 12,
+            "cost": 85
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kroot Flesh Shaper",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "leaderOf": [
+        "Kroot Carnivores",
+        "Kroot Farstalkers"
+      ]
+    },
+    {
+      "name": "Kroot Hounds",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 45
+        },
+        {
+          "count": 10,
+          "cost": 65
+        }
+      ]
+    },
+    {
+      "name": "Kroot Lone-Spear",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Krootox Rampagers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 85
+        },
+        {
+          "count": 6,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 85
+          },
+          {
+            "count": 6,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 95
+          },
+          {
+            "count": 6,
+            "cost": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "Krootox Riders",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        },
+        {
+          "count": 2,
+          "cost": 60
+        },
+        {
+          "count": 3,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Kroot Trail Shaper",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "leaderOf": [
+        "Kroot Carnivores",
+        "Kroot Farstalkers"
+      ]
+    },
+    {
+      "name": "Kroot War Shaper",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Kroot Carnivores",
+        "Kroot Farstalkers"
+      ]
+    },
+    {
+      "name": "Manta",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Pathfinder Team",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 80
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Ion Rifle",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Piranhas",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        },
+        {
+          "count": 2,
+          "cost": 110
+        },
+        {
+          "count": 3,
+          "cost": 165
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 65
+          },
+          {
+            "count": 2,
+            "cost": 110
+          },
+          {
+            "count": 3,
+            "cost": 165
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 75
+          },
+          {
+            "count": 2,
+            "cost": 120
+          },
+          {
+            "count": 3,
+            "cost": 175
+          }
+        ]
+      }
+    },
+    {
+      "name": "Razorshark Strike Fighter",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Riptide Battlesuit",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 210
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Ion Accelerator",
+          "costPerModel": 20
+        }
+      ]
+    },
+    {
+      "name": "Sky Ray Gunship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Stealth Battlesuits",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 100
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 110
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stormsurge",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 360
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 360
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 385
+          }
+        ]
+      }
+    },
+    {
+      "name": "Strike Team",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Sun Shark Bomber",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Ta’Unar Supremacy Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 790
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 790
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 890
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Twin Lance",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 205
+        }
+      ]
+    },
+    {
+      "name": "Tidewall Droneport",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Tidewall Gunrig",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Tidewall Shieldline",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Tiger Shark",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 325
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 325
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 375
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vespid Stingwings",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 70
+        },
+        {
+          "count": 10,
+          "cost": 115
+        }
+      ]
+    }
+  ]
+}

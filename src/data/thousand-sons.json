@@ -1,0 +1,741 @@
+{
+  "detachments": [
+    {
+      "name": "CHANGEHOST OF DECEIT",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Diabolic Savant",
+          "pts": 20
+        },
+        {
+          "name": "Duplicitous Malediction",
+          "pts": 15
+        },
+        {
+          "name": "Nethershriek Mind-Eater",
+          "pts": 10
+        },
+        {
+          "name": "Tome of True Names",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "GRAND COVEN",
+      "dpCost": 3,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Eldritch Vortex of E’Taph",
+          "pts": 35
+        },
+        {
+          "name": "Incandaeum",
+          "pts": 15
+        },
+        {
+          "name": "Lord of Forbidden Lore",
+          "pts": 20
+        },
+        {
+          "name": "Umbralefic Crystal",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "HEXWARP THRALLBAND",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Arcane Might",
+          "pts": 20
+        },
+        {
+          "name": "Empowered Manifestation",
+          "pts": 20
+        },
+        {
+          "name": "Empyric Onslaught",
+          "pts": 25
+        },
+        {
+          "name": "Noctilith Mantle",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "RITUAL OF REGENERATION",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Curse of Life",
+          "pts": 20
+        },
+        {
+          "name": "Eruption of Vitality",
+          "pts": 35
+        }
+      ]
+    },
+    {
+      "name": "RUBRICAE PHALANX",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Arcane Thralls",
+          "pts": 5
+        },
+        {
+          "name": "Lord of the Rubricae",
+          "pts": 15
+        },
+        {
+          "name": "Risen Rubricae",
+          "pts": 30
+        },
+        {
+          "name": "Stave Abominus",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "SEKHETAR COHORT",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Occulus Infernum",
+          "pts": 20
+        },
+        {
+          "name": "Walking Rampart",
+          "pts": 30
+        }
+      ]
+    },
+    {
+      "name": "SERVANTS OF CHANGE",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Thicket of Bladed Bone (Upgrade)",
+          "pts": 10
+        },
+        {
+          "name": "Unravelled Fates",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "WARPFORGED CABAL",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Biomechanical Mutation",
+          "pts": 15
+        },
+        {
+          "name": "Perplexing Cloak",
+          "pts": 20
+        },
+        {
+          "name": "Warp-Cursed Runemaster",
+          "pts": 10
+        },
+        {
+          "name": "Warp Syphon",
+          "pts": 5
+        }
+      ]
+    },
+    {
+      "name": "WARPMELD PACT",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Bray Lord",
+          "pts": 15
+        },
+        {
+          "name": "Diamond of Distortion",
+          "pts": 20
+        },
+        {
+          "name": "Flowing Flesh",
+          "pts": 10
+        },
+        {
+          "name": "Warpmeld Dagger",
+          "pts": 10
+        }
+      ],
+      "leaderOf": [
+        "TZAANGORS"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Ahriman",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "leaderOf": [
+        "Rubric Marines",
+        "Tzaangor Enlightened",
+        "Tzaangor Enlightened With Fatecaster Greatbows"
+      ]
+    },
+    {
+      "name": "Chaos Land Raider",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 240
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Predator Annihilator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 130
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 140
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Predator Destructor",
+      "modelOptions": []
+    },
+    {
+      "name": "Chaos Rhino",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Chaos Spawn",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 65
+        }
+      ]
+    },
+    {
+      "name": "Chaos Vindicator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 185
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 185
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 195
+          }
+        ]
+      }
+    },
+    {
+      "name": "Daemon Prince Of Tzeentch",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ]
+    },
+    {
+      "name": "Daemon Prince Of Tzeentch With Wings",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "Defiler",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 290
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 290
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 320
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Hades Lascannon",
+          "costPerModel": 10
+        },
+        {
+          "name": "Heavy Reaper Autocannon",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Exalted Sorcerer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ],
+      "leaderOf": [
+        "Rubric Marines"
+      ]
+    },
+    {
+      "name": "Exalted Sorcerer On Disc Of Tzeentch",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ],
+      "leaderOf": [
+        "Rubric Marines",
+        "Tzaangor Enlightened",
+        "Tzaangor Enlightened With Fatecaster Greatbows"
+      ]
+    },
+    {
+      "name": "Forgefiend",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 145
+          }
+        ]
+      }
+    },
+    {
+      "name": "Helbrute",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Heldrake",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 175
+        }
+      ]
+    },
+    {
+      "name": "Infernal Master",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "leaderOf": [
+        "Rubric Marines"
+      ]
+    },
+    {
+      "name": "Magnus The Red",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 455
+        }
+      ]
+    },
+    {
+      "name": "Maulerfiend",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 120
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 120
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 130
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mutalith Vortex Beast",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rubric Marines",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        },
+        {
+          "count": 10,
+          "cost": 190
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 100
+          },
+          {
+            "count": 10,
+            "cost": 190
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 110
+          },
+          {
+            "count": 10,
+            "cost": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scarab Occult Terminators",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 180
+        },
+        {
+          "count": 10,
+          "cost": 370
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 180
+          },
+          {
+            "count": 10,
+            "cost": 370
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 195
+          },
+          {
+            "count": 10,
+            "cost": 385
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sekhetar Robots",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 80
+        },
+        {
+          "count": 4,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Sorcerer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "leaderOf": [
+        "Rubric Marines"
+      ]
+    },
+    {
+      "name": "Sorcerer In Terminator Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 95
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 105
+          }
+        ]
+      },
+      "leaderOf": [
+        "Scarab Occult Terminators"
+      ]
+    },
+    {
+      "name": "Tzaangor Enlightened",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 45
+        },
+        {
+          "count": 6,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Tzaangor Enlightened With Fatecaster Greatbows",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 55
+        },
+        {
+          "count": 6,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Tzaangors",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 75
+        },
+        {
+          "count": 20,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Tzaangor Shaman",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Tzaangor Enlightened",
+        "Tzaangor Enlightened With Fatecaster Greatbows",
+        "Tzaangors"
+      ]
+    },
+    {
+      "name": "Blue Horrors",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Flamers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 65
+        },
+        {
+          "count": 6,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Kairos Fateweaver",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 295
+        }
+      ]
+    },
+    {
+      "name": "Lord Of Change",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 300
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 300
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 315
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pink Horrors",
+      "modelOptions": []
+    },
+    {
+      "name": "Screamers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 160
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "detachments": [
+    {
+      "name": "CHAMPIONS OF CONTAGION",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Cornucophagus",
+          "pts": 35
+        },
+        {
+          "name": "Final Ingredient",
+          "pts": 20
+        },
+        {
+          "name": "Needle of Nurgle",
+          "pts": 25
+        },
+        {
+          "name": "Visions of Virulence",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "CONTAGION ENGINES",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Lancet of the Worldsore (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Parasitic Woe‑reaper (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "DEATH LORD’S CHOSEN",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Face of Death",
+          "pts": 10
+        },
+        {
+          "name": "Helm of The Fly King",
+          "pts": 20
+        },
+        {
+          "name": "Vile Vigour",
+          "pts": 15
+        },
+        {
+          "name": "Warprot Talisman",
+          "pts": 30
+        }
+      ]
+    },
+    {
+      "name": "FLYBLOWN HOST",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Insectile Murmuration (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Plagueveil (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "MORTARION’S HAMMER",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Bilemaw Blight",
+          "pts": 10
+        },
+        {
+          "name": "Eye of Affliction",
+          "pts": 20
+        },
+        {
+          "name": "Shriekworm Familiar",
+          "pts": 15
+        },
+        {
+          "name": "Tendrilous Emissions",
+          "pts": 30
+        }
+      ]
+    },
+    {
+      "name": "PARAGONS OF PUTRESCENCE",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Host of the Hybridised Pox",
+          "pts": 40
+        },
+        {
+          "name": "Rejuvenating Swarm",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "SHAMBLEROT VECTORIUM",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Lord of the Walking Pox",
+          "pts": 15
+        },
+        {
+          "name": "Sorrowsyphon",
+          "pts": 10
+        },
+        {
+          "name": "Talisman of Burgeoning",
+          "pts": 25
+        },
+        {
+          "name": "Witherbone Pipes",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "TALLYBAND SUMMONERS",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Beckoning Blight",
+          "pts": 20
+        },
+        {
+          "name": "Entropic Knell",
+          "pts": 15
+        },
+        {
+          "name": "Fell Harvester",
+          "pts": 10
+        },
+        {
+          "name": "Tome of Bounteous Blessings",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "VIRULENT VECTORIUM",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Arch Contaminator",
+          "pts": 25
+        },
+        {
+          "name": "Daemon Weapon of Nurgle",
+          "pts": 10
+        },
+        {
+          "name": "Furnace of Plagues",
+          "pts": 25
+        },
+        {
+          "name": "Revolting Regeneration",
+          "pts": 30
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Biologus Putrifier",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Plague Marines"
+      ]
+    },
+    {
+      "name": "Blightlord Terminators",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 115
+        },
+        {
+          "count": 5,
+          "cost": 185
+        },
+        {
+          "count": 10,
+          "cost": 370
+        }
+      ]
+    },
+    {
+      "name": "Chaos Land Raider",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 240
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Predator Annihilator",
+      "modelOptions": []
+    },
+    {
+      "name": "Chaos Predator Destructor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 145
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 145
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 155
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Rhino",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Chaos Spawn",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Daemon Prince Of Nurgle",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 195
+        }
+      ]
+    },
+    {
+      "name": "Daemon Prince Of Nurgle With Wings",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ]
+    },
+    {
+      "name": "Deathshroud Terminators",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 160
+        },
+        {
+          "count": 6,
+          "cost": 320
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 160
+          },
+          {
+            "count": 6,
+            "cost": 320
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 170
+          },
+          {
+            "count": 6,
+            "cost": 330
+          }
+        ]
+      }
+    },
+    {
+      "name": "Defiler",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 290
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 290
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 320
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Reaper Autocannon",
+          "costPerModel": 10
+        },
+        {
+          "name": "Hades Lascannon",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Foetid Bloat-Drone",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 100
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 110
+          }
+        ]
+      }
+    },
+    {
+      "name": "Foetid Bloat-Drone With Heavy Blight Launcher",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Foul Blightspawn",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Plague Marines"
+      ]
+    },
+    {
+      "name": "Helbrute",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Icon Bearer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "leaderOf": [
+        "Plague Marines"
+      ]
+    },
+    {
+      "name": "Lord Of Contagion",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 120
+        }
+      ],
+      "leaderOf": [
+        "Blightlord Terminators",
+        "Deathshroud Terminators"
+      ]
+    },
+    {
+      "name": "Lord Of Poxes",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Plague Marines"
+      ]
+    },
+    {
+      "name": "Lord Of Virulence",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "leaderOf": [
+        "Blightlord Terminators",
+        "Deathshroud Terminators"
+      ]
+    },
+    {
+      "name": "Malignant Plaguecaster",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Plague Marines",
+        "Poxwalkers"
+      ]
+    },
+    {
+      "name": "Miasmic Malignifier",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 105
+        }
+      ]
+    },
+    {
+      "name": "Mortarion",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 400
+        }
+      ]
+    },
+    {
+      "name": "Myphitic Blight-Haulers",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        },
+        {
+          "count": 2,
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "name": "Noxious Blightbringer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Plague Marines",
+        "Poxwalkers"
+      ]
+    },
+    {
+      "name": "Plagueburst Crawler",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 185
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 185
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 210
+          }
+        ]
+      }
+    },
+    {
+      "name": "Plague Marines",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 90
+        },
+        {
+          "count": 7,
+          "cost": 125
+        },
+        {
+          "count": 10,
+          "cost": 190
+        }
+      ]
+    },
+    {
+      "name": "Plague Surgeon",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "leaderOf": [
+        "Plague Marines"
+      ]
+    },
+    {
+      "name": "Poxwalkers",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 65
+        },
+        {
+          "count": 20,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Tallyman",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Plague Marines"
+      ]
+    },
+    {
+      "name": "Typhus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "leaderOf": [
+        "Blightlord Terminators",
+        "Deathshroud Terminators",
+        "Poxwalkers"
+      ]
+    },
+    {
+      "name": "Beasts Of Nurgle",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        },
+        {
+          "count": 2,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Great Unclean One",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 265
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 265
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 280
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nurglings",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 45
+        },
+        {
+          "count": 6,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Plaguebearers",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 115
+        }
+      ]
+    },
+    {
+      "name": "Plague Drones",
+      "modelOptions": []
+    },
+    {
+      "name": "Rotigus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 280
+        }
+      ]
+    }
+  ]
+}

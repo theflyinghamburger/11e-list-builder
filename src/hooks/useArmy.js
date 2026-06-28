@@ -51,6 +51,8 @@ function armyReducer(state, action) {
       if (!payload.detachments) payload.detachments = [];
       return { ...initialState, ...payload };
     }
+    case 'SET_NAME':
+      return { ...state, name: action.payload };
     case 'SET_DATA':
       return { ...state, _data: action.payload };
     default:
@@ -61,6 +63,7 @@ function armyReducer(state, action) {
 const initialState = {
   faction: 'adeptus-mechanicus',
   pointLimit: 2000,
+  name: '',
   detachments: [],
   units: [],
   _data: null,
@@ -78,6 +81,7 @@ export function useArmy() {
     updateDetachmentEnhancements: (name, enhancements) => dispatch({ type: 'UPDATE_DETACHMENT_ENHANCEMENTS', payload: { name, enhancements } }),
     addUnit: (unit) => dispatch({ type: 'ADD_UNIT', payload: unit }),
     removeUnit: (id) => dispatch({ type: 'REMOVE_UNIT', payload: id }),
+    setName: (n) => dispatch({ type: 'SET_NAME', payload: n }),
     loadArmy: (s) => dispatch({ type: 'LOAD_ARMY', payload: s }),
     setData: (data) => dispatch({ type: 'SET_DATA', payload: data }),
   };

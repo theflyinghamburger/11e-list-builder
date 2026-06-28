@@ -1,0 +1,1042 @@
+{
+  "detachments": [
+    {
+      "name": "AMBUSH PREDATORS",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Cryptophotaic Camouflage (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Encircling Horrors (Upgrade)",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "ASSIMILATION SWARM",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Biophagic Flow",
+          "pts": 10
+        },
+        {
+          "name": "Instinctive Defence",
+          "pts": 15
+        },
+        {
+          "name": "Parasitic Biomorphology",
+          "pts": 25
+        },
+        {
+          "name": "Regenerating Monstrosity",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "CRUSHER STAMPEDE",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Enraged Reserves",
+          "pts": 20
+        },
+        {
+          "name": "Monstrous Nemesis",
+          "pts": 25
+        },
+        {
+          "name": "Null Nodules",
+          "pts": 10
+        },
+        {
+          "name": "Ominous Presence",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "INVASION FLEET",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Adaptive Biology",
+          "pts": 25
+        },
+        {
+          "name": "Alien Cunning",
+          "pts": 30
+        },
+        {
+          "name": "Perfectly Adapted",
+          "pts": 15
+        },
+        {
+          "name": "Synaptic Linchpin",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "SUBTERRANEAN ASSAULT",
+      "dpCost": 3,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Synaptic Strategy",
+          "pts": 15
+        },
+        {
+          "name": "Tremor Senses",
+          "pts": 20
+        },
+        {
+          "name": "Trygon Prime",
+          "pts": 20
+        },
+        {
+          "name": "Vanguard Intellect",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "SYNAPTIC NEXUS",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Power of the Hive Mind",
+          "pts": 10
+        },
+        {
+          "name": "Psychostatic Disruption",
+          "pts": 30
+        },
+        {
+          "name": "Synaptic Control",
+          "pts": 20
+        },
+        {
+          "name": "The Dirgeheart of Kharis",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "TALONS OF THE NORN QUEEN",
+      "dpCost": 1,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Destabilising Predation (Upgrade)",
+          "pts": 20
+        },
+        {
+          "name": "Synaptoprescience (Upgrade)",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "UNENDING SWARM",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Adrenalised Onslaught",
+          "pts": 15
+        },
+        {
+          "name": "Naturalised Camouflage",
+          "pts": 30
+        },
+        {
+          "name": "Piercing Talons",
+          "pts": 25
+        },
+        {
+          "name": "Relentless Hunger",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "VANGUARD ONSLAUGHT",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Chameleonic",
+          "pts": 15
+        },
+        {
+          "name": "Hunting Grounds",
+          "pts": 20
+        },
+        {
+          "name": "Neuronode",
+          "pts": 20
+        },
+        {
+          "name": "Stalker",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "WARRIOR BIOFORM ONSLAUGHT",
+      "dpCost": 1,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Elevated Might",
+          "pts": 30
+        },
+        {
+          "name": "Ocular Adaptation",
+          "pts": 20
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Barbgaunts",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 55
+        },
+        {
+          "count": 10,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Biovores",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        },
+        {
+          "count": 2,
+          "cost": 100
+        },
+        {
+          "count": 3,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Broodlord",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Genestealers"
+      ]
+    },
+    {
+      "name": "Carnifexes",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        },
+        {
+          "count": 2,
+          "cost": 180
+        }
+      ]
+    },
+    {
+      "name": "Exocrine",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 140
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gargoyles",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 80
+        },
+        {
+          "count": 20,
+          "cost": 155
+        }
+      ]
+    },
+    {
+      "name": "Genestealers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 140
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 140
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 85
+          },
+          {
+            "count": 10,
+            "cost": 150
+          }
+        ]
+      }
+    },
+    {
+      "name": "Harpy",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 185
+        }
+      ]
+    },
+    {
+      "name": "Harridan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 610
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 610
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 660
+          }
+        ]
+      }
+    },
+    {
+      "name": "Haruspex",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hierophant",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 810
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 810
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 910
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hive Crone",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ]
+    },
+    {
+      "name": "Hive Guard",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 80
+          },
+          {
+            "count": 6,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hive Tyrant",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 195
+        }
+      ],
+      "leaderOf": [
+        "Tyrant Guard"
+      ]
+    },
+    {
+      "name": "Hormagaunts",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 70
+        },
+        {
+          "count": 20,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Hyperadapted Raveners",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 165
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 165
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 175
+          }
+        ]
+      },
+      "leaderOf": [
+        "Raveners"
+      ]
+    },
+    {
+      "name": "Lictor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "Maleceptor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mawloc",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ]
+    },
+    {
+      "name": "Mucolid Spores",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 30
+        },
+        {
+          "count": 2,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "Neurogaunts",
+      "modelOptions": [
+        {
+          "count": 11,
+          "cost": 45
+        },
+        {
+          "count": 22,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Neurolictor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 90
+          }
+        ]
+      }
+    },
+    {
+      "name": "Neurotyrant",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 115
+        }
+      ],
+      "leaderOf": [
+        "Neurogaunts",
+        "Tyrant Guard",
+        "Zoanthropes"
+      ]
+    },
+    {
+      "name": "Norn Assimilator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 250
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 250
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 270
+          }
+        ]
+      }
+    },
+    {
+      "name": "Norn Emissary",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 250
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 250
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 270
+          }
+        ]
+      }
+    },
+    {
+      "name": "Old One Eye",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ],
+      "leaderOf": [
+        "Carnifexes"
+      ]
+    },
+    {
+      "name": "Parasite Of Mortrex",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Psychophage",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Pyrovores",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        },
+        {
+          "count": 2,
+          "cost": 65
+        },
+        {
+          "count": 3,
+          "cost": 95
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 45
+          },
+          {
+            "count": 2,
+            "cost": 65
+          },
+          {
+            "count": 3,
+            "cost": 95
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 55
+          },
+          {
+            "count": 2,
+            "cost": 75
+          },
+          {
+            "count": 3,
+            "cost": 105
+          }
+        ]
+      }
+    },
+    {
+      "name": "Raveners",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ripper Swarms",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 30
+        },
+        {
+          "count": 2,
+          "cost": 40
+        },
+        {
+          "count": 3,
+          "cost": 50
+        }
+      ]
+    },
+    {
+      "name": "Screamer-Killer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spore Mines",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 55
+        },
+        {
+          "count": 6,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Sporocyst",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Termagants",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 60
+        },
+        {
+          "count": 20,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Tervigon",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "The Red Terror",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "The Swarmlord",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 210
+        }
+      ],
+      "leaderOf": [
+        "Tyrant Guard"
+      ]
+    },
+    {
+      "name": "Toxicrene",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ]
+    },
+    {
+      "name": "Trygon",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Tyranid Prime With Lash Whip",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Hormagaunts",
+        "Termagants",
+        "Tyranid Warriors With Melee Bio-Weapons",
+        "Tyranid Warriors With Ranged Bio-Weapons"
+      ]
+    },
+    {
+      "name": "Tyranid Warriors With Melee Bio-Weapons",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 75
+        },
+        {
+          "count": 6,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Tyranid Warriors With Ranged Bio-Weapons",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 60
+        },
+        {
+          "count": 6,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Tyrannocyte",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Tyrannofex",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 190
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Acid Spray",
+          "costPerModel": 10
+        },
+        {
+          "name": "Rupture Cannon",
+          "costPerModel": 20
+        }
+      ]
+    },
+    {
+      "name": "Tyrant Guard",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Venomthropes",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 55
+        },
+        {
+          "count": 6,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Von Ryan’S Leapers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 60
+        },
+        {
+          "count": 6,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Winged Hive Tyrant",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 185
+        }
+      ]
+    },
+    {
+      "name": "Winged Tyranid Prime",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Gargoyles",
+        "Tyranid Warriors With Melee Bio-Weapons",
+        "Tyranid Warriors With Ranged Bio-Weapons"
+      ]
+    },
+    {
+      "name": "Zoanthropes",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 100
+        },
+        {
+          "count": 6,
+          "cost": 200
+        }
+      ]
+    }
+  ]
+}

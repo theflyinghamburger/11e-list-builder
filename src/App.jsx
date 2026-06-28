@@ -8,7 +8,7 @@ import ArmyList from './components/ArmyList';
 import './App.css';
 
 function App() {
-  const { state, setPointLimit, setFaction, addDetachment, removeDetachment, updateDetachmentEnhancements, addUnit, removeUnit, loadArmy, setData } = useArmy();
+  const { state, setPointLimit, setFaction, addDetachment, removeDetachment, updateDetachmentEnhancements, addUnit, removeUnit, setName, loadArmy, setData } = useArmy();
 
   useEffect(() => {
     setData(getData(state.faction));
@@ -48,7 +48,7 @@ function App() {
           <UnitList data={data} units={state.units} onAddUnit={addUnit} />
         </div>
         <div className="right-panel">
-          <ArmyList data={data} army={state} onRemoveUnit={removeUnit} onLoadArmy={loadArmy} />
+          <ArmyList data={data} army={state} onRemoveUnit={removeUnit} onLoadArmy={loadArmy} onSetName={setName} />
         </div>
       </div>
       </div>

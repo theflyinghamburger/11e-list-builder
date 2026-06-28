@@ -1,9 +1,12 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { getUnitPoints } from '../utils/costs';
 import { validateArmy } from '../utils/validate';
 
-export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy }) {
+export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetName }) {
   const fileInputRef = useRef(null);
+  const [name, setName] = useState(army.name || '');
+  const prevNameRef = useRef(army.name);
+  if (army.name !== prevNameRef.current) { prevNameRef.current = army.name; setName(army.name || ''); }
   const totalPoints = army.units.reduce((sum, u) => {
     const unitData = data.units.find((d) => d.name === u.unitName);
     return unitData ? sum + getUnitPoints(unitData, u.modelCount, army.units, u.wargear) : sum;
@@ -22,15 +25,27 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy }) {
   return (
     <div className="army-list">
       <div className="army-header">
-        <h3>Army List</h3>
+        <div className="army-title">
+          <h3>{name || 'Army List'}</h3>
+          <input
+            className="army-name-input"
+            type="text"
+            placeholder="Army name..."
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            onBlur={() => { if (name !== army.name) onSetName(name); }}
+            onKeyDown={(e) => { if (e.key === 'Enter') { onSetName(name); e.target.blur(); } }}
+          />
+        </div>
         <div className="army-actions">
           <button className="save-btn" onClick={() => {
-            const exportData = { faction: army.faction, pointLimit: army.pointLimit, detachments: army.detachments, units: army.units };
+            onSetName(name);
+            const exportData = { name: name || army.name, faction: army.faction, pointLimit: army.pointLimit, detachments: army.detachments, units: army.units };
             const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = `${army.faction}-army.json`;
+            a.download = `${(name || army.name || army.faction).replace(/[^a-zA-Z0-9_-]/g, '_')}-army.json`;
             a.click();
             URL.revokeObjectURL(url);
           }}>
@@ -47,6 +62,7 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy }) {
               try {
                 const parsed = JSON.parse(ev.target.result);
                 if (parsed.faction && parsed.units) {
+                  setName(parsed.name || '');
                   onLoadArmy(parsed);
                 } else {
                   alert('Invalid army list file');

@@ -1,0 +1,1221 @@
+{
+  "detachments": [
+    {
+      "name": "BLITZ BRIGADE",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Blitzkaptin",
+          "pts": 25
+        },
+        {
+          "name": "Runnin’ Boots",
+          "pts": 10
+        },
+        {
+          "name": "Supercharged Squig Oil",
+          "pts": 10
+        },
+        {
+          "name": "Tuff Git",
+          "pts": 5
+        }
+      ]
+    },
+    {
+      "name": "BULLY BOYZ",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Big Gob",
+          "pts": 20
+        },
+        {
+          "name": "Da Biggest Boss",
+          "pts": 15
+        },
+        {
+          "name": "’Eadstompa",
+          "pts": 10
+        },
+        {
+          "name": "Tellyporta",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "DA BIG HUNT",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Glory Hog",
+          "pts": 30
+        },
+        {
+          "name": "Proper Killy",
+          "pts": 15
+        },
+        {
+          "name": "Skrag Every Stash!",
+          "pts": 25
+        },
+        {
+          "name": "Surly as a Squiggoth",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "DREAD MOB",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Gitfinder Gogglez",
+          "pts": 10
+        },
+        {
+          "name": "Press It Fasta!",
+          "pts": 35
+        },
+        {
+          "name": "Smoky Gubbinz",
+          "pts": 15
+        },
+        {
+          "name": "Supa-glowy Fing",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "FREEBOOTER KREW",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Bionik Workshop",
+          "pts": 15
+        },
+        {
+          "name": "Da Kaptin",
+          "pts": 10
+        },
+        {
+          "name": "Git-Spotter Squig",
+          "pts": 20
+        },
+        {
+          "name": "Razgit’s Magik Map",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "GREEN TIDE",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Bloodthirsty Belligerence",
+          "pts": 15
+        },
+        {
+          "name": "Brutal But Kunnin’",
+          "pts": 25
+        },
+        {
+          "name": "Ferocious Show Off",
+          "pts": 10
+        },
+        {
+          "name": "Raucous Warcaller",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "KULT OF SPEED",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Fasta Than Yooz",
+          "pts": 35
+        },
+        {
+          "name": "Speed Makes Right",
+          "pts": 25
+        },
+        {
+          "name": "Squig-hide Tyres",
+          "pts": 15
+        },
+        {
+          "name": "Wazblasta",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "MORE DAKKA!",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Da Gobshot Thunderbuss",
+          "pts": 15
+        },
+        {
+          "name": "Dead Shiny Shootas (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "ROLLIN' DEFF",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Boarding Ramps (Upgrade)",
+          "pts": 10
+        },
+        {
+          "name": "Targetin’ Gizmos (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "SPEEDWAAAGH!",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Dakkamek",
+          "pts": 25
+        },
+        {
+          "name": "Kustom Shokk Box",
+          "pts": 10
+        },
+        {
+          "name": "Master Meknologist",
+          "pts": 20
+        },
+        {
+          "name": "Supa-Burny Fuel",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "TAKTIKAL BRIGADE",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Mork’s Kunnin’",
+          "pts": 20
+        },
+        {
+          "name": "Slippery Git",
+          "pts": 15
+        }
+      ],
+      "leaderOf": [
+        "KOMMANDOS"
+      ]
+    },
+    {
+      "name": "WAR HORDE",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Follow Me Ladz",
+          "pts": 25
+        },
+        {
+          "name": "Headwoppa’s Killchoppa",
+          "pts": 20
+        },
+        {
+          "name": "Kunnin’ But Brutal",
+          "pts": 15
+        },
+        {
+          "name": "Supa-Cybork Body",
+          "pts": 15
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Bannernob",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "supportFor": [
+        "Boyz",
+        "Breaka Boyz",
+        "Burna Boyz",
+        "Flash Gitz",
+        "Lootas",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Battlewagon",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 145
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Ard Case",
+          "costPerModel": 15
+        }
+      ]
+    },
+    {
+      "name": "Beastboss",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Beast Snagga Boyz"
+      ]
+    },
+    {
+      "name": "Beastboss On Squigosaur",
+      "modelOptions": []
+    },
+    {
+      "name": "Beast Snagga Boyz",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 90
+        },
+        {
+          "count": 20,
+          "cost": 170
+        }
+      ]
+    },
+    {
+      "name": "Bigboss",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Boyz",
+        "Breaka Boyz",
+        "Nobz"
+      ]
+    },
+    {
+      "name": "Big’Ed Bossbunka",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ]
+    },
+    {
+      "name": "Big Mek",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Boyz",
+        "Breaka Boyz",
+        "Lootas",
+        "Mek Gunz",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Big Mek Dakkarig",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 100
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 110
+          }
+        ]
+      }
+    },
+    {
+      "name": "Big Mek In Mega Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Meganobz"
+      ]
+    },
+    {
+      "name": "Big Mek With Shokk Attack Gun",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ]
+      },
+      "leaderOf": [
+        "Boyz",
+        "Breaka Boyz",
+        "Lootas",
+        "Mek Gunz",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Blitza-Bommer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 105
+        }
+      ]
+    },
+    {
+      "name": "Boomdakka Snazzwagon",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Boss Snikrot",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Kommandos"
+      ]
+    },
+    {
+      "name": "Boyz",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 75
+        },
+        {
+          "count": 20,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Breaka Boyz",
+      "modelOptions": [
+        {
+          "count": 6,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 6,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 6,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Burna-Bommer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 115
+        }
+      ]
+    },
+    {
+      "name": "Burna Boyz",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 60
+        },
+        {
+          "count": 10,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Dakkajet",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ]
+    },
+    {
+      "name": "Deff Dread",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 110
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 120
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deffkilla Wartrike",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Warbikers"
+      ]
+    },
+    {
+      "name": "Deffkoptas",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 75
+        },
+        {
+          "count": 6,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Flash Gitz",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 85
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gargantuan Squiggoth",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 440
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 440
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 490
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ghazghkull Thraka",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 235
+        }
+      ],
+      "leaderOf": [
+        "Boyz",
+        "Breaka Boyz",
+        "Meganobz",
+        "Nobz"
+      ]
+    },
+    {
+      "name": "Gorkanaut",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 255
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 255
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 275
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gretchin",
+      "modelOptions": [
+        {
+          "count": 11,
+          "cost": 45
+        },
+        {
+          "count": 22,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Hunta Rig",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ]
+    },
+    {
+      "name": "Killa Kans",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 120
+        },
+        {
+          "count": 6,
+          "cost": 240
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 120
+          },
+          {
+            "count": 6,
+            "cost": 240
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 130
+          },
+          {
+            "count": 6,
+            "cost": 250
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kill Rig",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Kommandos",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Kustom Boosta-Blasta",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Lootas",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 50
+        },
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 50
+          },
+          {
+            "count": 10,
+            "cost": 100
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 60
+          },
+          {
+            "count": 10,
+            "cost": 110
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meganobz",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 60
+        },
+        {
+          "count": 3,
+          "cost": 90
+        },
+        {
+          "count": 5,
+          "cost": 150
+        },
+        {
+          "count": 6,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 2,
+            "cost": 60
+          },
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 5,
+            "cost": 150
+          },
+          {
+            "count": 6,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 2,
+            "cost": 80
+          },
+          {
+            "count": 3,
+            "cost": 110
+          },
+          {
+            "count": 5,
+            "cost": 170
+          },
+          {
+            "count": 6,
+            "cost": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "Megatrakk Scrapjet",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Mek",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "leaderOf": [
+        "Boyz",
+        "Lootas",
+        "Mek Gunz",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Mek Gunz",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        },
+        {
+          "count": 2,
+          "cost": 90
+        },
+        {
+          "count": 3,
+          "cost": 135
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 45
+          },
+          {
+            "count": 2,
+            "cost": 90
+          },
+          {
+            "count": 3,
+            "cost": 135
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 55
+          },
+          {
+            "count": 2,
+            "cost": 100
+          },
+          {
+            "count": 3,
+            "cost": 145
+          }
+        ]
+      }
+    },
+    {
+      "name": "Morkanaut",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 270
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 270
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 290
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mozrog Skragbad",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ],
+      "leaderOf": [
+        "Squighog Boyz"
+      ]
+    },
+    {
+      "name": "Nobz",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 105
+        },
+        {
+          "count": 10,
+          "cost": 210
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 105
+          },
+          {
+            "count": 10,
+            "cost": 210
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 115
+          },
+          {
+            "count": 10,
+            "cost": 220
+          }
+        ]
+      }
+    },
+    {
+      "name": "Painboss",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Beast Snagga Boyz"
+      ]
+    },
+    {
+      "name": "Painboy",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "supportFor": [
+        "Boyz",
+        "Breaka Boyz",
+        "Burna Boyz",
+        "Lootas",
+        "Nobz",
+        "Tankbustas"
+      ]
+    },
+    {
+      "name": "Rukkatrukk Squigbuggy",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Shokkjump Dragsta",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Squighog Boyz",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 140
+        },
+        {
+          "count": 8,
+          "cost": 270
+        }
+      ]
+    },
+    {
+      "name": "Stompa",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 600
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 600
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 700
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stormboyz",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 65
+        },
+        {
+          "count": 10,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Tankbustas",
+      "modelOptions": [
+        {
+          "count": 6,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 6,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 6,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Trukk",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ]
+    },
+    {
+      "name": "Warbikers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 60
+        },
+        {
+          "count": 6,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Warboss",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Boyz",
+        "Breaka Boyz",
+        "Nobz"
+      ]
+    },
+    {
+      "name": "Warboss In Mega Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Meganobz"
+      ]
+    },
+    {
+      "name": "Wartrakk",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "Wazbom Blastajet",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 165
+        }
+      ]
+    },
+    {
+      "name": "Wazdakka Gutsmek",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 175
+        }
+      ]
+    },
+    {
+      "name": "Weirdboy",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Boyz",
+        "Breaka Boyz"
+      ]
+    },
+    {
+      "name": "Wurrboy",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Beast Snagga Boyz"
+      ]
+    },
+    {
+      "name": "Zodgrod Wortsnagga",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Gretchin"
+      ]
+    }
+  ]
+}
