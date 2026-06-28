@@ -1,0 +1,1317 @@
+{
+  "detachments": [
+    {
+      "name": "CABAL OF CHAOS",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Conduit of Chaos",
+          "pts": 20
+        },
+        {
+          "name": "Touched by the Warp",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "CHAOS CULT",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Amulet of Tainted Vigour",
+          "pts": 20
+        },
+        {
+          "name": "Cultist’s Brand",
+          "pts": 30
+        },
+        {
+          "name": "Incendiary Goad",
+          "pts": 25
+        },
+        {
+          "name": "Warped Foresight",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "CREATIONS OF BILE",
+      "dpCost": 3,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Helm of All-Seeing",
+          "pts": 25
+        },
+        {
+          "name": "Living Carapace",
+          "pts": 15
+        },
+        {
+          "name": "Prime Test Subject",
+          "pts": 35
+        },
+        {
+          "name": "Surgical Precision",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "CULT OF THE ARKIFANE",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Crown of Worms",
+          "pts": 15
+        },
+        {
+          "name": "Cybinfernal Font",
+          "pts": 20
+        },
+        {
+          "name": "Mark of the Soul Forges",
+          "pts": 20
+        },
+        {
+          "name": "Wyredjinn",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "DECEPTORS",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Cursed Fang",
+          "pts": 10
+        },
+        {
+          "name": "Falsehood",
+          "pts": 10
+        },
+        {
+          "name": "Shroud of Obfuscation",
+          "pts": 15
+        },
+        {
+          "name": "Soul Link",
+          "pts": 5
+        }
+      ]
+    },
+    {
+      "name": "DEVOTEES OF DESTRUCTION",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Eye of Oblivion",
+          "pts": 20
+        },
+        {
+          "name": "Pact of Destruction",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "DREAD TALONS",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Eater of Dread",
+          "pts": 15
+        },
+        {
+          "name": "Night’s Shroud",
+          "pts": 10
+        },
+        {
+          "name": "Warp-Fuelled Thrusters",
+          "pts": 20
+        },
+        {
+          "name": "Willbreaker",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "FELLHAMMER SIEGE-HOST",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Bastion Plate",
+          "pts": 10
+        },
+        {
+          "name": "Iron Artifice",
+          "pts": 10
+        },
+        {
+          "name": "Ironbound Enmity",
+          "pts": 15
+        },
+        {
+          "name": "Warp Tracer",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "HURON’S MARAUDERS",
+      "dpCost": 3,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Dread Reputation",
+          "pts": 25
+        },
+        {
+          "name": "Eager for Bloodshed",
+          "pts": 30
+        },
+        {
+          "name": "Raid Leader",
+          "pts": 20
+        },
+        {
+          "name": "Voice of the Tyrant",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "MURDERTALON RAIDERS",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Pact of Cursed Pinions",
+          "pts": 20
+        },
+        {
+          "name": "Shadowcowl Talisman",
+          "pts": 20
+        }
+      ],
+      "leaderOf": [
+        "WARP TALONS"
+      ]
+    },
+    {
+      "name": "NIGHTMARE HUNT",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Greyveil Hex",
+          "pts": 25
+        },
+        {
+          "name": "Sorrowscent Vulture",
+          "pts": 35
+        },
+        {
+          "name": "Terrorglut Parasite",
+          "pts": 20
+        },
+        {
+          "name": "Warp-Fuelled Thrusters",
+          "pts": 20
+        }
+      ],
+      "leaderOf": [
+        "WARP TALONS"
+      ]
+    },
+    {
+      "name": "PACTBOUND ZEALOTS",
+      "dpCost": 3,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Eye of Tzeentch",
+          "pts": 15
+        },
+        {
+          "name": "Intoxicating Elixir",
+          "pts": 15
+        },
+        {
+          "name": "Orbs of Unlife",
+          "pts": 15
+        },
+        {
+          "name": "Talisman of Burning Blood",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "RENEGADE RAIDERS",
+      "dpCost": 3,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Despot’s Claim",
+          "pts": 15
+        },
+        {
+          "name": "Dread Reaver",
+          "pts": 15
+        },
+        {
+          "name": "Mark of the Hound",
+          "pts": 25
+        },
+        {
+          "name": "Tyrant’s Lash",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "RENEGADE WARBAND",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Empyric Symbiote",
+          "pts": 15
+        },
+        {
+          "name": "Eyes of the Hunter",
+          "pts": 15
+        },
+        {
+          "name": "Fratricidal Trophies",
+          "pts": 5
+        },
+        {
+          "name": "Weaponised Hatred",
+          "pts": 35
+        }
+      ]
+    },
+    {
+      "name": "SOULFORGED WARPACK",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Forge’s Blessing",
+          "pts": 20
+        },
+        {
+          "name": "Invigorated Mechatendrils",
+          "pts": 15
+        },
+        {
+          "name": "Soul Harvester",
+          "pts": 15
+        },
+        {
+          "name": "Tempting Addendum",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "VETERANS OF THE LONG WAR",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Eager for Vengeance",
+          "pts": 20
+        },
+        {
+          "name": "Eye of Abaddon",
+          "pts": 15
+        },
+        {
+          "name": "Mark of Legend",
+          "pts": 10
+        },
+        {
+          "name": "Warmaster’s Gift",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "WARPSTRIKE CHAMPIONS",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Akshur’s Binding Runes",
+          "pts": 20
+        },
+        {
+          "name": "Eye of the Warp",
+          "pts": 15
+        },
+        {
+          "name": "Infernal Fulgurite",
+          "pts": 20
+        },
+        {
+          "name": "Tzagulla",
+          "pts": 25
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Abaddon The Despoiler",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 285
+        }
+      ],
+      "leaderOf": [
+        "Chaos Terminator Squad",
+        "Chosen"
+      ]
+    },
+    {
+      "name": "Accursed Cultists",
+      "modelOptions": [
+        {
+          "count": 8,
+          "cost": 90
+        },
+        {
+          "count": 16,
+          "cost": 195
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 8,
+            "cost": 90
+          },
+          {
+            "count": 16,
+            "cost": 195
+          }
+        ],
+        "secondary": [
+          {
+            "count": 8,
+            "cost": 110
+          },
+          {
+            "count": 16,
+            "cost": 215
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Bikers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 70
+        },
+        {
+          "count": 6,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Chaos Land Raider",
+      "modelOptions": []
+    },
+    {
+      "name": "Chaos Lord",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ],
+      "leaderOf": [
+        "Chosen",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Chaos Lord In Terminator Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "leaderOf": [
+        "Chaos Terminator Squad"
+      ]
+    },
+    {
+      "name": "Chaos Lord With Jump Pack",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ],
+      "leaderOf": [
+        "Raptors"
+      ]
+    },
+    {
+      "name": "Chaos Predator Annihilator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 145
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Predator Destructor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 140
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Rhino",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Chaos Spawn",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "Chaos Terminator Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 180
+        },
+        {
+          "count": 10,
+          "cost": 360
+        }
+      ]
+    },
+    {
+      "name": "Chaos Vindicator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 185
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 185
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 195
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chosen",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 125
+        },
+        {
+          "count": 10,
+          "cost": 250
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 125
+          },
+          {
+            "count": 10,
+            "cost": 250
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 135
+          },
+          {
+            "count": 10,
+            "cost": 260
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cultist Firebrand",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 45
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 50
+          }
+        ]
+      },
+      "leaderOf": [
+        "Accursed Cultists",
+        "Cultist Mob"
+      ]
+    },
+    {
+      "name": "Cultist Mob",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 50
+        },
+        {
+          "count": 20,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Cypher",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Dark Apostle",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Accursed Cultists",
+        "Chosen",
+        "Cultist Mob",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Dark Commune",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 90
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 90
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 100
+          }
+        ]
+      },
+      "leaderOf": [
+        "Accursed Cultists",
+        "Cultist Mob"
+      ]
+    },
+    {
+      "name": "Defiler",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 300
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 300
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 330
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Reaper Autocannon",
+          "costPerModel": 10
+        },
+        {
+          "name": "Hades Lascannon",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Fabius Bile",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 100
+        }
+      ],
+      "leaderOf": [
+        "Accursed Cultists",
+        "Chosen",
+        "Cultist Mob",
+        "Legionaries",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Fellgor Beastmen",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "Forgefiend",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Ectoplasma Cannon",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Haarken Worldclaimer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ],
+      "leaderOf": [
+        "Raptors"
+      ]
+    },
+    {
+      "name": "Havocs",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Helbrute",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Heldrake",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 175
+        }
+      ]
+    },
+    {
+      "name": "Heretic Astartes Daemon Prince",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 165
+        }
+      ]
+    },
+    {
+      "name": "Heretic Astartes Daemon Prince With Wings",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ]
+    },
+    {
+      "name": "Huron Blackheart",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 120
+        }
+      ],
+      "leaderOf": [
+        "Chaos Terminator Squad",
+        "Chosen",
+        "Legionaries",
+        "Masters Of The Maelstrom",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Khorne Lord Of Skulls",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 450
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 450
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 475
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kravek Morne",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 120
+        }
+      ],
+      "leaderOf": [
+        "Chaos Terminator Squad",
+        "Mutilators",
+        "Obliterators"
+      ]
+    },
+    {
+      "name": "Legionaries",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 90
+        },
+        {
+          "count": 10,
+          "cost": 170
+        }
+      ]
+    },
+    {
+      "name": "Lord Discordant On Helstalker",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Master Of Executions",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "supportFor": [
+        "Chosen",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Master Of Possession",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Chosen",
+        "Legionaries",
+        "Nemesis Claw",
+        "Possessed",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Masters Of The Maelstrom",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 135
+        }
+      ],
+      "supportFor": [
+        "Chosen",
+        "Legionaries",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Maulerfiend",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Mutilators",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nemesis Claw",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 110
+        },
+        {
+          "count": 10,
+          "cost": 190
+        }
+      ]
+    },
+    {
+      "name": "Noctilith Crown",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ]
+    },
+    {
+      "name": "Obliterators",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 2,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 2,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Possessed",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 120
+        },
+        {
+          "count": 10,
+          "cost": 250
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 120
+          },
+          {
+            "count": 10,
+            "cost": 250
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 130
+          },
+          {
+            "count": 10,
+            "cost": 260
+          }
+        ]
+      }
+    },
+    {
+      "name": "Raptors",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 110
+        },
+        {
+          "count": 10,
+          "cost": 210
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 110
+          },
+          {
+            "count": 10,
+            "cost": 210
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 120
+          },
+          {
+            "count": 10,
+            "cost": 220
+          }
+        ]
+      }
+    },
+    {
+      "name": "Red Corsairs Raiders",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 110
+        },
+        {
+          "count": 10,
+          "cost": 210
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 110
+          },
+          {
+            "count": 10,
+            "cost": 210
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 120
+          },
+          {
+            "count": 10,
+            "cost": 220
+          }
+        ]
+      }
+    },
+    {
+      "name": "Red Corsairs Reave-Captain",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Chosen",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Sorcerer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Chosen",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Sorcerer In Terminator Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Chaos Terminator Squad"
+      ]
+    },
+    {
+      "name": "Traitor Enforcer",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Traitor Guardsmen Squad"
+      ]
+    },
+    {
+      "name": "Traitor Guardsmen Squad",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Vashtorr The Arkifane",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 205
+        }
+      ]
+    },
+    {
+      "name": "Venomcrawler",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 110
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 120
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warpsmith",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Chosen",
+        "Havocs",
+        "Legionaries",
+        "Nemesis Claw",
+        "Red Corsairs Raiders"
+      ]
+    },
+    {
+      "name": "Warp Talons",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 125
+        },
+        {
+          "count": 10,
+          "cost": 280
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 125
+          },
+          {
+            "count": 10,
+            "cost": 280
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 135
+          },
+          {
+            "count": 10,
+            "cost": 290
+          }
+        ]
+      }
+    }
+  ]
+}

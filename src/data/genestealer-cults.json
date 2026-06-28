@@ -1,0 +1,611 @@
+{
+  "detachments": [
+    {
+      "name": "BIOSANCTIC BROODSURGE",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Alien Majesty",
+          "pts": 15
+        },
+        {
+          "name": "Biomorph Adaptation",
+          "pts": 25
+        },
+        {
+          "name": "Mutagenic Regeneration",
+          "pts": 10
+        },
+        {
+          "name": "Predatory Instincts",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "BROOD BROTHERS AUXILIA",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Adaptive Reprisal",
+          "pts": 15
+        },
+        {
+          "name": "Fire-point Commander",
+          "pts": 10
+        },
+        {
+          "name": "Martial Espionage",
+          "pts": 25
+        },
+        {
+          "name": "The Hero Returned",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "FINAL DAY",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Enraptured Damnation",
+          "pts": 10
+        },
+        {
+          "name": "Inhuman Integration",
+          "pts": 20
+        },
+        {
+          "name": "Synaptic Auger",
+          "pts": 15
+        },
+        {
+          "name": "Vanguard Tyrant",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "HEROES OF THE UPRISING",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Contraband Munitions",
+          "pts": 20
+        },
+        {
+          "name": "Gene-tailored Toxins",
+          "pts": 35
+        }
+      ]
+    },
+    {
+      "name": "HOST OF ASCENSION",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "A Chink In Their Armour",
+          "pts": 20
+        },
+        {
+          "name": "Assassination Edict",
+          "pts": 15
+        },
+        {
+          "name": "Our Time is Nigh",
+          "pts": 20
+        },
+        {
+          "name": "Prowling Agitant",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "OUTLANDER CLAW",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Assault Commando",
+          "pts": 15
+        },
+        {
+          "name": "Cartographic Data-leech",
+          "pts": 10
+        },
+        {
+          "name": "Serpentine Tactics",
+          "pts": 10
+        },
+        {
+          "name": "Starfall Shells",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "PURESTRAIN BROODSWARM",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Mark of the Star Children (Upgrade)",
+          "pts": 30
+        },
+        {
+          "name": "Talons of the Sire",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "XENOCREED CONGREGATION",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Deeds that Speak to the Masses",
+          "pts": 25
+        },
+        {
+          "name": "Denunciator of Tyrants",
+          "pts": 25
+        },
+        {
+          "name": "Gene-sire’s Reliquant",
+          "pts": 5
+        },
+        {
+          "name": "Incendiary Inspiration",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "XENOCULT MASSES",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Devious Disguises (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Inspired to Greatness",
+          "pts": 15
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Aberrants",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 150
+        },
+        {
+          "count": 10,
+          "cost": 300
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 150
+          },
+          {
+            "count": 10,
+            "cost": 300
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 160
+          },
+          {
+            "count": 10,
+            "cost": 310
+          }
+        ]
+      }
+    },
+    {
+      "name": "Abominant",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 95
+          }
+        ]
+      },
+      "leaderOf": [
+        "Aberrants"
+      ]
+    },
+    {
+      "name": "Achilles Ridgerunners",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        },
+        {
+          "count": 2,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Acolyte Hybrids With Autopistols",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 70
+        },
+        {
+          "count": 10,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Acolyte Hybrids With Hand Flamers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Acolyte Iconward",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "leaderOf": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Atalan Jackals",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 90
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 90
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 100
+          },
+          {
+            "count": 10,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Benefictus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Biophagus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "supportFor": [
+        "Aberrants",
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Clamavus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "supportFor": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Goliath Rockgrinder",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 120
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 120
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 130
+          }
+        ]
+      }
+    },
+    {
+      "name": "Goliath Truck",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Hybrid Metamorphs",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 85
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jackal Alphus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Atalan Jackals"
+      ]
+    },
+    {
+      "name": "Kelermorph",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "Locus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 35
+        }
+      ],
+      "supportFor": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Magus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "leaderOf": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Neophyte Hybrids",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 70
+        },
+        {
+          "count": 20,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Nexos",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "supportFor": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Patriarch",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Purestrain Genestealers"
+      ]
+    },
+    {
+      "name": "Primus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Acolyte Hybrids With Autopistols",
+        "Acolyte Hybrids With Hand Flamers",
+        "Hybrid Metamorphs",
+        "Neophyte Hybrids"
+      ]
+    },
+    {
+      "name": "Purestrain Genestealers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 140
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 80
+          },
+          {
+            "count": 10,
+            "cost": 140
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 90
+          },
+          {
+            "count": 10,
+            "cost": 150
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reductus Saboteur",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Sanctus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ]
+    }
+  ]
+}

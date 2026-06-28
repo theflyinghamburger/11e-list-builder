@@ -1,0 +1,817 @@
+{
+  "detachments": [
+    {
+      "name": "IMPERIALIS FLEET",
+      "dpCost": 3,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Clandestine Operation",
+          "pts": 15
+        },
+        {
+          "name": "Combat Landers",
+          "pts": 10
+        },
+        {
+          "name": "Digital Weapons",
+          "pts": 10
+        },
+        {
+          "name": "Fleetmaster",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "ORDO HERETICUS, PURGATION FORCE",
+      "dpCost": 3,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Ignis Judicium",
+          "pts": 10
+        },
+        {
+          "name": "Liber Heresius",
+          "pts": 10
+        },
+        {
+          "name": "No Escape",
+          "pts": 25
+        },
+        {
+          "name": "Witch Hunter",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "ORDO MALLEUS, DAEMON HUNTERS",
+      "dpCost": 3,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Daemon Slayer",
+          "pts": 10
+        },
+        {
+          "name": "Formidable Resolve",
+          "pts": 5
+        },
+        {
+          "name": "Gift of the Prescient",
+          "pts": 20
+        },
+        {
+          "name": "Grimoire of True Names",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "ORDO XENOS, ALIEN HUNTERS",
+      "dpCost": 3,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Amulet of Auto-chastisement",
+          "pts": 25
+        },
+        {
+          "name": "Beacon Angelis",
+          "pts": 30
+        },
+        {
+          "name": "Blackweave Shroud",
+          "pts": 15
+        },
+        {
+          "name": "Universal Anathema",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "VEILED BLADE ELIMINATION FORCE",
+      "dpCost": 3,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Decoy Targets",
+          "pts": 40
+        },
+        {
+          "name": "Esoteric Explosives",
+          "pts": 40
+        },
+        {
+          "name": "Introneural Biotech",
+          "pts": 35
+        },
+        {
+          "name": "Micromelta Rounds",
+          "pts": 45
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Aquila Kill Team",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        },
+        {
+          "count": 10,
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "name": "Callidus Assassin",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Corvus Blackstar",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ]
+    },
+    {
+      "name": "Culexus Assassin",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Deathwatch Kill Team",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Eversor Assassin",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Exaction Squad",
+      "modelOptions": [
+        {
+          "count": 11,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Grey Knights Terminator Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 190
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Psycannon",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Imperial Navy Breachers",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Imperial Rhino",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Inquisitor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Aquila Kill Team",
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Coteaz",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Draxus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Aquila Kill Team",
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Greyfax",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitorial Agents",
+      "modelOptions": [
+        {
+          "count": 6,
+          "cost": 50
+        },
+        {
+          "count": 12,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Inquisitorial Chimera",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Inquisitor Kroyle",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Ministorum Priest",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 40
+        }
+      ],
+      "supportFor": [
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Navigator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
+      ]
+    },
+    {
+      "name": "Rogue Trader Entourage",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
+      ]
+    },
+    {
+      "name": "Sanctifiers",
+      "modelOptions": [
+        {
+          "count": 9,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Sisters Of Battle Immolator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Twin Multi-Melta",
+          "costPerModel": 15
+        }
+      ]
+    },
+    {
+      "name": "Sisters Of Battle Squad",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Subductor Squad",
+      "modelOptions": [
+        {
+          "count": 11,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Vigilant Squad",
+      "modelOptions": [
+        {
+          "count": 11,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Vindicare Assassin",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Voidsmen-At-Arms",
+      "modelOptions": [
+        {
+          "count": 6,
+          "cost": 50
+        }
+      ]
+    },
+    {
+      "name": "Watch Captain Artemis",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Aquila Kill Team",
+        "Deathwatch Kill Team"
+      ]
+    },
+    {
+      "name": "Watch Master",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "leaderOf": [
+        "Aquila Kill Team",
+        "Deathwatch Kill Team"
+      ]
+    },
+    {
+      "name": "Aquila Kill Team",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        },
+        {
+          "count": 10,
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "name": "Callidus Assassin",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Corvus Blackstar",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ]
+    },
+    {
+      "name": "Culexus Assassin",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Deathwatch Kill Team",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        },
+        {
+          "count": 10,
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "name": "Eversor Assassin",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Exaction Squad",
+      "modelOptions": [
+        {
+          "count": 11,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Grey Knights Terminator Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 210
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Psycannon",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Imperial Navy Breachers",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Imperial Rhino",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Inquisitor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Aquila Kill Team",
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Coteaz",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "leaderOf": [
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Grey Knights Terminator Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Draxus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ],
+      "leaderOf": [
+        "Aquila Kill Team",
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitor Greyfax",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Battleline Imperium Infantry",
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Inquisitorial Agents",
+      "modelOptions": [
+        {
+          "count": 6,
+          "cost": 60
+        },
+        {
+          "count": 12,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Inquisitorial Chimera",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Inquisitor Kroyle",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Ministorum Priest",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 40
+        }
+      ],
+      "supportFor": [
+        "Exaction Squad",
+        "Imperial Navy Breachers",
+        "Inquisitorial Agents",
+        "Sanctifiers",
+        "Sisters Of Battle Squad",
+        "Subductor Squad",
+        "Vigilant Squad"
+      ]
+    },
+    {
+      "name": "Navigator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
+      ]
+    },
+    {
+      "name": "Rogue Trader Entourage",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 105
+        }
+      ],
+      "leaderOf": [
+        "Imperial Navy Breachers",
+        "Voidsmen-At-Arms"
+      ]
+    },
+    {
+      "name": "Sanctifiers",
+      "modelOptions": [
+        {
+          "count": 9,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Sisters Of Battle Immolator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 115
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Twin Multi-Melta",
+          "costPerModel": 15
+        }
+      ]
+    },
+    {
+      "name": "Sisters Of Battle Squad",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 115
+        }
+      ]
+    },
+    {
+      "name": "Subductor Squad",
+      "modelOptions": [
+        {
+          "count": 11,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Vigilant Squad",
+      "modelOptions": [
+        {
+          "count": 11,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Vindicare Assassin",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ]
+    },
+    {
+      "name": "Voidsmen-At-Arms",
+      "modelOptions": [
+        {
+          "count": 6,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Watch Captain Artemis",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Aquila Kill Team",
+        "Deathwatch Kill Team"
+      ]
+    },
+    {
+      "name": "Watch Master",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 105
+        }
+      ],
+      "leaderOf": [
+        "Aquila Kill Team",
+        "Deathwatch Kill Team"
+      ]
+    }
+  ]
+}

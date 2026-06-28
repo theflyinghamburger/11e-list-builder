@@ -1,0 +1,41 @@
+{
+  "detachments": [],
+  "units": [
+    {
+      "name": "Reaver Titan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Warbringer Nemesis Titan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Warhound Titan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "name": "Warlord Titan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 3
+        }
+      ]
+    }
+  ]
+}

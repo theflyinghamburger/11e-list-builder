@@ -1,0 +1,41 @@
+{
+  "detachments": [],
+  "units": [
+    {
+      "name": "Chaos Reaver Titan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Chaos Warbringer Nemesis Titan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Chaos Warhound Titan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "name": "Chaos Warlord Titan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 3
+        }
+      ]
+    }
+  ]
+}

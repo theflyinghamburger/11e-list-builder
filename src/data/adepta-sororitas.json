@@ -1,0 +1,733 @@
+{
+  "detachments": [
+    {
+      "name": "ARMY OF FAITH",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Blade of Saint Ellynor",
+          "pts": 15
+        },
+        {
+          "name": "Divine Aspect",
+          "pts": 5
+        },
+        {
+          "name": "Litanies of Faith",
+          "pts": 10
+        },
+        {
+          "name": "Triptych of the Macharian Crusade",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "BRINGERS OF FLAME",
+      "dpCost": 3,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Fire and Fury",
+          "pts": 30
+        },
+        {
+          "name": "Iron Surplice of Saint Istalela",
+          "pts": 10
+        },
+        {
+          "name": "Manual of Saint Griselda",
+          "pts": 20
+        },
+        {
+          "name": "Righteous Rage",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "CHAMPIONS OF FAITH",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Eyes of the Oracle",
+          "pts": 10
+        },
+        {
+          "name": "Mark of Devotion",
+          "pts": 30
+        },
+        {
+          "name": "Sanctified Amulet",
+          "pts": 25
+        },
+        {
+          "name": "Triptych of Judgement",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "CHORUS OF CONDEMNATION",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Clarion of Urgency",
+          "pts": 15
+        },
+        {
+          "name": "Symphonic Payload (Upgrade)",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "HALLOWED MARTYRS",
+      "dpCost": 3,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Chaplet of Sacrifice",
+          "pts": 25
+        },
+        {
+          "name": "Mantle of Ophelia",
+          "pts": 20
+        },
+        {
+          "name": "Saintly Example",
+          "pts": 10
+        },
+        {
+          "name": "Through Suffering, Strength",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "PENITENT HOST",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Catechism of Divine Penitence",
+          "pts": 20
+        },
+        {
+          "name": "Psalm of Righteous Judgement",
+          "pts": 30
+        },
+        {
+          "name": "Refrain of Enduring Faith",
+          "pts": 25
+        },
+        {
+          "name": "Verse of Holy Piety",
+          "pts": 15
+        }
+      ],
+      "leaderOf": [
+        "REPENTIA SQUAD"
+      ]
+    },
+    {
+      "name": "SACRED CHAMPIONS",
+      "dpCost": 1,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Perfervid Haste",
+          "pts": 10
+        },
+        {
+          "name": "Writ of Compunction (Upgrade)",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "SANCTIFIED ORATORS",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Hagiomnifex (Upgrade)",
+          "pts": 25
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Aestred Thurga And Agathae Dolan",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Arco-Flagellants",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 50
+        },
+        {
+          "count": 10,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Battle Sisters Squad",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Canoness",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": []
+    },
+    {
+      "name": "Canoness With Jump Pack",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Seraphim Squad",
+        "Zephyrim Squad"
+      ]
+    },
+    {
+      "name": "Castigator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 165
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 165
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 175
+          }
+        ]
+      }
+    },
+    {
+      "name": "Celestian Insidiants",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Celestian Sacresants",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 90
+          },
+          {
+            "count": 10,
+            "cost": 165
+          }
+        ]
+      }
+    },
+    {
+      "name": "Daemonifuge",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Dialogus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 40
+        }
+      ],
+      "supportFor": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Dogmata",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "supportFor": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Dominion Squad",
+        "Retributor Squad"
+      ]
+    },
+    {
+      "name": "Dominion Squad",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 10,
+            "cost": 100
+          }
+        ],
+        "secondary": [
+          {
+            "count": 10,
+            "cost": 110
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Meltagun",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Exorcist",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hospitaller",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ]
+      },
+      "supportFor": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Imagifier",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "supportFor": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Dominion Squad",
+        "Retributor Squad"
+      ]
+    },
+    {
+      "name": "Immolator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 110
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 120
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Twin Multi-Melta",
+          "costPerModel": 15
+        }
+      ]
+    },
+    {
+      "name": "Intranzia Fraye",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Junith Eruita",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 115
+        }
+      ],
+      "leaderOf": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Ministorum Priest",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "leaderOf": [
+        "Arco-Flagellants",
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Dominion Squad",
+        "Sanctifiers",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Mortifiers",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        },
+        {
+          "count": 2,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Morvenn Vahl",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 185
+        }
+      ],
+      "leaderOf": [
+        "Paragon Warsuits"
+      ]
+    },
+    {
+      "name": "Palatine",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 50
+        }
+      ],
+      "leaderOf": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
+    },
+    {
+      "name": "Paragon Warsuits",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 190
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Multi-Melta",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Penitent Engines",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        },
+        {
+          "count": 2,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Repentia Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Retributor Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 105
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 105
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 115
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Multi-Melta",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Saint Celestine",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 150
+        }
+      ],
+      "leaderOf": [
+        "Seraphim Squad",
+        "Zephyrim Squad"
+      ]
+    },
+    {
+      "name": "Sanctifiers",
+      "modelOptions": [
+        {
+          "count": 9,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Seraphim Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 85
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 85
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 95
+          },
+          {
+            "count": 10,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sisters Novitiate Squad",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Sororitas Rhino",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Triumph Of Saint Katherine",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 245
+        }
+      ],
+      "leaderOf": [
+        "Battle Sisters Squad"
+      ]
+    },
+    {
+      "name": "Zephyrim Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ]
+    }
+  ]
+}

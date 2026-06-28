@@ -1,0 +1,852 @@
+{
+  "detachments": [
+    {
+      "name": "BLOOD LEGION",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Brazenmaw",
+          "pts": 15
+        },
+        {
+          "name": "Fury’s Cage",
+          "pts": 20
+        },
+        {
+          "name": "Gateway Unto Damnation",
+          "pts": 10
+        },
+        {
+          "name": "Slaughterthirst",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "CAVALCADE OF CHAOS",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Apocalyptic Steeds (Upgrade)",
+          "pts": 10
+        },
+        {
+          "name": "Soul-shattering Charge (Upgrade)",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "DAEMONIC INCURSION",
+      "dpCost": 3,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "A’rgath, The King of Blades",
+          "pts": 20
+        },
+        {
+          "name": "Soulstealer",
+          "pts": 15
+        },
+        {
+          "name": "The Endless Gift",
+          "pts": 30
+        },
+        {
+          "name": "The Everstave",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "LEGION OF EXCESS",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Avatar of Perfection",
+          "pts": 15
+        },
+        {
+          "name": "Dreaming Crown",
+          "pts": 30
+        },
+        {
+          "name": "False Majesty",
+          "pts": 30
+        },
+        {
+          "name": "Soul Glutton",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "LORDS OF THE WARP",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Swollen with Power (Upgrade)",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "PLAGUE LEGION",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Cankerblight",
+          "pts": 15
+        },
+        {
+          "name": "Droning Shroud",
+          "pts": 35
+        },
+        {
+          "name": "Font of Spores",
+          "pts": 20
+        },
+        {
+          "name": "Maggot Maws",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "SCINTILLATING LEGION",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Improbable Shield",
+          "pts": 30
+        },
+        {
+          "name": "Inescapable Eye",
+          "pts": 10
+        },
+        {
+          "name": "Infernal Puppeteer",
+          "pts": 25
+        },
+        {
+          "name": "Neverblade",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "SHADOW LEGION",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Fade to Darkness",
+          "pts": 30
+        },
+        {
+          "name": "Leaping Shadows",
+          "pts": 25
+        },
+        {
+          "name": "Malice Made Manifest",
+          "pts": 25
+        },
+        {
+          "name": "Mantle of Gloom",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "WARPTIDE",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Bane-forged Weapons (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Soul-hungry Slaughterers (Upgrade)",
+          "pts": 10
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Beasts Of Nurgle",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        },
+        {
+          "count": 2,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Be’Lakor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 390
+        }
+      ]
+    },
+    {
+      "name": "Bloodcrushers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 95
+        },
+        {
+          "count": 6,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 95
+          },
+          {
+            "count": 6,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 105
+          },
+          {
+            "count": 6,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bloodletters",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Bloodthirster",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 320
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 320
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 335
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blue Horrors",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 125
+        }
+      ]
+    },
+    {
+      "name": "Burning Chariot",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 115
+        }
+      ]
+    },
+    {
+      "name": "Changecaster",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Blue Horrors",
+        "Pink Horrors"
+      ]
+    },
+    {
+      "name": "Contorted Epitome",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "leaderOf": [
+        "Daemonettes"
+      ]
+    },
+    {
+      "name": "Daemonettes",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Daemon Prince Of Chaos",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 165
+        }
+      ]
+    },
+    {
+      "name": "Daemon Prince Of Chaos With Wings",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 190
+        }
+      ]
+    },
+    {
+      "name": "Epidemius",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Plaguebearers"
+      ]
+    },
+    {
+      "name": "Exalted Flamer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Flamers"
+      ]
+    },
+    {
+      "name": "Fateskimmer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "leaderOf": [
+        "Screamers"
+      ]
+    },
+    {
+      "name": "Feculent Gnarlmaw",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Fiends",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 90
+        },
+        {
+          "count": 6,
+          "cost": 180
+        }
+      ]
+    },
+    {
+      "name": "Flamers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 65
+        },
+        {
+          "count": 6,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Flesh Hounds",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Fluxmaster",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Blue Horrors",
+        "Pink Horrors"
+      ]
+    },
+    {
+      "name": "Great Unclean One",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 265
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 265
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 280
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hellflayers",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        },
+        {
+          "count": 2,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Horticulous Slimux",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 120
+        }
+      ],
+      "leaderOf": [
+        "Beasts Of Nurgle"
+      ]
+    },
+    {
+      "name": "Infernal Enrapturess",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Daemonettes"
+      ]
+    },
+    {
+      "name": "Kairos Fateweaver",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 295
+        }
+      ]
+    },
+    {
+      "name": "Karanak",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Flesh Hounds"
+      ]
+    },
+    {
+      "name": "Keeper Of Secrets",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 255
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 255
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 270
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lord Of Change",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 300
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 300
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 315
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nurglings",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 45
+        },
+        {
+          "count": 6,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Pink Horrors",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Plaguebearers",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 115
+        }
+      ]
+    },
+    {
+      "name": "Plague Drones",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 110
+        },
+        {
+          "count": 6,
+          "cost": 220
+        }
+      ]
+    },
+    {
+      "name": "Poxbringer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Plaguebearers"
+      ]
+    },
+    {
+      "name": "Rendmaster On Blood Throne",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rotigus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 280
+        }
+      ]
+    },
+    {
+      "name": "Screamers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Seekers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 155
+        }
+      ]
+    },
+    {
+      "name": "Shalaxi Helbane",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 340
+        }
+      ]
+    },
+    {
+      "name": "Skarbrand",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 315
+        }
+      ]
+    },
+    {
+      "name": "Skull Altar",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 105
+        }
+      ]
+    },
+    {
+      "name": "Skull Cannon",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Skullmaster",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "leaderOf": [
+        "Bloodcrushers"
+      ]
+    },
+    {
+      "name": "Skulltaker",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "leaderOf": [
+        "Bloodletters"
+      ]
+    },
+    {
+      "name": "Sloppity Bilepiper",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Plaguebearers"
+      ]
+    },
+    {
+      "name": "Soul Grinder",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 195
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spoilpox Scrivener",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Plaguebearers"
+      ]
+    },
+    {
+      "name": "Syll’Esske",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 120
+        }
+      ],
+      "leaderOf": [
+        "Daemonettes"
+      ]
+    },
+    {
+      "name": "The Blue Scribes",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "The Changeling",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 105
+        }
+      ]
+    },
+    {
+      "name": "The Masque Of Slaanesh",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ]
+    },
+    {
+      "name": "Tormentbringer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ],
+      "leaderOf": [
+        "Hellflayers"
+      ]
+    },
+    {
+      "name": "Tranceweaver",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Daemonettes"
+      ]
+    }
+  ]
+}

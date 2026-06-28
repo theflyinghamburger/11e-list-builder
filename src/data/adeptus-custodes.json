@@ -1,0 +1,773 @@
+{
+  "detachments": [
+    {
+      "name": "AURIC CHAMPIONS",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Blade Imperator",
+          "pts": 25
+        },
+        {
+          "name": "Inspirational Exemplar",
+          "pts": 10
+        },
+        {
+          "name": "Martial Philosopher",
+          "pts": 30
+        },
+        {
+          "name": "Veiled Blade",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "LIONS OF THE EMPEROR",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Admonimortis",
+          "pts": 20
+        },
+        {
+          "name": "Fierce Conqueror",
+          "pts": 15
+        },
+        {
+          "name": "Praesidius",
+          "pts": 25
+        },
+        {
+          "name": "Superior Creation",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "MIGHT OF THE MORITOI",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Auramite Sarcophagus (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Interred Expertise (Upgrade)",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "NULL MAIDEN VIGIL",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Enhanced Voidsheen Cloak",
+          "pts": 10
+        },
+        {
+          "name": "Huntress’ Eye",
+          "pts": 15
+        },
+        {
+          "name": "Oblivion Knight",
+          "pts": 25
+        },
+        {
+          "name": "Raptor Blade",
+          "pts": 5
+        }
+      ]
+    },
+    {
+      "name": "SHIELD HOST",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Auric Mantle",
+          "pts": 15
+        },
+        {
+          "name": "Castellan’s Mark",
+          "pts": 20
+        },
+        {
+          "name": "From the Hall of Armouries",
+          "pts": 25
+        },
+        {
+          "name": "Panoptispex",
+          "pts": 5
+        }
+      ]
+    },
+    {
+      "name": "SILENT HUNTERS",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Encircling Hunter",
+          "pts": 15
+        },
+        {
+          "name": "Psyk-out Grenades (Upgrade)",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "SOLAR SPEARHEAD",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Adamantine Talisman",
+          "pts": 25
+        },
+        {
+          "name": "Augury Uplink",
+          "pts": 35
+        },
+        {
+          "name": "Honoured Fallen",
+          "pts": 15
+        },
+        {
+          "name": "Veteran of the Kataphraktoi",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "TALONS OF THE EMPEROR",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Aegis Projector",
+          "pts": 20
+        },
+        {
+          "name": "Champion of the Imperium",
+          "pts": 25
+        },
+        {
+          "name": "Gift of Terran Artifice",
+          "pts": 15
+        },
+        {
+          "name": "Radiant Mantle",
+          "pts": 30
+        }
+      ]
+    },
+    {
+      "name": "THARANATOI HAMMERBLOW",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Efficient Aggression",
+          "pts": 25
+        },
+        {
+          "name": "Mnemo-locked Shrine Cipher",
+          "pts": 25
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Agamatus Custodians",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 225
+        },
+        {
+          "count": 6,
+          "cost": 450
+        }
+      ]
+    },
+    {
+      "name": "Aleya",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Prosecutors",
+        "Vigilators",
+        "Witchseekers"
+      ]
+    },
+    {
+      "name": "Allarus Custodians",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 110
+        },
+        {
+          "count": 3,
+          "cost": 165
+        },
+        {
+          "count": 5,
+          "cost": 275
+        },
+        {
+          "count": 6,
+          "cost": 330
+        }
+      ]
+    },
+    {
+      "name": "Anathema Psykana Rhino",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Ares Gunship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 580
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 580
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 610
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blade Champion",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 110
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 125
+          }
+        ]
+      },
+      "leaderOf": [
+        "Custodian Guard",
+        "Custodian Guard With Adrasite And Pyrithite Spears",
+        "Custodian Wardens",
+        "Sagittarum Custodians"
+      ]
+    },
+    {
+      "name": "Caladius Grav-Tank",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 210
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 210
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 225
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Twin Arachnus Heavy Blaze Cannon",
+          "costPerModel": 15
+        }
+      ]
+    },
+    {
+      "name": "Contemptor-Achillus Dreadnought",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 155
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 155
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Contemptor-Galatus Dreadnought",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 165
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 165
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coronus Grav-Carrier",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "Custodian Guard",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 170
+        },
+        {
+          "count": 5,
+          "cost": 215
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 4,
+            "cost": 170
+          },
+          {
+            "count": 5,
+            "cost": 215
+          }
+        ],
+        "secondary": [
+          {
+            "count": 4,
+            "cost": 180
+          },
+          {
+            "count": 5,
+            "cost": 225
+          }
+        ]
+      }
+    },
+    {
+      "name": "Custodian Guard With Adrasite And Pyrithite Spears",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 250
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 250
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 260
+          }
+        ]
+      }
+    },
+    {
+      "name": "Custodian Wardens",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 210
+        },
+        {
+          "count": 5,
+          "cost": 260
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 4,
+            "cost": 210
+          },
+          {
+            "count": 5,
+            "cost": 260
+          }
+        ],
+        "secondary": [
+          {
+            "count": 4,
+            "cost": 230
+          },
+          {
+            "count": 5,
+            "cost": 280
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knight-Centura",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Prosecutors",
+        "Vigilators",
+        "Witchseekers"
+      ]
+    },
+    {
+      "name": "Orion Assault Dropship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 690
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 690
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 740
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pallas Grav-Attack",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Prosecutors",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 45
+        },
+        {
+          "count": 5,
+          "cost": 50
+        },
+        {
+          "count": 9,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Sagittarum Custodians",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 225
+        }
+      ]
+    },
+    {
+      "name": "Shield-Captain",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ],
+      "leaderOf": [
+        "Custodian Guard",
+        "Custodian Guard With Adrasite And Pyrithite Spears",
+        "Custodian Wardens",
+        "Sagittarum Custodians"
+      ]
+    },
+    {
+      "name": "Shield-Captain In Allarus Terminator Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ],
+      "leaderOf": [
+        "Allarus Custodians",
+        "Aquilon Custodians"
+      ]
+    },
+    {
+      "name": "Shield-Captain On Dawneagle Jetbike",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ],
+      "leaderOf": [
+        "Agamatus Custodians",
+        "Vertus Praetors"
+      ]
+    },
+    {
+      "name": "Telemon Heavy Dreadnought",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 225
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 225
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 245
+          }
+        ]
+      }
+    },
+    {
+      "name": "Trajann Valoris",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ],
+      "leaderOf": [
+        "Custodian Guard",
+        "Custodian Guard With Adrasite And Pyrithite Spears",
+        "Custodian Wardens",
+        "Sagittarum Custodians"
+      ]
+    },
+    {
+      "name": "Valerian",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ],
+      "leaderOf": [
+        "Custodian Guard",
+        "Custodian Guard With Adrasite And Pyrithite Spears",
+        "Custodian Wardens",
+        "Sagittarum Custodians"
+      ]
+    },
+    {
+      "name": "Venatari Custodians",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 160
+        },
+        {
+          "count": 6,
+          "cost": 320
+        }
+      ]
+    },
+    {
+      "name": "Venerable Contemptor Dreadnought",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 185
+          }
+        ]
+      }
+    },
+    {
+      "name": "Venerable Land Raider",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 240
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vertus Praetors",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 145
+        },
+        {
+          "count": 3,
+          "cost": 215
+        }
+      ]
+    },
+    {
+      "name": "Vigilators",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 50
+        },
+        {
+          "count": 5,
+          "cost": 55
+        },
+        {
+          "count": 9,
+          "cost": 90
+        },
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Witchseekers",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 50
+        },
+        {
+          "count": 5,
+          "cost": 55
+        },
+        {
+          "count": 9,
+          "cost": 90
+        },
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ]
+    }
+  ]
+}

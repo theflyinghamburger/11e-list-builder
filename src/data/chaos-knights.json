@@ -1,0 +1,555 @@
+{
+  "detachments": [
+    {
+      "name": "BASTIONS OF TYRANNY",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Hate-filled Dominion",
+          "pts": 20
+        },
+        {
+          "name": "Pterrorshade Rookery",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "HELHUNT LANCE",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Aspect of the Beast",
+          "pts": 30
+        },
+        {
+          "name": "Hunter’s Helm",
+          "pts": 15
+        },
+        {
+          "name": "Octagram of Conjuration",
+          "pts": 40
+        },
+        {
+          "name": "Throne Tyrannicus",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "HOUNDPACK LANCE",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Final Howl",
+          "pts": 20
+        },
+        {
+          "name": "Loping Predator",
+          "pts": 10
+        },
+        {
+          "name": "Panoply of the Cursed Knights",
+          "pts": 15
+        },
+        {
+          "name": "Preyslayer’s Mantle",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "HUNTING WARPACK",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Snarling Rivalry (Upgrade)",
+          "pts": 10
+        },
+        {
+          "name": "Soul-spoor Auspicator (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "ICONOCLAST FIEFDOM",
+      "dpCost": 1,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Cruel Lashmaster (Aura)",
+          "pts": 25
+        },
+        {
+          "name": "Iconoclast Idol (Aura)",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "INFERNAL LANCE",
+      "dpCost": 3,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Bestial Aspect",
+          "pts": 30
+        },
+        {
+          "name": "Blasphemous Engine",
+          "pts": 35
+        },
+        {
+          "name": "Fleshmetal Fusion",
+          "pts": 35
+        },
+        {
+          "name": "Knight Diabolus",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "LORDS OF DREAD",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Blade of Celerity",
+          "pts": 35
+        },
+        {
+          "name": "Blessing of the Dark Master",
+          "pts": 20
+        },
+        {
+          "name": "Mirror of Fates",
+          "pts": 30
+        },
+        {
+          "name": "Putrid Carapace",
+          "pts": 30
+        },
+        {
+          "name": "Throne Mechanicum of Skulls",
+          "pts": 25
+        },
+        {
+          "name": "Warp-borne Stalker",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "TRAITORIS LANCE",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Malevolent Heraldry",
+          "pts": 30
+        },
+        {
+          "name": "Nightmare’s Master",
+          "pts": 20
+        },
+        {
+          "name": "Tyrant’s Shadow",
+          "pts": 25
+        },
+        {
+          "name": "Veil of Medrengard",
+          "pts": 35
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Chaos Acastus Knight Asterius",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 785
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 785
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 860
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Acastus Knight Porphyrion",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 725
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 725
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 800
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Cerastus Knight Acheron",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 370
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 370
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 385
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Cerastus Knight Atrapos",
+      "modelOptions": []
+    },
+    {
+      "name": "Chaos Cerastus Knight Castigator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 370
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 370
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 385
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Cerastus Knight Lancer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 395
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 395
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 415
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Questoris Knight Magaera",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 375
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 375
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 390
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Questoris Knight Styrix",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 365
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 365
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 380
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knight Abominant",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 355
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 355
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 370
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knight Desecrator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 355
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 355
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 370
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knight Despoiler",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 380
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 380
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 400
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Despoiler Gatling Cannon",
+          "costPerModel": 25
+        },
+        {
+          "name": "Despoiler Battle Cannon",
+          "costPerModel": 15
+        }
+      ]
+    },
+    {
+      "name": "Knight Rampager",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 365
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 365
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 380
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knight Ruinator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 340
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 340
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 355
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knight Tyrant",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 400
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 400
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 420
+          }
+        ]
+      }
+    },
+    {
+      "name": "War Dog Brigand",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "War Dog Executioner",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "War Dog Huntsman",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "War Dog Karnivore",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 155
+        }
+      ]
+    },
+    {
+      "name": "War Dog Moirax",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "War Dog Stalker",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 0
+        }
+      ]
+    }
+  ]
+}

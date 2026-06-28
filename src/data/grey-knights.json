@@ -1,0 +1,780 @@
+{
+  "detachments": [
+    {
+      "name": "ARGENT ASSAULT",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Psychic Celerity",
+          "pts": 15
+        },
+        {
+          "name": "Vigilance of Titan",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "AUGURIUM TASK FORCE",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Doomseer’s Amulet",
+          "pts": 25
+        },
+        {
+          "name": "Grimoire of Conjunctions",
+          "pts": 10
+        },
+        {
+          "name": "One Foot in the Future",
+          "pts": 15
+        },
+        {
+          "name": "Shield of Prophecy",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "BANISHERS",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Ephemeral Tome",
+          "pts": 15
+        },
+        {
+          "name": "Pyresoul",
+          "pts": 20
+        },
+        {
+          "name": "Sigil of the Hunt",
+          "pts": 10
+        },
+        {
+          "name": "Sixty-sixth Seal",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "BROTHERHOOD STRIKE",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Banishing Wave",
+          "pts": 20
+        },
+        {
+          "name": "Blinding Aura",
+          "pts": 10
+        },
+        {
+          "name": "Purity of Purpose",
+          "pts": 15
+        },
+        {
+          "name": "Tome of Forbidden Ways",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "FIRES OF PURGATION",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Boons of Deimos (Upgrade)",
+          "pts": 20
+        },
+        {
+          "name": "Precognicient Volleys (Upgrade)",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "HALLOWED CONCLAVE",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Eye of the Augurium",
+          "pts": 25
+        },
+        {
+          "name": "Inescapable Judgement",
+          "pts": 20
+        },
+        {
+          "name": "Nemesis Rounds",
+          "pts": 10
+        },
+        {
+          "name": "Sanctic Reaper",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "IMMATERIAL INTERDICTION",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Astral Overlap (Upgrade)",
+          "pts": 10
+        },
+        {
+          "name": "Predestined Coordinates (Upgrade)",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "SANCTIC SPEARHEAD",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Driven by Duty",
+          "pts": 10
+        },
+        {
+          "name": "Quickening Foci",
+          "pts": 15
+        },
+        {
+          "name": "Sigil of Exigence",
+          "pts": 30
+        },
+        {
+          "name": "Spiritus Machina",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "WARPBANE TASK FORCE",
+      "dpCost": 3,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Mandulian Reliquary",
+          "pts": 20
+        },
+        {
+          "name": "Paragon of Sanctity",
+          "pts": 10
+        },
+        {
+          "name": "Phial of the Abyss",
+          "pts": 15
+        },
+        {
+          "name": "Radiant Champion",
+          "pts": 15
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Brother-Captain",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "leaderOf": [
+        "Brotherhood Terminator Squad",
+        "Paladin Squad"
+      ]
+    },
+    {
+      "name": "Brotherhood Champion",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Purgation Squad",
+        "Strike Squad"
+      ]
+    },
+    {
+      "name": "Brotherhood Chaplain",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Brotherhood Terminator Squad",
+        "Paladin Squad"
+      ]
+    },
+    {
+      "name": "Brotherhood Librarian",
+      "modelOptions": []
+    },
+    {
+      "name": "Brotherhood Techmarine",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Purgation Squad",
+        "Purifier Squad",
+        "Strike Squad"
+      ]
+    },
+    {
+      "name": "Brotherhood Terminator Squad",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 140
+        },
+        {
+          "count": 5,
+          "cost": 175
+        },
+        {
+          "count": 8,
+          "cost": 300
+        },
+        {
+          "count": 10,
+          "cost": 375
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 4,
+            "cost": 140
+          },
+          {
+            "count": 5,
+            "cost": 175
+          },
+          {
+            "count": 8,
+            "cost": 300
+          },
+          {
+            "count": 10,
+            "cost": 375
+          }
+        ],
+        "secondary": [
+          {
+            "count": 4,
+            "cost": 150
+          },
+          {
+            "count": 5,
+            "cost": 185
+          },
+          {
+            "count": 8,
+            "cost": 310
+          },
+          {
+            "count": 10,
+            "cost": 385
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Psycannon",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Castellan Crowe",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "leaderOf": [
+        "Purifier Squad"
+      ]
+    },
+    {
+      "name": "Grand Master",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "leaderOf": [
+        "Brotherhood Terminator Squad",
+        "Paladin Squad"
+      ]
+    },
+    {
+      "name": "Grand Master In Nemesis Dreadknight",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 200
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 200
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 215
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Sublimator",
+          "costPerModel": 15
+        },
+        {
+          "name": "Heavy Psycannon",
+          "costPerModel": 15
+        }
+      ]
+    },
+    {
+      "name": "Grand Master Voldus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ],
+      "leaderOf": [
+        "Brotherhood Terminator Squad",
+        "Paladin Squad"
+      ]
+    },
+    {
+      "name": "Grey Knights Thunderhawk Gunship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 805
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 805
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 855
+          }
+        ]
+      }
+    },
+    {
+      "name": "Interceptor Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 125
+        },
+        {
+          "count": 10,
+          "cost": 250
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 125
+          },
+          {
+            "count": 10,
+            "cost": 250
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 135
+          },
+          {
+            "count": 10,
+            "cost": 260
+          }
+        ]
+      }
+    },
+    {
+      "name": "Land Raider",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 240
+          }
+        ]
+      }
+    },
+    {
+      "name": "Land Raider Crusader",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 240
+          }
+        ]
+      }
+    },
+    {
+      "name": "Land Raider Redeemer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 250
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 250
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 270
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nemesis Dreadknight",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 195
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 195
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 210
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Psycannon",
+          "costPerModel": 15
+        }
+      ]
+    },
+    {
+      "name": "Paladin Squad",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 170
+        },
+        {
+          "count": 5,
+          "cost": 215
+        },
+        {
+          "count": 8,
+          "cost": 360
+        },
+        {
+          "count": 10,
+          "cost": 450
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 4,
+            "cost": 170
+          },
+          {
+            "count": 5,
+            "cost": 215
+          },
+          {
+            "count": 8,
+            "cost": 360
+          },
+          {
+            "count": 10,
+            "cost": 450
+          }
+        ],
+        "secondary": [
+          {
+            "count": 4,
+            "cost": 185
+          },
+          {
+            "count": 5,
+            "cost": 230
+          },
+          {
+            "count": 8,
+            "cost": 375
+          },
+          {
+            "count": 10,
+            "cost": 465
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Psycannon",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Purgation Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 110
+        },
+        {
+          "count": 10,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 110
+          },
+          {
+            "count": 10,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 120
+          },
+          {
+            "count": 10,
+            "cost": 230
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Psycannon",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Purifier Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 130
+        },
+        {
+          "count": 10,
+          "cost": 260
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 130
+          },
+          {
+            "count": 10,
+            "cost": 260
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 140
+          },
+          {
+            "count": 10,
+            "cost": 270
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Psycannon",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Razorback",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Rhino",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Stormhawk Interceptor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Stormraven Gunship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 280
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 280
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 300
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stormtalon Gunship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ]
+    },
+    {
+      "name": "Strike Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 120
+        },
+        {
+          "count": 10,
+          "cost": 240
+        }
+      ]
+    },
+    {
+      "name": "Venerable Dreadnought",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 130
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 140
+          }
+        ]
+      }
+    }
+  ]
+}

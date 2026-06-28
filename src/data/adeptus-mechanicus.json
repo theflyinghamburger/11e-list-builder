@@ -1,24 +1,24 @@
 {
   "detachments": [
     {
-      "name": "Cohort Acquisitus",
+      "name": "COHORT ACQUISITUS",
       "dpCost": 1,
-      "doctrine": "Reconnaissance",
+      "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
           "name": "Explorator Dispensation",
           "pts": 20
         },
         {
-          "name": "Stealth-screened Cybercanids",
+          "name": "Stealth-screened Cybercanids (Upgrade)",
           "pts": 15
         }
       ]
     },
     {
-      "name": "Cohort Cybernetica",
+      "name": "COHORT CYBERNETICA",
       "dpCost": 2,
-      "doctrine": "Take and Hold",
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "Arch-negator",
@@ -39,9 +39,9 @@
       ]
     },
     {
-      "name": "Data-Psalm Conclave",
+      "name": "DATA-PSALM CONCLAVE",
       "dpCost": 2,
-      "doctrine": "Disruption",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Data-blessed Autosermon",
@@ -62,9 +62,9 @@
       ]
     },
     {
-      "name": "Eradication Cohort",
+      "name": "ERADICATION COHORT",
       "dpCost": 3,
-      "doctrine": "Purge the Foe",
+      "doctrine": "PURGE THE FOE",
       "enhancements": [
         {
           "name": "Belicosa-class Capacitor Vanes",
@@ -79,15 +79,15 @@
           "pts": 25
         },
         {
-          "name": "Omnissiahs Fury",
+          "name": "Omnissiah’s Fury",
           "pts": 10
         }
       ]
     },
     {
-      "name": "Explorator Maniple",
+      "name": "EXPLORATOR MANIPLE",
       "dpCost": 2,
-      "doctrine": "Priority Assets",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Artisan",
@@ -108,9 +108,9 @@
       ]
     },
     {
-      "name": "Haloscreed Battle Clade",
+      "name": "HALOSCREED BATTLE CLADE",
       "dpCost": 3,
-      "doctrine": "Purge the Foe",
+      "doctrine": "PURGE THE FOE",
       "enhancements": [
         {
           "name": "Cognitive Reinforcement",
@@ -131,24 +131,24 @@
       ]
     },
     {
-      "name": "Lords of the Forge",
+      "name": "LORDS OF THE FORGE",
       "dpCost": 1,
-      "doctrine": "Priority Assets",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
-          "name": "TL-4o9",
+          "name": "TL-4ø9",
           "pts": 30
         },
         {
-          "name": "Vings Wafers of Dynamism",
+          "name": "Vingh’s Wafers of Dynamism",
           "pts": 25
         }
       ]
     },
     {
-      "name": "Luminen Auto-Choir",
+      "name": "LUMINEN AUTO-CHOIR",
       "dpCost": 1,
-      "doctrine": "Disruption",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Electromiasmic Brazier",
@@ -161,9 +161,9 @@
       ]
     },
     {
-      "name": "Rad-Zone Corps",
+      "name": "RAD-ZONE CORPS",
       "dpCost": 2,
-      "doctrine": "Take and Hold",
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "Autoclavic Denunciation",
@@ -184,9 +184,9 @@
       ]
     },
     {
-      "name": "Skitarii Hunter Cohort",
+      "name": "SKITARII HUNTER COHORT",
       "dpCost": 2,
-      "doctrine": "Reconnaissance",
+      "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
           "name": "Battle-sphere Uplink",
@@ -258,7 +258,7 @@
       ]
     },
     {
-      "name": "Cybernetica Datasmit",
+      "name": "Cybernetica Datasmith",
       "modelOptions": [
         {
           "count": 1,
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "name": "Fulgure Electro-Priests",
+      "name": "Fulgurite Electro-Priests",
       "modelOptions": [
         {
           "count": 5,
@@ -376,7 +376,7 @@
       },
       "wargearOptions": [
         {
-          "name": "Twin cognis lascannon",
+          "name": "Twin Cognis Lascannon",
           "costPerModel": 10
         }
       ]
@@ -669,7 +669,7 @@
       ],
       "wargearOptions": [
         {
-          "name": "Ferrumite cannon",
+          "name": "Ferrumite Cannon",
           "costPerModel": 10
         }
       ]
@@ -684,7 +684,7 @@
       ]
     },
     {
-      "name": "Sydonian Dragoons w/ Radium Jezails",
+      "name": "Sydonian Dragoons With Radium Jezzails",
       "modelOptions": [
         {
           "count": 1,
@@ -701,7 +701,7 @@
       ]
     },
     {
-      "name": "Sydonian Dragoons w/ Taser Lances",
+      "name": "Sydonian Dragoons With Taser Lances",
       "modelOptions": [
         {
           "count": 1,
@@ -727,27 +727,16 @@
       ]
     },
     {
-      "name": "Technoarchaeologist",
+      "name": "Technoarcheologist",
       "modelOptions": [
         {
           "count": 1,
           "cost": 45
         }
       ],
-      "leaderOf": [
-        "Corpuscarii Electro-Priests",
-        "Fulgure Electro-Priests",
-        "Hastarii Exterminators",
-        "Hastarii Fusiliers",
-        "Kataphron Breachers",
-        "Kataphron Destroyers",
-        "Servitor Battleclade",
-        "Skitarii Rangers",
-        "Skitarii Vanguard"
-      ],
       "supportFor": [
         "Corpuscarii Electro-Priests",
-        "Fulgure Electro-Priests",
+        "Fulgurite Electro-Priests",
         "Hastarii Exterminators",
         "Hastarii Fusiliers",
         "Kataphron Breachers",
@@ -767,7 +756,7 @@
       ],
       "leaderOf": [
         "Corpuscarii Electro-Priests",
-        "Fulgure Electro-Priests",
+        "Fulgurite Electro-Priests",
         "Hastarii Exterminators",
         "Hastarii Fusiliers",
         "Kataphron Breachers",
@@ -787,7 +776,7 @@
       ],
       "leaderOf": [
         "Corpuscarii Electro-Priests",
-        "Fulgure Electro-Priests",
+        "Fulgurite Electro-Priests",
         "Kataphron Breachers",
         "Kataphron Destroyers",
         "Skitarii Rangers",
@@ -804,7 +793,7 @@
       ],
       "leaderOf": [
         "Corpuscarii Electro-Priests",
-        "Fulgure Electro-Priests",
+        "Fulgurite Electro-Priests",
         "Hastarii Exterminators",
         "Hastarii Fusiliers",
         "Kataphron Breachers",

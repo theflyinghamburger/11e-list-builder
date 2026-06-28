@@ -1,0 +1,1492 @@
+{
+  "detachments": [
+    {
+      "name": "ABHUMAN AUXILIARIES",
+      "dpCost": 1,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Exemplar of Duty (Upgrade)",
+          "pts": 10
+        },
+        {
+          "name": "Sharp Eyes (Upgrade)",
+          "pts": 10
+        }
+      ],
+      "leaderOf": [
+        "BULLGRYN SQUAD",
+        "OGRYN SQUAD"
+      ]
+    },
+    {
+      "name": "ARMOURED INFANTRY",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Exemplary Officer",
+          "pts": 20
+        },
+        {
+          "name": "Grand Strategist",
+          "pts": 25
+        },
+        {
+          "name": "Master Manoeuvrist",
+          "pts": 15
+        },
+        {
+          "name": "Omnissian Unguents",
+          "pts": 35
+        }
+      ]
+    },
+    {
+      "name": "BRIDGEHEAD STRIKE",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Bombast-class Vox-array",
+          "pts": 15
+        },
+        {
+          "name": "Priority Drop Beacon",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "COMBINED ARMS",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Death Mask of Ollanius",
+          "pts": 10
+        },
+        {
+          "name": "Drill Commander",
+          "pts": 20
+        },
+        {
+          "name": "Grand Strategist",
+          "pts": 15
+        },
+        {
+          "name": "Reactive Command",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "DESIGNATION FORCE",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Long-range Scout (Upgrade)",
+          "pts": 10
+        },
+        {
+          "name": "Recon Star (Upgrade)",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "GRIZZLED COMPANY",
+      "dpCost": 3,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Abhuman Detail",
+          "pts": 20
+        },
+        {
+          "name": "Aquilan Eye",
+          "pts": 20
+        },
+        {
+          "name": "Laud Hailer",
+          "pts": 10
+        },
+        {
+          "name": "Spec Ops Veteran",
+          "pts": 15
+        }
+      ],
+      "leaderOf": [
+        "BULLGRYN SQUAD",
+        "OGRYN SQUAD"
+      ]
+    },
+    {
+      "name": "HAMMER OF THE EMPEROR",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Calm Under Fire",
+          "pts": 15
+        },
+        {
+          "name": "Indomitable Steed",
+          "pts": 15
+        },
+        {
+          "name": "Regimental Banner",
+          "pts": 20
+        },
+        {
+          "name": "Veteran Crew",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "MECHANISED ASSAULT",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Bold Leadership",
+          "pts": 25
+        },
+        {
+          "name": "Sacred Unguents",
+          "pts": 10
+        },
+        {
+          "name": "Smoke Grenades",
+          "pts": 10
+        },
+        {
+          "name": "Vanguard Honours",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "RECON ELEMENT",
+      "dpCost": 3,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Guerrilla Honours",
+          "pts": 25
+        },
+        {
+          "name": "Scare Gas Grenades",
+          "pts": 5
+        },
+        {
+          "name": "Survival Gear",
+          "pts": 5
+        },
+        {
+          "name": "Tripwires",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "SIEGE REGIMENT",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Eager Advance",
+          "pts": 20
+        },
+        {
+          "name": "Flash Grenades",
+          "pts": 20
+        },
+        {
+          "name": "Legacy Sidearm",
+          "pts": 10
+        },
+        {
+          "name": "Stalwart’s Honours",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "STEEL HAMMER",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Assault Hatches",
+          "pts": 25
+        },
+        {
+          "name": "Battalion Commander",
+          "pts": 30
+        },
+        {
+          "name": "Engine Speaker",
+          "pts": 15
+        },
+        {
+          "name": "Titan Killer",
+          "pts": 20
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Aegis Defence Line",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Armoured Sentinels",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        },
+        {
+          "count": 2,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Artillery Team",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ]
+    },
+    {
+      "name": "Attilan Rough Riders",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 60
+        },
+        {
+          "count": 10,
+          "cost": 120
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 60
+          },
+          {
+            "count": 10,
+            "cost": 120
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 65
+          },
+          {
+            "count": 10,
+            "cost": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "Baneblade",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 450
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 450
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 470
+          }
+        ]
+      }
+    },
+    {
+      "name": "Banehammer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 420
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 420
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 440
+          }
+        ]
+      }
+    },
+    {
+      "name": "Banesword",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 450
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 450
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 470
+          }
+        ]
+      }
+    },
+    {
+      "name": "Basilisk",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 115
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 115
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bullgryn Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 90
+        },
+        {
+          "count": 6,
+          "cost": 200
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 200
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 105
+          },
+          {
+            "count": 6,
+            "cost": 215
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cadian Castellan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Cadian Shock Troops",
+        "Kasrkin"
+      ]
+    },
+    {
+      "name": "Cadian Command Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Cadian Shock Troops"
+      ]
+    },
+    {
+      "name": "Cadian Heavy Weapons Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 65
+        }
+      ]
+    },
+    {
+      "name": "Cadian Recon Squad",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Cadian Shock Troops",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 75
+        },
+        {
+          "count": 20,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Catachan Command Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Catachan Jungle Fighters"
+      ]
+    },
+    {
+      "name": "Catachan Heavy Weapons Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 65
+        }
+      ]
+    },
+    {
+      "name": "Catachan Jungle Fighters",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 75
+        },
+        {
+          "count": 20,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Centaur Rsv",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Chimera",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Commissar",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 30
+        }
+      ],
+      "leaderOf": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Commissar Graves",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ]
+    },
+    {
+      "name": "Commissar Graves On Foot",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Commissar Yarrick",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ],
+      "leaderOf": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Cyclops Demolition Vehicle",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 40
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 40
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 45
+          }
+        ]
+      }
+    },
+    {
+      "name": "Death Korps Of Krieg",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 75
+        },
+        {
+          "count": 20,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Death Riders",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 60
+        },
+        {
+          "count": 10,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Deathstrike",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Doomhammer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 415
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 415
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 435
+          }
+        ]
+      }
+    },
+    {
+      "name": "Field Ordnance Battery",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 90
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Bombast Field Gun",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Gaunt’S Ghosts",
+      "modelOptions": [
+        {
+          "count": 6,
+          "cost": 95
+        }
+      ]
+    },
+    {
+      "name": "Hellhammer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 420
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 420
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 440
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hellhound",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 125
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hippogriff Afv",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        },
+        {
+          "count": 2,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Hydra",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Kasrkin",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 115
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 10,
+            "cost": 115
+          }
+        ],
+        "secondary": [
+          {
+            "count": 10,
+            "cost": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "Krieg Combat Engineers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 65
+        },
+        {
+          "count": 10,
+          "cost": 95
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 65
+          },
+          {
+            "count": 10,
+            "cost": 95
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 105
+          }
+        ]
+      }
+    },
+    {
+      "name": "Krieg Command Squad",
+      "modelOptions": [
+        {
+          "count": 6,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Death Korps Of Krieg",
+        "Krieg Combat Engineers"
+      ]
+    },
+    {
+      "name": "Krieg Heavy Weapons Squad",
+      "modelOptions": [
+        {
+          "count": 4,
+          "cost": 60
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Krieg Heavy Flamer",
+          "costPerModel": 5
+        }
+      ]
+    },
+    {
+      "name": "Leman Russ Battle Tank",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 185
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 185
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 195
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leman Russ Commander",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 235
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 235
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 250
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leman Russ Demolisher",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 190
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 190
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leman Russ Eradicator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leman Russ Executioner",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leman Russ Exterminator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 180
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leman Russ Punisher",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leman Russ Vanquisher",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lord Marshal Dreir",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Death Riders"
+      ]
+    },
+    {
+      "name": "Lord Solar Leontus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ],
+      "leaderOf": [
+        "Attilan Rough Riders",
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Death Riders",
+        "Kasrkin",
+        "Krieg Combat Engineers"
+      ]
+    },
+    {
+      "name": "Manticore",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Militarum Tempestus Command Squad",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 85
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 85
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 95
+          }
+        ]
+      },
+      "leaderOf": [
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Ministorum Priest",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 35
+        }
+      ],
+      "leaderOf": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Nork Deddog",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "Ogryn Bodyguard",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 40
+        }
+      ]
+    },
+    {
+      "name": "Ogryn Squad",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 60
+        },
+        {
+          "count": 6,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Primaris Psyker",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers",
+        "Tempestus Scions"
+      ]
+    },
+    {
+      "name": "Ratlings",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 60
+        },
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Rogal Dorn Battle Tank",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 260
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 260
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 275
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rogal Dorn Commander",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 290
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 290
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 305
+          }
+        ]
+      }
+    },
+    {
+      "name": "Scout Sentinels",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        },
+        {
+          "count": 2,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Shadowsword",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 410
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 410
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 430
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sly Marbo",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ]
+    },
+    {
+      "name": "Stormlord",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 430
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 430
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 450
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stormsword",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 465
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 465
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 485
+          }
+        ]
+      }
+    },
+    {
+      "name": "Taurox",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Taurox Prime",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "Tech-Priest Enginseer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "leaderOf": [
+        "Cadian Shock Troops",
+        "Catachan Jungle Fighters",
+        "Death Korps Of Krieg",
+        "Kasrkin",
+        "Krieg Combat Engineers"
+      ]
+    },
+    {
+      "name": "Tempestus Aquilons",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Tempestus Scions",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 155
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 155
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 85
+          },
+          {
+            "count": 10,
+            "cost": 165
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ursula Creed",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "leaderOf": [
+        "Cadian Shock Troops",
+        "Kasrkin"
+      ]
+    },
+    {
+      "name": "Valkyrie",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wyvern",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 95
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 115
+          }
+        ]
+      }
+    }
+  ]
+}

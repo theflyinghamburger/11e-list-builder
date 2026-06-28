@@ -1,0 +1,1302 @@
+{
+  "detachments": [
+    {
+      "name": "ARMOURED WARHOST",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Guiding Presence",
+          "pts": 25
+        },
+        {
+          "name": "Spirit Stone of Raelyth",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "ASPECT HOST",
+      "dpCost": 3,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Aspect of Murder",
+          "pts": 15
+        },
+        {
+          "name": "Mantle of Wisdom",
+          "pts": 20
+        },
+        {
+          "name": "Shimmerstone",
+          "pts": 10
+        },
+        {
+          "name": "Strategic Savant",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "CORSAIR COTERIE",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Archraider",
+          "pts": 35
+        },
+        {
+          "name": "Infamy",
+          "pts": 25
+        },
+        {
+          "name": "Voidstone",
+          "pts": 15
+        },
+        {
+          "name": "Webway Pathstone",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "DEVOTED OF YNNEAD",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Borrowed Vigour",
+          "pts": 10
+        },
+        {
+          "name": "Gaze of Ynnead",
+          "pts": 15
+        },
+        {
+          "name": "Morbid Might",
+          "pts": 15
+        },
+        {
+          "name": "Storm of Whispers",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "ELDRITCH RAIDERS",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Adrenal Infusions",
+          "pts": 20
+        },
+        {
+          "name": "Alacritous Assault",
+          "pts": 20
+        },
+        {
+          "name": "Exotic Munitions",
+          "pts": 15
+        },
+        {
+          "name": "Pirate Prince",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "FATEFUL PERFORMANCE",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "A Foot in the Future",
+          "pts": 15
+        },
+        {
+          "name": "Mistweave",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "GHOSTS OF THE WEBWAY",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Cegorach’s Coil",
+          "pts": 25
+        },
+        {
+          "name": "Mask of Secrets",
+          "pts": 15
+        },
+        {
+          "name": "Mistweave",
+          "pts": 15
+        },
+        {
+          "name": "Murder’s Jest",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "GUARDIAN BATTLEHOST",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Breath of Vaul",
+          "pts": 10
+        },
+        {
+          "name": "Craftworld’s Champion",
+          "pts": 25
+        },
+        {
+          "name": "Ethereal Pathway",
+          "pts": 30
+        },
+        {
+          "name": "Protector of the Paths",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "PATH OF THE OUTCAST",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Assassins' Eye (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Camouflaged Snipers (Upgrade)",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "SEER COUNCIL",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Lucid Eye",
+          "pts": 30
+        },
+        {
+          "name": "Runes of Warding",
+          "pts": 25
+        },
+        {
+          "name": "Stone of Eldritch Fury",
+          "pts": 15
+        },
+        {
+          "name": "Torc of Morai-Heg",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "SERPENT’S BROOD",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Fanged Leer",
+          "pts": 10
+        },
+        {
+          "name": "Key of Ghosts",
+          "pts": 20
+        },
+        {
+          "name": "Shedskin Raiment",
+          "pts": 25
+        },
+        {
+          "name": "Weavers' Wail",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "SPIRIT CONCLAVE",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Higher Duty",
+          "pts": 25
+        },
+        {
+          "name": "Light of Clarity",
+          "pts": 30
+        },
+        {
+          "name": "Rune of Mists",
+          "pts": 10
+        },
+        {
+          "name": "Stave of Kurnous",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "TWILIGHT FLICKERS",
+      "dpCost": 1,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Prelude Performer",
+          "pts": 20
+        },
+        {
+          "name": "Shadowfall Masks (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "WARHOST",
+      "dpCost": 3,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Gift of Foresight",
+          "pts": 15
+        },
+        {
+          "name": "Phoenix Gem",
+          "pts": 35
+        },
+        {
+          "name": "Psychic Destroyer",
+          "pts": 30
+        },
+        {
+          "name": "Timeless Strategist",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "WINDRIDER HOST",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Echoes of Ulthanesh",
+          "pts": 20
+        },
+        {
+          "name": "Firstdrawn Blade",
+          "pts": 10
+        },
+        {
+          "name": "Mirage Field",
+          "pts": 25
+        },
+        {
+          "name": "Seersight Strike",
+          "pts": 15
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Asurmen",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ],
+      "leaderOf": [
+        "Dire Avengers"
+      ]
+    },
+    {
+      "name": "Autarch",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "leaderOf": [
+        "Dark Reapers",
+        "Dire Avengers",
+        "Fire Dragons",
+        "Guardian Defenders",
+        "Howling Banshees",
+        "Storm Guardians",
+        "Striking Scorpions"
+      ]
+    },
+    {
+      "name": "Autarch Wayleaper",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "leaderOf": [
+        "Swooping Hawks",
+        "Warp Spiders"
+      ]
+    },
+    {
+      "name": "Avatar Of Khaine",
+      "modelOptions": []
+    },
+    {
+      "name": "Baharroth",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ],
+      "leaderOf": [
+        "Swooping Hawks"
+      ]
+    },
+    {
+      "name": "Corsair Skyreavers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 80
+          },
+          {
+            "count": 10,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 90
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corsair Voidreavers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 65
+        },
+        {
+          "count": 10,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Corsair Voidscarred",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Crimson Hunter",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Dark Reapers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        },
+        {
+          "count": 10,
+          "cost": 210
+        }
+      ]
+    },
+    {
+      "name": "D-Cannon Platform",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 110
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 125
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dire Avengers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Eldrad Ulthran",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ],
+      "leaderOf": [
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Warlock Conclave"
+      ]
+    },
+    {
+      "name": "Falcon",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Farseer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Warlock Conclave"
+      ]
+    },
+    {
+      "name": "Farseer Skyrunner",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Warlock Skyrunners",
+        "Windriders"
+      ]
+    },
+    {
+      "name": "Fire Dragons",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 120
+        },
+        {
+          "count": 10,
+          "cost": 240
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 120
+          },
+          {
+            "count": 10,
+            "cost": 240
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 130
+          },
+          {
+            "count": 10,
+            "cost": 250
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fire Prism",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ]
+    },
+    {
+      "name": "Fuegan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ],
+      "leaderOf": [
+        "Fire Dragons"
+      ]
+    },
+    {
+      "name": "Guardian Defenders",
+      "modelOptions": [
+        {
+          "count": 11,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Hemlock Wraithfighter",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 155
+        }
+      ]
+    },
+    {
+      "name": "Howling Banshees",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 85
+        },
+        {
+          "count": 10,
+          "cost": 165
+        }
+      ]
+    },
+    {
+      "name": "Jain Zar",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 105
+        }
+      ],
+      "leaderOf": [
+        "Howling Banshees"
+      ]
+    },
+    {
+      "name": "Kharseth",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "leaderOf": [
+        "Corsair Voidreavers",
+        "Corsair Voidscarred"
+      ]
+    },
+    {
+      "name": "Lhykhis",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ],
+      "leaderOf": [
+        "Warp Spiders"
+      ]
+    },
+    {
+      "name": "Maugan Ra",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "leaderOf": [
+        "Dark Reapers"
+      ]
+    },
+    {
+      "name": "Night Spinner",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 190
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phantom Titan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "name": "Prince Yriel",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "leaderOf": [
+        "Corsair Voidreavers",
+        "Corsair Voidscarred"
+      ]
+    },
+    {
+      "name": "Rangers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 60
+        },
+        {
+          "count": 10,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Revenant Titan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "name": "Shadow Weaver Platform",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "Shining Spears",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 105
+        },
+        {
+          "count": 6,
+          "cost": 210
+        }
+      ]
+    },
+    {
+      "name": "Shroud Runners",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 95
+        },
+        {
+          "count": 6,
+          "cost": 175
+        }
+      ]
+    },
+    {
+      "name": "Spiritseer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ]
+    },
+    {
+      "name": "Starfangs",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        },
+        {
+          "count": 2,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Storm Guardians",
+      "modelOptions": [
+        {
+          "count": 11,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Striking Scorpions",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Swooping Hawks",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        },
+        {
+          "count": 10,
+          "cost": 190
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 100
+          },
+          {
+            "count": 10,
+            "cost": 190
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 115
+          },
+          {
+            "count": 10,
+            "cost": 205
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vibro Cannon Platform",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ]
+    },
+    {
+      "name": "Vyper",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        },
+        {
+          "count": 2,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Warlock",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "supportFor": [
+        "Guardian Defenders",
+        "Storm Guardians"
+      ]
+    },
+    {
+      "name": "Warlock Conclave",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 55
+        },
+        {
+          "count": 4,
+          "cost": 120
+        }
+      ],
+      "leaderOf": [
+        "Guardian Defenders",
+        "Storm Guardians"
+      ]
+    },
+    {
+      "name": "Warlock Skyrunners",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        },
+        {
+          "count": 2,
+          "cost": 90
+        }
+      ],
+      "leaderOf": [
+        "Windriders"
+      ]
+    },
+    {
+      "name": "Warp Spiders",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 115
+        },
+        {
+          "count": 10,
+          "cost": 200
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 115
+          },
+          {
+            "count": 10,
+            "cost": 200
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 130
+          },
+          {
+            "count": 10,
+            "cost": 215
+          }
+        ]
+      }
+    },
+    {
+      "name": "War Walkers",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        },
+        {
+          "count": 2,
+          "cost": 170
+        }
+      ]
+    },
+    {
+      "name": "Wave Serpent",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ]
+    },
+    {
+      "name": "Windriders",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Wraithblades",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Wraithguard",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Wraithknight",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 415
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 415
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 435
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Wraithcannon",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Wraithknight With Ghostglaive",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 405
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 405
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 425
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wraithlord",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 125
+        }
+      ]
+    },
+    {
+      "name": "Death Jester",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Shadowseer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Troupe"
+      ]
+    },
+    {
+      "name": "Skyweavers",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 105
+        },
+        {
+          "count": 4,
+          "cost": 210
+        }
+      ]
+    },
+    {
+      "name": "Solitaire",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 115
+        }
+      ]
+    },
+    {
+      "name": "Starweaver",
+      "modelOptions": []
+    },
+    {
+      "name": "The Visarch",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ],
+      "leaderOf": [
+        "Corsair Voidreavers",
+        "Corsair Voidscarred",
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Ynnari Incubi",
+        "Ynnari Kabalite Warriors",
+        "Ynnari Wyches"
+      ]
+    },
+    {
+      "name": "The Yncarne",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 245
+        }
+      ]
+    },
+    {
+      "name": "Ynnari Archon",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ],
+      "leaderOf": [
+        "Ynnari Incubi",
+        "Ynnari Kabalite Warriors"
+      ]
+    },
+    {
+      "name": "Ynnari Incubi",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Troupe",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 85
+        },
+        {
+          "count": 6,
+          "cost": 100
+        },
+        {
+          "count": 11,
+          "cost": 190
+        },
+        {
+          "count": 12,
+          "cost": 205
+        }
+      ]
+    },
+    {
+      "name": "Troupe Master",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Troupe"
+      ]
+    },
+    {
+      "name": "Voidweaver",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 115
+        }
+      ]
+    },
+    {
+      "name": "Ynnari Kabalite Warriors",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Ynnari Raider",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Ynnari Reavers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 65
+        },
+        {
+          "count": 6,
+          "cost": 120
+        }
+      ]
+    },
+    {
+      "name": "Ynnari Succubus",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "leaderOf": [
+        "Ynnari Wyches"
+      ]
+    },
+    {
+      "name": "Ynnari Venom",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Ynnari Wyches",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Yvraine",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "leaderOf": [
+        "Corsair Voidreavers",
+        "Corsair Voidscarred",
+        "Guardian Defenders",
+        "Storm Guardians",
+        "Ynnari Incubi",
+        "Ynnari Kabalite Warriors",
+        "Ynnari Wyches"
+      ]
+    }
+  ]
+}

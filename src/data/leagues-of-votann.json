@@ -1,0 +1,565 @@
+{
+  "detachments": [
+    {
+      "name": "ARMOURED TRAILBLAZERS",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Optimised Attack Lines (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Saturation Rounds (Upgrade)",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "BRANDFAST OATHBAND",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Precursive Judgement",
+          "pts": 15
+        },
+        {
+          "name": "Signature Restoration",
+          "pts": 5
+        },
+        {
+          "name": "Tactical Alchemy",
+          "pts": 10
+        },
+        {
+          "name": "Trivärg Cyber Implant",
+          "pts": 40
+        }
+      ]
+    },
+    {
+      "name": "DÊLVE ASSAULT SHIFT",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Dêlvewerke Navigator",
+          "pts": 25
+        },
+        {
+          "name": "Multiwave System Jammer",
+          "pts": 10
+        },
+        {
+          "name": "Piledriver",
+          "pts": 15
+        },
+        {
+          "name": "Quake Supervisor",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "FARSEEKERS",
+      "dpCost": 1,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Pan-spectral Lockons (Upgrade)",
+          "pts": 10
+        },
+        {
+          "name": "Shroudwërke Talismans (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "HEARTHBAND",
+      "dpCost": 3,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Bastion Shield",
+          "pts": 25
+        },
+        {
+          "name": "High Kâhl",
+          "pts": 30
+        },
+        {
+          "name": "Ironskein",
+          "pts": 10
+        },
+        {
+          "name": "Quake Multigenerator",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "HEARTHFYRE ARSENAL",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Calculated Tenacity",
+          "pts": 15
+        },
+        {
+          "name": "Fârstrydr Node",
+          "pts": 20
+        },
+        {
+          "name": "Graviton Vault",
+          "pts": 5
+        },
+        {
+          "name": "Mantle of Elders",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "HEARTHGUARD COVENANT",
+      "dpCost": 1,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "High Kâhl",
+          "pts": 30
+        },
+        {
+          "name": "Ironskein",
+          "pts": 10
+        }
+      ]
+    },
+    {
+      "name": "MERCENARY OATHBAND",
+      "dpCost": 2,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Asset Manipulator",
+          "pts": 25
+        },
+        {
+          "name": "Etacarn SB9 Targeting Implant",
+          "pts": 15
+        },
+        {
+          "name": "Mercenary Prospector",
+          "pts": 20
+        },
+        {
+          "name": "Metaphysical Brokerage",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "NEEDGAÂRD OATHBAND",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Ancestral Crest",
+          "pts": 15
+        },
+        {
+          "name": "Dead Reckoning",
+          "pts": 10
+        },
+        {
+          "name": "Iron Ambassador",
+          "pts": 5
+        },
+        {
+          "name": "Oathbound Speculator",
+          "pts": 30
+        }
+      ]
+    },
+    {
+      "name": "PERSECUTION PROSPECT",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Eye for Weakness",
+          "pts": 25
+        },
+        {
+          "name": "Nomad Strategist",
+          "pts": 20
+        },
+        {
+          "name": "Surgical Saboteur",
+          "pts": 10
+        },
+        {
+          "name": "Writ of Acquisition",
+          "pts": 10
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Arkanyst Evaluator",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Berehk StornbröW",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "leaderOf": [
+        "Cthonian Beserks"
+      ]
+    },
+    {
+      "name": "BrôKhyr Iron-Master",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "BrôKhyr Thunderkyn",
+        "Hearthkyn Warriors"
+      ]
+    },
+    {
+      "name": "BrôKhyr Thunderkyn",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Buri Aegnirssen",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ]
+    },
+    {
+      "name": "Cthonian Beserks",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 100
+        },
+        {
+          "count": 10,
+          "cost": 200
+        }
+      ]
+    },
+    {
+      "name": "Cthonian Earthshakers",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 110
+        }
+      ]
+    },
+    {
+      "name": "Einhyr Champion",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Einhyr Hearthguard"
+      ]
+    },
+    {
+      "name": "Einhyr Hearthguard",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 130
+        },
+        {
+          "count": 10,
+          "cost": 270
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 130
+          },
+          {
+            "count": 10,
+            "cost": 270
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 140
+          },
+          {
+            "count": 10,
+            "cost": 280
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grimnyr",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Hearthkyn Warriors"
+      ]
+    },
+    {
+      "name": "Hearthkyn Warriors",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 100
+        }
+      ]
+    },
+    {
+      "name": "Hekaton Land Fortress",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 250
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 250
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 265
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hernkyn Pioneers",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 80
+          },
+          {
+            "count": 6,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hernkyn Yaegirs",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Ironkin Steeljacks With Heavy Volkanite Disintegrators",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 80
+          },
+          {
+            "count": 6,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ironkin Steeljacks With Melee Weapons",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 80
+        },
+        {
+          "count": 6,
+          "cost": 160
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 80
+          },
+          {
+            "count": 6,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 170
+          }
+        ]
+      }
+    },
+    {
+      "name": "KâHl",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Einhyr Hearthguard",
+        "Hearthkyn Warriors"
+      ]
+    },
+    {
+      "name": "Kapricus Carrier",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ]
+    },
+    {
+      "name": "Kapricus Defenders",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        },
+        {
+          "count": 2,
+          "cost": 130
+        }
+      ]
+    },
+    {
+      "name": "Memnyr Strategist",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 45
+        }
+      ],
+      "leaderOf": [
+        "Ironkin Steeljacks With Heavy Volkanite Disintegrators",
+        "Ironkin Steeljacks With Melee Weapons"
+      ]
+    },
+    {
+      "name": "Sagitaur",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 85
+        }
+      ]
+    },
+    {
+      "name": "ûThar The Destined",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 90
+        }
+      ],
+      "leaderOf": [
+        "Einhyr Hearthguard",
+        "Hearthkyn Warriors"
+      ]
+    }
+  ]
+}

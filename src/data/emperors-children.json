@@ -1,0 +1,556 @@
+{
+  "detachments": [
+    {
+      "name": "CARNIVAL OF EXCESS",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Dark Blessings",
+          "pts": 10
+        },
+        {
+          "name": "Empyric Suffusion",
+          "pts": 15
+        },
+        {
+          "name": "Possessed Blade",
+          "pts": 25
+        },
+        {
+          "name": "Warp Walker",
+          "pts": 30
+        }
+      ]
+    },
+    {
+      "name": "COTERIE OF THE CONCEITED",
+      "dpCost": 3,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Pledge of Dark Glory",
+          "pts": 25
+        },
+        {
+          "name": "Pledge of Eternal Servitude",
+          "pts": 25
+        },
+        {
+          "name": "Pledge of Mortal Pain",
+          "pts": 15
+        },
+        {
+          "name": "Pledge of Unholy Fortune",
+          "pts": 30
+        }
+      ]
+    },
+    {
+      "name": "COURT OF THE PHOENICIAN",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Exalted Patron",
+          "pts": 15
+        },
+        {
+          "name": "Soulstain Made Manifest",
+          "pts": 15
+        },
+        {
+          "name": "Spiritsliver",
+          "pts": 20
+        },
+        {
+          "name": "Tears of the Phoenix",
+          "pts": 25
+        }
+      ],
+      "leaderOf": [
+        "FLAWLESS BLADES"
+      ]
+    },
+    {
+      "name": "ELEGANT BRUTES",
+      "dpCost": 1,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Cacophonic Accompaniment",
+          "pts": 20
+        },
+        {
+          "name": "Frenzied Ferocity (Upgrade)",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "FRENZIED HOST",
+      "dpCost": 1,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Euphoric Crown",
+          "pts": 20
+        },
+        {
+          "name": "Howling Plate",
+          "pts": 20
+        }
+      ]
+    },
+    {
+      "name": "MERCURIAL HOST",
+      "dpCost": 2,
+      "doctrine": "RECONNAISSANCE",
+      "enhancements": [
+        {
+          "name": "Intoxicating Musk",
+          "pts": 20
+        },
+        {
+          "name": "Loathsome Dexterity",
+          "pts": 10
+        },
+        {
+          "name": "Steeped in Suffering",
+          "pts": 20
+        },
+        {
+          "name": "Tactical Perfection",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "PEERLESS BLADESMEN",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
+      "enhancements": [
+        {
+          "name": "Blinding Speed",
+          "pts": 25
+        },
+        {
+          "name": "Distortion",
+          "pts": 25
+        },
+        {
+          "name": "Faultless Opportunist",
+          "pts": 15
+        },
+        {
+          "name": "Rise to the Challenge",
+          "pts": 30
+        }
+      ]
+    },
+    {
+      "name": "RAPID EVISCERATION",
+      "dpCost": 2,
+      "doctrine": "DISRUPTION",
+      "enhancements": [
+        {
+          "name": "Accomplished Tactician",
+          "pts": 35
+        },
+        {
+          "name": "Heretek Adept",
+          "pts": 35
+        },
+        {
+          "name": "Spearhead Striker",
+          "pts": 20
+        },
+        {
+          "name": "Sublime Prescience",
+          "pts": 25
+        }
+      ]
+    },
+    {
+      "name": "SLAANESH’S CHOSEN",
+      "dpCost": 2,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Eager to Prove",
+          "pts": 15
+        },
+        {
+          "name": "Proud and Vainglorious",
+          "pts": 20
+        },
+        {
+          "name": "Repulsed by Weakness",
+          "pts": 25
+        },
+        {
+          "name": "Slayer of Champions",
+          "pts": 15
+        }
+      ]
+    },
+    {
+      "name": "SPECTACLE OF SLAUGHTER",
+      "dpCost": 1,
+      "doctrine": "PURGE THE FOE",
+      "enhancements": [
+        {
+          "name": "Beguiling Grotesquerie (Upgrade)",
+          "pts": 15
+        },
+        {
+          "name": "Eager Patrons (Upgrade)",
+          "pts": 20
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "name": "Chaos Land Raider",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 240
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Rhino",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Chaos Spawn",
+      "modelOptions": [
+        {
+          "count": 2,
+          "cost": 70
+        }
+      ]
+    },
+    {
+      "name": "Chaos Terminators",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 145
+        }
+      ]
+    },
+    {
+      "name": "Daemon Prince Of Slaanesh",
+      "modelOptions": []
+    },
+    {
+      "name": "Daemon Prince Of Slaanesh With Wings",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 205
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 205
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 235
+          }
+        ]
+      }
+    },
+    {
+      "name": "Defiler",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 290
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 290
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 320
+          }
+        ]
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Reaper Autocannon",
+          "costPerModel": 10
+        },
+        {
+          "name": "Hades Lascannon",
+          "costPerModel": 10
+        }
+      ]
+    },
+    {
+      "name": "Flawless Blades",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 95
+        },
+        {
+          "count": 6,
+          "cost": 190
+        }
+      ]
+    },
+    {
+      "name": "Fulgrim",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 350
+        }
+      ]
+    },
+    {
+      "name": "Heldrake",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 175
+        }
+      ]
+    },
+    {
+      "name": "Infractors",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 85
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Lord Exultant",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 90
+          }
+        ]
+      },
+      "leaderOf": [
+        "Infractors",
+        "Tormentors"
+      ]
+    },
+    {
+      "name": "Lord Kakophonist",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Chaos Terminators",
+        "Noise Marines"
+      ]
+    },
+    {
+      "name": "Lucius The Eternal",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ],
+      "leaderOf": [
+        "Flawless Blades"
+      ]
+    },
+    {
+      "name": "Maulerfiend",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 130
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 140
+          }
+        ]
+      }
+    },
+    {
+      "name": "Noise Marines",
+      "modelOptions": [
+        {
+          "count": 6,
+          "cost": 145
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 6,
+            "cost": 145
+          }
+        ],
+        "secondary": [
+          {
+            "count": 6,
+            "cost": 160
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sorcerer",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "leaderOf": [
+        "Infractors",
+        "Noise Marines",
+        "Tormentors"
+      ]
+    },
+    {
+      "name": "Tormentors",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 160
+        }
+      ]
+    },
+    {
+      "name": "Daemonettes",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 90
+        }
+      ]
+    },
+    {
+      "name": "Fiends",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 90
+        },
+        {
+          "count": 6,
+          "cost": 180
+        }
+      ]
+    },
+    {
+      "name": "Keeper Of Secrets",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 255
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 255
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 270
+          }
+        ]
+      }
+    },
+    {
+      "name": "Seekers",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 80
+        },
+        {
+          "count": 10,
+          "cost": 155
+        }
+      ]
+    },
+    {
+      "name": "Shalaxi Helbane",
+      "modelOptions": []
+    }
+  ]
+}
