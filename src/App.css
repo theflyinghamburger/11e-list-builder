@@ -88,6 +88,7 @@ body {
 .app-header {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 24px;
   margin-bottom: 16px;
   padding: 16px 20px;
@@ -496,6 +497,10 @@ body {
   background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
 }
 
+.mobile-tabs {
+  display: none;
+}
+
 .unit-list h3,
 .army-list h3 {
   margin-bottom: 12px;
@@ -628,10 +633,15 @@ body {
 }
 
 .army-title h3 {
+  margin-bottom: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   min-width: 0;
+  font-family: var(--font-header);
+  color: var(--gold);
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 8px var(--gold-glow);
 }
 
 .army-actions {
@@ -915,6 +925,11 @@ body {
     gap: 12px;
   }
 
+  .app-header::before,
+  .app-header::after {
+    display: none;
+  }
+
   .app-body {
     grid-template-columns: 1fr;
   }
@@ -928,5 +943,168 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
+  }
+
+  /* -- Font sizes -- */
+
+  body {
+    font-size: 1rem;
+  }
+
+  .unit-name,
+  .doctrine,
+  .enh-name,
+  .army-table td {
+    font-size: 0.9rem;
+  }
+
+  /* -- Touch targets -- */
+
+  .unit-header {
+    padding: 12px;
+  }
+
+  .remove-btn {
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.4rem;
+    padding: 8px;
+  }
+
+  .model-btn {
+    min-height: 44px;
+    padding: 8px 12px;
+  }
+
+  .add-btn,
+  .save-btn,
+  .load-btn,
+  .print-btn,
+  .add-det-btn {
+    min-height: 44px;
+    padding: 10px 16px;
+  }
+
+  .det-card {
+    padding: 10px 12px;
+    min-height: 48px;
+  }
+
+  .enh-item {
+    padding: 8px;
+    min-height: 44px;
+  }
+
+  /* -- Army table → card layout -- */
+
+  .army-table,
+  .army-table thead,
+  .army-table tbody,
+  .army-table tfoot,
+  .army-table tr,
+  .army-table td,
+  .army-table th {
+    display: block;
+  }
+
+  .army-table thead {
+    display: none;
+  }
+
+  .army-table tr {
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid var(--bronze-border);
+    border-radius: 2px;
+    background: var(--bg-card);
+  }
+
+  .army-table td {
+    padding: 4px 0;
+    border: none;
+    text-align: left;
+  }
+
+  .army-table tfoot tr {
+    border: none;
+    background: transparent;
+    margin-top: 12px;
+    padding: 8px 0;
+  }
+
+  /* -- Army header stack -- */
+
+  .army-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .army-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .army-name-input {
+    width: 100%;
+    flex: none;
+    min-height: 0;
+    height: 30px;
+    padding: 1px 8px;
+    font-size: 0.85rem;
+    line-height: 1;
+  }
+
+  .army-actions {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 8px;
+  }
+
+  .army-actions button {
+    flex: 1;
+    min-width: 0;
+    padding: 8px;
+    font-size: 0.85rem;
+  }
+
+  /* -- Mobile Tabs -- */
+
+  .mobile-tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+
+
+  .tab-btn {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid var(--bronze);
+    background: var(--bg-card);
+    color: var(--parchment);
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    transition: all 0.15s ease;
+  }
+
+  .tab-btn.active {
+    background: linear-gradient(180deg, var(--gold) 0%, var(--gold-dim) 100%);
+    color: var(--bg-deep);
+    border-color: var(--gold);
+    font-weight: 600;
+  }
+
+  .left-panel,
+  .right-panel {
+    display: none;
+  }
+
+  .left-panel.tab-active,
+  .right-panel.tab-active {
+    display: block;
   }
 }

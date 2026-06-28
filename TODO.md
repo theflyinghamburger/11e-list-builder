@@ -94,3 +94,13 @@ Goal: scrape MFM faction pages to generate JSON data files.
 - [x] 7.6 Handle tiered pricing (detect "YOUR 1ST/2ND+" headers → primary/secondary)
 - [x] 7.7 Wargear options: MFM only documents wargear in instructions, not per-unit; skip
 - [x] 7.8 Test with multiple factions (Necrons, Adeptus Custodes)
+
+## Phase 8: Mobile Optimization
+
+Goal: usable on phones/tablets without breaking desktop layout. Pure CSS, no JS changes.
+
+- [x] 8.1 Font size bump: 1rem body, 0.9rem labels
+- [x] 8.2 Touch targets: min 44px on buttons, unit headers, removal buttons, detachment cards, enhancement items
+- [x] 8.3 Army table → card layout: `display: block` on tr/td, hide thead, card-style rows
+- [x] 8.4 Army header: stack title + buttons vertically, buttons wrap with flex: 1
+- [x] 8.5 Panel scroll: remove max-height on stacked panels
