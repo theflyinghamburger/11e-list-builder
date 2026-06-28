@@ -26,7 +26,9 @@ No lint, typecheck, or test commands configured.
 
 ## Adding a new faction
 
-**Option A — MFM scraper (fastest):** Run `npm run fetch-mfm <mfm-url>` to generate the JSON from mfm.warhammer-community.com. Register the output in `src/data/index.js`.
+**Option A — MFM scraper (fastest):** Run `node scripts/fetch-mfm.js <mfm-url> > src/data/<key>.json` to generate the JSON from mfm.warhammer-community.com. Register the output in `src/data/index.js`.
+
+**Important:** Use `node scripts/fetch-mfm.js`, not `npm run fetch-mfm`. The npm wrapper echoes the command to stdout, which corrupts the JSON output when redirected.
 
 **Option B — Manual:** Create `src/data/<faction-key>.json` with `detachments` and `units` arrays. Use `adeptus-mechanicus.json` as a template. Then register in `src/data/index.js`:
    ```js
