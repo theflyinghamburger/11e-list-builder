@@ -980,13 +980,17 @@ body {
 
   .app-header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 12px;
   }
 
-  .app-header::before,
-  .app-header::after {
+.app-header::before,
+    .app-header::after {
     display: none;
+  }
+
+  .app-header h1 {
+    text-align: center;
   }
 
   .app-body {
