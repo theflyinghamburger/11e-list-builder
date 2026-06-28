@@ -63,6 +63,7 @@ function App() {
       </div>
       </div>
       <div className="side-banner" />
+      <footer className="bottom-banner" />
     </div>
   );
 }
