@@ -8,7 +8,7 @@ export default function UnitList({ data, units, onAddUnit }) {
   const [addForm, setAddForm] = useState(null);
 
   const filtered = data.units.filter((u) =>
-    u.name.toLowerCase().includes(search.toLowerCase())
+    u.modelOptions?.length && u.name.toLowerCase().includes(search.toLowerCase())
   );
 
   const openAddForm = (unitData) => {

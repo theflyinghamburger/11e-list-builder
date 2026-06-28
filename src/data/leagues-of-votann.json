@@ -253,7 +253,29 @@
           "count": 6,
           "cost": 160
         }
-      ]
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 3,
+            "cost": 80
+          },
+          {
+            "count": 6,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 170
+          }
+        ]
+      }
     },
     {
       "name": "Buri Aegnirssen",

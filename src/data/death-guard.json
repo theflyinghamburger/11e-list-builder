@@ -239,7 +239,26 @@
     },
     {
       "name": "Chaos Predator Annihilator",
-      "modelOptions": []
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 135
+        }
+      ],
+      "tiered": {
+        "primary": [
+          {
+            "count": 1,
+            "cost": 135
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 145
+          }
+        ]
+      }
     },
     {
       "name": "Chaos Predator Destructor",
@@ -356,17 +375,7 @@
             "cost": 320
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Heavy Reaper Autocannon",
-          "costPerModel": 10
-        },
-        {
-          "name": "Hades Lascannon",
-          "costPerModel": 10
-        }
-      ]
+      }
     },
     {
       "name": "Foetid Bloat-Drone",
@@ -693,7 +702,16 @@
     },
     {
       "name": "Plague Drones",
-      "modelOptions": []
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 110
+        },
+        {
+          "count": 6,
+          "cost": 220
+        }
+      ]
     },
     {
       "name": "Rotigus",

@@ -360,7 +360,12 @@
     },
     {
       "name": "Avatar Of Khaine",
-      "modelOptions": []
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 265
+        }
+      ]
     },
     {
       "name": "Baharroth",
@@ -1037,13 +1042,7 @@
             "cost": 435
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Heavy Wraithcannon",
-          "costPerModel": 10
-        }
-      ]
+      }
     },
     {
       "name": "Wraithknight With Ghostglaive",
@@ -1122,7 +1121,54 @@
     },
     {
       "name": "Starweaver",
-      "modelOptions": []
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ]
+    },
+    {
+      "name": "Troupe",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 85
+        },
+        {
+          "count": 6,
+          "cost": 100
+        },
+        {
+          "count": 11,
+          "cost": 190
+        },
+        {
+          "count": 12,
+          "cost": 205
+        }
+      ]
+    },
+    {
+      "name": "Troupe Master",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 75
+        }
+      ],
+      "leaderOf": [
+        "Troupe"
+      ]
+    },
+    {
+      "name": "Voidweaver",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 115
+        }
+      ]
     },
     {
       "name": "The Visarch",
@@ -1175,49 +1221,29 @@
           "count": 10,
           "cost": 160
         }
-      ]
-    },
-    {
-      "name": "Troupe",
-      "modelOptions": [
-        {
-          "count": 5,
-          "cost": 85
-        },
-        {
-          "count": 6,
-          "cost": 100
-        },
-        {
-          "count": 11,
-          "cost": 190
-        },
-        {
-          "count": 12,
-          "cost": 205
-        }
-      ]
-    },
-    {
-      "name": "Troupe Master",
-      "modelOptions": [
-        {
-          "count": 1,
-          "cost": 75
-        }
       ],
-      "leaderOf": [
-        "Troupe"
-      ]
-    },
-    {
-      "name": "Voidweaver",
-      "modelOptions": [
-        {
-          "count": 1,
-          "cost": 115
-        }
-      ]
+      "tiered": {
+        "primary": [
+          {
+            "count": 5,
+            "cost": 80
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 90
+          },
+          {
+            "count": 10,
+            "cost": 170
+          }
+        ]
+      }
     },
     {
       "name": "Ynnari Kabalite Warriors",

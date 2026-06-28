@@ -564,7 +564,13 @@
           "cost": 65
         }
       ],
-      "supportFor": []
+      "supportFor": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
     },
     {
       "name": "Apothecary",
@@ -1601,6 +1607,10 @@
         {
           "count": 6,
           "cost": 140
+        },
+        {
+          "count": 1,
+          "cost": 60
         }
       ]
     },
@@ -1680,13 +1690,7 @@
             "cost": 210
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Macro Plasma Incinerator",
-          "costPerModel": 10
-        }
-      ]
+      }
     },
     {
       "name": "Reiver Squad",
@@ -1962,12 +1966,6 @@
         {
           "count": 10,
           "cost": 310
-        }
-      ],
-      "wargearOptions": [
-        {
-          "name": "Thunder Hammer",
-          "costPerModel": 5
         }
       ]
     },
@@ -2250,35 +2248,26 @@
     },
     {
       "name": "Marneus Calgar In Armour Of Antilochus",
-      "modelOptions": []
-    },
-    {
-      "name": "Kor’Sarro Khan",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 55
+          "cost": 140
         }
       ],
       "leaderOf": [
+        "Aggressor Squad",
         "Assault Intercessor Squad",
         "Bladeguard Veteran Squad",
         "Company Heroes",
+        "Eradicator Squad",
+        "Heavy Intercessor Squad",
+        "Infernus Squad",
         "Intercessor Squad",
         "Sternguard Veteran Squad",
-        "Tactical Squad"
-      ]
-    },
-    {
-      "name": "Suboden Khan",
-      "modelOptions": [
-        {
-          "count": 1,
-          "cost": 100
-        }
-      ],
-      "leaderOf": [
-        "Outrider Squad"
+        "Tactical Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad",
+        "Victrix Honour Guard"
       ]
     },
     {
@@ -2340,17 +2329,7 @@
             "cost": 240
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Banner Of Macragge",
-          "costPerModel": 10
-        },
-        {
-          "name": "Blades Of Honour",
-          "costPerModel": 10
-        }
-      ]
+      }
     },
     {
       "name": "Wardens Of Ultramar",
@@ -2365,6 +2344,35 @@
         "Bladeguard Veteran Squad",
         "Intercessor Squad",
         "Sternguard Veteran Squad"
+      ]
+    },
+    {
+      "name": "Kor’Sarro Khan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 55
+        }
+      ],
+      "leaderOf": [
+        "Assault Intercessor Squad",
+        "Bladeguard Veteran Squad",
+        "Company Heroes",
+        "Intercessor Squad",
+        "Sternguard Veteran Squad",
+        "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Suboden Khan",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "leaderOf": [
+        "Outrider Squad"
       ]
     }
   ]

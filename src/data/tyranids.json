@@ -264,6 +264,15 @@
       ]
     },
     {
+      "name": "Deathleaper",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ]
+    },
+    {
       "name": "Exocrine",
       "modelOptions": [
         {
@@ -951,17 +960,7 @@
             "cost": 190
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Acid Spray",
-          "costPerModel": 10
-        },
-        {
-          "name": "Rupture Cannon",
-          "costPerModel": 20
-        }
-      ]
+      }
     },
     {
       "name": "Tyrant Guard",

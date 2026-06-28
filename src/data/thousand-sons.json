@@ -249,10 +249,6 @@
       }
     },
     {
-      "name": "Chaos Predator Destructor",
-      "modelOptions": []
-    },
-    {
       "name": "Chaos Rhino",
       "modelOptions": [
         {
@@ -719,10 +715,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Pink Horrors",
-      "modelOptions": []
     },
     {
       "name": "Screamers",

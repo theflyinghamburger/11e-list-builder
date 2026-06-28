@@ -10,19 +10,26 @@ if (!URL) {
 
 async function main() {
   const response = await fetch(URL);
-  const html = await response.text();
-  const $ = cheerio.load(html);
+  let html = await response.text();
 
-  const detachments = [];
-  const units = [];
+  // Resolve $RS calls: move hidden S:X div content into P:X template placeholders
+  // MFM uses $RS("S:X","P:Y") to inject structural HTML (ul.leaders, cost headers)
+  // into empty <template> tags at runtime. We must do this before parsing.
+  const rsMappings = html.match(/\$RS\("S:([^"]+)",\s*"P:([^"]+)"\)/g) || [];
+  const rsMap = {};
+  rsMappings.forEach(match => {
+    const [, srcId, targetId] = match.match(/\$RS\("S:([^"]+)",\s*"P:([^"]+)"\)/);
+    rsMap[targetId] = srcId;
+  });
+
+  // Use Cheerio to build cost map from hidden divs, then inject content into templates
+  let $ = cheerio.load(html);
 
   // Build cost map: template ID (P:X) → cost in pts
   // MFM uses hidden divs with $RS() to map S:X → P:X
   const costMap = {};
-  // Some templates carry model count text (e.g. "10 models") instead of cost
   const modelTextMap = {};
-  html.match(/\$RS\("S:([^"]+)",\s*"P:([^"]+)"\)/g)?.forEach(match => {
-    const [, srcId, targetId] = match.match(/\$RS\("S:([^"]+)",\s*"P:([^"]+)"\)/);
+  for (const [targetId, srcId] of Object.entries(rsMap)) {
     const srcDiv = $(`#S\\:${srcId}`);
     const text = srcDiv.find('span').text().trim();
     if (text.includes('pts')) {
@@ -32,7 +39,21 @@ async function main() {
       const count = parseInt(text.replace('models', '').trim(), 10);
       if (!isNaN(count)) modelTextMap[`P:${targetId}`] = count;
     }
-  });
+  }
+
+  // Inject hidden div content into templates
+  for (const [targetId, srcId] of Object.entries(rsMap)) {
+    const srcDiv = $(`#S\\:${srcId}`);
+    const tpl = $(`#P\\:${targetId}`);
+    if (srcDiv.length && tpl.length) {
+      tpl.replaceWith(srcDiv.contents());
+    }
+  }
+  html = $.html();
+  $ = cheerio.load(html);
+
+  const detachments = [];
+  const units = [];
 
   // Parse detachments
   $('h3.font-header').each((_, el) => {
@@ -131,21 +152,37 @@ async function main() {
 
         const options = [];
         $(ul).find('li').each((_, li) => {
-          const text = $(li).find('span').first().text().trim();
+          const spans = $(li).find('span').map((_, s) => $(s).text().trim()).get();
           const templates = $(li).find('template').map((_, t) => $(t).attr('id')).get();
+          const text = spans[0] || '';
           const match = text.match(/(\d+)\s*model/);
 
+          // Extract cost from template or second span
+          let cost = 0;
+          if (templates[0]) {
+            cost = costMap[templates[0]] || 0;
+          } else if (spans[1] && spans[1].includes('pts')) {
+            cost = parseInt(spans[1].replace('pts', '').trim(), 10) || 0;
+          }
+
           if (match) {
-            // Has model count span — use first template for cost
             options.push({
               count: parseInt(match[1], 10),
-              cost: costMap[templates[0]] || 0,
+              cost,
             });
           } else if (templates.length >= 2) {
             // No span (e.g. Corpuscarii 10-model): first tpl = model count text, second = cost
             const count = modelTextMap[templates[0]] || 0;
-            const cost = costMap[templates[1]] || 0;
-            if (count > 0 && cost > 0) {
+            const tplCost = costMap[templates[1]] || 0;
+            if (count > 0 && tplCost > 0) {
+              options.push({ count, cost: tplCost });
+            }
+          } else if (cost > 0) {
+            // Composite model description (e.g. "1 Sword Brother, 4 Neophytes, 5 Initiates")
+            // Sum all numbers in the description for total model count
+            const nums = text.match(/\d+/g);
+            if (nums) {
+              const count = nums.reduce((sum, n) => sum + parseInt(n, 10), 0);
               options.push({ count, cost });
             }
           }

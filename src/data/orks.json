@@ -282,12 +282,6 @@
           "count": 1,
           "cost": 145
         }
-      ],
-      "wargearOptions": [
-        {
-          "name": "Ard Case",
-          "costPerModel": 15
-        }
       ]
     },
     {
@@ -304,7 +298,15 @@
     },
     {
       "name": "Beastboss On Squigosaur",
-      "modelOptions": []
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 95
+        }
+      ],
+      "leaderOf": [
+        "Squighog Boyz"
+      ]
     },
     {
       "name": "Beast Snagga Boyz",
