@@ -6,7 +6,7 @@ export default function ArmySetup({ faction, onSetFaction, pointLimit, onSetPoin
       <div className="faction-select">
         <label>Faction: </label>
         <select value={faction} onChange={(e) => onSetFaction(e.target.value)}>
-          {getFactionKeys().map((key) => (
+          {[...getFactionKeys()].sort().map((key) => (
             <option key={key} value={key}>{key.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase())}</option>
           ))}
         </select>
