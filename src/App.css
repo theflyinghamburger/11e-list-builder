@@ -924,12 +924,6 @@ body {
     max-height: none;
   }
 
-  .det-selected {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-  }
-
   .det-card {
     flex-direction: column;
     align-items: flex-start;

@@ -1,5 +1,5 @@
-import admech from './adeptus-mechanicus.json';
-import iknights from './imperial-knights.json';
+import adeptusMechanicus from './adeptus-mechanicus.json';
+import imperialKnights from './imperial-knights.json';
 import necrons from './necrons.json';
 import bloodAngels from './blood-angels.json';
 import darkAngels from './dark-angels.json';
@@ -31,8 +31,8 @@ import titanLegions from './titan-legions.json';
 const STORAGE_KEY = 'custom-factions';
 
 const factions = {
-  'adeptus-mechanicus': admech,
-  'imperial-knights': iknights,
+  'adeptus-mechanicus': adeptusMechanicus,
+  'imperial-knights': imperialKnights,
   'necrons': necrons,
   'blood-angels': bloodAngels,
   'dark-angels': darkAngels,
@@ -75,18 +75,4 @@ export function getData(key) {
 
 export function getFactionKeys() {
   return Object.keys(factions);
-}
-
-export function addFaction(key, data) {
-  if (!data || !Array.isArray(data.detachments) || !Array.isArray(data.units)) {
-    return { ok: false, reason: 'Invalid format: must have detachments[] and units[]' };
-  }
-  if (key.includes('/') || key.includes('\\')) {
-    return { ok: false, reason: 'Key must not contain slashes' };
-  }
-  factions[key] = data;
-  const saved = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
-  saved[key] = { data, timestamp: Date.now() };
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
-  return { ok: true };
 }

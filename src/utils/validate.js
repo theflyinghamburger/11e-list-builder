@@ -1,34 +1,29 @@
 import { getDpBudget } from '../utils/dpBudget';
 
-// Check if a unit can be added given current army composition
+function getTargets(unitData) {
+  return [...(unitData.leaderOf || []), ...(unitData.supportFor || [])];
+}
+
 export function canAddUnit(unitName, currentUnits, data) {
   const unitData = data.units.find((u) => u.name === unitName);
   if (!unitData) return { ok: true };
 
-  const targets = [
-    ...(unitData.leaderOf || []),
-    ...(unitData.supportFor || []),
-  ];
-
+  const targets = getTargets(unitData);
   if (targets.length === 0) return { ok: true };
 
-  const hasTarget = currentUnits.some((u) =>
-    targets.includes(u.unitName)
-  );
+  const hasTarget = currentUnits.some((u) => targets.includes(u.unitName));
 
   if (!hasTarget) {
-    const type = unitData.leaderOf ? 'leader' : 'support';
     return {
       ok: false,
       reason: `Requires one of: ${targets.join(', ')}`,
-      type,
+      type: unitData.leaderOf ? 'leader' : 'support',
     };
   }
 
   return { ok: true };
 }
 
-// Validate entire army, return array of issues
 export function validateArmy(army, data) {
   const issues = [];
 
@@ -45,11 +40,7 @@ export function validateArmy(army, data) {
     const unitData = data.units.find((u) => u.name === unit.unitName);
     if (!unitData) continue;
 
-    const targets = [
-      ...(unitData.leaderOf || []),
-      ...(unitData.supportFor || []),
-    ];
-
+    const targets = getTargets(unitData);
     if (targets.length === 0) continue;
 
     const hasTarget = army.units.some(
@@ -57,11 +48,10 @@ export function validateArmy(army, data) {
     );
 
     if (!hasTarget) {
-      const type = unitData.leaderOf ? 'leader' : 'support';
       issues.push({
         unitId: unit.id,
         unitName: unit.unitName,
-        type,
+        type: unitData.leaderOf ? 'leader' : 'support',
         reason: `No valid target in army. Requires: ${targets.join(', ')}`,
       });
     }
