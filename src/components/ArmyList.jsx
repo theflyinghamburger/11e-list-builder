@@ -1,8 +1,9 @@
+import { useRef } from 'react';
 import { getUnitPoints } from '../utils/costs';
 import { validateArmy } from '../utils/validate';
-import { saveArmy } from '../utils/storage';
 
-export default function ArmyList({ data, army, onRemoveUnit }) {
+export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy }) {
+  const fileInputRef = useRef(null);
   const totalPoints = army.units.reduce((sum, u) => {
     const unitData = data.units.find((d) => d.name === u.unitName);
     return unitData ? sum + getUnitPoints(unitData, u.modelCount, army.units, u.wargear) : sum;
@@ -24,11 +25,39 @@ export default function ArmyList({ data, army, onRemoveUnit }) {
         <h3>Army List</h3>
         <div className="army-actions">
           <button className="save-btn" onClick={() => {
-            const name = prompt('Army list name:');
-            if (name) { saveArmy(name, army); alert('Saved'); }
+            const exportData = { faction: army.faction, pointLimit: army.pointLimit, detachments: army.detachments, units: army.units };
+            const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${army.faction}-army.json`;
+            a.click();
+            URL.revokeObjectURL(url);
           }}>
             Save
           </button>
+          <button className="load-btn" onClick={() => fileInputRef.current?.click()}>
+            Load
+          </button>
+          <input ref={fileInputRef} type="file" accept=".json" style={{ display: 'none' }} onChange={(e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (ev) => {
+              try {
+                const parsed = JSON.parse(ev.target.result);
+                if (parsed.faction && parsed.units) {
+                  onLoadArmy(parsed);
+                } else {
+                  alert('Invalid army list file');
+                }
+              } catch {
+                alert('Invalid JSON file');
+              }
+            };
+            reader.readAsText(file);
+            e.target.value = '';
+          }} />
           <button className="print-btn" onClick={() => window.print()}>
             Print
           </button>

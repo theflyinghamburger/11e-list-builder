@@ -385,7 +385,22 @@ body {
   box-shadow: 0 0 12px var(--gold-glow);
 }
 
-.load-btn,
+.load-btn {
+  padding: 6px 16px;
+  background: linear-gradient(180deg, var(--bg-card) 0%, var(--bg-dark) 100%);
+  color: var(--parchment);
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  transition: all 0.15s ease;
+}
+.load-btn:hover {
+  border-color: var(--bronze-light);
+  color: var(--parchment-bright);
+}
+
 .print-btn {
   padding: 6px 16px;
   background: linear-gradient(180deg, var(--bg-card) 0%, var(--bg-dark) 100%);
@@ -397,7 +412,6 @@ body {
   font-size: 0.85rem;
   transition: all 0.15s ease;
 }
-.load-btn:hover,
 .print-btn:hover {
   border-color: var(--bronze-light);
   color: var(--parchment-bright);
@@ -432,21 +446,6 @@ body {
 }
 .remove-det-btn:hover,
 .remove-btn:hover {
-  color: #ff6666;
-  text-shadow: 0 0 8px rgba(255, 68, 68, 0.5);
-}
-
-.delete-saved-btn {
-  background: none;
-  border: none;
-  color: var(--red);
-  font-size: 1.1rem;
-  cursor: pointer;
-  padding: 0 4px;
-  line-height: 1;
-  transition: color 0.15s ease;
-}
-.delete-saved-btn:hover {
   color: #ff6666;
   text-shadow: 0 0 8px rgba(255, 68, 68, 0.5);
 }
@@ -622,55 +621,6 @@ body {
   gap: 8px;
 }
 
-.load-section {
-  position: relative;
-  margin-left: auto;
-}
-
-.saved-lists {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  margin-top: 4px;
-  background: var(--bg-panel);
-  border: 1px solid var(--bronze);
-  border-radius: 2px;
-  min-width: 260px;
-  max-height: 300px;
-  overflow-y: auto;
-  z-index: 10;
-}
-
-.saved-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6px 10px;
-  border-bottom: 1px solid var(--bronze-border);
-}
-.saved-item:last-child { border-bottom: none; }
-
-.saved-info {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  flex: 1;
-}
-.saved-info:hover { color: var(--gold); }
-
-.saved-name { font-size: 0.85rem; }
-
-.saved-date {
-  font-size: 0.7rem;
-  color: var(--parchment-dim);
-}
-
-.no-saved {
-  padding: 8px 10px;
-  color: var(--parchment-dim);
-  font-size: 0.8rem;
-}
-
 /* -- Detachment Info in Army -- */
 
 .detachment-info {
@@ -821,9 +771,10 @@ body {
   .app-header,
   .detachment-bar,
   .left-panel,
-  .print-btn,
-  .save-btn,
-  .remove-btn,
+   .print-btn,
+    .save-btn,
+    .load-btn,
+    .remove-btn,
   .search-input,
   .validation-issues,
   .over-warning,

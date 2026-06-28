@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { useArmy } from './hooks/useArmy';
 import { getData } from './data';
-import { loadArmy as loadArmyFromStorage } from './utils/storage';
 import ArmySetup from './components/ArmySetup';
 import DetachmentSelector from './components/DetachmentSelector';
 import UnitList from './components/UnitList';
@@ -17,11 +16,6 @@ function App() {
 
   const data = state._data;
 
-  const handleLoadArmy = (name) => {
-    const saved = loadArmyFromStorage(name);
-    if (saved) loadArmy(saved);
-  };
-
   if (!data) return null;
 
   return (
@@ -35,7 +29,6 @@ function App() {
           onSetFaction={setFaction}
           pointLimit={state.pointLimit}
           onSetPointLimit={setPointLimit}
-          onLoadArmy={handleLoadArmy}
         />
       </header>
 
@@ -55,7 +48,7 @@ function App() {
           <UnitList data={data} units={state.units} onAddUnit={addUnit} />
         </div>
         <div className="right-panel">
-          <ArmyList data={data} army={state} onRemoveUnit={removeUnit} />
+          <ArmyList data={data} army={state} onRemoveUnit={removeUnit} onLoadArmy={loadArmy} />
         </div>
       </div>
       </div>
