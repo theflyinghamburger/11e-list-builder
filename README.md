@@ -4,7 +4,7 @@ Praise the Omnissiah.
 
 Temporary ritual terminal for 11th Edition army list construction, until the sacred machines of [New Recruit](https://www.newrecruit.eu/app) are retooled for the new codex.
 
-Currently calibrated for Adeptus Mechanicus.
+29 factions supported.
 
 ## Activation
 
@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-Open the dev server, configure your detachment, and assemble your army. Save and print when the liturgy is complete.
+Open the dev server, pick a faction, configure detachments, and assemble your army. Save as JSON, print when the liturgy is complete.
 
 ## Data
 

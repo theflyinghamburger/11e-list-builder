@@ -2,7 +2,7 @@
 
 ## Project
 
-Warhammer 40k 11e army list builder for Adeptus Mechanicus. Vite + React, no TypeScript.
+Warhammer 40k 11e army list builder. 29 factions. Vite + React, no TypeScript.
 
 ## Commands
 
@@ -11,16 +11,19 @@ Warhammer 40k 11e army list builder for Adeptus Mechanicus. Vite + React, no Typ
 | `npm run dev` | Dev server |
 | `npm run build` | Production build → `dist/` |
 | `npm run preview` | Preview production build |
-| `npm run fetch-mfm <url>` | Scrape MFM faction page → JSON (requires Node 22) |
+| `node scripts/fetch-mfm.js <url>` | Scrape MFM faction page → JSON (requires Node 22) |
 
 No lint, typecheck, or test commands configured.
 
 ## Structure
 
 - `src/data/*.json` — codex data (detachments, units, costs). Source of truth for army rules.
+- `src/data/index.js` — faction registry: `getData(key)`, `getFactionKeys()`, `addFaction(key, data)`. Hydrates custom factions from localStorage.
 - `src/hooks/useArmy.js` — central state via `useReducer`. All army mutations flow here.
 - `src/components/` — UI components. `App.jsx` wires layout: setup (top), unit list (left), army list (right).
 - `src/utils/validate.js` — army composition validation (leader/support rules).
+- `src/utils/costs.js` — point cost calculation (flat, tiered, wargear).
+- `src/utils/dpBudget.js` — DP budget by point limit (1000→2, 2000→3, 3000→4).
 - `scripts/fetch-mfm.js` — MFM scraper (Cheerio + native fetch). Extracts detachments, units, costs, tiered pricing, leader/support.
 - `TODO.md` — phased implementation plan. Check before adding features to avoid duplicating in-progress work.
 
@@ -35,6 +38,8 @@ No lint, typecheck, or test commands configured.
    import newFaction from './new-faction.json';
    const factions = { 'adeptus-mechanicus': admech, 'new-faction': newFaction };
    ```
+
+**Option C — Runtime (no code changes):** Call `addFaction(key, data)` from `src/data/index.js`. Validates format, registers in-memory, persists to localStorage under `custom-factions`. No UI caller yet — intended for future "add custom faction" feature.
 
 **Data format:**
 
