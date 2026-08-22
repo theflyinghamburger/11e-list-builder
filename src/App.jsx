@@ -5,11 +5,13 @@ import ArmySetup from './components/ArmySetup';
 import DetachmentSelector from './components/DetachmentSelector';
 import UnitList from './components/UnitList';
 import ArmyList from './components/ArmyList';
+import DatasheetModal from './components/DatasheetModal';
 import './App.css';
 
 function App() {
   const { state, setPointLimit, setFaction, addDetachment, removeDetachment, updateDetachmentEnhancements, addUnit, removeUnit, setName, loadArmy } = useArmy();
   const [activeTab, setActiveTab] = useState('army');
+  const [dsView, setDsView] = useState(null);
 
   const data = getData(state.faction);
   if (!data) return <div className="app"><h1>Unknown faction: {state.faction}</h1></div>;
@@ -56,12 +58,20 @@ function App() {
 
       <div className="app-body">
         <div className={`left-panel ${activeTab === 'units' ? 'tab-active' : ''}`}>
-          <UnitList data={data} units={state.units} onAddUnit={addUnit} />
+          <UnitList data={data} units={state.units} onAddUnit={addUnit} onShowDatasheet={setDsView} />
         </div>
         <div className={`right-panel ${activeTab === 'army' ? 'tab-active' : ''}`}>
-          <ArmyList data={data} army={state} onRemoveUnit={removeUnit} onLoadArmy={loadArmy} onSetName={setName} />
+          <ArmyList data={data} army={state} onRemoveUnit={removeUnit} onLoadArmy={loadArmy} onSetName={setName} onShowDatasheet={setDsView} />
         </div>
       </div>
+      {dsView && (
+        <DatasheetModal
+          key={dsView}
+          factionKey={state.faction}
+          unitName={dsView}
+          onClose={() => setDsView(null)}
+        />
+      )}
       </div>
       <div className="side-banner" />
       <footer className="bottom-banner" />
