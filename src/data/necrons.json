@@ -114,7 +114,7 @@
           "pts": 15
         }
       ],
-      "leaderOf": [
+      "supportFor": [
         "SKORPEKH DESTROYERS",
         "LOKHUST DESTROYERS",
         "OPHYDIAN DESTROYERS",
@@ -185,7 +185,7 @@
     {
       "name": "PANTHEON OF WOE",
       "dpCost": 2,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Animus Damper",
@@ -292,7 +292,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 70
+          "cost": 75
         }
       ]
     },
@@ -344,6 +344,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 3,
@@ -380,20 +381,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 80
+          "cost": 70
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 80
+            "cost": 70
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 90
+            "cost": 80
           }
         ]
       },
@@ -468,6 +470,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -504,20 +507,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 200
+          "cost": 210
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 200
+            "cost": 210
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 220
+            "cost": 230
           }
         ]
       }
@@ -620,10 +624,11 @@
         },
         {
           "count": 6,
-          "cost": 160
+          "cost": 170
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -639,7 +644,7 @@
           },
           {
             "count": 6,
-            "cost": 160
+            "cost": 170
           }
         ],
         "secondary": [
@@ -657,7 +662,7 @@
           },
           {
             "count": 6,
-            "cost": 170
+            "cost": 180
           }
         ]
       }
@@ -675,10 +680,11 @@
         },
         {
           "count": 3,
-          "cost": 150
+          "cost": 160
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -690,7 +696,7 @@
           },
           {
             "count": 3,
-            "cost": 150
+            "cost": 160
           }
         ],
         "secondary": [
@@ -704,7 +710,7 @@
           },
           {
             "count": 3,
-            "cost": 160
+            "cost": 170
           }
         ]
       }
@@ -744,6 +750,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -776,7 +783,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 175
+          "cost": 185
         }
       ]
     },
@@ -798,6 +805,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -825,6 +833,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -936,6 +945,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -963,6 +973,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -993,6 +1004,21 @@
           "cost": 90
         }
       ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 90
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 100
+          }
+        ]
+      },
       "leaderOf": [
         "Skorpekh Destroyers"
       ]
@@ -1006,6 +1032,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -1030,20 +1057,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 445
+          "cost": 465
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 445
+            "cost": 465
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 465
+            "cost": 485
           }
         ]
       }
@@ -1053,7 +1081,7 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 400
+          "cost": 420
         }
       ]
     },
@@ -1070,6 +1098,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -1101,6 +1130,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -1151,6 +1181,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,

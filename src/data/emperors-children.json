@@ -3,7 +3,7 @@
     {
       "name": "CARNIVAL OF EXCESS",
       "dpCost": 2,
-      "doctrine": "PRIORITY ASSETS",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Dark Blessings",
@@ -26,7 +26,7 @@
     {
       "name": "COTERIE OF THE CONCEITED",
       "dpCost": 3,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Pledge of Dark Glory",
@@ -90,7 +90,7 @@
     {
       "name": "FRENZIED HOST",
       "dpCost": 1,
-      "doctrine": "DISRUPTION",
+      "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
           "name": "Euphoric Crown",
@@ -197,7 +197,7 @@
     {
       "name": "SPECTACLE OF SLAUGHTER",
       "dpCost": 1,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Beguiling Grotesquerie (Upgrade)",
@@ -220,6 +220,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -239,9 +240,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 80
+          "cost": 70
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ]
+      }
     },
     {
       "name": "Chaos Spawn",
@@ -262,6 +278,30 @@
       ]
     },
     {
+      "name": "Daemon Prince Of Slaanesh",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 170
+        }
+      ],
+      "tiered": {
+        "split": 1,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 170
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 185
+          }
+        ]
+      }
+    },
+    {
       "name": "Daemon Prince Of Slaanesh With Wings",
       "modelOptions": [
         {
@@ -270,6 +310,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -289,33 +330,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 290
+          "cost": 300
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 290
+            "cost": 300
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 320
+            "cost": 340
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Heavy Reaper Autocannon",
-          "costPerModel": 10
-        },
-        {
-          "name": "Hades Lascannon",
-          "costPerModel": 10
-        }
-      ]
+      }
     },
     {
       "name": "Flawless Blades",
@@ -335,7 +367,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 350
+          "cost": 340
         }
       ]
     },
@@ -370,6 +402,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -406,7 +439,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 130
+          "cost": 120
         }
       ],
       "leaderOf": [
@@ -418,20 +451,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 130
+          "cost": 120
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 130
+            "cost": 120
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 140
+            "cost": 130
           }
         ]
       }
@@ -445,6 +479,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 6,
@@ -464,7 +499,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 60
+          "cost": 55
         }
       ],
       "leaderOf": [
@@ -517,6 +552,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -541,6 +577,15 @@
         {
           "count": 10,
           "cost": 155
+        }
+      ]
+    },
+    {
+      "name": "Shalaxi Helbane",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 315
         }
       ]
     }

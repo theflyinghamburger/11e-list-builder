@@ -48,7 +48,7 @@
     },
     {
       "name": "HEXWARP THRALLBAND",
-      "dpCost": 2,
+      "dpCost": 3,
       "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
@@ -72,7 +72,7 @@
     {
       "name": "RITUAL OF REGENERATION",
       "dpCost": 1,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "Curse of Life",
@@ -110,7 +110,7 @@
     {
       "name": "SEKHETAR COHORT",
       "dpCost": 1,
-      "doctrine": "PRIORITY ASSETS",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Occulus Infernum",
@@ -140,7 +140,7 @@
     {
       "name": "WARPFORGED CABAL",
       "dpCost": 2,
-      "doctrine": "DISRUPTION",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Biomechanical Mutation",
@@ -211,6 +211,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -230,20 +231,45 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 130
+          "cost": 140
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 130
+            "cost": 140
           }
         ],
         "secondary": [
           {
             "count": 1,
+            "cost": 150
+          }
+        ]
+      }
+    },
+    {
+      "name": "Chaos Predator Destructor",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 140
+        }
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
             "cost": 140
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 150
           }
         ]
       }
@@ -253,9 +279,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 90
+          "cost": 80
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 90
+          }
+        ]
+      }
     },
     {
       "name": "Chaos Spawn",
@@ -275,6 +316,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -307,6 +349,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -326,33 +369,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 290
+          "cost": 300
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 290
+            "cost": 300
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 320
+            "cost": 340
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Hades Lascannon",
-          "costPerModel": 10
-        },
-        {
-          "name": "Heavy Reaper Autocannon",
-          "costPerModel": 10
-        }
-      ]
+      }
     },
     {
       "name": "Exalted Sorcerer",
@@ -389,6 +423,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -451,6 +486,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -474,6 +510,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -501,6 +538,7 @@
         }
       ],
       "tiered": {
+        "split": 3,
         "primary": [
           {
             "count": 5,
@@ -532,10 +570,11 @@
         },
         {
           "count": 10,
-          "cost": 370
+          "cost": 385
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -543,7 +582,7 @@
           },
           {
             "count": 10,
-            "cost": 370
+            "cost": 385
           }
         ],
         "secondary": [
@@ -553,7 +592,7 @@
           },
           {
             "count": 10,
-            "cost": 385
+            "cost": 400
           }
         ]
       }
@@ -563,13 +602,36 @@
       "modelOptions": [
         {
           "count": 2,
-          "cost": 80
+          "cost": 85
         },
         {
           "count": 4,
-          "cost": 160
+          "cost": 175
         }
-      ]
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 2,
+            "cost": 85
+          },
+          {
+            "count": 4,
+            "cost": 175
+          }
+        ],
+        "secondary": [
+          {
+            "count": 2,
+            "cost": 100
+          },
+          {
+            "count": 4,
+            "cost": 190
+          }
+        ]
+      }
     },
     {
       "name": "Sorcerer",
@@ -579,6 +641,21 @@
           "cost": 85
         }
       ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 95
+          }
+        ]
+      },
       "leaderOf": [
         "Rubric Marines"
       ]
@@ -592,6 +669,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -614,7 +692,7 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 45
+          "cost": 50
         },
         {
           "count": 6,
@@ -653,7 +731,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 60
+          "cost": 65
         }
       ],
       "leaderOf": [
@@ -689,7 +767,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 295
+          "cost": 305
         }
       ]
     },
@@ -698,23 +776,33 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 300
+          "cost": 320
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 300
+            "cost": 320
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 315
+            "cost": 340
           }
         ]
       }
+    },
+    {
+      "name": "Pink Horrors",
+      "modelOptions": [
+        {
+          "count": 10,
+          "cost": 115
+        }
+      ]
     },
     {
       "name": "Screamers",

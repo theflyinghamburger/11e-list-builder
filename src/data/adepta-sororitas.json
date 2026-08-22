@@ -25,8 +25,8 @@
     },
     {
       "name": "BRINGERS OF FLAME",
-      "dpCost": 3,
-      "doctrine": "PURGE THE FOE",
+      "dpCost": 2,
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Fire and Fury",
@@ -110,19 +110,19 @@
     {
       "name": "PENITENT HOST",
       "dpCost": 2,
-      "doctrine": "TAKE AND HOLD",
+      "doctrine": "PURGE THE FOE",
       "enhancements": [
         {
           "name": "Catechism of Divine Penitence",
-          "pts": 20
+          "pts": 15
         },
         {
           "name": "Psalm of Righteous Judgement",
-          "pts": 30
+          "pts": 20
         },
         {
           "name": "Refrain of Enduring Faith",
-          "pts": 25
+          "pts": 15
         },
         {
           "name": "Verse of Holy Piety",
@@ -151,7 +151,7 @@
     {
       "name": "SANCTIFIED ORATORS",
       "dpCost": 1,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Hagiomnifex (Upgrade)",
@@ -208,7 +208,14 @@
           "cost": 60
         }
       ],
-      "leaderOf": []
+      "leaderOf": [
+        "Battle Sisters Squad",
+        "Celestian Insidiants",
+        "Celestian Sacresants",
+        "Dominion Squad",
+        "Retributor Squad",
+        "Sisters Novitiate Squad"
+      ]
     },
     {
       "name": "Canoness With Jump Pack",
@@ -232,6 +239,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -268,6 +276,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -281,11 +290,11 @@
         "secondary": [
           {
             "count": 5,
-            "cost": 90
+            "cost": 85
           },
           {
             "count": 10,
-            "cost": 165
+            "cost": 160
           }
         ]
       }
@@ -337,29 +346,24 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 100
+          "cost": 90
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 10,
-            "cost": 100
+            "cost": 90
           }
         ],
         "secondary": [
           {
             "count": 10,
-            "cost": 110
+            "cost": 100
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Meltagun",
-          "costPerModel": 5
-        }
-      ]
+      }
     },
     {
       "name": "Exorcist",
@@ -370,6 +374,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -389,20 +394,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 65
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 75
+            "cost": 65
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 85
+            "cost": 75
           }
         ]
       },
@@ -420,7 +426,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 65
+          "cost": 55
         }
       ],
       "supportFor": [
@@ -436,36 +442,31 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 110
+          "cost": 100
         }
       ],
       "tiered": {
+        "split": 3,
         "primary": [
           {
             "count": 1,
-            "cost": 110
+            "cost": 100
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 120
+            "cost": 115
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Twin Multi-Melta",
-          "costPerModel": 15
-        }
-      ]
+      }
     },
     {
       "name": "Intranzia Fraye",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 150
+          "cost": 135
         }
       ]
     },
@@ -474,7 +475,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 115
+          "cost": 105
         }
       ],
       "leaderOf": [
@@ -521,7 +522,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 185
+          "cost": 200
         }
       ],
       "leaderOf": [
@@ -554,6 +555,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -566,13 +568,7 @@
             "cost": 190
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Multi-Melta",
-          "costPerModel": 10
-        }
-      ]
+      }
     },
     {
       "name": "Penitent Engines",
@@ -592,11 +588,11 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 75
+          "cost": 70
         },
         {
           "count": 10,
-          "cost": 160
+          "cost": 140
         }
       ]
     },
@@ -609,6 +605,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -621,13 +618,7 @@
             "cost": 115
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Multi-Melta",
-          "costPerModel": 5
-        }
-      ]
+      }
     },
     {
       "name": "Saint Celestine",
@@ -656,15 +647,26 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 85
+          "cost": 75
         },
         {
           "count": 10,
-          "cost": 160
+          "cost": 150
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 150
+          }
+        ],
+        "secondary": [
           {
             "count": 5,
             "cost": 85
@@ -672,16 +674,6 @@
           {
             "count": 10,
             "cost": 160
-          }
-        ],
-        "secondary": [
-          {
-            "count": 5,
-            "cost": 95
-          },
-          {
-            "count": 10,
-            "cost": 170
           }
         ]
       }
@@ -691,7 +683,7 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 100
+          "cost": 90
         }
       ]
     },
@@ -700,9 +692,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 65
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 65
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ]
+      }
     },
     {
       "name": "Triumph Of Saint Katherine",
@@ -721,13 +728,36 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 80
+          "cost": 75
         },
         {
           "count": 10,
-          "cost": 160
+          "cost": 150
         }
-      ]
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 5,
+            "cost": 75
+          },
+          {
+            "count": 10,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 85
+          },
+          {
+            "count": 10,
+            "cost": 160
+          }
+        ]
+      }
     }
   ]
 }

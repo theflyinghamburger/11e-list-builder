@@ -26,7 +26,7 @@
     {
       "name": "BRAZEN ENGINES",
       "dpCost": 1,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Murder-forged Entity (Upgrade)",
@@ -41,11 +41,11 @@
     {
       "name": "BUTCHERS OF KHORNE",
       "dpCost": 1,
-      "doctrine": "DISRUPTION",
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "Gore-stained Veterans (Upgrade)",
-          "pts": 25
+          "pts": 20
         },
         {
           "name": "Sanctified in Slaughter (Upgrade)",
@@ -76,8 +76,8 @@
         }
       ],
       "leaderOf": [
-        "JAKHALS",
-        "GOREMONGERS"
+        "GOREMONGERS",
+        "JAKHALS"
       ]
     },
     {
@@ -126,8 +126,8 @@
         }
       ],
       "leaderOf": [
-        "FLESH HOUNDS",
-        "BLOODCRUSHERS"
+        "BLOODCRUSHERS",
+        "FLESH HOUNDS"
       ]
     },
     {
@@ -160,7 +160,7 @@
       "enhancements": [
         {
           "name": "Archslaughterer",
-          "pts": 40
+          "pts": 30
         },
         {
           "name": "Gateways to Glory",
@@ -175,7 +175,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 350
+          "cost": 330
         }
       ]
     },
@@ -188,6 +188,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -207,20 +208,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 135
+          "cost": 130
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 135
+            "cost": 130
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 145
+            "cost": 140
           }
         ]
       }
@@ -230,18 +232,48 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 135
+          "cost": 130
         }
-      ]
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 130
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 140
+          }
+        ]
+      }
     },
     {
       "name": "Chaos Rhino",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
+          "cost": 75
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ]
+      }
     },
     {
       "name": "Chaos Spawn",
@@ -257,32 +289,33 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 175
+          "cost": 165
         },
         {
           "count": 10,
-          "cost": 350
+          "cost": 330
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
+          {
+            "count": 5,
+            "cost": 165
+          },
+          {
+            "count": 10,
+            "cost": 330
+          }
+        ],
+        "secondary": [
           {
             "count": 5,
             "cost": 175
           },
           {
             "count": 10,
-            "cost": 350
-          }
-        ],
-        "secondary": [
-          {
-            "count": 5,
-            "cost": 185
-          },
-          {
-            "count": 10,
-            "cost": 360
+            "cost": 340
           }
         ]
       }
@@ -314,6 +347,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -323,42 +357,69 @@
         "secondary": [
           {
             "count": 1,
-            "cost": 300
+            "cost": 310
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Hades Lascannon",
-          "costPerModel": 10
-        },
-        {
-          "name": "Heavy Reaper Autocannon",
-          "costPerModel": 10
-        }
-      ]
+      }
     },
     {
       "name": "Eightbound",
       "modelOptions": [
         {
           "count": 3,
-          "cost": 135
+          "cost": 125
         },
         {
           "count": 6,
-          "cost": 270
+          "cost": 255
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
-            "cost": 135
+            "cost": 125
+          },
+          {
+            "count": 6,
+            "cost": 255
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 140
           },
           {
             "count": 6,
             "cost": 270
+          }
+        ]
+      }
+    },
+    {
+      "name": "Exalted Eightbound",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 130
+        },
+        {
+          "count": 6,
+          "cost": 265
+        }
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 3,
+            "cost": 130
+          },
+          {
+            "count": 6,
+            "cost": 265
           }
         ],
         "secondary": [
@@ -374,59 +435,25 @@
       }
     },
     {
-      "name": "Exalted Eightbound",
-      "modelOptions": [
-        {
-          "count": 3,
-          "cost": 140
-        },
-        {
-          "count": 6,
-          "cost": 280
-        }
-      ],
-      "tiered": {
-        "primary": [
-          {
-            "count": 3,
-            "cost": 140
-          },
-          {
-            "count": 6,
-            "cost": 280
-          }
-        ],
-        "secondary": [
-          {
-            "count": 3,
-            "cost": 150
-          },
-          {
-            "count": 6,
-            "cost": 290
-          }
-        ]
-      }
-    },
-    {
       "name": "Forgefiend",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 160
+          "cost": 140
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 160
+            "cost": 140
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 175
+            "cost": 155
           }
         ]
       }
@@ -488,11 +515,11 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 180
+          "cost": 170
         },
         {
           "count": 20,
-          "cost": 345
+          "cost": 330
         }
       ]
     },
@@ -505,6 +532,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -524,7 +552,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 110
+          "cost": 100
         }
       ],
       "leaderOf": [
@@ -538,7 +566,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 105
+          "cost": 95
         }
       ],
       "leaderOf": [
@@ -564,20 +592,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 145
+          "cost": 140
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 145
+            "cost": 140
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 155
+            "cost": 150
           }
         ]
       }
@@ -604,10 +633,11 @@
         },
         {
           "count": 6,
-          "cost": 180
+          "cost": 190
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -615,17 +645,17 @@
           },
           {
             "count": 6,
-            "cost": 180
+            "cost": 190
           }
         ],
         "secondary": [
           {
             "count": 3,
-            "cost": 105
+            "cost": 115
           },
           {
             "count": 6,
-            "cost": 190
+            "cost": 210
           }
         ]
       }
@@ -648,6 +678,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -661,6 +692,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "Flesh Hounds",
+      "modelOptions": [
+        {
+          "count": 5,
+          "cost": 75
+        },
+        {
+          "count": 10,
+          "cost": 150
+        }
+      ]
     },
     {
       "name": "Skarbrand",

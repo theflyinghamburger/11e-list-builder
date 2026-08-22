@@ -87,7 +87,7 @@
     {
       "name": "LORDS OF THE WARP",
       "dpCost": 1,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "Swollen with Power (Upgrade)",
@@ -129,15 +129,15 @@
         },
         {
           "name": "Inescapable Eye",
-          "pts": 10
+          "pts": 15
         },
         {
           "name": "Infernal Puppeteer",
-          "pts": 25
+          "pts": 20
         },
         {
           "name": "Neverblade",
-          "pts": 20
+          "pts": 25
         }
       ]
     },
@@ -186,7 +186,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 70
+          "cost": 75
         },
         {
           "count": 2,
@@ -212,10 +212,11 @@
         },
         {
           "count": 6,
-          "cost": 180
+          "cost": 190
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -223,17 +224,17 @@
           },
           {
             "count": 6,
-            "cost": 180
+            "cost": 190
           }
         ],
         "secondary": [
           {
             "count": 3,
-            "cost": 105
+            "cost": 115
           },
           {
             "count": 6,
-            "cost": 190
+            "cost": 210
           }
         ]
       }
@@ -248,6 +249,18 @@
       ]
     },
     {
+      "name": "Bloodmaster",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 65
+        }
+      ],
+      "leaderOf": [
+        "Bloodletters"
+      ]
+    },
+    {
       "name": "Bloodthirster",
       "modelOptions": [
         {
@@ -256,6 +269,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -429,7 +443,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 80
+          "cost": 70
         }
       ],
       "leaderOf": [
@@ -446,6 +460,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -502,7 +517,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 295
+          "cost": 305
         }
       ]
     },
@@ -527,6 +542,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -546,20 +562,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 300
+          "cost": 320
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 300
+            "cost": 320
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 315
+            "cost": 340
           }
         ]
       }
@@ -629,6 +646,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -683,7 +701,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 340
+          "cost": 315
         }
       ]
     },
@@ -759,6 +777,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,

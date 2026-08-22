@@ -11,7 +11,7 @@
         },
         {
           "name": "Saturation Rounds (Upgrade)",
-          "pts": 10
+          "pts": 15
         }
       ]
     },
@@ -222,7 +222,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 95
+          "cost": 85
         }
       ],
       "leaderOf": [
@@ -234,7 +234,7 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 75
+          "cost": 70
         }
       ],
       "leaderOf": [
@@ -255,6 +255,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -282,7 +283,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 95
+          "cost": 85
         }
       ]
     },
@@ -333,6 +334,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -385,6 +387,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -412,6 +415,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -456,6 +460,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -491,6 +496,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -531,9 +537,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 70
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ]
+      }
     },
     {
       "name": "Kapricus Defenders",
@@ -568,7 +589,22 @@
           "count": 1,
           "cost": 85
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 95
+          }
+        ]
+      }
     },
     {
       "name": "ûThar The Destined",

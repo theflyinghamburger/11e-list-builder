@@ -26,7 +26,7 @@
     {
       "name": "CONTAGION ENGINES",
       "dpCost": 1,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
           "name": "Lancet of the Worldsore (Upgrade)",
@@ -223,6 +223,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -246,6 +247,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -269,6 +271,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -288,9 +291,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
+          "cost": 75
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ]
+      }
     },
     {
       "name": "Chaos Spawn",
@@ -328,10 +346,11 @@
         },
         {
           "count": 6,
-          "cost": 320
+          "cost": 305
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -339,7 +358,7 @@
           },
           {
             "count": 6,
-            "cost": 320
+            "cost": 305
           }
         ],
         "secondary": [
@@ -349,7 +368,7 @@
           },
           {
             "count": 6,
-            "cost": 330
+            "cost": 315
           }
         ]
       }
@@ -359,20 +378,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 290
+          "cost": 300
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 290
+            "cost": 300
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 320
+            "cost": 340
           }
         ]
       }
@@ -386,6 +406,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -409,6 +430,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -521,7 +543,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 400
+          "cost": 390
         }
       ]
     },
@@ -560,6 +582,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -587,7 +610,7 @@
         },
         {
           "count": 10,
-          "cost": 190
+          "cost": 180
         }
       ]
     },
@@ -664,6 +687,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
