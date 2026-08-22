@@ -346,7 +346,13 @@
             "cost": 225
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Twin Arachnus Heavy Blaze Cannon",
+          "costPerModel": 15
+        }
+      ]
     },
     {
       "name": "Contemptor-Achillus Dreadnought",
@@ -722,7 +728,13 @@
             "cost": 310
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Venatari Lance",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Venerable Contemptor Dreadnought",

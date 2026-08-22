@@ -1041,7 +1041,13 @@
             "cost": 405
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Wraithcannon",
+          "costPerModel": 10
+        }
+      ]
     },
     {
       "name": "Wraithknight With Ghostglaive",

@@ -432,7 +432,17 @@
             "cost": 400
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Despoiler Gatling Cannon",
+          "costPerModel": 25
+        },
+        {
+          "name": "Despoiler Battle Cannon",
+          "costPerModel": 15
+        }
+      ]
     },
     {
       "name": "Knight Rampager",

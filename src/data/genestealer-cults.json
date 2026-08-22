@@ -282,7 +282,13 @@
             "cost": 170
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Mining Laser",
+          "costPerModel": 10
+        }
+      ]
     },
     {
       "name": "Acolyte Hybrids With Autopistols",
