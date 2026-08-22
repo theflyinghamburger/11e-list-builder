@@ -37,6 +37,12 @@ const OVERRIDES = {
     'Chaos Warhound Titan': 'Warhound-Titan',
     'Chaos Warlord Titan': 'Warlord-Titan',
   },
+  'aeldari': {
+    'Vyper': 'Vypers',
+  },
+  'death-guard': {
+    'Myphitic Blight-Haulers': 'Myphitic-Blight-hauler',
+  },
 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

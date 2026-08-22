@@ -1,0 +1,6961 @@
+{
+  "ANGRON": {
+    "slug": "Angron",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Angron",
+    "base": "100mm",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "FLY",
+      "EPIC HERO",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "PRIMARCH",
+      "ANGRON"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "16",
+      "LD": "5+",
+      "OC": "6",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Samni’arius and Spinegrinder – strike (devastating wounds)",
+            "range": "Melee",
+            "a": "8",
+            "ws": "2+",
+            "s": "14",
+            "ap": "-3",
+            "d": "D6+2"
+          },
+          {
+            "name": "Samni’arius and Spinegrinder – sweep (devastating wounds)",
+            "range": "Melee",
+            "a": "16",
+            "ws": "2+",
+            "s": "7",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6, Deep Strike",
+      "FACTION: Blessings of Khorne",
+      "Reborn in Blood: At the start of the battle round, when you make a Blessings of Khorne roll, if this model is destroyed, you can use a triple 6 from that roll to use this ability instead of activating any Blessings of Khorne at the start of that battle round. If you do, this model is no longer destroyed and in the Reinforcements step of your next Movement phase, it is set up anywhere on the battlefield using its Deep Strike ability, with 8 wounds remaining.Wrathful Presence: At the start of the battle round, select one Wrathful Presence ability. Until the start of the next battle round, this model has that ability."
+    ],
+    "composition": [
+      "1 Angron – EPIC HERO",
+      "This model is equipped with: Samni’arius and Spinegrinder."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 330
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "BLOODY VENGEANCE",
+        "cp": 1,
+        "source": "Cult of Blood – Epic Deed"
+      },
+      {
+        "name": "BRAZEN IDOL",
+        "cp": 2,
+        "source": "Cult of Blood – Epic Deed"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "PUNISH THE CRAVEN",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Idols of Khorne",
+      "Blood Tithe",
+      "Rush to the Fray"
+    ]
+  },
+  "BLOODCRUSHERS": {
+    "slug": "Bloodcrushers",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Bloodcrushers",
+    "keywords": [
+      "MOUNTED",
+      "CHAOS",
+      "DAEMON",
+      "KHORNE",
+      "SUMMONED",
+      "BLOODCRUSHERS"
+    ],
+    "factionKeywords": [
+      "BLOOD LEGIONS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hellblade",
+            "range": "Melee",
+            "a": "2",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Bladed horn (extra attacks, lance)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "4+",
+            "s": "6",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "1 Bloodcrusher that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos.",
+      "1 Bloodcrusher that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon."
+    ],
+    "abilities": [
+      "CORE: Deep Strike",
+      "FACTION: Pact of Blood",
+      "Brass Stampede: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds."
+    ],
+    "wargearAbilities": [
+      "Daemonic Icon: Models in the bearer’s unit have a Leadership characteristic of 6+.",
+      "Instrument of Chaos: Add 1 to Charge rolls made for the bearer’s unit."
+    ],
+    "composition": [
+      "1 Bloodhunter",
+      "2-5 Bloodcrushers",
+      "Every model is equipped with: hellblade; bladed horn."
+    ],
+    "costs": [
+      {
+        "label": "3 models",
+        "pts": 95
+      },
+      {
+        "label": "6 models",
+        "pts": 190
+      },
+      {
+        "label": "3 models",
+        "pts": 115
+      },
+      {
+        "label": "6 models",
+        "pts": 210
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "BLESSING OF BURNING BLOOD",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Battle Tactic"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "DAEMONIC FURY",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Battle Tactic"
+      },
+      {
+        "name": "MURDER-CALL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Blood Tithe"
+    ]
+  },
+  "BLOODLETTERS": {
+    "slug": "Bloodletters",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Bloodletters",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "CHAOS",
+      "DAEMON",
+      "KHORNE",
+      "SUMMONED",
+      "BLOODLETTERS"
+    ],
+    "factionKeywords": [
+      "BLOOD LEGIONS"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hellblade",
+            "range": "Melee",
+            "a": "2",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "1 Bloodletter that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos.",
+      "1 Bloodletter that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon."
+    ],
+    "abilities": [
+      "CORE: Deep Strike",
+      "FACTION: Pact of Blood",
+      "Bane of Cowards: Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+    ],
+    "wargearAbilities": [
+      "Daemonic Icon: Models in the bearer’s unit have a Leadership characteristic of 6+.",
+      "Instrument of Chaos: Add 1 to Charge rolls made for the bearer’s unit."
+    ],
+    "composition": [
+      "1 Bloodreaper",
+      "9 Bloodletters",
+      "Every model is equipped with: hellblade."
+    ],
+    "costs": [
+      {
+        "label": "10 models",
+        "pts": 90
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "SUMMONED BY SLAUGHTER",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "BLESSING OF BURNING BLOOD",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Battle Tactic"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "DAEMONIC FURY",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Battle Tactic"
+      },
+      {
+        "name": "MURDER-CALL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Blood Tithe"
+    ]
+  },
+  "BLOODTHIRSTER": {
+    "slug": "Bloodthirster",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Bloodthirster",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "FLY",
+      "CHAOS",
+      "DAEMON",
+      "KHORNE",
+      "SUMMONED",
+      "BLOODTHIRSTER"
+    ],
+    "factionKeywords": [
+      "BLOOD LEGIONS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Bloodflail (devastating wounds)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "2+",
+            "s": "16",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Hellfire breath (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Lash of Khorne",
+            "range": "12\"",
+            "a": "9",
+            "bs": "2+",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Axe of Khorne – strike",
+            "range": "Melee",
+            "a": "8",
+            "ws": "2+",
+            "s": "14",
+            "ap": "-4",
+            "d": "D3+1"
+          },
+          {
+            "name": "Axe of Khorne – sweep",
+            "range": "Melee",
+            "a": "16",
+            "ws": "2+",
+            "s": "8",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Great axe of Khorne – strike",
+            "range": "Melee",
+            "a": "7",
+            "ws": "2+",
+            "s": "16",
+            "ap": "-4",
+            "d": "D6+2"
+          },
+          {
+            "name": "Great axe of Khorne – sweep",
+            "range": "Melee",
+            "a": "14",
+            "ws": "2+",
+            "s": "10",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s great axe of Khorne can be replaced with 1 axe of Khorne and one of the following:",
+      "1 bloodflail",
+      "1 lash of Khorne"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6, Deep Strike",
+      "FACTION: Pact of Blood",
+      "Daemon Lord of Khorne (Aura): While a friendly BLOOD LEGIONS unit is within 6\" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll.Relentless Carnage: At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound."
+    ],
+    "composition": [
+      "1 Bloodthirster",
+      "This model is equipped with: hellfire breath; great axe of Khorne"
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 320
+      },
+      {
+        "label": "1 model",
+        "pts": 335
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "BLESSING OF BURNING BLOOD",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Battle Tactic"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "DAEMONIC FURY",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Battle Tactic"
+      },
+      {
+        "name": "MURDER-CALL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Blood Tithe",
+      "Blood-forged Armour20"
+    ]
+  },
+  "CHAOS LAND RAIDER": {
+    "slug": "Chaos-Land-Raider",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Chaos-Land-Raider",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "FRAME",
+      "SMOKE",
+      "CHAOS",
+      "KHORNE",
+      "LAND RAIDER"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Combi-bolter (rapid fire 4)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Combi-weapon (anti-infantry 4+, devastating wounds, rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Havoc launcher (blast)",
+            "range": "48\"",
+            "a": "D6",
+            "bs": "4+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Soulshatter lascannon (rapid fire 2)",
+            "range": "48\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Twin heavy bolter (rapid fire 2, sustained hits 1, twin-linked)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "4+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "a": "9",
+            "ws": "3+",
+            "s": "8",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model can be equipped with one of the following:",
+      "1 combi-bolter",
+      "1 combi-weapon",
+      "This model can be equipped with 1 havoc launcher."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Blessings of Khorne",
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "composition": [
+      "1 Chaos Land Raider",
+      "This model is equipped with: 2 soulshatter lascannons; twin heavy bolter; armoured tracks."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 220
+      },
+      {
+        "label": "1 model",
+        "pts": 240
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "SMOKESCREEN",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "SMASH THROUGH",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "UNRELENTING ADVANCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Murder-Forged Entity15"
+    ]
+  },
+  "CHAOS PREDATOR ANNIHILATOR": {
+    "slug": "Chaos-Predator-Annihilator",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Chaos-Predator-Annihilator",
+    "keywords": [
+      "VEHICLE",
+      "FRAME",
+      "SMOKE",
+      "CHAOS",
+      "KHORNE",
+      "PREDATOR ANNIHILATOR"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Combi-bolter (rapid fire 4)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Combi-weapon (anti-infantry 4+, devastating wounds, rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Havoc launcher (blast)",
+            "range": "48\"",
+            "a": "D6",
+            "bs": "4+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Heavy bolter (rapid fire 2, sustained hits 1)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "4+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Lascannon",
+            "range": "48\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Predator twin lascannon (rapid fire 2, twin-linked)",
+            "range": "48\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "14",
+            "ap": "-3",
+            "d": "D6+1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model can be equipped with one of the following:",
+      "2 heavy bolters",
+      "2 lascannons",
+      "This model can be equipped with 1 havoc launcher.",
+      "This model can be equipped with one of the following:",
+      "1 combi-bolter",
+      "1 combi-weapon"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Blessings of Khorne",
+      "Blood-hungry Annihilator: Each time this model makes a ranged attack that targets the closest eligible MONSTER or VEHICLE target within 18\", you can re-roll the Wound roll and you can re-roll the Damage roll."
+    ],
+    "composition": [
+      "1 Chaos Predator Annihilator",
+      "This model is equipped with: Predator twin lascannon; armoured tracks."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 130
+      },
+      {
+        "label": "1 model",
+        "pts": 140
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "SMOKESCREEN",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "SMASH THROUGH",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "UNRELENTING ADVANCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Murder-Forged Entity15"
+    ]
+  },
+  "CHAOS PREDATOR DESTRUCTOR": {
+    "slug": "Chaos-Predator-Destructor",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Chaos-Predator-Destructor",
+    "keywords": [
+      "VEHICLE",
+      "FRAME",
+      "SMOKE",
+      "CHAOS",
+      "KHORNE",
+      "PREDATOR DESTRUCTOR"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "11",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Combi-bolter (rapid fire 4)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Combi-weapon (anti-infantry 4+, devastating wounds, rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Havoc launcher (blast)",
+            "range": "48\"",
+            "a": "D6",
+            "bs": "4+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Heavy bolter (rapid fire 2, sustained hits 1)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "4+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Lascannon",
+            "range": "48\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Predator autocannon (rapid fire 6)",
+            "range": "48\"",
+            "a": "4",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-1",
+            "d": "3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model can be equipped with one of the following:",
+      "2 heavy bolters",
+      "2 lascannons",
+      "This model can be equipped with 1 havoc launcher.",
+      "This model can be equipped with one of the following:",
+      "1 combi-bolter",
+      "1 combi-weapon"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Blessings of Khorne",
+      "Punishing Suppression: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks (excluding MONSTERS and VEHICLES). Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    ],
+    "composition": [
+      "1 Chaos Predator Destructor",
+      "This model is equipped with: Predator autocannon; armoured tracks."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 130
+      },
+      {
+        "label": "1 model",
+        "pts": 140
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "SMOKESCREEN",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "SMASH THROUGH",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "UNRELENTING ADVANCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Murder-Forged Entity15"
+    ]
+  },
+  "CHAOS RHINO": {
+    "slug": "Chaos-Rhino",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Chaos-Rhino",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "FRAME",
+      "DEDICATED TRANSPORT",
+      "SMOKE",
+      "CHAOS",
+      "KHORNE",
+      "RHINO"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Combi-bolter (rapid fire 4)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Combi-weapon (anti-infantry 4+, devastating wounds, rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Havoc launcher (blast)",
+            "range": "48\"",
+            "a": "D6",
+            "bs": "4+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model can be equipped with one of the following:",
+      "1 additional combi-bolter",
+      "1 combi-weapon",
+      "This model can be equipped with 1 havoc launcher or can replace 1 combi-bolter with 1 havoc launcher."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3, Firing Deck 2",
+      "FACTION: Blessings of Khorne",
+      "Meet Any Challenge: In your opponent’s Movement phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 8\" of this model, any units embarked within it can disembark."
+    ],
+    "composition": [
+      "1 Chaos Rhino",
+      "This model is equipped with: 1 combi-bolter; armoured tracks."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 75
+      },
+      {
+        "label": "1 model",
+        "pts": 85
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "SMOKESCREEN",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "AGGRESSIVE DISEMBARKATION",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "FULL-THROTTLE ASSAULT",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "SMASH THROUGH",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "FURY UNLEASHED",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "UNRELENTING ADVANCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Murder-Forged Entity15"
+    ]
+  },
+  "CHAOS SPAWN": {
+    "slug": "Chaos-Spawn",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Chaos-Spawn",
+    "base": "50mm",
+    "keywords": [
+      "BEAST",
+      "CHAOS",
+      "KHORNE",
+      "SPAWN"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hideous mutations",
+            "range": "Melee",
+            "a": "D6+4",
+            "ws": "4+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Feel No Pain 5+, Scouts 8\"",
+      "FACTION: Blessings of Khorne",
+      "To Slake its Rage: This unit is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "composition": [
+      "2 Chaos Spawn",
+      "Every model is equipped with: hideous mutations."
+    ],
+    "costs": [
+      {
+        "label": "2 models",
+        "pts": 95
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNSTOPPABLE RAGE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "COWARDS’ BANE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "SAVAGE RESILIENCE",
+        "cp": 1,
+        "source": "Boarding Butchers – Battle Tactic"
+      },
+      {
+        "name": "TERRIFYING SCREAMS",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Focused Ferocity"
+    ]
+  },
+  "CHAOS TERMINATORS": {
+    "slug": "Chaos-Terminators",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Chaos-Terminators",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "KHORNE",
+      "TERMINATOR",
+      "TERMINATOR SQUAD"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "7\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Combi-bolter (rapid fire 4)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Combi-weapon (anti-infantry 4+, devastating wounds, rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Heavy flamer (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Reaper autocannon (devastating wounds, rapid fire 2, sustained hits 1)",
+            "range": "36\"",
+            "a": "4",
+            "bs": "4+",
+            "s": "7",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Accursed weapon",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Chainfist (anti-vehicle 3+)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "4+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          },
+          {
+            "name": "Paired accursed weapons (twin-linked)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "For every 5 models in this unit, 1 Chaos Terminator’s combi-bolter can be replaced with one of the following:",
+      "1 heavy flamer",
+      "1 reaper autocannon",
+      "Any number of models can each have their combi-bolter replaced with 1 combi-weapon.",
+      "For every 5 models in this unit, 1 model’s combi-bolter and accursed weapon can be replaced with 1 paired accursed weapons.",
+      "For every 5 models in this unit, up to 3 models can each have their accursed weapon replaced with 1 power fist.",
+      "For every 5 models in this unit, 1 model’s accursed weapon can be replaced with 1 chainfist."
+    ],
+    "abilities": [
+      "CORE: Deep Strike",
+      "FACTION: Blessings of Khorne",
+      "Bloody Fury: This unit’s ranged attacks that target the closest eligible target can re-roll hit rolls.When this unit declares a charge, you can use this part of this ability. If you do:This unit can re-roll that charge roll.This unit must end that charge move engaged with the closest charge target."
+    ],
+    "composition": [
+      "1 Terminator Champion",
+      "4-9 Chaos Terminators",
+      "Every model is equipped with: combi-bolter; accursed weapon."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 165
+      },
+      {
+        "label": "10 models",
+        "pts": 330
+      },
+      {
+        "label": "5 models",
+        "pts": 175
+      },
+      {
+        "label": "10 models",
+        "pts": 340
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNSTOPPABLE RAGE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "COWARDS’ BANE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "SAVAGE RESILIENCE",
+        "cp": 1,
+        "source": "Boarding Butchers – Battle Tactic"
+      },
+      {
+        "name": "TERRIFYING SCREAMS",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "WRATH BEYOND REASON",
+        "cp": 0,
+        "source": "Butchers of Khorne Stratagem"
+      },
+      {
+        "name": "A TROPHY FOR THE THRONE",
+        "cp": 0,
+        "source": "Butchers of Khorne Stratagem"
+      },
+      {
+        "name": "FOCUSED FEROCITY",
+        "cp": 0,
+        "source": "Butchers of Khorne Stratagem"
+      },
+      {
+        "name": "ENDLESS PURSUIT OF VIOLENCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "RUINOUS RAMPAGE",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      },
+      {
+        "name": "SHOCKING ONSLAUGHT",
+        "cp": 1,
+        "source": "Skullsworn – Battle Tactic"
+      },
+      {
+        "name": "BLOOD RITE",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      },
+      {
+        "name": "FURIOUS MOMENTUM",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Focused Ferocity",
+      "Reap the Tally",
+      "Adamantine Avalanche",
+      "Sanctified in Slaughter15",
+      "Gore-Stained Veterans20"
+    ]
+  },
+  "DAEMON PRINCE OF KHORNE": {
+    "slug": "Daemon-Prince-of-Khorne",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Daemon-Prince-of-Khorne",
+    "base": "60mm",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "DAEMON PRINCE"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Infernal cannon (rapid fire 1)",
+            "range": "24\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hellforged weapons – strike",
+            "range": "Melee",
+            "a": "8",
+            "ws": "2+",
+            "s": "8",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Hellforged weapons – sweep",
+            "range": "Melee",
+            "a": "16",
+            "ws": "2+",
+            "s": "6",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Blessings of Khorne",
+      "Lord of Murder: While this model is within 3\" of one or more friendly WORLD EATERS INFANTRY units, this model has the Lone Operative ability.Devastating Assault: Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [DEVASTATING WOUNDS] ability.Direct the Slaughter: Once per battle round, one model from your army with this ability can use it when a friendly WORLD EATERS unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    ],
+    "composition": [
+      "1 Daemon Prince of Khorne",
+      "This model is equipped with: infernal cannon; hellforged weapons."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 200
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "BLOODY VENGEANCE",
+        "cp": 1,
+        "source": "Cult of Blood – Epic Deed"
+      },
+      {
+        "name": "BRAZEN IDOL",
+        "cp": 2,
+        "source": "Cult of Blood – Epic Deed"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "SCORN THE WITCH",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      },
+      {
+        "name": "PUNISH THE CRAVEN",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      },
+      {
+        "name": "ASPIRE TO INFAMY",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Wrath of Khorne",
+      "Idols of Khorne",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Battle-lust20",
+      "Favoured of Khorne20",
+      "Helm of Brazen Ire30",
+      "Berzerker Glaive35",
+      "Gateways to Glory10",
+      "Archslaughterer30",
+      "Chosen of the Blood God15",
+      "Strategic Slaughter20",
+      "Brazen Form25",
+      "Blood-forged Armour20",
+      "Icon of War25",
+      "Blade of Endless Bloodshed30",
+      "Violent Demise10",
+      "Killing Clarity15",
+      "Frenzied Focus20",
+      "Unleash Hell10",
+      "Infernal Infusion25"
+    ]
+  },
+  "DAEMON PRINCE OF KHORNE WITH WINGS": {
+    "slug": "Daemon-Prince-of-Khorne-with-Wings",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Daemon-Prince-of-Khorne-with-Wings",
+    "base": "60mm",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "FLY",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "DAEMON PRINCE"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Infernal cannon (rapid fire 1)",
+            "range": "24\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hellforged weapons – strike",
+            "range": "Melee",
+            "a": "8",
+            "ws": "2+",
+            "s": "8",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Hellforged weapons – sweep",
+            "range": "Melee",
+            "a": "16",
+            "ws": "2+",
+            "s": "6",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3, Deep Strike",
+      "FACTION: Blessings of Khorne",
+      "Bloodied Terror: At the start of the Fight phase, each enemy unit within Engagement Range of this model must take a Battle-shock test, subtracting 1 from that test if that enemy unit is Below Half-strength.Swooping Predator: Each time this model ends a Normal or Advance move, you can select one enemy unit that it moved over during that move and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+    ],
+    "composition": [
+      "1 Daemon Prince of Khorne with Wings",
+      "This model is equipped with: infernal cannon; hellforged weapons."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 170
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "BLOODY VENGEANCE",
+        "cp": 1,
+        "source": "Cult of Blood – Epic Deed"
+      },
+      {
+        "name": "BRAZEN IDOL",
+        "cp": 2,
+        "source": "Cult of Blood – Epic Deed"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "SCORN THE WITCH",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      },
+      {
+        "name": "PUNISH THE CRAVEN",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      },
+      {
+        "name": "ASPIRE TO INFAMY",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Wrath of Khorne",
+      "Idols of Khorne",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Battle-lust20",
+      "Favoured of Khorne20",
+      "Helm of Brazen Ire30",
+      "Berzerker Glaive35",
+      "Gateways to Glory10",
+      "Archslaughterer30",
+      "Chosen of the Blood God15",
+      "Strategic Slaughter20",
+      "Brazen Form25",
+      "Blood-forged Armour20",
+      "Icon of War25",
+      "Blade of Endless Bloodshed30",
+      "Violent Demise10",
+      "Killing Clarity15",
+      "Frenzied Focus20",
+      "Unleash Hell10",
+      "Infernal Infusion25"
+    ]
+  },
+  "DEFILER": {
+    "slug": "Defiler",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Defiler",
+    "base": "160mm",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "DEFILER"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Ectoplasma destructor (blast, rapid fire 2)",
+            "range": "36\"",
+            "a": "D6",
+            "bs": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "3"
+          },
+          {
+            "name": "Excruciator cannon (rapid fire 3)",
+            "range": "36\"",
+            "a": "6",
+            "bs": "4+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Heavy baleflamer (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6+3",
+            "bs": "N/A",
+            "s": "7",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Hades battle cannon (blast, rapid fire 3)",
+            "range": "48\"",
+            "a": "D6+3",
+            "bs": "4+",
+            "s": "10",
+            "ap": "-1",
+            "d": "3"
+          },
+          {
+            "name": "Hades lascannon (rapid fire 1)",
+            "range": "48\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Heavy missile launcher – krak (rapid fire 1)",
+            "range": "48\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "10",
+            "ap": "-2",
+            "d": "D6+1"
+          },
+          {
+            "name": "Heavy missile launcher – frag (blast, rapid fire 3)",
+            "range": "48\"",
+            "a": "2D6",
+            "bs": "4+",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Heavy reaper autocannon (devastating wounds, rapid fire 2, sustained hits 1)",
+            "range": "48\"",
+            "a": "4",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-1",
+            "d": "3"
+          },
+          {
+            "name": "Magma cutters (melta 2, rapid fire 1)",
+            "range": "12\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-4",
+            "d": "D6"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Electroscourge (extra attacks, sustained hits 2)",
+            "range": "Melee",
+            "a": "7",
+            "ws": "3+",
+            "s": "12",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Shearing claws – strike",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "16",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Shearing claws – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Hades battle cannon can be replaced with 1 ectoplasma destructor.",
+      "This model’s excruciator cannons can be replaced with 2 magma cutters.",
+      "This model’s heavy baleflamer can be replaced with one of the following:",
+      "1 Hades lascannon",
+      "1 heavy reaper autocannon",
+      "1 electroscourge (a model cannot be equipped with more than one electroscourge)",
+      "This model’s heavy missile launcher can be replaced with one of the following:",
+      "1 Hades lascannon",
+      "1 heavy reaper autocannon",
+      "1 electroscourge (a model cannot be equipped with more than one electroscourge)"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Blessings of Khorne",
+      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.Unleash Wrath: At the end of your opponent’s Movement phase, you can select one enemy unit that was set up on the battlefield within 12\" of this model; this model can then either:Shoot at that unit, but only if it is an eligible target.Declare a charge. This unit must end that charge move engaged with the enemy unit you selected (note that even if this charge is successful, this unit does not receive any Charge bonus this turn)."
+    ],
+    "composition": [
+      "1 Defiler",
+      "This model is equipped with: 1 Hades battle cannon; 2 excruciator cannons; 1 heavy missile launcher; 1 heavy baleflamer; 1 shearing claws."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 270
+      },
+      {
+        "label": "1 model",
+        "pts": 310
+      },
+      {
+        "label": "per Hades lascannon",
+        "pts": 15
+      },
+      {
+        "label": "per Heavy reaper autocannon",
+        "pts": 15
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "TRAIL OF DESTRUCTION",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "APOPLECTIC CLARITY",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "GOADED TO FURY",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "SMASH THROUGH",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "UNRELENTING ADVANCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Rampaging Terrors",
+      "Murder-Forged Entity15"
+    ]
+  },
+  "EIGHTBOUND": {
+    "slug": "Eightbound",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Eightbound",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "POSSESSED",
+      "EIGHTBOUND"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Chainblades",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Scouts 6\"",
+      "FACTION: Blessings of Khorne",
+      "Beacons of Rage (Aura): While a friendly WORLD EATERS unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding MONSTERS and VEHICLES), add 1 to the Hit roll. If that attack targets a unit (excluding MONSTERS and VEHICLES) that is Below Half-strength, add 1 to the Wound roll as well."
+    ],
+    "composition": [
+      "1 Eightbound Champion",
+      "2-5 Eightbound",
+      "Every model is equipped with: chainblades."
+    ],
+    "costs": [
+      {
+        "label": "3 models",
+        "pts": 125
+      },
+      {
+        "label": "6 models",
+        "pts": 255
+      },
+      {
+        "label": "3 models",
+        "pts": 140
+      },
+      {
+        "label": "6 models",
+        "pts": 270
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNSTOPPABLE RAGE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "COWARDS’ BANE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "SAVAGE RESILIENCE",
+        "cp": 1,
+        "source": "Boarding Butchers – Battle Tactic"
+      },
+      {
+        "name": "TERRIFYING SCREAMS",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "ENDLESS PURSUIT OF VIOLENCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "HORRIFYING VIOLENCE",
+        "cp": 1,
+        "source": "Possessed Slaughterband – Strategic Ploy"
+      },
+      {
+        "name": "WARP STALKERS",
+        "cp": 1,
+        "source": "Possessed Slaughterband – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONIC RESISTANCE",
+        "cp": 2,
+        "source": "Possessed Slaughterband – Battle Tactic"
+      },
+      {
+        "name": "DAEMONIC STRENGTH",
+        "cp": 1,
+        "source": "Possessed Slaughterband – Battle Tactic"
+      },
+      {
+        "name": "IMMORTAL FURY",
+        "cp": 2,
+        "source": "Possessed Slaughterband – Battle Tactic"
+      },
+      {
+        "name": "RUINOUS RAMPAGE",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      },
+      {
+        "name": "SHOCKING ONSLAUGHT",
+        "cp": 1,
+        "source": "Skullsworn – Battle Tactic"
+      },
+      {
+        "name": "BLOOD RITE",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      },
+      {
+        "name": "FURIOUS MOMENTUM",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      }
+    ],
+    "ledBy": [
+      "LORD INVOCATUS",
+      "LORD ON JUGGERNAUT",
+      "SLAUGHTERBOUND"
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Brazen Fury",
+      "Rush to the Fray",
+      "Focused Ferocity",
+      "Reap the Tally"
+    ]
+  },
+  "EXALTED EIGHTBOUND": {
+    "slug": "Exalted-Eightbound",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Exalted-Eightbound",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "POSSESSED",
+      "EXALTED EIGHTBOUND"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Chainblades (anti-monster 3+, anti-vehicle 3+)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike",
+      "FACTION: Blessings of Khorne",
+      "Rend and Tear: Each time a model in this unit makes a melee attack that targets a MONSTER or VEHICLE unit, until the end of the phase, improve the Damage characteristic of that attack by 1."
+    ],
+    "composition": [
+      "1 Exalted Eightbound Champion",
+      "2-5 Exalted Eightbound",
+      "Every model is equipped with: chainblades."
+    ],
+    "costs": [
+      {
+        "label": "3 models",
+        "pts": 130
+      },
+      {
+        "label": "6 models",
+        "pts": 265
+      },
+      {
+        "label": "3 models",
+        "pts": 145
+      },
+      {
+        "label": "6 models",
+        "pts": 280
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNSTOPPABLE RAGE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "COWARDS’ BANE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "SAVAGE RESILIENCE",
+        "cp": 1,
+        "source": "Boarding Butchers – Battle Tactic"
+      },
+      {
+        "name": "TERRIFYING SCREAMS",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "ENDLESS PURSUIT OF VIOLENCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "HORRIFYING VIOLENCE",
+        "cp": 1,
+        "source": "Possessed Slaughterband – Strategic Ploy"
+      },
+      {
+        "name": "RAPID MANIFESTATION",
+        "cp": 1,
+        "source": "Possessed Slaughterband – Strategic Ploy"
+      },
+      {
+        "name": "WARP STALKERS",
+        "cp": 1,
+        "source": "Possessed Slaughterband – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONIC RESISTANCE",
+        "cp": 2,
+        "source": "Possessed Slaughterband – Battle Tactic"
+      },
+      {
+        "name": "DAEMONIC STRENGTH",
+        "cp": 1,
+        "source": "Possessed Slaughterband – Battle Tactic"
+      },
+      {
+        "name": "IMMORTAL FURY",
+        "cp": 2,
+        "source": "Possessed Slaughterband – Battle Tactic"
+      },
+      {
+        "name": "RUINOUS RAMPAGE",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      },
+      {
+        "name": "SHOCKING ONSLAUGHT",
+        "cp": 1,
+        "source": "Skullsworn – Battle Tactic"
+      },
+      {
+        "name": "BLOOD RITE",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      },
+      {
+        "name": "FURIOUS MOMENTUM",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      }
+    ],
+    "ledBy": [
+      "LORD INVOCATUS",
+      "LORD ON JUGGERNAUT",
+      "SLAUGHTERBOUND"
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Brazen Fury",
+      "Rush to the Fray",
+      "Focused Ferocity",
+      "Reap the Tally"
+    ]
+  },
+  "FLESH HOUNDS": {
+    "slug": "Flesh-Hounds",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Flesh-Hounds",
+    "keywords": [
+      "BEAST",
+      "CHAOS",
+      "DAEMON",
+      "KHORNE",
+      "SUMMONED",
+      "FLESH HOUNDS"
+    ],
+    "factionKeywords": [
+      "BLOOD LEGIONS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Burning roar (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Gore-drenched fangs",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "None"
+    ],
+    "abilities": [
+      "CORE: Deep Strike",
+      "FACTION: Pact of Blood",
+      "Hunters from the Warp: At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+    ],
+    "wargearAbilities": [
+      "Collar of Khorne: The bearer has the Feel No Pain 3+ ability against Psychic Attacks."
+    ],
+    "composition": [
+      "1 Gore Hound",
+      "4-9 Flesh Hounds",
+      "The Gore Hound is equipped with: burning roar; gore-drenched fangs; collar of Khorne. Every Flesh Hound is equipped with: gore-drenched fangs; collar of Khorne."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 75
+      },
+      {
+        "label": "10 models",
+        "pts": 150
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "BLESSING OF BURNING BLOOD",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Battle Tactic"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "DAEMONIC FURY",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Battle Tactic"
+      },
+      {
+        "name": "MURDER-CALL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Blood Tithe"
+    ]
+  },
+  "FORGEFIEND": {
+    "slug": "Forgefiend",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Forgefiend",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "FORGEFIEND"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Ectoplasma cannon (blast, rapid fire 1)",
+            "range": "36\"",
+            "a": "D3",
+            "bs": "4+",
+            "s": "10",
+            "ap": "-3",
+            "d": "3"
+          },
+          {
+            "name": "Hades autocannon (rapid fire 4)",
+            "range": "36\"",
+            "a": "6",
+            "bs": "4+",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Forgefiend claws",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Forgefiend jaws",
+            "range": "Melee",
+            "a": "8",
+            "ws": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s 2 Hades autocannons can be replaced with 2 ectoplasma cannons.",
+      "This model’s Forgefiend jaws can be replaced with 1 ectoplasma cannon and 1 Forgefiend claws."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Blessings of Khorne",
+      "Furious Onslaught: Each time this model makes a ranged attack that targets the closest eligible target within 18\", you can re-roll the Hit roll."
+    ],
+    "composition": [
+      "1 Forgefiend",
+      "This model is equipped with: 2 Hades autocannons; 1 Forgefiend jaws."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 140
+      },
+      {
+        "label": "1 model",
+        "pts": 155
+      },
+      {
+        "label": "per Ectoplasma cannon",
+        "pts": 5
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "TRAIL OF DESTRUCTION",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "APOPLECTIC CLARITY",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "GOADED TO FURY",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "SMASH THROUGH",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "UNRELENTING ADVANCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Rampaging Terrors",
+      "Murder-Forged Entity15"
+    ]
+  },
+  "GOREMONGERS": {
+    "slug": "Goremongers",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Goremongers",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "GRENADES",
+      "CHAOS",
+      "KHORNE",
+      "GOREMONGERS"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "9\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Blood harpoon (assault, sustained hits d3)",
+            "range": "18\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Chainblade (lance)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "2",
+            "ws": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "1 Goremonger’s chainblade can be replaced with 1 autopistol.",
+      "1 Goremonger’s chainblade can be replaced with 1 blood harpoon."
+    ],
+    "abilities": [
+      "CORE: Infiltrators",
+      "FACTION: Blessings of Khorne",
+      "Loping Speed: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\"."
+    ],
+    "composition": [
+      "1 Blood Herald",
+      "7 Goremongers",
+      "Every model is equipped with: autopistol; chainblade; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "8 models",
+        "pts": 75
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "IN THE SHADOW OF BRASS IDOLS",
+        "cp": 1,
+        "source": "Cult of Blood – Strategic Ploy"
+      },
+      {
+        "name": "BLOODTHIRSTY HORDE",
+        "cp": 1,
+        "source": "Cult of Blood – Battle Tactic"
+      },
+      {
+        "name": "FAIL NOT THE BLOOD GOD",
+        "cp": 1,
+        "source": "Cult of Blood – Strategic Ploy"
+      },
+      {
+        "name": "ENDLESS PURSUIT OF VIOLENCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray"
+    ]
+  },
+  "HELBRUTE": {
+    "slug": "Helbrute",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Helbrute",
+    "base": "60mm",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "KHORNE",
+      "HELBRUTE"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "9\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "3"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Combi-bolter (rapid fire 4)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Heavy flamer (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Plasma cannon (blast, hazardous, rapid fire D3)",
+            "range": "36\"",
+            "a": "D3",
+            "bs": "4+",
+            "s": "8",
+            "ap": "-3",
+            "d": "3"
+          },
+          {
+            "name": "Missile launcher – frag (blast, rapid fire 3)",
+            "range": "48\"",
+            "a": "D6",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Missile launcher – krak (rapid fire 1)",
+            "range": "48\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-2",
+            "d": "D6"
+          },
+          {
+            "name": "Multi-melta (melta 2, rapid fire 1)",
+            "range": "18\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Twin autocannon (rapid fire 2, twin-linked)",
+            "range": "48\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-1",
+            "d": "3"
+          },
+          {
+            "name": "Twin heavy bolter (rapid fire 2, sustained hits 1, twin-linked)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "4+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Twin lascannon (rapid fire 1, twin-linked)",
+            "range": "48\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Helbrute fist",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "12",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Helbrute hammer",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "14",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Power scourge",
+            "range": "Melee",
+            "a": "10",
+            "ws": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s multi-melta can be replaced with one of the following:",
+      "1 plasma cannon",
+      "1 twin autocannon",
+      "1 twin heavy bolter",
+      "1 twin lascannon",
+      "1 Helbrute fist",
+      "This model’s missile launcher can be replaced with one of the following:",
+      "1 Helbrute fist",
+      "1 Helbrute hammer",
+      "1 power scourge",
+      "For each Helbrute fist this model is equipped with, it can be equipped with one of the following:",
+      "1 combi-bolter",
+      "1 heavy flamer"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise 1",
+      "FACTION: Blessings of Khorne",
+      "Devoted to Destruction: If this model is equipped with two melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons.Frenzy: (Once per turn, per unit) In the Fight phase, when an enemy unit targets this unit, after that unit has resolved its attacks, you can use this ability. If you do, this unit is eligible to fight (even if it has already fought this phase) and must be selected to fight next."
+    ],
+    "composition": [
+      "1 Helbrute",
+      "This model is equipped with: missile launcher; multi-melta; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 120
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "SMASH THROUGH",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "UNRELENTING ADVANCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Murder-Forged Entity15"
+    ]
+  },
+  "HELDRAKE": {
+    "slug": "Heldrake",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Heldrake",
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "HELDRAKE"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "-",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Baleflamer (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6+3",
+            "bs": "N/A",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Hades autocannon (rapid fire 4)",
+            "range": "36\"",
+            "a": "6",
+            "bs": "4+",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Heldrake claws (anti-fly 2+, devastating wounds)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Hades autocannon can be replaced with 1 baleflamer."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3, Hover",
+      "FACTION: Blessings of Khorne",
+      "Airborne Predator: Each time this model makes an attack that targets a unit that can FLY, add 1 to the Hit roll."
+    ],
+    "composition": [
+      "1 Heldrake",
+      "This model is equipped with: Hades autocannon; Heldrake claws."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 175
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "TRAIL OF DESTRUCTION",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "APOPLECTIC CLARITY",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "GOADED TO FURY",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "SMASH THROUGH",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "UNRELENTING ADVANCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Rampaging Terrors",
+      "Murder-Forged Entity15"
+    ]
+  },
+  "JAKHALS": {
+    "slug": "Jakhals",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Jakhals",
+    "baseNote": "Dishonoured model 40mm",
+    "keywords": [
+      "INFANTRY",
+      "GRENADES",
+      "CHAOS",
+      "KHORNE",
+      "JAKHALS"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "6+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Chainblades",
+            "range": "Melee",
+            "a": "3",
+            "ws": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Paired manglers",
+            "range": "Melee",
+            "a": "4",
+            "ws": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Mauler chainblade",
+            "range": "Melee",
+            "a": "3",
+            "ws": "5+",
+            "s": "4",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Skullsmasher and mangler",
+            "range": "Melee",
+            "a": "2",
+            "ws": "4+",
+            "s": "4",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "For every 10 models in this unit, 1 Jakhal’s chainblades can be replaced with 1 mauler chainblade.",
+      "Any number of Dishonoured models can each have their paired manglers replaced with 1 skullsmasher and mangler.",
+      "For every 10 models in this unit, 1 Jakhal can be equipped with 1 icon of Khorne."
+    ],
+    "abilities": [
+      "FACTION: Blessings of Khorne",
+      "Objective Ravaged: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+    ],
+    "wargearAbilities": [
+      "Icon of Khorne: If the bearer’s unit contains one or more Icons of Khorne, each time the bearer’s unit destroys an enemy unit, you gain 1 Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost."
+    ],
+    "composition": [
+      "1 Jakhal Pack Leader, 1 Dishonoured and 8 Jakhals",
+      "1 Jakhal Pack Leader, 2 Dishonoured and 17 Jakhals",
+      "or:The Jakhal Pack Leader and every Jakhal is equipped with: autopistol; chainblades.Every Dishonoured is equipped with: paired manglers."
+    ],
+    "costs": [
+      {
+        "label": "10 models",
+        "pts": 65
+      },
+      {
+        "label": "20 models",
+        "pts": 130
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNSTOPPABLE RAGE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "SAVAGE RESILIENCE",
+        "cp": 1,
+        "source": "Boarding Butchers – Battle Tactic"
+      },
+      {
+        "name": "TERRIFYING SCREAMS",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "DRAWN TO THE SLAUGHTER",
+        "cp": 2,
+        "source": "Cult of Blood – Strategic Ploy"
+      },
+      {
+        "name": "IN THE SHADOW OF BRASS IDOLS",
+        "cp": 1,
+        "source": "Cult of Blood – Strategic Ploy"
+      },
+      {
+        "name": "BLOODTHIRSTY HORDE",
+        "cp": 1,
+        "source": "Cult of Blood – Battle Tactic"
+      },
+      {
+        "name": "FAIL NOT THE BLOOD GOD",
+        "cp": 1,
+        "source": "Cult of Blood – Strategic Ploy"
+      },
+      {
+        "name": "ENDLESS PURSUIT OF VIOLENCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Focused Ferocity"
+    ]
+  },
+  "KHORNE BERZERKERS": {
+    "slug": "Khorne-Berzerkers",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Khorne-Berzerkers",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "GRENADES",
+      "CHAOS",
+      "KHORNE",
+      "BERZERKERS"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Bolt pistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Plasma pistol – standard (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "7",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Plasma pistol – supercharge (hazardous, pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Chainblade",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Khornate eviscerator",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "The Khorne Berzerker Champion’s bolt pistol can be replaced with 1 plasma pistol.",
+      "For every 5 models in this unit, 1 Khorne Berzerker’s bolt pistol can be replaced with 1 plasma pistol.",
+      "For every 5 models in this unit, 1 Khorne Berzerker’s chainblade can be replaced with 1 Khornate eviscerator.",
+      "1 model can be equipped with 1 icon of Khorne."
+    ],
+    "abilities": [
+      "FACTION: Blessings of Khorne",
+      "Blood Surge: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6+2\"."
+    ],
+    "wargearAbilities": [
+      "Icon of Khorne: If the bearer’s unit contains one or more Icons of Khorne, each time the bearer’s unit destroys an enemy unit, you gain 1 Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost."
+    ],
+    "composition": [
+      "1 Khorne Berzerker Champion",
+      "9-19 Khorne Berzerkers",
+      "Every model is equipped with: bolt pistol; chainblade."
+    ],
+    "costs": [
+      {
+        "label": "10 models",
+        "pts": 170
+      },
+      {
+        "label": "20 models",
+        "pts": 330
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "BERZERKER’S WRATH",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "APOPLECTIC FRENZY",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNSTOPPABLE RAGE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "COWARDS’ BANE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "SAVAGE RESILIENCE",
+        "cp": 1,
+        "source": "Boarding Butchers – Battle Tactic"
+      },
+      {
+        "name": "TERRIFYING SCREAMS",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "ENDLESS PURSUIT OF VIOLENCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "ledBy": [
+      "KHÂRN THE BETRAYER",
+      "LORD INVOCATUS",
+      "LORD ON JUGGERNAUT",
+      "MASTER OF EXECUTIONS"
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Focused Ferocity"
+    ]
+  },
+  "KHORNE LORD OF SKULLS": {
+    "slug": "Khorne-Lord-of-Skulls",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Khorne-Lord-of-Skulls",
+    "keywords": [
+      "VEHICLE",
+      "FRAME",
+      "TITANIC",
+      "TOWERING",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "LORD OF SKULLS"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "13",
+      "SV": "3+",
+      "W": "24",
+      "LD": "6+",
+      "OC": "8",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Daemongore cannon (blast, rapid fire 3)",
+            "range": "18\"",
+            "a": "D6",
+            "bs": "4+",
+            "s": "14",
+            "ap": "-4",
+            "d": "D6+2"
+          },
+          {
+            "name": "Gorestorm cannon (blast, rapid fire 3)",
+            "range": "24\"",
+            "a": "D6+3",
+            "bs": "4+",
+            "s": "10",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Hades gatling cannon (rapid fire 6, sustained hits 1)",
+            "range": "48\"",
+            "a": "12",
+            "bs": "4+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Ichor cannon (blast, rapid fire 4)",
+            "range": "48\"",
+            "a": "2D6",
+            "bs": "4+",
+            "s": "7",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Skullhurler (rapid fire 3)",
+            "range": "60\"",
+            "a": "2D6",
+            "bs": "4+",
+            "s": "14",
+            "ap": "-3",
+            "d": "3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Great cleaver of Khorne – strike",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "16",
+            "ap": "-4",
+            "d": "8"
+          },
+          {
+            "name": "Great cleaver of Khorne – sweep",
+            "range": "Melee",
+            "a": "18",
+            "ws": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s gorestorm cannon can be replaced with one of the following:",
+      "1 daemongore cannon",
+      "1 ichor cannon",
+      "This model’s Hades gatling cannon can be replaced with 1 skullhurler."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6+2",
+      "FACTION: Blessings of Khorne",
+      "Idol of Blessed Blood: At the start of the battle round, if this model is on the battlefield, when you make a Blessings of Khorne roll, roll one additional D6.Super-heavy War Engine: Each time this model makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a roll of 1, this model is Battle-shocked."
+    ],
+    "composition": [
+      "1 Khorne Lord of Skulls",
+      "This model is equipped with: gorestorm cannon; Hades gatling cannon; great cleaver of Khorne."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 505
+      },
+      {
+        "label": "1 model",
+        "pts": 535
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "TRAIL OF DESTRUCTION",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "APOPLECTIC CLARITY",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "BLOODY VENGEANCE",
+        "cp": 1,
+        "source": "Cult of Blood – Epic Deed"
+      },
+      {
+        "name": "BRAZEN IDOL",
+        "cp": 2,
+        "source": "Cult of Blood – Epic Deed"
+      },
+      {
+        "name": "SMASH THROUGH",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "UNRELENTING ADVANCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Idols of Khorne",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Rampaging Terrors",
+      "Murder-Forged Entity15"
+    ]
+  },
+  "KHÂRN THE BETRAYER": {
+    "slug": "Kh-rn-The-Betrayer",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Kh-rn-The-Betrayer",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "EPIC HERO",
+      "GRENADES",
+      "CHAOS",
+      "KHORNE",
+      "KHÂRN THE BETRAYER"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Plasma pistol – standard (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Plasma pistol – supercharge (hazardous, pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Gorechild",
+            "range": "Melee",
+            "a": "8",
+            "ws": "2+",
+            "s": "7",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Leader",
+      "FACTION: Blessings of Khorne",
+      "Legendary Killer: While this model is leading a unit, each time a model in that unit makes a melee attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.The Betrayer: At the end of your Charge phase, if this model is leading a unit and that unit is not within Engagement Range of one or more enemy units, you must take a Leadership test for this model. If that test is failed, one Bodyguard model in that unit is destroyed.Berzerker Frenzy: The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with 3 wounds remaining."
+    ],
+    "composition": [
+      "1 Khârn the Betrayer – EPIC HERO",
+      "This model is equipped with: plasma pistol; Gorechild."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 115
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNSTOPPABLE RAGE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "COWARDS’ BANE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "SAVAGE RESILIENCE",
+        "cp": 1,
+        "source": "Boarding Butchers – Battle Tactic"
+      },
+      {
+        "name": "TERRIFYING SCREAMS",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "ENDLESS PURSUIT OF VIOLENCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "SHOCKING ONSLAUGHT",
+        "cp": 1,
+        "source": "Skullsworn – Battle Tactic"
+      },
+      {
+        "name": "FURIOUS MOMENTUM",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      },
+      {
+        "name": "PUNISH THE CRAVEN",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Focused Ferocity"
+    ]
+  },
+  "LORD INVOCATUS": {
+    "slug": "Lord-Invocatus",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Lord-Invocatus",
+    "keywords": [
+      "MOUNTED",
+      "CHARACTER",
+      "EPIC HERO",
+      "CHAOS",
+      "KHORNE",
+      "LORD INVOCATUS"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "8",
+      "LD": "6+",
+      "OC": "2",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Bolt pistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Coward’s Bane (devastating wounds)",
+            "range": "Melee",
+            "a": "7",
+            "ws": "2+",
+            "s": "6",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Bladed horn (extra attacks, lance)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Leader, Deep Strike, Scouts 6\"",
+      "FACTION: Blessings of Khorne",
+      "Fire Riders: While this model is leading a unit, models in that unit have the Deep Strike ability and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through models and terrain features. When making a Normal, Advance or Fall Back move, models in that unit can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them and any Desperate Escape test is automatically passed.Bloody Stampede: Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model, then roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+    ],
+    "composition": [
+      "1 Lord Invocatus – EPIC HERO",
+      "This model is equipped with: bolt pistol; Coward’s Bane, bladed horn."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 100
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "PUNISH THE CRAVEN",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray"
+    ]
+  },
+  "LORD ON JUGGERNAUT": {
+    "slug": "Lord-on-Juggernaut",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Lord-on-Juggernaut",
+    "keywords": [
+      "MOUNTED",
+      "CHARACTER",
+      "CHAOS",
+      "KHORNE",
+      "LORD ON JUGGERNAUT"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "7",
+      "LD": "6+",
+      "OC": "2",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Plasma pistol – standard (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Plasma pistol – supercharge (hazardous, pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Exalted chainblade",
+            "range": "Melee",
+            "a": "7",
+            "ws": "2+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Bladed horn (extra attacks, lance)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Leader",
+      "FACTION: Blessings of Khorne",
+      "Aggressive Advance: While this model is leading a unit, models in that unit have a Move characteristic of 10\" and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through terrain features.Crush All Who Stand Before Us: Each time this model’s unit is selected to fight, you can use this ability. When determining which models in this unit are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit."
+    ],
+    "composition": [
+      "1 Lord on Juggernaut",
+      "This model is equipped with: plasma pistol; exalted chainblade; bladed horn."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 95
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "SCORN THE WITCH",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      },
+      {
+        "name": "PUNISH THE CRAVEN",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      },
+      {
+        "name": "ASPIRE TO INFAMY",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Wrath of Khorne",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Battle-lust20",
+      "Favoured of Khorne20",
+      "Helm of Brazen Ire30",
+      "Berzerker Glaive35",
+      "Archslaughterer30",
+      "Strategic Slaughter20",
+      "Disciple of Khorne15",
+      "Blood-forged Armour20",
+      "Icon of War25",
+      "Blade of Endless Bloodshed30",
+      "Unleash Hell10",
+      "Infernal Infusion25"
+    ]
+  },
+  "MASTER OF EXECUTIONS": {
+    "slug": "Master-of-Executions",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Master-of-Executions",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "KHORNE",
+      "MASTER OF EXECUTIONS"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Bolt pistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Axe of dismemberment (devastating wounds, precision)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "2+",
+            "s": "7",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Leader",
+      "FACTION: Blessings of Khorne",
+      "Forwards, for Blood!: While this model is leading a unit, you can re-roll Advance rolls made for that unit and each time that unit makes a Blood Surge move, you can re-roll the D6 used to determine how far models in that unit move.A Worthy Skull: Each time this model makes a melee attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model’s unit destroys a CHARACTER model, you gain 1CP."
+    ],
+    "composition": [
+      "1 Master of Executions",
+      "This model is equipped with: bolt pistol; axe of dismemberment."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 60
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNSTOPPABLE RAGE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "COWARDS’ BANE",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "SAVAGE RESILIENCE",
+        "cp": 1,
+        "source": "Boarding Butchers – Battle Tactic"
+      },
+      {
+        "name": "TERRIFYING SCREAMS",
+        "cp": 1,
+        "source": "Boarding Butchers – Strategic Ploy"
+      },
+      {
+        "name": "ENDLESS PURSUIT OF VIOLENCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "SHOCKING ONSLAUGHT",
+        "cp": 1,
+        "source": "Skullsworn – Battle Tactic"
+      },
+      {
+        "name": "FURIOUS MOMENTUM",
+        "cp": 1,
+        "source": "Skullsworn – Strategic Ploy"
+      },
+      {
+        "name": "SCORN THE WITCH",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      },
+      {
+        "name": "PUNISH THE CRAVEN",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      },
+      {
+        "name": "ASPIRE TO INFAMY",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Wrath of Khorne",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Focused Ferocity",
+      "Reap the Tally",
+      "Battle-lust20",
+      "Favoured of Khorne20",
+      "Helm of Brazen Ire30",
+      "Berzerker Glaive35",
+      "Archslaughterer30",
+      "Butcher Lord10",
+      "Strategic Slaughter20",
+      "Blood-forged Armour20",
+      "Icon of War25",
+      "Blade of Endless Bloodshed30",
+      "Unleash Hell10",
+      "Aggressive Deployment20",
+      "Infernal Infusion25",
+      "Murderous Onslaught5",
+      "Battle Lust",
+      "Chosen of Khorne",
+      "Carmine Corona",
+      "Frenzied"
+    ]
+  },
+  "MAULERFIEND": {
+    "slug": "Maulerfiend",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Maulerfiend",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "MAULERFIEND"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Magma cutter (melta 2, rapid fire 1)",
+            "range": "6\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-4",
+            "d": "D6"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Lasher tendrils (extra attacks)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Maulerfiend fists",
+            "range": "Melee",
+            "a": "8",
+            "ws": "3+",
+            "s": "14",
+            "ap": "-2",
+            "d": "D6+1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s lasher tendrils can be replaced with 2 magma cutters."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Blessings of Khorne",
+      "The Scent of Blood: In the Charge phase, when this unit declares a charge:If an enemy unit below starting strength is within 9\" of this unit, this unit has +1 to charge rolls.Or: If an enemy unit below half strength is within 9\" of this unit, this unit has +2 to charge rolls.Savage Exaltation: Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll and, if that attack targets an enemy unit that is Below Half-strength, add 1 to the Wound roll as well."
+    ],
+    "composition": [
+      "1 Maulerfiend",
+      "This model is equipped with: lasher tendrils; Maulerfiend fists."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 140
+      },
+      {
+        "label": "1 model",
+        "pts": 150
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "TRAIL OF DESTRUCTION",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "APOPLECTIC CLARITY",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "GOADED TO FURY",
+        "cp": 0,
+        "source": "Brazen Engines Stratagem"
+      },
+      {
+        "name": "SMASH THROUGH",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "UNRELENTING ADVANCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Blood Tithe",
+      "Rush to the Fray",
+      "Rampaging Terrors",
+      "Murder-Forged Entity15",
+      "Talons of Butchery20"
+    ]
+  },
+  "SKARBRAND": {
+    "slug": "Skarbrand",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Skarbrand",
+    "base": "100mm",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "SUMMONED",
+      "SKARBRAND"
+    ],
+    "factionKeywords": [
+      "BLOOD LEGIONS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "20",
+      "LD": "6+",
+      "OC": "5",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Bellow of endless fury (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "2D6",
+            "bs": "N/A",
+            "s": "8",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Slaughter and Carnage – strike",
+            "range": "Melee",
+            "a": "8",
+            "ws": "2+",
+            "s": "16",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Slaughter and Carnage – sweep",
+            "range": "Melee",
+            "a": "16",
+            "ws": "2+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6, Deep Strike",
+      "FACTION: Pact of Blood",
+      "Rage Embodied (Aura): While a friendly BLOOD LEGIONS unit is within 6\" of this model, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.Murderlust: This unit is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "composition": [
+      "1 Skarbrand – EPIC HERO",
+      "This model is equipped with: bellow of endless fury; Slaughter and Carnage."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 315
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "BLESSING OF BURNING BLOOD",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Battle Tactic"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "DAEMONIC FURY",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Battle Tactic"
+      },
+      {
+        "name": "MURDER-CALL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Blood Tithe"
+    ]
+  },
+  "SLAUGHTERBOUND": {
+    "slug": "Slaughterbound",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/world-eaters/Slaughterbound",
+    "base": "50mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "CHAOS",
+      "KHORNE",
+      "DAEMON",
+      "POSSESSED",
+      "SLAUGHTERBOUND"
+    ],
+    "factionKeywords": [
+      "WORLD EATERS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "6",
+      "SV": "3+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Lacerator and daemonic claw",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "10",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3, Leader",
+      "FACTION: Blessings of Khorne",
+      "Rage Eternal: While this model is leading a unit, in your Command phase, you can return one destroyed Bodyguard model to that unit.Possessed Lord: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability."
+    ],
+    "composition": [
+      "1 Slaughterbound",
+      "This model is equipped with: lacerator and daemonic claw."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 100
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BLOOD OFFERING",
+        "cp": 1,
+        "source": "Berzerker Warband – Epic Deed"
+      },
+      {
+        "name": "FRENZIED RESILIENCE",
+        "cp": 2,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "HACK AND SLASH",
+        "cp": 1,
+        "source": "Berzerker Warband – Battle Tactic"
+      },
+      {
+        "name": "SKULLS FOR THE SKULL THRONE!",
+        "cp": 1,
+        "source": "Berzerker Warband – Strategic Ploy"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "ENDLESS PURSUIT OF VIOLENCE",
+        "cp": 1,
+        "source": "Goretrack Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONTIDE",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Strategic Ploy"
+      },
+      {
+        "name": "A WORTHY SKULL",
+        "cp": 1,
+        "source": "Khorne Daemonkin – Epic Deed"
+      },
+      {
+        "name": "HORRIFYING VIOLENCE",
+        "cp": 1,
+        "source": "Possessed Slaughterband – Strategic Ploy"
+      },
+      {
+        "name": "WARP STALKERS",
+        "cp": 1,
+        "source": "Possessed Slaughterband – Strategic Ploy"
+      },
+      {
+        "name": "DAEMONIC RESISTANCE",
+        "cp": 2,
+        "source": "Possessed Slaughterband – Battle Tactic"
+      },
+      {
+        "name": "DAEMONIC STRENGTH",
+        "cp": 1,
+        "source": "Possessed Slaughterband – Battle Tactic"
+      },
+      {
+        "name": "IMMORTAL FURY",
+        "cp": 2,
+        "source": "Possessed Slaughterband – Battle Tactic"
+      },
+      {
+        "name": "SCORN THE WITCH",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      },
+      {
+        "name": "PUNISH THE CRAVEN",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      },
+      {
+        "name": "ASPIRE TO INFAMY",
+        "cp": 0,
+        "source": "Vessels of Wrath Stratagem"
+      }
+    ],
+    "detachmentAbilities": [
+      "Relentless Rage",
+      "Wrath of Khorne",
+      "Blood Tithe",
+      "Brazen Fury",
+      "Rush to the Fray",
+      "Battle-lust20",
+      "Favoured of Khorne20",
+      "Helm of Brazen Ire30",
+      "Berzerker Glaive35",
+      "Archslaughterer30",
+      "Butcher Lord10",
+      "Strategic Slaughter20",
+      "Blood-forged Armour20",
+      "Icon of War25",
+      "Blade of Endless Bloodshed30",
+      "Violent Demise10",
+      "Killing Clarity15",
+      "Frenzied Focus20",
+      "Malicious Vigour30",
+      "Unleash Hell10",
+      "Aggressive Deployment20",
+      "Infernal Infusion25",
+      "Murderous Onslaught5"
+    ]
+  }
+}
