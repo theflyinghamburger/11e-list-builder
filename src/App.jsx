@@ -12,6 +12,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('army');
 
   const data = getData(state.faction);
+  if (!data) return <div className="app"><h1>Unknown faction: {state.faction}</h1></div>;
 
   return (
     <div className="app-layout">
