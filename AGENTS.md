@@ -12,13 +12,15 @@ Warhammer 40k 11e army list builder. 29 factions. Vite + React, no TypeScript.
 | `npm run build` | Production build → `dist/` |
 | `npm run preview` | Preview production build |
 | `node scripts/fetch-mfm.js <url>` | Scrape MFM faction page → JSON (requires Node 22) |
+| `node scripts/validate-data.js` | Validate `src/data/*.json` (exit 1 on errors) |
+| `node scripts/test-costs.js` | Tiered pricing self-check (assert-based) |
 
-No lint, typecheck, or test commands configured.
+No lint, typecheck, or test framework configured.
 
 ## Structure
 
 - `src/data/*.json` — codex data (detachments, units, costs). Source of truth for army rules.
-- `src/data/index.js` — faction registry: `getData(key)`, `getFactionKeys()`, `addFaction(key, data)`. Hydrates custom factions from localStorage.
+- `src/data/index.js` — faction registry: `getData(key)`, `getFactionKeys()`. Hydrates custom factions from localStorage (`custom-factions`).
 - `src/hooks/useArmy.js` — central state via `useReducer`. All army mutations flow here.
 - `src/components/` — UI components. `App.jsx` wires layout: setup (top), unit list (left), army list (right).
 - `src/utils/validate.js` — army composition validation (leader/support rules).
@@ -33,19 +35,19 @@ No lint, typecheck, or test commands configured.
 
 **Important:** Use `node scripts/fetch-mfm.js`, not `npm run fetch-mfm`. The npm wrapper echoes the command to stdout, which corrupts the JSON output when redirected.
 
+**Note:** `src/data/imperial-agents.json` is intentionally excluded from re-scrapes — the MFM page duplicates every unit card with conflicting costs and the faction is unused in practice. Leave the committed file byte-identical.
+
 **Option B — Manual:** Create `src/data/<faction-key>.json` with `detachments` and `units` arrays. Use `adeptus-mechanicus.json` as a template. Then register in `src/data/index.js`:
    ```js
    import newFaction from './new-faction.json';
-   const factions = { 'adeptus-mechanicus': admech, 'new-faction': newFaction };
-   ```
-
-**Option C — Runtime (no code changes):** Call `addFaction(key, data)` from `src/data/index.js`. Validates format, registers in-memory, persists to localStorage under `custom-factions`. No UI caller yet — intended for future "add custom faction" feature.
+    const factions = { 'adeptus-mechanicus': admech, 'new-faction': newFaction };
+    ```
 
 **Data format:**
 
 - `detachments`: `{ name, dpCost, doctrine, enhancements: [{ name, pts }] }`
 - `units`: `{ name, modelOptions: [{ count, cost }] }` plus optional fields:
-  - `tiered: { primary, secondary }` — arrays of `{ count, cost }` for 1st-2nd vs 3rd+ instance pricing
+  - `tiered: { split, primary, secondary }` — `split` = number of instances priced at primary (1/2/3, default 2 when absent); `primary`/`secondary` are arrays of `{ count, cost }`
   - `wargearOptions: [{ name, costPerModel }]` — per-model add-ons
   - `leaderOf: [unitName, ...]` — unit must have one of these in the army
   - `supportFor: [unitName, ...]` — unit must have one of these in the army
