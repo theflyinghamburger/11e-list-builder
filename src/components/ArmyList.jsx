@@ -15,9 +15,11 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetNa
     document.addEventListener('click', handler);
     return () => document.removeEventListener('click', handler);
   }, [menuOpen]);
+  const tierCount = {};
   const totalPoints = army.units.reduce((sum, u) => {
+    tierCount[u.unitName] = (tierCount[u.unitName] || 0) + 1;
     const unitData = data.units.find((d) => d.name === u.unitName);
-    return unitData ? sum + getUnitPoints(unitData, u.modelCount, army.units, u.wargear) : sum;
+    return unitData ? sum + getUnitPoints(unitData, u.modelCount, tierCount[u.unitName], u.wargear) : sum;
   }, 0);
   const isOver = totalPoints > army.pointLimit;
   const issues = validateArmy(army, data);
@@ -147,11 +149,12 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetNa
         </thead>
         <tbody>
           {army.units.map((unit) => {
+            const ordinal = army.units.filter((x) => x.unitName === unit.unitName).indexOf(unit) + 1;
             const unitData = data.units.find((u) => u.name === unit.unitName);
-            const pts = unitData ? getUnitPoints(unitData, unit.modelCount, army.units, unit.wargear) : 0;
-            const sameCount = army.units.filter((u) => u.unitName === unit.unitName).length;
-            const tierLabel =
-              unitData?.tiered && sameCount > 2 ? ' (3rd+)' : '';
+            const pts = unitData ? getUnitPoints(unitData, unit.modelCount, ordinal, unit.wargear) : 0;
+            const split = unitData?.tiered?.split ?? 2;
+            const ord = (n) => (n === 2 ? 'nd' : n === 3 ? 'rd' : 'th');
+            const tierLabel = unitData?.tiered && ordinal > split ? ` (${split + 1}${ord(split + 1)}+)` : '';
 
 return (
                <tr key={unit.id} className={`${isOver ? 'over-budget' : ''} ${issueIds.has(unit.id) ? 'orphaned' : ''}`}>
