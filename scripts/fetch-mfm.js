@@ -144,6 +144,10 @@ async function main() {
 
       const isTiered = costHeaders.length > 1;
 
+      // ponytail: 11e tier headers come in 3 split flavors; 2 is the common default
+      const split = /YOUR 1ST TO 3RD/.test(costHeaders[0] || '') ? 3
+        : /^YOUR 1ST UNIT/.test(costHeaders[0] || '') ? 1 : 2;
+
       // Collect model options grouped by tier (each ul.leaders under a cost header = one tier)
       const allOptions = [];
       $(card).find('ul.leaders').each((_, ul) => {
@@ -194,6 +198,7 @@ async function main() {
         // Tiered pricing: primary and secondary
         unit.modelOptions = allOptions[0];
         unit.tiered = {
+          split,
           primary: allOptions[0],
           secondary: allOptions.slice(1).flat(),
         };
@@ -253,8 +258,15 @@ async function main() {
         }
       }
 
+      if (units.some((u) => u.name === name)) return; // ponytail: MFM duplicate cards (IA); keep first
       units.push(unit);
     });
+
+  for (const u of units) {
+    if (!u.modelOptions.length || u.modelOptions.some((o) => o.cost === 0)) {
+      throw new Error(`${u.name}: missing/zero cost — MFM page format may have changed`);
+    }
+  }
 
   const output = { detachments, units };
   console.log(JSON.stringify(output, null, 2));
