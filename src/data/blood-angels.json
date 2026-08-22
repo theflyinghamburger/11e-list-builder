@@ -3,7 +3,7 @@
     {
       "name": "1ST COMPANY TASK FORCE",
       "dpCost": 2,
-      "doctrine": "PRIORITY ASSETS",
+      "doctrine": "PURGE THE FOE",
       "enhancements": [
         {
           "name": "Fear Made Manifest",
@@ -156,7 +156,7 @@
     {
       "name": "FIRESTORM ASSAULT FORCE",
       "dpCost": 2,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Adamantine Mantle",
@@ -179,7 +179,7 @@
     {
       "name": "FULGURIS TASK FORCE",
       "dpCost": 1,
-      "doctrine": "DISRUPTION",
+      "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
           "name": "Bellicose Weapon Spirits (Upgrade)",
@@ -202,7 +202,7 @@
         },
         {
           "name": "Artificer Armour",
-          "pts": 10
+          "pts": 20
         },
         {
           "name": "Fire Discipline",
@@ -240,7 +240,7 @@
     {
       "name": "IRONSTORM SPEARHEAD",
       "dpCost": 2,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "Adept of the Omnissiah",
@@ -256,7 +256,7 @@
         },
         {
           "name": "The Flesh Is Weak",
-          "pts": 10
+          "pts": 20
         }
       ]
     },
@@ -309,7 +309,7 @@
         },
         {
           "name": "Fusillade",
-          "pts": 20
+          "pts": 25
         },
         {
           "name": "Obfuscation",
@@ -321,7 +321,7 @@
         },
         {
           "name": "Temporal Corridor",
-          "pts": 15
+          "pts": 25
         }
       ]
     },
@@ -397,7 +397,7 @@
     {
       "name": "SUBVERSION ASSETS",
       "dpCost": 1,
-      "doctrine": "RECONNAISSANCE",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Death in the Dark (Upgrade)",
@@ -479,6 +479,21 @@
       ]
     },
     {
+      "name": "VENGEFUL HOSTS",
+      "dpCost": 1,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Avenging Angel",
+          "pts": 20
+        },
+        {
+          "name": "Orksbane",
+          "pts": 20
+        }
+      ]
+    },
+    {
       "name": "WRATH OF THE DOOMED",
       "dpCost": 1,
       "doctrine": "PURGE THE FOE",
@@ -516,6 +531,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -545,6 +561,15 @@
         "Intercessor Squad",
         "Sternguard Veteran Squad",
         "Tactical Squad"
+      ]
+    },
+    {
+      "name": "Chief Librarian Mephiston",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 110
+        }
       ]
     },
     {
@@ -595,6 +620,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -622,6 +648,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -657,6 +684,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -692,6 +720,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -739,6 +768,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -770,6 +800,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -809,32 +840,33 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 90
+          "cost": 80
         },
         {
           "count": 6,
-          "cost": 180
+          "cost": 165
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
+          {
+            "count": 3,
+            "cost": 80
+          },
+          {
+            "count": 6,
+            "cost": 165
+          }
+        ],
+        "secondary": [
           {
             "count": 3,
             "cost": 90
           },
           {
             "count": 6,
-            "cost": 180
-          }
-        ],
-        "secondary": [
-          {
-            "count": 3,
-            "cost": 100
-          },
-          {
-            "count": 6,
-            "cost": 190
+            "cost": 175
           }
         ]
       }
@@ -872,7 +904,13 @@
           "cost": 65
         }
       ],
-      "supportFor": []
+      "supportFor": [
+        "Deathwatch Terminator Squad",
+        "Deathwing Knights",
+        "Deathwing Terminator Squad",
+        "Terminator Assault Squad",
+        "Terminator Squad"
+      ]
     },
     {
       "name": "Apothecary",
@@ -940,6 +978,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -971,6 +1010,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -994,6 +1034,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1033,6 +1074,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -1064,6 +1106,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1281,6 +1324,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 5,
@@ -1322,9 +1366,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 70
+          "cost": 60
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 60
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ]
+      }
     },
     {
       "name": "Eliminator Squad",
@@ -1348,6 +1407,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -1375,23 +1435,9 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 70
+          "cost": 80
         }
-      ],
-      "tiered": {
-        "primary": [
-          {
-            "count": 3,
-            "cost": 70
-          }
-        ],
-        "secondary": [
-          {
-            "count": 3,
-            "cost": 80
-          }
-        ]
-      }
+      ]
     },
     {
       "name": "Firestrike Servo-Turrets",
@@ -1415,6 +1461,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1438,6 +1485,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1461,6 +1509,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1515,41 +1564,57 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 80
+          "cost": 70
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ]
+      }
     },
     {
       "name": "Inceptor Squad",
       "modelOptions": [
         {
           "count": 3,
-          "cost": 120
+          "cost": 125
         },
         {
           "count": 6,
-          "cost": 240
+          "cost": 250
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
-            "cost": 120
+            "cost": 125
           },
           {
             "count": 6,
-            "cost": 240
+            "cost": 250
           }
         ],
         "secondary": [
           {
             "count": 3,
-            "cost": 135
+            "cost": 140
           },
           {
             "count": 6,
-            "cost": 255
+            "cost": 265
           }
         ]
       }
@@ -1567,6 +1632,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -1598,7 +1664,7 @@
         },
         {
           "count": 10,
-          "cost": 170
+          "cost": 180
         }
       ]
     },
@@ -1615,6 +1681,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -1700,6 +1767,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1723,6 +1791,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1746,6 +1815,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1765,32 +1835,33 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 95
+          "cost": 105
         }
-      ],
-      "tiered": {
-        "primary": [
-          {
-            "count": 1,
-            "cost": 95
-          }
-        ],
-        "secondary": [
-          {
-            "count": 1,
-            "cost": 105
-          }
-        ]
-      }
+      ]
     },
     {
       "name": "Librarian",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 60
+          "cost": 70
         }
       ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ]
+      },
       "leaderOf": [
         "Assault Intercessor Squad",
         "Deathwatch Veterans",
@@ -1895,7 +1966,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
+          "cost": 95
         }
       ]
     },
@@ -1909,6 +1980,10 @@
         {
           "count": 6,
           "cost": 140
+        },
+        {
+          "count": 1,
+          "cost": 60
         }
       ]
     },
@@ -1921,6 +1996,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1944,6 +2020,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1963,9 +2040,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 95
+          "cost": 85
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 95
+          }
+        ]
+      }
     },
     {
       "name": "Redemptor Dreadnought",
@@ -1976,6 +2068,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1988,13 +2081,7 @@
             "cost": 210
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Macro Plasma Incinerator",
-          "costPerModel": 10
-        }
-      ]
+      }
     },
     {
       "name": "Reiver Squad",
@@ -2018,6 +2105,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -2041,6 +2129,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -2060,9 +2149,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 65
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 65
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ]
+      }
     },
     {
       "name": "Scout Squad",
@@ -2077,6 +2181,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -2108,7 +2213,7 @@
         },
         {
           "count": 10,
-          "cost": 190
+          "cost": 200
         }
       ]
     },
@@ -2130,6 +2235,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -2153,6 +2259,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -2172,20 +2279,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 130
+          "cost": 140
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 130
+            "cost": 140
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 140
+            "cost": 150
           }
         ]
       }
@@ -2199,6 +2307,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -2227,7 +2336,7 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 75
+          "cost": 85
         }
       ]
     },
@@ -2271,12 +2380,6 @@
           "count": 10,
           "cost": 310
         }
-      ],
-      "wargearOptions": [
-        {
-          "name": "Thunder Hammer",
-          "costPerModel": 5
-        }
       ]
     },
     {
@@ -2306,32 +2409,33 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 105
+          "cost": 110
         },
         {
           "count": 10,
-          "cost": 210
+          "cost": 220
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
-            "cost": 105
+            "cost": 110
           },
           {
             "count": 10,
-            "cost": 210
+            "cost": 220
           }
         ],
         "secondary": [
           {
             "count": 5,
-            "cost": 115
+            "cost": 120
           },
           {
             "count": 10,
-            "cost": 220
+            "cost": 230
           }
         ]
       }
@@ -2345,6 +2449,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -2368,6 +2473,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,

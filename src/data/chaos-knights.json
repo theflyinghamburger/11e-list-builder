@@ -3,7 +3,7 @@
     {
       "name": "BASTIONS OF TYRANNY",
       "dpCost": 1,
-      "doctrine": "DISRUPTION",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Hate-filled Dominion",
@@ -94,7 +94,7 @@
     {
       "name": "INFERNAL LANCE",
       "dpCost": 3,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Bestial Aspect",
@@ -117,7 +117,7 @@
     {
       "name": "LORDS OF DREAD",
       "dpCost": 2,
-      "doctrine": "PRIORITY ASSETS",
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "Blade of Celerity",
@@ -179,6 +179,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -202,6 +203,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -225,6 +227,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -240,6 +243,30 @@
       }
     },
     {
+      "name": "Chaos Cerastus Knight Atrapos",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 395
+        }
+      ],
+      "tiered": {
+        "split": 1,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 395
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 415
+          }
+        ]
+      }
+    },
+    {
       "name": "Chaos Cerastus Knight Castigator",
       "modelOptions": [
         {
@@ -248,6 +275,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -271,6 +299,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -294,6 +323,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -317,6 +347,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -340,6 +371,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -363,6 +395,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -386,6 +419,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -398,17 +432,7 @@
             "cost": 400
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Despoiler Gatling Cannon",
-          "costPerModel": 25
-        },
-        {
-          "name": "Despoiler Battle Cannon",
-          "costPerModel": 15
-        }
-      ]
+      }
     },
     {
       "name": "Knight Rampager",
@@ -419,6 +443,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -442,6 +467,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -465,6 +491,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -502,7 +529,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 140
+          "cost": 135
         }
       ]
     },
@@ -524,6 +551,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -543,7 +571,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 0
+          "cost": 135
         }
       ]
     }

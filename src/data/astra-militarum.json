@@ -15,8 +15,8 @@
         }
       ],
       "leaderOf": [
-        "BULLGRYN SQUAD",
-        "OGRYN SQUAD"
+        "OGRYN SQUAD",
+        "BULLGRYN SQUAD"
       ]
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "name": "COMBINED ARMS",
-      "dpCost": 3,
+      "dpCost": 2,
       "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
@@ -118,8 +118,8 @@
         }
       ],
       "leaderOf": [
-        "BULLGRYN SQUAD",
-        "OGRYN SQUAD"
+        "OGRYN SQUAD",
+        "BULLGRYN SQUAD"
       ]
     },
     {
@@ -148,7 +148,7 @@
     {
       "name": "MECHANISED ASSAULT",
       "dpCost": 2,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
           "name": "Bold Leadership",
@@ -283,6 +283,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -306,24 +307,34 @@
       }
     },
     {
+      "name": "Avenger Strike Fighter",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 130
+        }
+      ]
+    },
+    {
       "name": "Baneblade",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 450
+          "cost": 415
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 450
+            "cost": 415
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 470
+            "cost": 450
           }
         ]
       }
@@ -333,20 +344,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 420
+          "cost": 385
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 420
+            "cost": 385
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 440
+            "cost": 420
           }
         ]
       }
@@ -356,20 +368,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 450
+          "cost": 415
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 450
+            "cost": 415
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 470
+            "cost": 450
           }
         ]
       }
@@ -383,6 +396,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -410,6 +424,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 3,
@@ -450,7 +465,7 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 65
+          "cost": 60
         }
       ],
       "leaderOf": [
@@ -527,18 +542,48 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 65
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 65
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ]
+      }
     },
     {
       "name": "Chimera",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
+          "cost": 75
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ]
+      }
     },
     {
       "name": "Commissar",
@@ -588,7 +633,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 130
+          "cost": 120
         }
       ],
       "leaderOf": [
@@ -609,6 +654,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -658,6 +704,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -677,20 +724,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 415
+          "cost": 380
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 415
+            "cost": 380
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 435
+            "cost": 410
           }
         ]
       }
@@ -701,12 +749,6 @@
         {
           "count": 2,
           "cost": 90
-        }
-      ],
-      "wargearOptions": [
-        {
-          "name": "Bombast Field Gun",
-          "costPerModel": 10
         }
       ]
     },
@@ -724,20 +766,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 420
+          "cost": 385
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 420
+            "cost": 385
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 440
+            "cost": 415
           }
         ]
       }
@@ -751,6 +794,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -792,20 +836,21 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 115
+          "cost": 105
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 10,
-            "cost": 115
+            "cost": 105
           }
         ],
         "secondary": [
           {
             "count": 10,
-            "cost": 125
+            "cost": 120
           }
         ]
       }
@@ -823,6 +868,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -850,7 +896,7 @@
       "modelOptions": [
         {
           "count": 6,
-          "cost": 65
+          "cost": 60
         }
       ],
       "leaderOf": [
@@ -865,12 +911,6 @@
           "count": 4,
           "cost": 60
         }
-      ],
-      "wargearOptions": [
-        {
-          "name": "Krieg Heavy Flamer",
-          "costPerModel": 5
-        }
       ]
     },
     {
@@ -882,6 +922,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -901,20 +942,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 235
+          "cost": 215
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 235
+            "cost": 215
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 250
+            "cost": 230
           }
         ]
       }
@@ -924,20 +966,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 190
+          "cost": 180
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 190
+            "cost": 180
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 200
+            "cost": 190
           }
         ]
       }
@@ -951,6 +994,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -974,6 +1018,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -997,6 +1042,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1020,6 +1066,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1043,6 +1090,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1096,6 +1144,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -1119,6 +1168,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -1223,6 +1273,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -1246,6 +1297,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -1278,20 +1330,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 410
+          "cost": 375
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 410
+            "cost": 375
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 430
+            "cost": 405
           }
         ]
       }
@@ -1310,20 +1363,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 430
+          "cost": 395
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 430
+            "cost": 395
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 450
+            "cost": 430
           }
         ]
       }
@@ -1333,20 +1387,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 465
+          "cost": 430
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 465
+            "cost": 430
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 485
+            "cost": 465
           }
         ]
       }
@@ -1356,18 +1411,48 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 65
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 65
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ]
+      }
     },
     {
       "name": "Taurox Prime",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
+          "cost": 75
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ]
+      }
     },
     {
       "name": "Tech-Priest Enginseer",
@@ -1390,7 +1475,7 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 100
+          "cost": 95
         }
       ]
     },
@@ -1403,10 +1488,11 @@
         },
         {
           "count": 10,
-          "cost": 155
+          "cost": 150
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -1414,7 +1500,7 @@
           },
           {
             "count": 10,
-            "cost": 155
+            "cost": 150
           }
         ],
         "secondary": [
@@ -1424,7 +1510,7 @@
           },
           {
             "count": 10,
-            "cost": 165
+            "cost": 160
           }
         ]
       }
@@ -1451,6 +1537,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1474,6 +1561,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,

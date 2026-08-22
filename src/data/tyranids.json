@@ -117,7 +117,7 @@
           "pts": 10
         },
         {
-          "name": "Psychostatic Disruption",
+          "name": "Psychostatic Disruption (Aura)",
           "pts": 30
         },
         {
@@ -155,7 +155,7 @@
           "pts": 15
         },
         {
-          "name": "Naturalised Camouflage",
+          "name": "Naturalised camouflage",
           "pts": 30
         },
         {
@@ -179,7 +179,7 @@
         },
         {
           "name": "Hunting Grounds",
-          "pts": 20
+          "pts": 30
         },
         {
           "name": "Neuronode",
@@ -281,6 +281,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -321,6 +322,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -361,6 +363,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -384,6 +387,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -407,6 +411,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -443,6 +448,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -499,6 +505,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -530,20 +537,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 180
+          "cost": 190
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 180
+            "cost": 190
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 190
+            "cost": 200
           }
         ]
       }
@@ -592,6 +600,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -611,7 +620,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 115
+          "cost": 130
         }
       ],
       "leaderOf": [
@@ -629,6 +638,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -652,6 +662,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -713,6 +724,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -752,6 +764,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -792,6 +805,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -876,7 +890,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 135
+          "cost": 120
         }
       ]
     },
@@ -935,9 +949,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 90
+          "cost": 80
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 90
+          }
+        ]
+      }
     },
     {
       "name": "Tyrannofex",
@@ -948,6 +977,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -993,11 +1023,11 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 60
+          "cost": 55
         },
         {
           "count": 6,
-          "cost": 120
+          "cost": 105
         }
       ]
     },
@@ -1029,7 +1059,7 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 100
+          "cost": 90
         },
         {
           "count": 6,

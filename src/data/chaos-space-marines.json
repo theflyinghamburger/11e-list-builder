@@ -194,7 +194,7 @@
     {
       "name": "MURDERTALON RAIDERS",
       "dpCost": 1,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
           "name": "Pact of Cursed Pinions",
@@ -307,7 +307,7 @@
     {
       "name": "SOULFORGED WARPACK",
       "dpCost": 2,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "Forge’s Blessing",
@@ -323,7 +323,7 @@
         },
         {
           "name": "Tempting Addendum",
-          "pts": 25
+          "pts": 40
         }
       ]
     },
@@ -380,7 +380,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 285
+          "cost": 295
         }
       ],
       "leaderOf": [
@@ -401,6 +401,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 8,
@@ -437,6 +438,30 @@
       ]
     },
     {
+      "name": "Chaos Land Raider",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 220
+        }
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 220
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 240
+          }
+        ]
+      }
+    },
+    {
       "name": "Chaos Lord",
       "modelOptions": [
         {
@@ -468,7 +493,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 90
+          "cost": 80
         }
       ],
       "leaderOf": [
@@ -480,20 +505,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 135
+          "cost": 145
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 135
+            "cost": 145
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 145
+            "cost": 155
           }
         ]
       }
@@ -503,20 +529,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 140
+          "cost": 150
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 140
+            "cost": 150
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 150
+            "cost": 160
           }
         ]
       }
@@ -526,9 +553,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 65
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 65
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ]
+      }
     },
     {
       "name": "Chaos Spawn",
@@ -544,11 +586,11 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 180
+          "cost": 175
         },
         {
           "count": 10,
-          "cost": 360
+          "cost": 350
         }
       ]
     },
@@ -561,6 +603,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -580,32 +623,33 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 125
+          "cost": 135
         },
         {
           "count": 10,
-          "cost": 250
+          "cost": 270
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
-          {
-            "count": 5,
-            "cost": 125
-          },
-          {
-            "count": 10,
-            "cost": 250
-          }
-        ],
-        "secondary": [
           {
             "count": 5,
             "cost": 135
           },
           {
             "count": 10,
-            "cost": 260
+            "cost": 270
+          }
+        ],
+        "secondary": [
+          {
+            "count": 5,
+            "cost": 145
+          },
+          {
+            "count": 10,
+            "cost": 280
           }
         ]
       }
@@ -619,6 +663,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -685,6 +730,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -712,6 +758,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -721,20 +768,10 @@
         "secondary": [
           {
             "count": 1,
-            "cost": 330
+            "cost": 340
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Heavy Reaper Autocannon",
-          "costPerModel": 10
-        },
-        {
-          "name": "Hades Lascannon",
-          "costPerModel": 10
-        }
-      ]
+      }
     },
     {
       "name": "Fabius Bile",
@@ -770,6 +807,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -782,13 +820,7 @@
             "cost": 170
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Ectoplasma Cannon",
-          "costPerModel": 5
-        }
-      ]
+      }
     },
     {
       "name": "Haarken Worldclaimer",
@@ -811,6 +843,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -866,7 +899,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 120
+          "cost": 130
         }
       ],
       "leaderOf": [
@@ -886,6 +919,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -972,7 +1006,7 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 135
+          "cost": 145
         }
       ],
       "supportFor": [
@@ -995,20 +1029,21 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 180
+          "cost": 165
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
-            "cost": 180
+            "cost": 165
           }
         ],
         "secondary": [
           {
             "count": 3,
-            "cost": 190
+            "cost": 175
           }
         ]
       }
@@ -1018,11 +1053,11 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 110
+          "cost": 100
         },
         {
           "count": 10,
-          "cost": 190
+          "cost": 180
         }
       ]
     },
@@ -1044,6 +1079,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 2,
@@ -1071,6 +1107,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -1106,6 +1143,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -1141,6 +1179,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -1168,7 +1207,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 70
+          "cost": 60
         }
       ],
       "leaderOf": [
@@ -1231,7 +1270,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 205
+          "cost": 220
         }
       ]
     },
@@ -1240,20 +1279,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 110
+          "cost": 120
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 110
+            "cost": 120
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 120
+            "cost": 130
           }
         ]
       }
@@ -1287,6 +1327,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,

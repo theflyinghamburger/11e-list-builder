@@ -52,7 +52,7 @@
     {
       "name": "KAUYON",
       "dpCost": 2,
-      "doctrine": "PRIORITY ASSETS",
+      "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
           "name": "Exemplar of the Kauyon",
@@ -98,7 +98,7 @@
     {
       "name": "MONT’KA",
       "dpCost": 3,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Coordinated Exploitation",
@@ -120,7 +120,7 @@
     },
     {
       "name": "RETALIATION CADRE",
-      "dpCost": 2,
+      "dpCost": 3,
       "doctrine": "PURGE THE FOE",
       "enhancements": [
         {
@@ -152,6 +152,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -188,10 +189,11 @@
         },
         {
           "count": 3,
-          "cost": 240
+          "cost": 255
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -203,7 +205,7 @@
           },
           {
             "count": 3,
-            "cost": 240
+            "cost": 255
           }
         ],
         "secondary": [
@@ -217,7 +219,7 @@
           },
           {
             "count": 3,
-            "cost": 260
+            "cost": 275
           }
         ]
       }
@@ -240,7 +242,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 80
+          "cost": 70
         }
       ],
       "leaderOf": [
@@ -295,6 +297,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -307,13 +310,7 @@
             "cost": 110
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Missile Pod",
-          "costPerModel": 5
-        }
-      ]
+      }
     },
     {
       "name": "Crisis Starscythe Battlesuits",
@@ -324,6 +321,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -336,13 +334,7 @@
             "cost": 100
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "T'Au Flamer",
-          "costPerModel": 5
-        }
-      ]
+      }
     },
     {
       "name": "Crisis Sunforge Battlesuits",
@@ -353,6 +345,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -384,9 +377,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
+          "cost": 75
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ]
+      }
     },
     {
       "name": "Ethereal",
@@ -419,6 +427,31 @@
         }
       ],
       "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 150
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 165
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hammerhead Gunship",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 150
+        }
+      ],
+      "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -429,35 +462,6 @@
           {
             "count": 1,
             "cost": 160
-          }
-        ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Cyclic Ion Raker",
-          "costPerModel": 10
-        }
-      ]
-    },
-    {
-      "name": "Hammerhead Gunship",
-      "modelOptions": [
-        {
-          "count": 1,
-          "cost": 140
-        }
-      ],
-      "tiered": {
-        "primary": [
-          {
-            "count": 1,
-            "cost": 140
-          }
-        ],
-        "secondary": [
-          {
-            "count": 1,
-            "cost": 150
           }
         ]
       }
@@ -484,6 +488,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 12,
@@ -546,6 +551,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -625,15 +631,24 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 80
+          "cost": 85
         }
       ],
-      "wargearOptions": [
-        {
-          "name": "Ion Rifle",
-          "costPerModel": 5
-        }
-      ]
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 10,
+            "cost": 85
+          }
+        ],
+        "secondary": [
+          {
+            "count": 10,
+            "cost": 100
+          }
+        ]
+      }
     },
     {
       "name": "Piranhas",
@@ -652,6 +667,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -696,29 +712,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 180
+          "cost": 190
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 180
+            "cost": 190
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 210
+            "cost": 220
           }
         ]
-      },
-      "wargearOptions": [
-        {
-          "name": "Ion Accelerator",
-          "costPerModel": 20
-        }
-      ]
+      }
     },
     {
       "name": "Sky Ray Gunship",
@@ -738,6 +749,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -757,20 +769,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 360
+          "cost": 375
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 360
+            "cost": 375
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 385
+            "cost": 400
           }
         ]
       }
@@ -802,6 +815,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -821,7 +835,7 @@
       "modelOptions": [
         {
           "count": 2,
-          "cost": 205
+          "cost": 220
         }
       ]
     },
@@ -849,6 +863,10 @@
         {
           "count": 1,
           "cost": 85
+        },
+        {
+          "count": 1,
+          "cost": 20
         }
       ]
     },
@@ -857,20 +875,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 325
+          "cost": 375
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
-            "cost": 325
+            "cost": 375
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 375
+            "cost": 425
           }
         ]
       }

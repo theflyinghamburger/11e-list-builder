@@ -72,7 +72,7 @@
     {
       "name": "HEROES OF THE UPRISING",
       "dpCost": 1,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Contraband Munitions",
@@ -171,7 +171,7 @@
     {
       "name": "XENOCULT MASSES",
       "dpCost": 1,
-      "doctrine": "DISRUPTION",
+      "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
           "name": "Devious Disguises (Upgrade)",
@@ -190,32 +190,33 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 150
+          "cost": 140
         },
         {
           "count": 10,
-          "cost": 300
+          "cost": 280
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
+          {
+            "count": 5,
+            "cost": 140
+          },
+          {
+            "count": 10,
+            "cost": 280
+          }
+        ],
+        "secondary": [
           {
             "count": 5,
             "cost": 150
           },
           {
             "count": 10,
-            "cost": 300
-          }
-        ],
-        "secondary": [
-          {
-            "count": 5,
-            "cost": 160
-          },
-          {
-            "count": 10,
-            "cost": 310
+            "cost": 290
           }
         ]
       }
@@ -229,6 +230,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -257,7 +259,30 @@
           "count": 2,
           "cost": 160
         }
-      ]
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 95
+          },
+          {
+            "count": 2,
+            "cost": 160
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 105
+          },
+          {
+            "count": 2,
+            "cost": 170
+          }
+        ]
+      }
     },
     {
       "name": "Acolyte Hybrids With Autopistols",
@@ -281,7 +306,7 @@
         },
         {
           "count": 10,
-          "cost": 150
+          "cost": 140
         }
       ]
     },
@@ -305,31 +330,44 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 90
+          "cost": 85
         },
         {
           "count": 10,
+          "cost": 150
+        },
+        {
+          "count": 9,
           "cost": 160
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
-            "cost": 90
+            "cost": 85
           },
           {
             "count": 10,
+            "cost": 150
+          },
+          {
+            "count": 9,
             "cost": 160
           }
         ],
         "secondary": [
           {
             "count": 5,
-            "cost": 100
+            "cost": 95
           },
           {
             "count": 10,
+            "cost": 160
+          },
+          {
+            "count": 9,
             "cost": 170
           }
         ]
@@ -390,6 +428,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -409,9 +448,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
+          "cost": 75
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ]
+      }
     },
     {
       "name": "Hybrid Metamorphs",
@@ -422,10 +476,11 @@
         },
         {
           "count": 10,
-          "cost": 150
+          "cost": 140
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -433,7 +488,7 @@
           },
           {
             "count": 10,
-            "cost": 150
+            "cost": 140
           }
         ],
         "secondary": [
@@ -443,7 +498,7 @@
           },
           {
             "count": 10,
-            "cost": 160
+            "cost": 150
           }
         ]
       }
@@ -508,7 +563,7 @@
         },
         {
           "count": 20,
-          "cost": 145
+          "cost": 135
         }
       ]
     },
@@ -559,7 +614,7 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 80
+          "cost": 75
         },
         {
           "count": 10,
@@ -567,10 +622,11 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
-            "cost": 80
+            "cost": 75
           },
           {
             "count": 10,
@@ -580,7 +636,7 @@
         "secondary": [
           {
             "count": 5,
-            "cost": 90
+            "cost": 85
           },
           {
             "count": 10,
@@ -596,7 +652,22 @@
           "count": 1,
           "cost": 70
         }
-      ]
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ]
+      }
     },
     {
       "name": "Sanctus",

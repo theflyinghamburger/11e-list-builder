@@ -3,7 +3,7 @@
     {
       "name": "1ST COMPANY TASK FORCE",
       "dpCost": 2,
-      "doctrine": "PRIORITY ASSETS",
+      "doctrine": "PURGE THE FOE",
       "enhancements": [
         {
           "name": "Fear Made Manifest",
@@ -99,7 +99,7 @@
       "enhancements": [
         {
           "name": "Armour of Antoninus",
-          "pts": 10
+          "pts": 20
         },
         {
           "name": "Oath of Macragge",
@@ -141,7 +141,7 @@
     {
       "name": "EMPEROR’S SHIELD",
       "dpCost": 2,
-      "doctrine": "PRIORITY ASSETS",
+      "doctrine": "PURGE THE FOE",
       "enhancements": [
         {
           "name": "Champion of the Feast",
@@ -164,7 +164,7 @@
     {
       "name": "FIRESTORM ASSAULT FORCE",
       "dpCost": 2,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Adamantine Mantle",
@@ -187,7 +187,7 @@
     {
       "name": "FORGEFATHER’S SEEKERS",
       "dpCost": 2,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Adamantine Mantle",
@@ -210,7 +210,7 @@
     {
       "name": "FULGURIS TASK FORCE",
       "dpCost": 1,
-      "doctrine": "DISRUPTION",
+      "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
           "name": "Bellicose Weapon Spirits (Upgrade)",
@@ -233,7 +233,7 @@
         },
         {
           "name": "Artificer Armour",
-          "pts": 10
+          "pts": 20
         },
         {
           "name": "Fire Discipline",
@@ -248,7 +248,7 @@
     {
       "name": "HAMMER OF AVERNII",
       "dpCost": 2,
-      "doctrine": "PRIORITY ASSETS",
+      "doctrine": "PURGE THE FOE",
       "enhancements": [
         {
           "name": "Iron Laurel",
@@ -294,7 +294,7 @@
     {
       "name": "IRONSTORM SPEARHEAD",
       "dpCost": 2,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "Adept of the Omnissiah",
@@ -310,7 +310,7 @@
         },
         {
           "name": "The Flesh Is Weak",
-          "pts": 10
+          "pts": 20
         }
       ]
     },
@@ -325,7 +325,7 @@
         },
         {
           "name": "Fusillade",
-          "pts": 20
+          "pts": 25
         },
         {
           "name": "Obfuscation",
@@ -337,7 +337,7 @@
         },
         {
           "name": "Temporal Corridor",
-          "pts": 15
+          "pts": 25
         }
       ]
     },
@@ -459,7 +459,7 @@
     {
       "name": "SUBVERSION ASSETS",
       "dpCost": 1,
-      "doctrine": "RECONNAISSANCE",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Death in the Dark (Upgrade)",
@@ -493,6 +493,21 @@
           "pts": 25
         }
       ]
+    },
+    {
+      "name": "VENGEFUL HOSTS",
+      "dpCost": 1,
+      "doctrine": "TAKE AND HOLD",
+      "enhancements": [
+        {
+          "name": "Avenging Angel",
+          "pts": 20
+        },
+        {
+          "name": "Orksbane",
+          "pts": 20
+        }
+      ]
     }
   ],
   "units": [
@@ -501,32 +516,33 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 90
+          "cost": 80
         },
         {
           "count": 6,
-          "cost": 180
+          "cost": 165
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
+          {
+            "count": 3,
+            "cost": 80
+          },
+          {
+            "count": 6,
+            "cost": 165
+          }
+        ],
+        "secondary": [
           {
             "count": 3,
             "cost": 90
           },
           {
             "count": 6,
-            "cost": 180
-          }
-        ],
-        "secondary": [
-          {
-            "count": 3,
-            "cost": 100
-          },
-          {
-            "count": 6,
-            "cost": 190
+            "cost": 175
           }
         ]
       }
@@ -638,6 +654,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -669,6 +686,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -692,6 +710,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -731,6 +750,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -762,6 +782,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -979,6 +1000,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 5,
@@ -1020,9 +1042,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 70
+          "cost": 60
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 60
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ]
+      }
     },
     {
       "name": "Eliminator Squad",
@@ -1046,6 +1083,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
@@ -1073,23 +1111,9 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 70
+          "cost": 80
         }
-      ],
-      "tiered": {
-        "primary": [
-          {
-            "count": 3,
-            "cost": 70
-          }
-        ],
-        "secondary": [
-          {
-            "count": 3,
-            "cost": 80
-          }
-        ]
-      }
+      ]
     },
     {
       "name": "Firestrike Servo-Turrets",
@@ -1113,6 +1137,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1136,6 +1161,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1159,6 +1185,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1213,41 +1240,57 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 80
+          "cost": 70
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ]
+      }
     },
     {
       "name": "Inceptor Squad",
       "modelOptions": [
         {
           "count": 3,
-          "cost": 120
+          "cost": 125
         },
         {
           "count": 6,
-          "cost": 240
+          "cost": 250
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 3,
-            "cost": 120
+            "cost": 125
           },
           {
             "count": 6,
-            "cost": 240
+            "cost": 250
           }
         ],
         "secondary": [
           {
             "count": 3,
-            "cost": 135
+            "cost": 140
           },
           {
             "count": 6,
-            "cost": 255
+            "cost": 265
           }
         ]
       }
@@ -1265,6 +1308,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -1296,7 +1340,7 @@
         },
         {
           "count": 10,
-          "cost": 170
+          "cost": 180
         }
       ]
     },
@@ -1313,6 +1357,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -1398,6 +1443,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1421,6 +1467,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1444,6 +1491,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1463,32 +1511,33 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 95
+          "cost": 105
         }
-      ],
-      "tiered": {
-        "primary": [
-          {
-            "count": 1,
-            "cost": 95
-          }
-        ],
-        "secondary": [
-          {
-            "count": 1,
-            "cost": 105
-          }
-        ]
-      }
+      ]
     },
     {
       "name": "Librarian",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 60
+          "cost": 70
         }
       ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 80
+          }
+        ]
+      },
       "leaderOf": [
         "Assault Intercessor Squad",
         "Deathwatch Veterans",
@@ -1593,7 +1642,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
+          "cost": 95
         }
       ]
     },
@@ -1623,6 +1672,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1646,6 +1696,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1665,9 +1716,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 95
+          "cost": 85
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 95
+          }
+        ]
+      }
     },
     {
       "name": "Redemptor Dreadnought",
@@ -1678,6 +1744,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1714,6 +1781,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1733,20 +1801,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 240
+          "cost": 255
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 240
+            "cost": 255
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 260
+            "cost": 275
           }
         ]
       }
@@ -1756,9 +1825,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 65
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 65
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ]
+      }
     },
     {
       "name": "Scout Squad",
@@ -1773,6 +1857,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -1804,7 +1889,7 @@
         },
         {
           "count": 10,
-          "cost": 190
+          "cost": 200
         }
       ]
     },
@@ -1826,6 +1911,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -1849,6 +1935,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1868,20 +1955,21 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 130
+          "cost": 140
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
-            "cost": 130
+            "cost": 140
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 140
+            "cost": 150
           }
         ]
       }
@@ -1895,6 +1983,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -1923,7 +2012,7 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 75
+          "cost": 85
         }
       ]
     },
@@ -1996,32 +2085,33 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 100
+          "cost": 105
         },
         {
           "count": 10,
-          "cost": 200
+          "cost": 210
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
-            "cost": 100
+            "cost": 105
           },
           {
             "count": 10,
-            "cost": 200
+            "cost": 210
           }
         ],
         "secondary": [
           {
             "count": 5,
-            "cost": 110
+            "cost": 115
           },
           {
             "count": 10,
-            "cost": 210
+            "cost": 220
           }
         ]
       }
@@ -2035,6 +2125,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -2058,6 +2149,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 1,
@@ -2201,7 +2293,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 90
+          "cost": 100
         }
       ],
       "leaderOf": [
@@ -2221,7 +2313,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 95
+          "cost": 105
         }
       ],
       "supportFor": [
@@ -2233,7 +2325,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 95
+          "cost": 85
         }
       ],
       "leaderOf": [
@@ -2251,7 +2343,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 140
+          "cost": 155
         }
       ],
       "leaderOf": [
@@ -2259,11 +2351,10 @@
         "Assault Intercessor Squad",
         "Bladeguard Veteran Squad",
         "Company Heroes",
-        "Eradicator Squad",
+        "Eradicator Squad Sternguard Veteran Squad",
         "Heavy Intercessor Squad",
         "Infernus Squad",
         "Intercessor Squad",
-        "Sternguard Veteran Squad",
         "Tactical Squad",
         "Terminator Assault Squad",
         "Terminator Squad",
@@ -2275,7 +2366,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 340
+          "cost": 355
         }
       ]
     },
@@ -2284,7 +2375,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 95
+          "cost": 105
         }
       ],
       "leaderOf": [
@@ -2293,7 +2384,8 @@
         "Company Heroes",
         "Intercessor Squad",
         "Sternguard Veteran Squad",
-        "Tactical Squad"
+        "Tactical Squad",
+        "Victrix Honour Guard"
       ]
     },
     {
@@ -2305,10 +2397,11 @@
         },
         {
           "count": 6,
-          "cost": 220
+          "cost": 230
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 3,
@@ -2316,7 +2409,7 @@
           },
           {
             "count": 6,
-            "cost": 220
+            "cost": 230
           }
         ],
         "secondary": [
@@ -2326,7 +2419,7 @@
           },
           {
             "count": 6,
-            "cost": 240
+            "cost": 250
           }
         ]
       }
@@ -2336,7 +2429,7 @@
       "modelOptions": [
         {
           "count": 6,
-          "cost": 110
+          "cost": 120
         }
       ],
       "supportFor": [
@@ -2368,7 +2461,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 100
+          "cost": 90
         }
       ],
       "leaderOf": [

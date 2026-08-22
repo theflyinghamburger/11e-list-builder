@@ -110,7 +110,7 @@
     {
       "name": "HALOSCREED BATTLE CLADE",
       "dpCost": 3,
-      "doctrine": "PURGE THE FOE",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Cognitive Reinforcement",
@@ -287,20 +287,21 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 115
+          "cost": 105
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
-            "cost": 115
+            "cost": 105
           }
         ],
         "secondary": [
           {
             "count": 5,
-            "cost": 130
+            "cost": 120
           }
         ]
       }
@@ -314,6 +315,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -341,10 +343,11 @@
         },
         {
           "count": 3,
-          "cost": 240
+          "cost": 250
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 1,
@@ -356,7 +359,7 @@
           },
           {
             "count": 3,
-            "cost": 240
+            "cost": 250
           }
         ],
         "secondary": [
@@ -370,7 +373,7 @@
           },
           {
             "count": 3,
-            "cost": 255
+            "cost": 265
           }
         ]
       }
@@ -388,6 +391,7 @@
         }
       ],
       "tiered": {
+        "split": 1,
         "primary": [
           {
             "count": 2,
@@ -419,7 +423,7 @@
         },
         {
           "count": 6,
-          "cost": 320
+          "cost": 310
         }
       ]
     },
@@ -432,7 +436,7 @@
         },
         {
           "count": 6,
-          "cost": 210
+          "cost": 200
         }
       ]
     },
@@ -458,6 +462,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -493,6 +498,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -524,7 +530,7 @@
         },
         {
           "count": 6,
-          "cost": 120
+          "cost": 110
         }
       ]
     },
@@ -537,7 +543,7 @@
         },
         {
           "count": 6,
-          "cost": 110
+          "cost": 100
         }
       ]
     },
@@ -563,6 +569,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -598,6 +605,7 @@
         }
       ],
       "tiered": {
+        "split": 2,
         "primary": [
           {
             "count": 5,
@@ -649,7 +657,7 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 90
+          "cost": 85
         }
       ]
     },
@@ -667,9 +675,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
+          "cost": 75
         }
-      ]
+      ],
+      "tiered": {
+        "split": 3,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 75
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 85
+          }
+        ]
+      }
     },
     {
       "name": "Sydonian Dragoons With Radium Jezzails",
