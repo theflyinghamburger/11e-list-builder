@@ -16,7 +16,7 @@ export default function UnitList({ data, units, onAddUnit }) {
     setAddForm({
       unitName: unitData.name,
       modelCount: defaultOpt.count,
-      modelCost: getUnitPoints(unitData, defaultOpt.count, units, {}),
+      modelCost: getUnitPoints(unitData, defaultOpt.count, units.filter((u) => u.unitName === unitData.name).length + 1, {}),
       wargear: {},
     });
     setExpandedUnit(unitData.name);
@@ -26,14 +26,14 @@ export default function UnitList({ data, units, onAddUnit }) {
     setAddForm((prev) => ({
       ...prev,
       modelCount: option.count,
-      modelCost: getUnitPoints(unitData, option.count, units, prev.wargear),
+      modelCost: getUnitPoints(unitData, option.count, units.filter((u) => u.unitName === unitData.name).length + 1, prev.wargear),
     }));
   };
 
   const handleAdd = () => {
     if (!addForm) return;
     onAddUnit({
-      id: Date.now().toString(),
+      id: crypto.randomUUID(),
       unitName: addForm.unitName,
       modelCount: addForm.modelCount,
       wargear: { ...addForm.wargear },
@@ -56,13 +56,14 @@ export default function UnitList({ data, units, onAddUnit }) {
         {filtered.map((unitData) => {
           const isExpanded = expandedUnit === unitData.name;
           const form = addForm?.unitName === unitData.name ? addForm : null;
+          const nextOrdinal = units.filter((u) => u.unitName === unitData.name).length + 1;
 
           return (
             <div key={unitData.name} className="unit-card">
               <div className="unit-header" onClick={() => openAddForm(unitData)}>
                 <span className="unit-name">{unitData.name}</span>
                 <span className="unit-cost">
-                  {getUnitPoints(unitData, unitData.modelOptions[0].count, units, {})} pts
+                  {getUnitPoints(unitData, unitData.modelOptions[0].count, nextOrdinal, {})} pts
                 </span>
               </div>
 
@@ -70,7 +71,7 @@ export default function UnitList({ data, units, onAddUnit }) {
                 <div className="unit-config">
                   <div className="model-options">
                     {unitData.modelOptions.map((opt) => {
-                      const tieredCost = form ? getUnitPoints(unitData, opt.count, units, form.wargear) : opt.cost;
+                      const tieredCost = form ? getUnitPoints(unitData, opt.count, nextOrdinal, form.wargear) : opt.cost;
                       return (
                         <button
                           key={opt.count}
@@ -112,7 +113,7 @@ export default function UnitList({ data, units, onAddUnit }) {
                   {form && (
                     <div className="add-footer">
                       <span className="total-cost">
-                        {getUnitPoints(unitData, form.modelCount, units, form.wargear)} pts
+                        {getUnitPoints(unitData, form.modelCount, nextOrdinal, form.wargear)} pts
                         {unitData.tiered && (
                           <span className="tier-label">
                             {' '}(#{units.filter((u) => u.unitName === unitData.name).length + 1})
