@@ -750,6 +750,12 @@
           "count": 2,
           "cost": 90
         }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Bombast Field Gun",
+          "costPerModel": 10
+        }
       ]
     },
     {
@@ -911,6 +917,12 @@
           "count": 4,
           "cost": 60
         }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Krieg Heavy Flamer",
+          "costPerModel": 5
+        }
       ]
     },
     {
@@ -959,7 +971,13 @@
             "cost": 230
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Demolisher Battle Cannon",
+          "costPerModel": 15
+        }
+      ]
     },
     {
       "name": "Leman Russ Demolisher",

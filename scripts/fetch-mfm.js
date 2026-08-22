@@ -214,13 +214,20 @@ async function main() {
         const wargear = [];
         $(el).parent().find('ul.leaders li').each((_, li) => {
           const liText = $(li).find('span').first().text().trim();
+          if (!liText) return;
+          // ponytail: post-$RS-injection the cost template is gone, the pts span remains
           const tplId = $(li).find('template').attr('id');
-          if (liText && tplId) {
-            wargear.push({
-              name: toTitleCase(liText.replace('per ', '')),
-              costPerModel: costMap[tplId] || 0,
-            });
+          let cost = 0;
+          if (tplId) {
+            cost = costMap[tplId] || 0;
+          } else {
+            const costText = $(li).find('span').last().text().trim();
+            if (costText.includes('pts')) cost = parseInt(costText.replace('pts', '').trim(), 10) || 0;
           }
+          wargear.push({
+            name: toTitleCase(liText.replace('per ', '')),
+            costPerModel: cost,
+          });
         });
         if (wargear.length > 0) unit.wargearOptions = wargear;
       });

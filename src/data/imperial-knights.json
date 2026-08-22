@@ -403,7 +403,13 @@
             "cost": 415
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Rapid-Fire Battle Cannon",
+          "costPerModel": 15
+        }
+      ]
     },
     {
       "name": "Knight Defender",

@@ -386,7 +386,17 @@
             "cost": 340
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Hades Lascannon",
+          "costPerModel": 15
+        },
+        {
+          "name": "Heavy Reaper Autocannon",
+          "costPerModel": 15
+        }
+      ]
     },
     {
       "name": "Exalted Sorcerer",
@@ -436,7 +446,13 @@
             "cost": 145
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Ectoplasma Cannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Helbrute",

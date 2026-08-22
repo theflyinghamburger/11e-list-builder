@@ -771,7 +771,17 @@
             "cost": 340
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Reaper Autocannon",
+          "costPerModel": 15
+        },
+        {
+          "name": "Hades Lascannon",
+          "costPerModel": 15
+        }
+      ]
     },
     {
       "name": "Fabius Bile",
@@ -820,7 +830,13 @@
             "cost": 170
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Ectoplasma Cannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Haarken Worldclaimer",

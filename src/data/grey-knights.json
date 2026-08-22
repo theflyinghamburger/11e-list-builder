@@ -285,6 +285,12 @@
           "count": 10,
           "cost": 360
         }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Psycannon",
+          "costPerModel": 5
+        }
       ]
     },
     {
@@ -334,7 +340,17 @@
             "cost": 215
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Sublimator",
+          "costPerModel": 15
+        },
+        {
+          "name": "Heavy Psycannon",
+          "costPerModel": 15
+        }
+      ]
     },
     {
       "name": "Grand Master Voldus",
@@ -503,7 +519,13 @@
             "cost": 210
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Psycannon",
+          "costPerModel": 15
+        }
+      ]
     },
     {
       "name": "Paladin Squad",
@@ -563,7 +585,13 @@
             "cost": 465
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Psycannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Purgation Squad",
@@ -599,7 +627,13 @@
             "cost": 230
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Psycannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Purifier Squad",
@@ -635,7 +669,13 @@
             "cost": 270
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Psycannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Razorback",

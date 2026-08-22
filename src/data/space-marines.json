@@ -910,6 +910,12 @@
           "count": 6,
           "cost": 350
         }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Twin Lascannon",
+          "costPerModel": 5
+        }
       ]
     },
     {
@@ -1757,7 +1763,13 @@
             "cost": 210
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Macro Plasma Incinerator",
+          "costPerModel": 10
+        }
+      ]
     },
     {
       "name": "Reiver Squad",
@@ -1818,7 +1830,13 @@
             "cost": 275
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Laser Destroyer",
+          "costPerModel": 10
+        }
+      ]
     },
     {
       "name": "Rhino",
@@ -2055,6 +2073,12 @@
         {
           "count": 10,
           "cost": 310
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Thunder Hammer",
+          "costPerModel": 5
         }
       ]
     },
@@ -2422,7 +2446,17 @@
             "cost": 250
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Banner Of Macragge",
+          "costPerModel": 15
+        },
+        {
+          "name": "Blades Of Honour",
+          "costPerModel": 10
+        }
+      ]
     },
     {
       "name": "Wardens Of Ultramar",

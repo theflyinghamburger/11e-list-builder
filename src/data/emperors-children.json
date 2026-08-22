@@ -347,7 +347,17 @@
             "cost": 340
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Heavy Reaper Autocannon",
+          "costPerModel": 15
+        },
+        {
+          "name": "Hades Lascannon",
+          "costPerModel": 15
+        }
+      ]
     },
     {
       "name": "Flawless Blades",

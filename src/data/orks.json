@@ -297,6 +297,12 @@
           "count": 1,
           "cost": 145
         }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Ard Case",
+          "costPerModel": 15
+        }
       ]
     },
     {

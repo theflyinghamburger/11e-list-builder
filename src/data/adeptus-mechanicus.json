@@ -376,7 +376,13 @@
             "cost": 265
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Twin Cognis Lascannon",
+          "costPerModel": 10
+        }
+      ]
     },
     {
       "name": "Kastelan Robots",
@@ -667,6 +673,12 @@
         {
           "count": 1,
           "cost": 160
+        }
+      ],
+      "wargearOptions": [
+        {
+          "name": "Ferrumite Cannon",
+          "costPerModel": 10
         }
       ]
     },
