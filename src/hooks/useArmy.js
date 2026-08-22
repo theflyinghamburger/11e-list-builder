@@ -1,4 +1,4 @@
-import { useReducer } from 'react';
+import { useReducer, useEffect } from 'react';
 import { getDpBudget } from '../utils/dpBudget';
 import { getData } from '../data';
 
@@ -52,8 +52,18 @@ const initialState = {
   units: [],
 };
 
+const AUTO_KEY = 'army-autosave';
+
+function loadInitial() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(AUTO_KEY));
+    return saved ? { ...initialState, ...saved } : initialState;
+  } catch { return initialState; }
+}
+
 export function useArmy() {
-  const [state, dispatch] = useReducer(armyReducer, initialState);
+  const [state, dispatch] = useReducer(armyReducer, undefined, loadInitial);
+  useEffect(() => { localStorage.setItem(AUTO_KEY, JSON.stringify(state)); }, [state]);
 
   return {
     state,
