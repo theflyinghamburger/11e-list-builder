@@ -1,6 +1,9 @@
 # TODO
 
 ## Done
+- Wahapedia datasheets (2026-08-23): scraper (scripts/fetch-wahapedia.js), 23 folder chunks
+  covering all 1439 MFM units (src/data/datasheets/), lazy loader + DatasheetModal with info
+  buttons in unit browser and army list. Coverage enforced by validate-data.js.
 - 29 factions scraped from MFM (scripts/fetch-mfm.js), prices current at 2026-08-22 re-scrape
 - Detachments, DP budget, enhancements, leader/support validation
 - Per-instance tiered pricing (tiered.split recorded at scrape time)
