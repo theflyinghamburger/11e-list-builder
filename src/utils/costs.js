@@ -1,3 +1,6 @@
+// ponytail: case/punctuation-insensitive name match (NR writes "Ferrumite cannon", data has "Ferrumite Cannon")
+export const normName = (s) => String(s).toUpperCase().replace(/[’'.,\-\s]+/g, '');
+
 // ponytail: shared tiered+wargear cost logic — ArmyList and UnitList both need it
 export function getUnitPoints(unitData, modelCount, instanceOrdinal, wargear) {
   let cost = unitData.modelOptions.find((o) => o.count === modelCount)?.cost || 0;
@@ -10,7 +13,7 @@ export function getUnitPoints(unitData, modelCount, instanceOrdinal, wargear) {
 
   if (wargear) {
     for (const [name, count] of Object.entries(wargear)) {
-      const wg = unitData.wargearOptions?.find((w) => w.name === name);
+      const wg = unitData.wargearOptions?.find((w) => normName(w.name) === normName(name));
       if (wg) cost += wg.costPerModel * count;
     }
   }

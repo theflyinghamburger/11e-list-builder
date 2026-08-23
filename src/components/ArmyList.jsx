@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { unzipSync } from 'fflate';
 import { getData } from '../data';
-import { getUnitPoints } from '../utils/costs';
+import { getUnitPoints, normName } from '../utils/costs';
 import { validateArmy } from '../utils/validate';
 import { PROXY, armyToRozs, rosToArmy, getYellowScribeCode, armyFromCode } from '../utils/yellowscribe';
 
@@ -46,7 +46,7 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetNa
       for (const u of imported.units) {
         const ud = idata.units.find((d) => d.name === u.unitName);
         for (const [wg, count] of Object.entries(u.wargear || {})) {
-          if (count > 0 && !(ud?.wargearOptions || []).some((w) => w.name === wg)) mismatches.push(`${u.unitName}: ${wg}`);
+          if (count > 0 && !(ud?.wargearOptions || []).some((w) => normName(w.name) === normName(wg))) mismatches.push(`${u.unitName}: ${wg}`);
         }
       }
     }
@@ -151,7 +151,7 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetNa
                     } else {
                       xml = ev.target.result;
                     }
-                    applyImported(rosToArmy(xml));
+                    applyImported(rosToArmy(xml, getData));
                   } catch (err) {
                     alert('Could not import roster: ' + err.message);
                   }

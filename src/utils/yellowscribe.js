@@ -3,6 +3,7 @@
 // Phase 2: 8-hex TTS codes via a user-deployed relay (PROXY).
 import { zipSync } from 'fflate';
 import { load } from 'cheerio';
+import { normName } from './costs.js';
 
 // ponytail: empty = code buttons hidden; paste your relay worker URL to enable
 export const PROXY = '';
@@ -29,13 +30,28 @@ const esc = (s) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 export function armyToRos(army) {
-  const units = (army.units || [])
-    .map((u) => {
-      const upgrades = Object.entries(u.wargear || {})
-        .filter(([, count]) => count > 0)
-        .map(([name, count]) =>
-          `          <selection type="upgrade" name="${esc(name)}" number="${count}"/>`)
-        .join('\n');
+  const list = army.units || [];
+  const firstIdx = list.findIndex((u) => u.modelCount > 0);
+  const detachments = army.detachments || [];
+  const detSel = detachments.length
+    ? `    <selection type="upgrade" name="Detachment" number="1">\n      <selections>\n${detachments
+        .map((d) => `        <selection type="upgrade" name="${esc(d.name)}" number="1" group="Detachments"/>`)
+        .join('\n')}\n      </selections>\n    </selection>\n`
+    : '';
+  const units = list
+    .map((u, i) => {
+      // ponytail: enhancements aren't tracked per unit, NR just needs them somewhere pickable
+      const enhs = i === firstIdx
+        ? detachments.flatMap((d) => (d.enhancements || []).map((e) =>
+            `          <selection type="upgrade" name="${esc(e)}" number="1" group="Enhancements::${esc(d.name)} Enhancements"/>`))
+        : [];
+      const upgrades = [
+        ...Object.entries(u.wargear || {})
+          .filter(([, count]) => count > 0)
+          .map(([name, count]) =>
+            `          <selection type="upgrade" name="${esc(name)}" number="${count}" group="Wargear"/>`),
+        ...enhs,
+      ].join('\n');
       let models = '';
       if (u.modelCount > 0) {
         models = `      <selections>\n        <selection type="model" name="${esc(u.unitName)}" number="${u.modelCount}">\n${upgrades ? `          <selections>\n${upgrades}\n          </selections>\n` : ''}        </selection>\n      </selections>\n`;
@@ -43,44 +59,81 @@ export function armyToRos(army) {
       return `    <selection type="unit" name="${esc(u.unitName)}">\n${models}      <categories>\n        <category name="Faction: ${esc(factionDisplayName(army.faction))}"/>\n      </categories>\n    </selection>`;
     })
     .join('\n');
-  return `<roster gameSystemId="${SYSTEM_ID_11E}">\n  <forces>\n    <force name="${esc(army.name || '')}">\n      <selections>\n${units}\n      </selections>\n    </force>\n  </forces>\n</roster>\n`;
+  return `<roster gameSystemId="${SYSTEM_ID_11E}">\n  <forces>\n    <force name="${esc(army.name || '')}">\n      <selections>\n${detSel}${units}\n      </selections>\n    </force>\n  </forces>\n</roster>\n`;
 }
 
 export function armyToRozs(army) {
   return zipSync({ 'army.ros': new TextEncoder().encode(armyToRos(army)) });
 }
 
-export function rosToArmy(xml) {
+// ponytail: getData is injected (factionKey -> faction data) so this module stays loadable in node scripts,
+// where the 29-JSON data/index.js can't be imported
+export function rosToArmy(xml, getData) {
   const $ = load(xml, { xmlMode: true });
   const systemId = $('roster').attr('gameSystemId');
   if (systemId !== SYSTEM_ID_11E) {
     throw new Error(`not an 11e roster (gameSystemId: ${systemId || 'missing'}, 11e is ${SYSTEM_ID_11E})`);
   }
   const units = [];
+  const detEnhs = {}; // norm-det -> Set of raw enhancement names
   let name = '';
   let faction = '';
+  let pointLimit = 0;
   $('forces > force').each((i, force) => {
     const f = $(force);
     if (!name) name = f.attr('name') || '';
     if (!faction) faction = f.attr('faction') || '';
-    f.children('selections').children('selection[type="unit"]').each((_, el) => {
+    if (!pointLimit) {
+      f.children('selections').children('selection[type="upgrade"][name="Battle Size"]')
+        .children('selections').children('selection')
+        .each((_, cEl) => {
+          const m = /(\d+)\s*point/i.exec($(cEl).attr('name') || '');
+          if (m) pointLimit = Number(m[1]);
+        });
+    }
+    f.children('selections').children('selection[type="upgrade"][name="Detachment"]')
+      .children('selections').children('selection')
+      .each((_, dEl) => {
+        const dName = $(dEl).attr('name') || '';
+        if (dName) (detEnhs[normName(dName)] ??= new Set());
+      });
+    // units and force-level model selections (characters/vehicles have no unit wrapper)
+    f.children('selections').children('selection').each((_, el) => {
       const sel = $(el);
+      const type = sel.attr('type');
+      if (type !== 'unit' && type !== 'model') return;
       let modelCount = 0;
       const wargear = {};
-      sel.children('selections').children('selection[type="model"]').each((_, mEl) => {
-        modelCount += Number($(mEl).attr('number') || 0);
-        $(mEl).children('selections').children('selection[type="upgrade"]').each((_, wEl) => {
+      const enhs = {};
+      const modelEls = type === 'unit'
+        ? sel.children('selections').children('selection[type="model"]').toArray()
+        : [el];
+      for (const mEl of modelEls) {
+        const m = $(mEl);
+        modelCount += Number(m.attr('number') || 0);
+        m.children('selections').children('selection[type="upgrade"]').toArray().forEach((wEl) => {
           const w = $(wEl);
-          const wName = w.attr('name') || '?';
-          wargear[wName] = (wargear[wName] || 0) + Number(w.attr('number') || 0);
+          const group = w.attr('group') || '';
+          const count = Number(w.attr('number') || 0);
+          if (group.startsWith('Wargear')) {
+            const wName = w.attr('name') || '?';
+            wargear[wName] = (wargear[wName] || 0) + count;
+          } else if (group.startsWith('Enhancements::')) {
+            const detRaw = group.slice('Enhancements::'.length).replace(/\s+enhancements$/i, '');
+            (enhs[normName(detRaw)] ??= new Set()).add(w.attr('name') || '');
+          }
         });
-      });
+      }
       units.push({
         id: crypto.randomUUID(),
         unitName: sel.attr('name') || 'Unknown unit',
         modelCount,
         wargear: Object.keys(wargear).length ? wargear : {},
       });
+      for (const [detKey, names] of Object.entries(enhs)) {
+        const s = detEnhs[detKey] ??= new Set();
+        for (const n of names) s.add(n);
+      }
     });
   });
   if (!faction) {
@@ -89,12 +142,25 @@ export function rosToArmy(xml) {
       if (/^faction:/i.test(cName)) faction = cName.replace(/^faction:\s*/i, '');
     });
   }
+  const factionKey = factionKeyFromName(faction) || 'adeptus-mechanicus';
+  const arm = getData ? getData(factionKey) : undefined;
+  const detachments = [];
+  for (const [detKey, enhNames] of Object.entries(detEnhs)) {
+    const detData = (arm?.detachments || []).find((d) => normName(d.name) === detKey);
+    if (!detData) continue; // unresolved (or custom) detachment — skip, UI would drop it
+    const entry = detachments.find((d) => d.name === detData.name) || { name: detData.name, enhancements: [] };
+    if (!detachments.includes(entry)) detachments.push(entry);
+    for (const raw of enhNames) {
+      const enhData = (detData.enhancements || []).find((e) => normName(e.name) === normName(raw));
+      if (enhData && !entry.enhancements.includes(enhData.name)) entry.enhancements.push(enhData.name);
+    }
+  }
   return {
     name: name || 'Imported Army',
-    faction: factionKeyFromName(faction) || 'adeptus-mechanicus',
-    // ponytail: fixed default, user adjusts on the setup screen after import
-    pointLimit: 2000,
-    detachments: [],
+    faction: factionKey,
+    // ponytail: NR files always carry Battle Size; 2000 keeps legacy exports working
+    pointLimit: pointLimit || 2000,
+    detachments,
     units,
   };
 }

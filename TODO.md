@@ -27,9 +27,22 @@
   yellowscribe.js, code buttons hidden while empty). ArmyList: Export .rosz
   (New Recruit / YellowScribe) button, Load accepts .json/.ros/.rosz with
   unknown-wargear warnings. Round-trip self-check: node scripts/
-  test-yellowscribe.js. Per plan .opencode/plans/yellowscribe-import-export.md;
-  detachments and wargear statlines are not representable and are dropped
-  (see plan §8).
+   test-yellowscribe.js. Per plan .opencode/plans/yellowscribe-import-export.md;
+   wargear statlines are not representable (see plan §8).
+- .rosz import: force-level characters/vehicles, detachments, enhancements,
+  point limit (2026-08-23): rosToArmy reads force-level `model` selections (NR
+  characters/vehicles have no unit wrapper) as unit entries, parses Battle Size
+  for pointLimit, maps `Enhancements::<det> Enhancements` upgrades onto
+  detachments (resolved to data names, case/apostrophe-insensitive), and only
+  reads `Wargear*`-grouped upgrades as wargear (weapon options/config excluded).
+  armyToRos emits the Detachment config selection, groups exported wargear as
+  `group="Wargear"`, and rides detachment enhancements on the first unit.
+  normName() in costs.js makes wargear cost calc case/punctuation-insensitive
+  (NR writes "Ferrumite cannon"). Self-checks: NR-shape fixture (605 pts) plus
+  an optional live check of a real NR .rosz when present (16 entries, 1995/2000
+  pts — matches New Recruit's own total). Per plan .opencode/plans/
+  fix-rosz-import.md. Known data drift: NR's "Twin cognis autocannon" is not in
+  adeptus-mechanicus.json wargearOptions (fires the unknown-wargear alert).
 
 ## Next
 - [ ] CI job running node scripts/validate-data.js (optional; no CI set up yet)
