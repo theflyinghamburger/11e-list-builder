@@ -58,7 +58,7 @@ function App() {
 
       <div className="app-body">
         <div className={`left-panel ${activeTab === 'units' ? 'tab-active' : ''}`}>
-          <UnitList data={data} units={state.units} onAddUnit={addUnit} onShowDatasheet={setDsView} />
+          <UnitList data={data} factionKey={state.faction} units={state.units} onAddUnit={addUnit} onShowDatasheet={setDsView} />
         </div>
         <div className={`right-panel ${activeTab === 'army' ? 'tab-active' : ''}`}>
           <ArmyList data={data} army={state} onRemoveUnit={removeUnit} onLoadArmy={loadArmy} onSetName={setName} onShowDatasheet={setDsView} />

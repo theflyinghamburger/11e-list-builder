@@ -582,6 +582,28 @@ body {
   gap: 4px;
 }
 
+.unit-section {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 6px 12px;
+  margin-top: 8px;
+  border: 1px solid var(--bronze-border);
+  border-radius: 2px;
+  background: var(--bg-card);
+  color: var(--gold);
+  font-family: var(--font-header);
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s ease;
+}
+.unit-section:hover { background: var(--bg-card-hover); }
+
+.section-caret { font-size: 0.7rem; }
+
 .unit-card {
   border: 1px solid var(--bronze-border);
   border-radius: 2px;
