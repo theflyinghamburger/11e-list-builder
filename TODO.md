@@ -13,6 +13,13 @@
 - Per-instance tiered pricing (tiered.split recorded at scrape time)
 - Army save/load as JSON file, autosave to localStorage
 - Data validation gate (scripts/validate-data.js), mobile layout, print stylesheet
+- Purpose-built print sheet (2026-08-23): PrintSheet.jsx replaces the old right-panel
+  print CSS — page 1 army summary (detachments + doctrine + enhancements, units with
+  wargear + tier markers, grand total), page 2+ army rules + per-detachment rules/
+  stratagems/enhancements, then one datasheet page per unit instance. Verified via
+  headless Chrome CDP matrix (scripts run ad hoc, not committed). Known quirk:
+  titan-legions resolves to rules/adeptus-titanicus.json whose armyRules are polluted
+  with core-rules text and a "Disable Ads" block — printed verbatim, re-scrape later.
 
 ## Next
 - [ ] CI job running node scripts/validate-data.js (optional; no CI set up yet)

@@ -6,6 +6,7 @@ import DetachmentSelector from './components/DetachmentSelector';
 import UnitList from './components/UnitList';
 import ArmyList from './components/ArmyList';
 import DatasheetModal from './components/DatasheetModal';
+import PrintSheet from './components/PrintSheet';
 import './App.css';
 
 function App() {
@@ -86,6 +87,7 @@ function App() {
       </div>
       <div className="side-banner" />
       <footer className="bottom-banner" />
+      <PrintSheet data={data} army={state} rules={rules} factionKey={state.faction} />
     </div>
   );
 }

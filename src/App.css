@@ -994,93 +994,220 @@ body {
 
 /* -- Print Styles -- */
 
+.print-sheet {
+  display: none;
+}
+
 @media print {
+  @page {
+    margin: 12mm 10mm;
+  }
+
   body {
     background: white;
     color: black;
     background-image: none;
   }
 
-  .app-header,
-  .detachment-bar,
-  .left-panel,
-   .print-btn,
-    .save-btn,
-    .load-btn,
-    .remove-btn,
-    .army-name-input,
-  .search-input,
-  .validation-issues,
-  .over-warning,
-  .remaining {
+  .app,
+  .side-banner,
+  .bottom-banner,
+  .ds-backdrop {
     display: none !important;
   }
 
-  .app {
-    max-width: none;
-    padding: 20px;
-  }
-
-  .app-body {
+  .print-sheet {
     display: block;
+    font-size: 11px;
+    line-height: 1.4;
   }
 
-  .right-panel {
-    background: none;
-    border: none;
-    max-height: none;
-    overflow: visible;
-    padding: 0;
+  .ps-page {
+    break-before: page;
   }
 
-  .army-list h3 {
-    color: black;
-    font-size: 1.4rem;
-    margin-bottom: 4px;
-    text-shadow: none;
+  .ps-title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px solid #444;
+    padding-bottom: 4px;
   }
 
-  .army-table th {
-    border-bottom: 2px solid black;
-    color: black;
+  .ps-title {
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
   }
 
-  .army-table td {
+  .ps-pts {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .ps-faction {
+    margin: 4px 0 10px;
+    font-size: 11px;
+    color: #555;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .ps-h {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid #444;
+    margin: 14px 0 6px;
+    padding-bottom: 2px;
+  }
+
+  .ps-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10px;
+  }
+
+  .ps-table th {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 0.06em;
+    padding: 3px 6px;
+    border-bottom: 1.5px solid #444;
+  }
+
+  .ps-table td {
+    padding: 3px 6px;
     border-bottom: 1px solid #ccc;
-    color: black;
+    vertical-align: top;
   }
 
-  .army-table tfoot td {
-    border-top: 2px solid black;
-    color: black;
+  .ps-table tr {
+    break-inside: avoid;
   }
 
-  .detachment-info {
-    background: #f5f5f5;
-    border-color: #ddd;
-    color: black;
+  .ps-table tfoot td {
+    border-top: 2px solid #444;
+    border-bottom: none;
+    padding-top: 5px;
   }
 
-  .detachment-info strong {
-    color: black;
-  }
-
-  .enh-tag {
-    background: #e0e0e0;
-    border-color: #ccc;
-    color: black;
-  }
-
-  .det-pts {
+  .ps-dim {
     color: #555;
   }
 
-  .wargear-detail {
+  .ps-wargear {
+    font-size: 9px;
     color: #555;
   }
 
-  .orphaned td {
-    border-left: 3px solid #999;
+  .ps-keywords {
+    font-size: 9px;
+    color: #555;
+    letter-spacing: 0.04em;
+    margin-bottom: 6px;
+  }
+
+  .ps-sub {
+    margin-top: 10px;
+  }
+
+  .ps-subh {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+
+  .ps-rule-block {
+    margin-top: 8px;
+  }
+
+  .ps-rule-name {
+    font-size: 10px;
+    font-weight: bold;
+    break-after: avoid;
+    margin-bottom: 2px;
+  }
+
+  .ps-pre {
+    white-space: pre-line;
+  }
+
+  .ps-errata {
+    margin: 6px 0 0 8px;
+    padding-left: 8px;
+    border-left: 2px solid #999;
+  }
+
+  .ps-enh {
+    margin-top: 6px;
+  }
+
+  .ps-strat {
+    margin-top: 8px;
+  }
+
+  .ps-strat-head {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+
+  .ps-det {
+    margin-top: 16px;
+  }
+
+  .ps-det-head {
+    font-size: 12px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+    break-after: avoid;
+  }
+
+  .ps-ds-name {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 2px solid #444;
+    padding-bottom: 3px;
+    margin-bottom: 4px;
+  }
+
+  .ps-ds-meta {
+    font-size: 10px;
+    color: #555;
+    margin-bottom: 6px;
+  }
+
+  .ps-attrs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 8px;
+  }
+
+  .ps-attr {
+    border: 1px solid #999;
+    padding: 1px 6px;
+    font-size: 9px;
+  }
+
+  .ps-list {
+    margin: 0 0 6px 16px;
+    font-size: 10px;
+  }
+
+  .ps-cost-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    padding: 2px 0;
+  }
+
+  .ps-weapon-name {
+    max-width: 45%;
   }
 }
 
