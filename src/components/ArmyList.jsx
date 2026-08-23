@@ -178,7 +178,7 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetNa
             }}
           />
           <button className="save-btn" onClick={exportRozs} title="Export as .rosz — import it in New Recruit, or drag it to yellowscribe.link to get a TTS code">
-            Export .rosz (New Recruit / YellowScribe)
+            Export .rosz
           </button>
           {PROXY && (
             <>
