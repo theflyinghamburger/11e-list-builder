@@ -1,0 +1,670 @@
+{
+  "source": "https://wahapedia.ru/wh40k11ed/factions/t-au-empire/",
+  "armyRules": [
+    {
+      "name": "For the Greater Good",
+      "errata": [
+        {
+          "scope": "Army Rules, For the Greater Good",
+          "text": "Change to:\n‘If your Army Faction is T’AU EMPIRE, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding FORTIFICATION and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the [IGNORES COVER] ability.’"
+        }
+      ],
+      "text": "The Hunter Cadres battle for the betterment of the T’au Empire, not for personal gain or egotistic accomplishments. This burning commitment allows for prodigiously effective covering fire. Enemies are pinned in place by deadly bursts of pulse blasts, or the infamous T’au markerlight is used to expose even well-fortified enemy positions, allowing other T’au warriors to fall on the vulnerable enemies with murderous force.\nIf your Army Faction is\nT’AU\nEMPIRE\n, at the start of your\nShooting phase\nyou can select units from your army with this ability to become Observer units.\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding\nFORTIFICATION\nand\nBattle-shocked\nunits) select one enemy unit that is\nvisible\nto be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the\nMARKERLIGHT\nkeyword, that attack has the\n[IGNORES COVER]\nability."
+    }
+  ],
+  "detachments": {
+    "Kauyon": {
+      "name": "Kauyon",
+      "rules": [
+        {
+          "name": "Patient Hunter",
+          "errata": [
+            {
+              "scope": "Kauyon Detachment, Patient Hunter Detachment Rule",
+              "text": "Change to:\n'During the third, fourth and fifth battle rounds, ranged weapons equipped by T'AU EMPIRE models from your army have the [SUSTAINED HITS 1] ability. During the third, fourth and fifth battle rounds, while a unit is a Guided unit (see For the Greater Good), each time a ranged attack is made by a model in that unit that targets a Spotted unit, you can ignore any or all modifiers to that attack’s Ballistic skill characteristics and/or all modifiers to the Hit roll.'"
+            }
+          ],
+          "text": "The tactical philosophy known as the Kauyon allows for T’au commanders to draw the enemy into a deadly trap, springing it at the perfect moment to deliver a storm of fatal strikes against which none can escape.\nDuring the third, fourth and fifth\nbattle rounds\n, ranged weapons equipped by\nT’AU EMPIRE\nmodels from your army have the\n[SUSTAINED HITS 1]\nability. During the third, fourth and fifth battle rounds, while a unit is a Guided unit (see\nFor the Greater Good\n), each time a ranged attack is made by a model in that unit that targets a Spotted unit, you can ignore any or all modifiers to that attack’s Ballistic skill characteristics and/or all modifiers to the\nHit roll\n."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Exemplar of the Kauyon",
+          "flavor": "Long meditation upon the tenets of the Patient Hunter has seen this warrior master the application of this cunning ambush strategy. When they take to the battlefield, they embody the teachings of the Kauyon, much to the dismay of their luckless prey.",
+          "text": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Patient Hunter Detachment rule applies to that unit from the second battle round onwards instead of from the third."
+        },
+        {
+          "name": "Precision of the Patient Hunter",
+          "flavor": "This warrior prowls the battlefield like a high-tech predator, stalking and assessing their quarry before they strike. When they do launch their assault, their every shot and blow is informed by careful observations, perfectly aimed where they will do the greatest harm.",
+          "text": "T’AU EMPIRE model only. Each time the bearer makes a ranged attack, add 1 to the Hit roll. From the third battle round onwards, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "Solid-image Projection Unit",
+          "flavor": "This holowave-emitter drone projects beams of so-called heavy light, forming convincing illusory images while simultaneously masking the true locations of its allies with advanced refraction fields.",
+          "text": "T’AU EMPIRE model only. After both players have deployed their armies, select up to three T’AU EMPIRE units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Through Unity, Devastation",
+          "flavor": "Under their calm tutelage of this leader, warriors of the Fire caste maximise every shot they fire, creating a blizzard of deadly energy.",
+          "text": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit.ErrataShowKauyon Detachment, Through Unity, Devastation EnhancementChange to:\n'T'AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [LETHAL HITS] ability while targeting their Spotted unit.'"
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "A TEMPTING TRAP",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Kauyon teaches that many things can be used to bait a trap, luring the foe into position.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One T’AU EMPIRE unit from your army that has not been selected to shoot this phase. The first time you use this Stratagem, you must also select one objective marker that is not in your opponent’s deployment zone; until the end of the battle, this becomes your Trap objective marker.\nEFFECT: Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within range of your Trap objective marker, add 1 to the Wound roll.\nRESTRICTIONS: You cannot use this Stratagem during the first or second battle rounds."
+        },
+        {
+          "name": "POINT-BLANK AMBUSH",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Devastating firepower need not be applied from afar, especially when striking an unsuspecting foe.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One T’AU EMPIRE unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 9\", improve the Armour Penetration characteristic of that attack by 1.\nRESTRICTIONS: You cannot use this Stratagem during the first or second battle rounds."
+        },
+        {
+          "name": "COORDINATE TO ENGAGE",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "T’au Hunter Cadres work in close coordination to destroy the most dangerous enemy targets.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One T’AU EMPIRE unit from your army that has just been selected as an Observer unit (see For the Greater Good).\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if your unit has the MARKERLIGHT keyword, that attack has the [IGNORES COVER] ability."
+        },
+        {
+          "name": "COMBAT EMBARKATION",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "Those who act as the lure in the Kauyon must be ready to make a hasty withdrawal once the enemy closes into killing range, lest they be trapped.",
+          "text": "WHEN: Your opponent’s Charge phase, just after an enemy unit has declared a charge.\nTARGET: One T’AU EMPIRE INFANTRY unit from your army that was selected as one of the targets of that charge, and one friendly TRANSPORT.\nEFFECT: Your unit can embark within that TRANSPORT. If it does, your opponent can select new targets for that charge.\nRESTRICTIONS: Every model in your T’AU EMPIRE INFANTRY unit must be within 3\" of that TRANSPORT and there must be sufficient transport capacity to embark the entire unit."
+        },
+        {
+          "name": "PHOTON GRENADES",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "Hurling a volley of photon grenades, the T’au leave their enemies dazzled and disorientated, unable to close the distance into combat at a crucial moment.",
+          "text": "WHEN: Your opponent's charge phase, just after an enemy unit has selected its charge target.\nTARGET: One T’AU EMPIRE GRENADES unit from your army that was selected as one of the targets of that charge.\nEFFECT: That enemy unit must immediately take a Battle-shock test, and until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.\nRESTRICTION: You cannot target a unit that is within Engagement Range of one or more enemy units."
+        },
+        {
+          "name": "WALL OF MIRRORS",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "T’au Stealth Cadres utilise obfuscation fields and wide-band refraction beams to mask their advance.",
+          "text": "WHEN: End of your opponent’s Fight phase.\nTARGET: One STEALTH, GHOSTKEEL or COMMANDER SHADOWSUN unit from your army.\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.\nRESTRICTIONS: You cannot target a unit that is within Engagement Range of one or more enemy units."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Kauyon Detachment, Photon Grenades Stratagem, When Section",
+          "text": "Change to:\n'Your opponent's charge phase, just after an enemy unit has selected its charge target.'"
+        }
+      ]
+    },
+    "Mont’ka": {
+      "name": "Mont’ka",
+      "rules": [
+        {
+          "name": "Killing Blow",
+          "errata": [],
+          "text": "Mont’ka is the most aggressive style of T’au warfare. Its singular focus is the art of identifying a target of opportunity and attacking it swiftly with an overwhelming application of force.\nDuring the first, second and third\nbattle rounds\n, ranged weapons equipped by\nT’AU\nEMPIRE\nmodels from your army have the\n[ASSAULT]\nability. During the first, second and third battle rounds, while a unit is a\nGuided unit\n, its ranged weapons have the\n[LETHAL HITS]\nability."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Coordinated Exploitation",
+          "flavor": "This leader eschews their own martial glory in favour of seeking out an advanced vantage point then exploiting it to guide in the firepower of their fellows.",
+          "text": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [SUSTAINED HITS 1] ability while targeting their Spotted unit.ErrataShowMont'ka Detachment, Coordinated Exploitation EnhancementChange to:\n'T'AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, each time that unit is an Observer unit, until the end of the phase, ranged weapons equipped by models in a Guided unit have the [SUSTAINED HITS 1] ability while targeting their Spotted unit.'"
+        },
+        {
+          "name": "Exemplar of the Mont’ka",
+          "flavor": "This warrior has perfected the art of the Killing Blow, formulating swift and decisive battle plans and leading their cadres from the front in aggressive strikes.",
+          "text": "T’AU EMPIRE model only (excluding KROOT SHAPER models). While the bearer is leading a unit, the Killing Blow Detachment rule applies to that unit during the fourth battle round as well."
+        },
+        {
+          "name": "Strategic Conqueror",
+          "flavor": "A wise commander appreciates the strategic value of seizing a vital battlefield asset swiftly to establish a foothold, employing it as a jumping off point for further assaults or a rallying post for a swift retreat.",
+          "text": "T’AU EMPIRE model only. At the start of the first battle round, before the first turn begins, select one objective marker on the battlefield. While a friendly T’AU EMPIRE model is within range of that objective marker and the bearer is on the battlefield, add 1 to that friendly model’s Objective Control characteristic."
+        },
+        {
+          "name": "Strike Swiftly",
+          "flavor": "This commander knows victory is best assured by taking the fight to the enemy as soon as battle is joined.",
+          "text": "T’AU EMPIRE model only. In the Resolve Pre-battle Abilities step, you can select up to two friendly T’AU EMPIRE units within 6\" of this model that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6\" ability.ErrataShowMont'ka Detachment, Strike Swiftly Enhancement, Second SentenceChange to:\n'In the Resolve Pre-battle Abilities step, you can select up to two friendly T'AU EMPIRE units within 6\" of this model that do not have the Scouts ability. Until the end of the battle, all models in the selected units have the Scouts 6\" ability.'"
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "PINPOINT COUNTER-OFFENSIVE",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Mont’ka emphasises rapid evolving threat-analysis and the application of overwhelming firepower to eliminate emergent high-priority targets.",
+          "text": "WHEN: Any phase.\nTARGET: One T’AU EMPIRE unit (excluding KROOT units) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\nEFFECT: Until the end of the battle, each time a T’AU EMPIRE unit (excluding KROOT units) from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll."
+        },
+        {
+          "name": "AGGRESSIVE MOBILITY",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "By advancing swiftly into commanding positions, Mont’ka forces maximise the benefits of their enemies' shock and disorientation.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One T’AU EMPIRE unit from your army that has not been selected to move this phase.\nEFFECT: Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+        },
+        {
+          "name": "FOCUSED FIRE",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Mont’ka doctrine heavily emphasises the massed concentration of fire upon a single target at a time, obliterating each component of the enemy force in succession with a series of unrelenting barrages.",
+          "text": "WHEN: Start of your Shooting phase.\nTARGET: Two T’AU EMPIRE units from your army that have not been selected to shoot this phase, and one enemy unit.\nEFFECT: Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target for that attack), and when resolving that attack, improve the Armour Penetration characteristic by 1.\nRESTRICTIONS: You cannot use this Stratagem during the fourth or fifth battle rounds."
+        },
+        {
+          "name": "COMBAT DEBARKATION",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "The most aggressive Fire caste warriors sometimes spring from moving transports, roll with the impact of landing, and come up with weapons already blazing.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One T’AU EMPIRE INFANTRY unit from your army that disembarked from a TRANSPORT this turn.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets the closest enemy unit, you can re-roll the Wound roll."
+        },
+        {
+          "name": "PULSE ONSLAUGHT",
+          "cp": 2,
+          "kind": "Strategic Ploy",
+          "flavor": "Rather than charge into hand-to-hand combat, T’au soldiery instead intensify their fire patterns, pinning their advancing foes and staving off their onslaught.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One T’AU EMPIRE INFANTRY unit (excluding KROOT units) from your army that has just shot, and one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks.\nEFFECT: Until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2 from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
+        },
+        {
+          "name": "COUNTERFIRE DEFENCE SYSTEMS",
+          "cp": 2,
+          "kind": "Wargear",
+          "flavor": "Point-defence systems trigger as incoming fire is detected, blasting projectiles from the air and lessening the power of the enemy fusillade.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\nTARGET: One T’AU EMPIRE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Mont'ka Detachment, Killing Blow Detachment rule",
+          "text": "Change to:\n'During the first, second and third battle rounds, ranged weapons equipped by T'AU EMPIRE models from your army have the [ASSAULT] ability. During the first, second and third battle rounds, while a unit is a Guided unit (see For the Greater Good), its ranged weapons have the [LETHAL HITS] ability.'"
+        }
+      ]
+    },
+    "Retaliation Cadre": {
+      "name": "Retaliation Cadre",
+      "rules": [
+        {
+          "name": "Bonded Heroes",
+          "errata": [
+            {
+              "scope": "Retaliation Cadre Detachment, Bonded Heroes Detachment Rule",
+              "text": "Change to:\n'Each time a T'AU EMPIRE BATTLESUIT model from your army makes a ranged attack that targets a unit within 12\", improve the Strength characteristic of that attack by 1. If that attack targets a unit within 8\", improve the Armour Penetration characteristic of that attack by 1 as well.'"
+            }
+          ],
+          "text": "Cadres of T’au Battlesuit pilots fight in a manner inspired by the dynamism and determination of famous and beloved war leaders. Indeed, some of the specialist piloting manoeuvres they employ are named after such icons, in a few rare - and sometimes unofficial - cases even after those who have since fallen far from favour with the Ethereal Council. Either way, these bonded veterans are experts in the deadly art of engaging the enemy in close confines. They plunge into the heart of the enemy army where the fighting is fiercest, and prevail in the name of the Greater Good.\nEach time a\nT’AU EMPIRE BATTLESUIT\nmodel from your army makes a ranged attack that targets a unit within 12\", improve the Strength characteristic of that attack by 1. If that attack targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1 as well."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Internal Grenade Racks",
+          "flavor": "These thigh plates house deployment rails of high-explosive bomblets. As the pilot jets over the foe, the racks can be triggered to dispense a rain of death.",
+          "text": "T’AU EMPIRE BATTLESUIT model only. The bearer has the GRENADES keyword, and each time the bearer ends a Normal move, you can select one enemy unit that it moved over during that move. If you do, roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "name": "Prototype Weapon System",
+          "flavor": "Famed battlesuit pilots are often more than willing to assist Earth caste scientists infield-testing the latest in experimental weapons technology.",
+          "text": "T’AU EMPIRE BATTLESUIT model only. Each time the bearer is selected to shoot, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until those attacks are resolved, ranged weapons equipped by the bearer have the selected ability."
+        },
+        {
+          "name": "Puretide Engram Neurochip",
+          "flavor": "Commander Puretide was the most gifted T’au war leader of all time. Upon his death, his memories were stored in a neurochip. When implanted into the brain, the bearer can access much of this wisdom.",
+          "text": "T’AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.ErrataShowRetaliation Cadre Detachment, Puretide Engram Neurochip EnhancementChange to:\n'T'AU EMPIRE BATTLESUIT model only. Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 4+, you gain 1CP.'"
+        },
+        {
+          "name": "Starflare Ignition System",
+          "flavor": "The ignition thrusters on selected battlesuits are augmented with optional feed-selectors, allowing the pilot to release a jet of enriched accelerant upon take-off and sending the pilots streaking skywards.",
+          "text": "T’AU EMPIRE BATTLESUIT model only. At the end of your opponent’s turn, if the bearer’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "FAIL-SAFE DETONATOR",
+          "cp": 2,
+          "kind": "Epic Deed",
+          "flavor": "Devices are incorporated into some battlesuits either to prevent high-ranking pilots being taken alive for interrogation or to prevent just such fatal explosions.",
+          "text": "WHEN: Any phase, just after a T’AU EMPIRE BATTLESUIT model from your army is destroyed.\nTARGET: That destroyed model’s unit. You can use this Stratagem on that unit even if that unit was just destroyed.\nEFFECT: Before removing your model from play, if it has the Deadly Demise ability, do not roll for that ability; instead, you can choose whether the result of that roll is a 1 or a 6. If your model does not have the Deadly Demise ability, roll one D6 for each unit within 6\" of it: on a 4+, that unit suffers D3 mortal wounds."
+        },
+        {
+          "name": "STIMM INJECTORS",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "On-board hypodermics shunt pain-blockers and chemical stimulants into the pilot's system.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\nTARGET: One T’AU EMPIRE BATTLESUIT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "THE SHORTENED BLADE",
+          "cp": 2,
+          "kind": "Strategic Ploy",
+          "flavor": "Made famous by Commander Farsight and his protege Brightsword, this philosophy encourages pilots to drop into the very teeth of the enemy army and apply their firepower at point-blank range.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One T’AU EMPIRE BATTLESUIT unit from your army that is arriving using the Deep Strike ability this phase.\nEFFECT: Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.\nRESTRICTIONS: A unit targeted with this Stratagem is not eligible to declare a charge in the same turn."
+        },
+        {
+          "name": "THE ARRO’KON PROTOCOL",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Commander Arro’kon’s teachings are considered pre-eminent in the art of engaging and eliminating numerically overwhelming enemy formations.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One T’AU EMPIRE BATTLESUIT unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that contains 6 or more models, that attack has the [SUSTAINED HITS 1] ability. If that attack targets an enemy unit that contains 11 or more models, it has the [SUSTAINED HITS 2] ability instead."
+        },
+        {
+          "name": "THE TORCHSTAR GAMBIT",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Though now disgraced by association with O'Shovah, Sub-Commander Torchstar’s strike-and-fade tactics are still taught - albeit officially under other names - in many Fire caste academies.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One T’AU EMPIRE BATTLESUIT unit from your army that can FLY whose attacks have been resolved this phase.\nEFFECT: If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, your unit cannot declare a charge this turn"
+        },
+        {
+          "name": "GRAV-INHIBITOR FIELD",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "First used by O’Jir during the battle for Laguna Shard, these battlesuit-mounted emitters batter advancing foes backwards with gravitic pulse waves.",
+          "text": "WHEN: Your opponent’s Charge phase, just after an enemy unit has declared a charge.\nTARGET: One T’AU EMPIRE BATTLESUIT unit from your army that was selected as a target of that charge.\nEFFECT: That enemy unit must immediately take a Battle-shock test and you must roll one D6 for each model in that enemy unit: for each 6, that enemy unit suffers 1 mortal wound."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Retaliation Cadre Detachment, The Shortened Blade Stratagem",
+          "text": "Change 3\" to 6\"."
+        }
+      ]
+    },
+    "Kroot Hunting Pack": {
+      "name": "Kroot Hunting Pack",
+      "rules": [
+        {
+          "name": "Hunter’s Instincts",
+          "errata": [],
+          "text": "The Kroot naturally predate upon weakened foes, drawn by the scent of spilled blood and viscera.\nEach time a\nKROOT\nmodel from your army makes an attack, add 1 to the\nHit roll\nif the target of that attack is below its\nStarting Strength\n, and add 1 to the\nWound roll\nas well if the target of that attack is\nBelow Half-strength\n."
+        },
+        {
+          "name": "Skirmish Fighters",
+          "errata": [],
+          "text": "Though ill-suited to protracted warfare, the Kroot are experts at light, swift skirmishing. Here their fieldcraft and wiry natural agility help them to evade the hostile attentions of their foes.\nKROOT\nmodels from your army have a 6+ invulnerable save against melee attacks and a 5+ invulnerable save against ranged attacks."
+        },
+        {
+          "name": "KEYWORDS",
+          "errata": [],
+          "text": "If you select this Detachment,\nKROOT CARNIVORE\nunits from your army have the\nBattleline\nkeyword."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Borthrod Gland",
+          "flavor": "The Kroot found the flesh of the Borthrod so irresistible they hunted them to extinction. This preserved gland still exudes pheromones that drive nearby Kroot into a ravenous frenzy.",
+          "text": "Kroot Flesh Shaper only. While the bearer is leading a unit, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "name": "Kroothawk Flock",
+          "flavor": "This leader has painstakingly established a deep-seated bond with a small flock of Kroothawks. The avian creatures circle on high, spying out and revealing the hiding places of the prey or warning of ambushing enemies with wing-dips, diving stoops and harsh shrieks.",
+          "text": "KROOT model only. Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability, and enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of the bearer."
+        },
+        {
+          "name": "Nomadic Hunter",
+          "flavor": "This Shaper’s followers have become adept at the loping pursuit, snapping off harassing fire as they tirelessly and mercilessly run their victims to ground.",
+          "text": "KROOT TRAIL SHAPER model only. While the bearer is leading a unit, add 3\" to the Move characteristic of models in that unit and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+        },
+        {
+          "name": "Root-carved Weapons",
+          "flavor": "Just as the Kroot venerate the so-called Roots from which their culture derives, so they prize the traditional forms of Root-carved weapons and must perform exceptional deeds to be permitted to wield them in war.",
+          "text": "Kroot War Shaper model only. All weapons equipped by the bearer have the [PRECISION] and [DEVASTATING WOUNDS] abilities."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "JOIN THE HUNT",
+          "cp": 2,
+          "kind": "Battle Tactic",
+          "flavor": "When a Kroot Hunting Pack closes in on its prey, there are often other hunters waiting to join in the fray and take their share of any spoils.",
+          "text": "WHEN: Any phase.\nTARGET: One KROOT INFANTRY or KROOT HOUNDS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\nEFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.\nRESTRICTIONS: This Stratagem cannot be used to return destroyed CHARACTER units to Attached units. You can only use this Stratagem once per battle."
+        },
+        {
+          "name": "A TRAP WELL LAID",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "The Kroot have long perfected the art of ambush hunting, their packs working in deadly concert.",
+          "text": "WHEN: Your Shooting phase or the Fight phase.\nTARGET: One KROOT unit from your army that has not been selected to shoot or fight this phase.\nEFFECT: After your unit has resolved its attacks this phase, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a KROOT model from your army makes an attack that targets that enemy unit, unless the attacking unit is Battle-shocked, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "EMP GRENADES",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "Furnished by T’au allies or returning Farstalkers, these electromagnetic grenades wreak havoc with the animuses of armoured fighting vehicles.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy VEHICLE unit is selected to shoot or fight.\nTARGET: One KROOT GRENADES unit from your army within 8\" of that enemy VEHICLE unit.\nEFFECT: Until the end of the phase, worsen the Weapon Skill and Ballistic Skill characteristics of that enemy VEHICLE unit’s weapons by 1."
+        },
+        {
+          "name": "THE GRISLY FEAST",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "The psychological impact of witnessing one's comrades being dismembered and devoured by gore-splattered Kroot cannot be overstated.",
+          "text": "WHEN: Fight phase.\nTARGET: One KROOT unit from your army that destroyed one or more enemy units this phase.\nEFFECT: In your opponent’s next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase."
+        },
+        {
+          "name": "GUERRILLA WARRIORS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Kroot see no value in stand-up fights, caring little for honour or glory. They hit and fade, frustrating their foes and bleeding them by degrees until - weakened and out of position - they are rendered vulnerable.",
+          "text": "WHEN: Your Movement phase, just after a KROOT unit from your army Falls Back.\nTARGET: That KROOT unit.\nEFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge."
+        },
+        {
+          "name": "HIDDEN HUNTERS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "The Kroot are experts in camouflage and concealment, able to utilise cover in ways most foes would never consider and - to their great misfortune - do not anticipate.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\nTARGET: One KROOT unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+        }
+      ],
+      "errata": []
+    },
+    "Advanced Acquisition Cadre": {
+      "name": "Advanced Acquisition Cadre",
+      "rules": [
+        {
+          "name": "Expert Fieldcraft",
+          "errata": [],
+          "text": "Extensive additional training – including tuition by Trail Shapers – enables these warriors to fire and relocate seamlessly while remaining concealed.\nIn your\nShooting phase\n, when a friendly\nPATHFINDER TEAM\n/\nSTEALTH BATTLESUITS\nunit is\nselected to shoot\n, those ranged attacks do not prevent your unit from being\nhidden\n."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Negation Emitters",
+          "flavor": "Modules of microcircuitry woven through battlesuit armour plating, these devices mask energy emissions, displace comms signals, and blind enemy sensors with particle scatter.",
+          "text": "STEALTH BATTLESUITS unit only. This unit has -3\" detection range."
+        },
+        {
+          "name": "Unmasking Suite",
+          "flavor": "This advanced AI targeting assistant features incredibly powerful active scanners that can locate and pinpoint even the most well‑hidden foes as though they stood revealed in broad daylight.",
+          "text": "GHOSTKEEL BATTLESUIT/PATHFINDER TEAM/STEALTH BATTLESUITS unit only. When this unit is selected to shoot, you can select one enemy unit within 24\" of this unit. That enemy unit has +9\" detection range until this unit has shot."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "MARKER BEACON",
+          "cp": 1,
+          "kind": "Advanced Acquisition Cadre Stratagem",
+          "flavor": "These small devices emit tightbeam triangulation signals for follow‑up waves of incoming T’au forces, silently marking out strategically vital sites to be secured.",
+          "text": "WHEN: End of your Movement phase.\nTARGET: One friendly PATHFINDER TEAM/STEALTH BATTLESUITS unit.\nEFFECT: Select one objective your unit is controlling. That objective is secured."
+        },
+        {
+          "name": "MICRODRONE SUPPORT",
+          "cp": 1,
+          "kind": "Advanced Acquisition Cadre Stratagem",
+          "flavor": "Deployed from overflights of heavier stealth‑capable carrier drones, these tiny machines provide versatile battlefield support for T’au stealth specialists, even in the midst of vicious firefights.",
+          "text": "WHEN: Your Shooting phase, when a friendly PATHFINDER TEAM/ STEALTH BATTLESUITS unit starts an action.\nTARGET: That PATHFINDER TEAM/STEALTH BATTLESUITS unit.\nEFFECT: That action does not prevent your unit from being eligible to shoot."
+        },
+        {
+          "name": "AUTOREACTIVE CAMOUFLAGE",
+          "cp": 1,
+          "kind": "Advanced Acquisition Cadre Stratagem",
+          "flavor": "An experimental new form of portable electrocamouflage generators, these small devices interweave active energy shielding with passive sensor damping to further protect T’au soldiery in hiding.",
+          "text": "WHEN: Your opponent’s Shooting phase, when an enemy unit targets a friendly PATHFINDER TEAM/ STEALTH BATTLESUITS unit, if that friendly unit is hidden.\nTARGET: That PATHFINDER TEAM/STEALTH BATTLESUITS unit.\nEFFECT: Your unit has +1 Sv."
+        }
+      ],
+      "errata": []
+    },
+    "Auxiliary Cadre": {
+      "name": "Auxiliary Cadre",
+      "rules": [
+        {
+          "name": "Integrated Command Structure",
+          "errata": [],
+          "text": "T’au officers given charge of auxiliary cadres receive additional training in optimised doctrinal and strategic alien amalgamation; this – coupled with specialised translation drones and endless integrated combat drills – allows them to get the best out of their alien subordinates.\nFriendly\nKROOT\n/\nVESPID STINGWINGS\nunits have the following ability:\nHarnessed Alien Instincts:\nIn your\nShooting phase\n, this unit can select one\nvisible\nenemy unit within 12\". That enemy unit is\nprey-marked\n:\nWhile a unit is prey-marked, that unit has +3\" detection range\nFriendly\nGHOSTKEEL BATTLESUIT\n/\nSTEALTH BATTLESUITS\nunits have the following ability:\nLocalised Stealth Projectors (Aura): When a friendly KROOT/VESPID STINGWINGS unit within 6\" of this unit has shot, those attacks do not prevent that unit from being hidden.\nThis\ndetachment\nhas the\nAUXILIARIES\ntag and cannot be taken with another\nAUXILIARIES\ndetachment\n."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Student of Kauyon",
+          "flavor": "This Shaper has not only studied the Code of Fire but has also adapted it to best suit their people’s skills.",
+          "text": "KROOT SHAPER model only. In the Declare Battle Formations step, you can select up to three friendly KROOT CARNIVORES/FARSTALKERS units. Those units have Deep Strike."
+        },
+        {
+          "name": "Admired Leader",
+          "flavor": "Having proven themselves to their alien charges, this T’au has won their fierce loyalty and become an iconic folk hero to them.",
+          "text": "T’AU EMPIRE model only (excluding KROOT models). In your Command phase, you can select one KROOT/VESPID STINGWINGS unit within 12\" of this model. If you do, that unit has +1 Ld and OC until the start of your next Command phase."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "EXPERIMENTAL MODIFICATIONS",
+          "cp": 1,
+          "kind": "Auxiliary Cadre Stratagem",
+          "flavor": "These experimental Earth caste weapon upgrades can only activate for short bursts at a time, but the extra stopping power they provide is formidable.",
+          "text": "WHEN: Your Shooting phase or the Fight phase, when a friendly KROOT/VESPID STINGWINGS unit is selected to attack.\nTARGET: That KROOT/VESPID STINGWINGS unit.\nEFFECT: Your unit’s attacks have +1 AP."
+        },
+        {
+          "name": "ALIEN EXPERTISE",
+          "cp": 1,
+          "kind": "Auxiliary Cadre Stratagem",
+          "flavor": "There is much that the alien auxiliaries of the T’au empire can teach the Fire caste, not least through practical and deadly battlefield demonstrations.",
+          "text": "WHEN: Your Movement phase, when a friendly KROOT/VESPID STINGWINGS unit is selected to make an advance move.\nTARGET: That KROOT/VESPID STINGWINGS unit.\nEFFECT: That move does not prevent your unit from being eligible to declare a charge."
+        },
+        {
+          "name": "GUIDED FIRE",
+          "cp": 1,
+          "kind": "Auxiliary Cadre Stratagem",
+          "flavor": "Firing on coordinates provided by selfless alien auxiliaries, the T’au are able to scythe down their targets with pinpoint precision.",
+          "text": "WHEN: Your Shooting phase, when a friendly T’AU EMPIRE unit (excluding KROOT/VESPID STINGWINGS units) is selected to shoot.\nTARGET: That T’AU EMPIRE unit.\nEFFECT: Your unit’s ranged attacks that target a unit within 9\" of a friendly KROOT/VESPID STINGWINGS unit have [LETHAL HITS]."
+        }
+      ],
+      "errata": []
+    },
+    "Experimental Prototype Cadre": {
+      "name": "Experimental Prototype Cadre",
+      "rules": [
+        {
+          "name": "Superior Craftsmanship",
+          "errata": [],
+          "text": "The applied science divisions of the Earth caste labour endlessly to provide front-line units with expertly crafted instruments of destruction.\nFriendly\nBATTLESUIT CHARACTER\nunits’ ranged attacks have +6\"\nR\n.\nThis\ndetachment\nhas the\nBATTLESUIT\ntag and cannot be taken with another\nBATTLESUIT\ndetachment\n.\nIf you have upgraded a model to have a drone, place a Drone token next to your model as a reminder. These do not count as models for any rules purposes.\nGUARDIAN DRONE\nEach time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll.\nGUN DRONE\nThe bearer is equipped with the following ranged weapon:\nRANGED WEAPONSRANGEABSSAPDTwin pulse carbine assault twin-linkedTwin pulse carbine assault twin-linked20\"25+501\nMARKER DRONE\nThe bearer’s unit has the MARKERLIGHT keyword and can act as an Observer unit for another unit even if it Advanced this turn.\nMISSILE DRONE\nThe bearer is equipped with the following ranged weapon:\nRANGED WEAPONSRANGEABSSAPDMissile podMissile pod30\"25+7-12\nSHIELD DRONE\nAdd 1 to the bearer’s Wounds characteristic."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Thermoneutronic Projector",
+          "flavor": "The thermoneutronic projector uses volatile gases siphoned from the coronae of neutron stars to expel a flame capable of searing through the armour plating of a battle tank.",
+          "text": "BATTLESUIT model only. In the Declare Battle Formations step, select one of this model’s T’au Flamer weapons. That weapon’s attacks have:\n+2 S+1 AP and D."
+        },
+        {
+          "name": "Plasma Accelerator Rifle",
+          "flavor": "The plasma accelerator rifle blends pulse-induction technology with a high-yield plasma generator, rendering it highly effective against both infantry and light vehicles.",
+          "text": "BATTLESUIT model only. In the Declare Battle Formations step, select one of this model’s Plasma Rifle weapons. That weapon’s attacks have:\n+2 S+1 A, AP and D."
+        },
+        {
+          "name": "Supernova Launcher",
+          "flavor": "Adapted from standard-issue fragmentation projectors, this weapon enables the bearer to fire explosive plasma charges on parabolic trajectories. These projectiles drop amongst the enemy and explode in a coruscating fireball that evaporates metal and flesh alike.",
+          "text": "BATTLESUIT model only. In the Declare Battle Formations step, select one of this model’s Airbursting Fragmentation Projector weapons. That weapon’s attacks have:\n+3 S+1 AP and D."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "EXPERIMENTAL AMMUNITION",
+          "cp": 1,
+          "kind": "Experimental Prototype Cadre Stratagem",
+          "flavor": "From hardened warheads and amplified ion capacitors, to hyperaccelerated pulse fields and refined fusion cores, the T’au are forever innovating improvements to improve the lethality of their ammunition.",
+          "text": "WHEN: Your Shooting phase, when a friendly BATTLESUIT CHARACTER unit is selected to shoot.\nTARGET: That BATTLESUIT CHARACTER unit.\nEFFECT: Your unit’s ranged attacks have:\n+1 S.OR: +1 S, AP and [HAZARDOUS]."
+        },
+        {
+          "name": "FIRING LINE",
+          "cp": 1,
+          "kind": "Starfire Cadre – Strategic Ploy",
+          "flavor": "Should the foe break through one line of Fire caste defence, the next is ready to push them back from vital sites aboard the contested ship.",
+          "text": "WHEN: Fight phase, just after an enemy unit destroys a T’AU EMPIRE unit from your army.\nTARGET: One FIRE WARRIOR or PATHFINDER TEAM unit from your army that is not within Engagement Range of one or more enemy units, has not fired Overwatch this turn and is within 9\" of that enemy unit.\nEFFECT: Your unit can shoot as if it were your Shooting phase, but when doing so, models in your unit can only target that enemy unit (and only if it is an eligible target) and, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ is required to score a hit."
+        },
+        {
+          "name": "RETREATING FIRE",
+          "cp": 1,
+          "kind": "Starfire Cadre – Strategic Ploy",
+          "flavor": "Collapsing lines of infantry provide a defence in depth through the shipboard confines, allowing the enemy to overextend even as retreating T'au continue to pour fire into them.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One FIRE WARRIOR or PATHFINDER TEAM unit from your army.\nEFFECT: Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "RESPONSIVE VOLLEY",
+          "cp": 1,
+          "kind": "Starfire Cadre – Battle Tactic",
+          "flavor": "Should enemy forces be suddenly revealed during such close-confines combat, Fire caste soldiery are trained to loose immediate, punishing firepower.",
+          "text": "WHEN: Your Movement phase, just after a FIRE WARRIOR or PATHFINDER TEAM unit from your army opens a Hatchway.\nTARGET: That FIRE WARRIOR or PATHFINDER TEAM unit.\nEFFECT: Until the end of the turn, each time a model in your unit makes a ranged attack that targets an enemy unit wholly on the opposite side of that Hatchway from them, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6."
+        },
+        {
+          "name": "PULSE BARRAGE",
+          "cp": 1,
+          "kind": "Starfire Cadre – Battle Tactic",
+          "flavor": "The tight confines of voidship warfare funnel the enemy right into the waiting T'au guns.",
+          "text": "WHEN: Your opponent’s Movement or Charge phase.\nTARGET: One FIRE WARRIOR or PATHFINDER TEAM unit from your army that has not fired Overwatch this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6."
+        },
+        {
+          "name": "BOARDING BLADES",
+          "cp": 1,
+          "kind": "Kroot Raiding Party – Battle Tactic",
+          "flavor": "Expecting close-quarters carnage, these Kroot have adapted the blades on their weapons to slice through even thick armour.",
+          "text": "WHEN: Fight phase.\nTARGET: One KROOT unit from your army that has not been selected to fight this phase.\nEFFECT: Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1. In addition, each time a model in your unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by an additional 1."
+        },
+        {
+          "name": "SWEEPING AMBUSH",
+          "cp": 1,
+          "kind": "Kroot Raiding Party – Strategic Ploy",
+          "flavor": "Once they spring their ambush these Kroot move fast, hacking through one band of foes and pouncing on the next before the enemy can regain their footing.",
+          "text": "WHEN: Fight phase.\nTARGET: One KROOT unit from your army that has not been selected to fight this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\". In addition, when making a Consolidation move, that model can end that move within Engagement Range of the closest enemy unit that was not visible to its unit when it started that move."
+        },
+        {
+          "name": "BRUTE FORCE",
+          "cp": 1,
+          "kind": "Kroot Raiding Party – Strategic Ploy",
+          "flavor": "Where cunning will not suffice, the brutal strength of Krootox sees hatchways and bulkheads smashed to pieces, filling the corridors beyond with whickering shrapnel.",
+          "text": "WHEN: Your Movement phase, just after a KROOTOX RIDERS unit from your army opens a Hatchway.\nTARGET: That KROOTOX RIDERS unit.\nEFFECT: Roll one D6 for each unit that is within 3\" of that Hatchway, if that Hatchway is visible to that unit and that unit is wholly on the opposite side of it from your unit: on a 2-4, that enemy unit suffers 1 mortal wound; on a 5+, that enemy unit suffers 2 mortal wounds."
+        },
+        {
+          "name": "TANGLEBOMB BOLAS",
+          "cp": 1,
+          "kind": "Kroot Raiding Party – Wargear",
+          "flavor": "Sent spinning in to entangle their targets, these weapons leave their victims easy prey for the screeching Kroot.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One KROOT unit from your army.\nEFFECT: Select one enemy unit within 9\" of and visible to your unit and roll one D6: on a 2+, until the start of your next Shooting phase, halve the Move characteristic of models in that enemy unit and halve Advance and Charge rolls made for it."
+        },
+        {
+          "name": "JOIN THE HUNT",
+          "cp": 2,
+          "kind": "Kroot Hunting Pack – Battle Tactic",
+          "flavor": "When a Kroot Hunting Pack closes in on its prey, there are often other hunters waiting to join in the fray and take their share of any spoils.",
+          "text": "WHEN: Any phase.\nTARGET: One KROOT INFANTRY or KROOT HOUNDS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\nEFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.\nRESTRICTIONS: This Stratagem cannot be used to return destroyed CHARACTER units to Attached units. You can only use this Stratagem once per battle."
+        },
+        {
+          "name": "ADVANCE MOVE09.06",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Advance roll + your unit’s M characteristic.ELIGIBLE IF: Your unit is on the battlefield and unengaged.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Make an advance roll by rolling one D6.\nAFTER MOVING:\nYour unit must be unengaged.Until the end of the turn, unless otherwise stated, your unit is not eligible to declare a charge or start an action."
+        },
+        {
+          "name": "ASSAULT SHOOTING10.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "ELIGIBLE IF: All of the following apply to your unit:\nUnengaged and made an advance move this turn.Has one or more [ASSAULT] weapons.EFFECT: Your unit shoots as described in Making Attacks (04).\nWHILE SHOOTING: You can only select [ASSAULT] weapons to make attacks with.\nAFTER SHOOTING: Until the end of the phase, your unit is not eligible to start an action."
+        },
+        {
+          "name": "SCOUT MOVE24.32",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: The X\" in Scouts X\".ELIGIBLE IF: It is the Resolve Pre-battle Abilities step, and your unit is wholly within your deployment zone.\nEFFECT: Your unit moves as described in Moving (03).\nAFTER MOVING: Your unit must be more than 8\" horizontally from all enemy units."
+        },
+        {
+          "name": "FALL-BACK MOVE09.07",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Your unit’s M characteristic.ELIGIBLE IF: Your unit is engaged.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Select fall-back mode:\nOrdered Retreat: If your unit is not battle-shocked, you can select this mode.Desperate Escape: Otherwise, you must select this mode. Make a hazard roll for each model in your unit (06.03).WHILE MOVING:\nDesperate Escape: Each model that is moved can be moved through enemy models.AFTER MOVING:\nYour unit must be unengaged.Until the end of the turn, unless otherwise stated, your unit is not eligible to shoot, declare a charge or start an action.Desperate Escape: If your unit is not battle-shocked, you must make a battle-shock roll for your unit (01.07)."
+        },
+        {
+          "name": "NORMAL MOVE09.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Your unit’s M characteristic.ELIGIBLE IF: Your unit is on the battlefield and unengaged.\nEFFECT: Your unit moves as described in Moving (03).\nAFTER MOVING: Your unit must be unengaged."
+        },
+        {
+          "name": "INGRESS MOVE20.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE: 6\"ELIGIBLE IF: Your unit is in strategic reserves (excluding units that are embarked within TRANSPORTS that are themselves in strategic reserves).\nEFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Your unit is set up as described in Set Up (03.02).\nWHILE MOVING: Set up your unit wholly within the set-up distance of one or more battlefield edges and more than 8\" horizontally from all enemy units.\nBefore the Third Battle Round: While doing so, no models can be set up within your opponent’s deployment zone.AFTER MOVING: Unless otherwise stated, until the start of the next Charge phase, your unit is not eligible to make any other type of move."
+        },
+        {
+          "name": "REMAIN STATIONARY09.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: ‘–’ELIGIBLE IF: Any unit.\nEFFECT: No models are moved (either in straight lines or rotated). Units that remain stationary do not trigger any rules that are triggered when a unit starts or ends a move."
+        },
+        {
+          "name": "DISEMBARK MOVE18.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE:\n- Rapid/Tactical Disembark: 3\"\n- Combat Disembark: 6\"ELIGIBLE IF: All of the following apply to your unit:\nEmbarked within a TRANSPORT model that is on the battlefield.Did not embark within that TRANSPORT this phase.That TRANSPORT has not made an advance or fall-back move this phase.EFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Select disembark mode:\nRapid Disembark: If that TRANSPORT made a normal or ingress move this phase, you must select this mode.Tactical Disembark: Otherwise, If that TRANSPORT remained stationary or has not yet been selected to move this phase, and if you can set up your unit as described below, you must select this mode.Combat Disembark: Otherwise, you must select this mode. Make a hazard roll for each model in your unit.WHILE MOVING: Set up each model in your unit wholly within the set-up distance of that TRANSPORT.\nRapid Disembark: If that TRANSPORT made an ingress move this turn, each model must follow the same rules that TRANSPORT had to follow while resolving that move.Combat Disembark: Each model can be set up engaged with one or more enemy units that TRANSPORT is engaged with.AFTER MOVING:\nRapid Disembark: Until the end of the turn, your unit is not eligible to declare a charge.Tactical Disembark: Select your unit to make a normal or advance move.Combat Disembark: Your unit is battle-shocked and, until the end of the turn, it is not eligible to declare a charge.RAPID DISEMBARKWhen a unit uses the rapid disembark mode after its TRANSPORT makes an ingress move, the models must follow the same rules and restrictions as that TRANSPORT did. For example, if that TRANSPORT had to be set up more than 8\" from all enemy units and not within your opponent’s deployment zone, the same applies to the disembarking unit."
+        },
+        {
+          "name": "DISEMBARK MOVE18.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE:\n- Rapid/Tactical Disembark: 3\"\n- Combat Disembark: 6\"ELIGIBLE IF: All of the following apply to your unit:\nEmbarked within a TRANSPORT model that is on the battlefield.Did not embark within that TRANSPORT this phase.That TRANSPORT has not made an advance or fall-back move this phase.EFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Select disembark mode:\nRapid Disembark: If that TRANSPORT made a normal or ingress move this phase, you must select this mode.Tactical Disembark: Otherwise, If that TRANSPORT remained stationary or has not yet been selected to move this phase, and if you can set up your unit as described below, you must select this mode.Combat Disembark: Otherwise, you must select this mode. Make a hazard roll for each model in your unit.WHILE MOVING: Set up each model in your unit wholly within the set-up distance of that TRANSPORT.\nRapid Disembark: If that TRANSPORT made an ingress move this turn, each model must follow the same rules that TRANSPORT had to follow while resolving that move.Combat Disembark: Each model can be set up engaged with one or more enemy units that TRANSPORT is engaged with.AFTER MOVING:\nRapid Disembark: Until the end of the turn, your unit is not eligible to declare a charge.Tactical Disembark: Select your unit to make a normal or advance move.Combat Disembark: Your unit is battle-shocked and, until the end of the turn, it is not eligible to declare a charge.RAPID DISEMBARKWhen a unit uses the rapid disembark mode after its TRANSPORT makes an ingress move, the models must follow the same rules and restrictions as that TRANSPORT did. For example, if that TRANSPORT had to be set up more than 8\" from all enemy units and not within your opponent’s deployment zone, the same applies to the disembarking unit."
+        },
+        {
+          "name": "EMERGENCY DISEMBARK MOVE18.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE: 6\"ELIGIBLE IF: Your unit is embarked within a TRANSPORT model that was just destroyed.\nEFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Make a hazard roll for each model in your unit (06.03).\nWHILE MOVING: Set up each model in your unit: (1) Wholly within the set-up distance of that TRANSPORT, and as close as possible to that TRANSPORT. OR: (2) If the above is not possible while remaining unengaged, set up that model wholly within the set-up distance of that TRANSPORT, as close as possible to that TRANSPORT, and engaged. Each model that still cannot be set up is destroyed.\nAFTER MOVING: Your unit is battle-shocked and, until the end of the turn, it is not eligible to declare a charge."
+        },
+        {
+          "name": "EMERGENCY DISEMBARK MOVE18.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE: 6\"ELIGIBLE IF: Your unit is embarked within a TRANSPORT model that was just destroyed.\nEFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Make a hazard roll for each model in your unit (06.03).\nWHILE MOVING: Set up each model in your unit: (1) Wholly within the set-up distance of that TRANSPORT, and as close as possible to that TRANSPORT. OR: (2) If the above is not possible while remaining unengaged, set up that model wholly within the set-up distance of that TRANSPORT, as close as possible to that TRANSPORT, and engaged. Each model that still cannot be set up is destroyed.\nAFTER MOVING: Your unit is battle-shocked and, until the end of the turn, it is not eligible to declare a charge."
+        },
+        {
+          "name": "HEROIC INTERVENTION15.11",
+          "cp": 1,
+          "kind": "Core",
+          "flavor": "Voices raised in furious war cries, your warriors surge forth to meet the enemy’s onslaught head-on.",
+          "text": "WHEN: End of your opponent’s Charge phase.\nTARGET: One friendly unengaged unit within 12\" of one or more enemy units. You can only select a VEHICLE unit if it is a CHARACTER/WALKER unit.\nEFFECT: Resolve a charge with your unit (11.02). While doing so, before making the charge roll, you must select one of the following modes:\nLeap to Defend: When selecting charge targets, you can only select enemy units that made a charge move this phase and are within the maximum distance.+1CPInto the Fray:\nWhen making the charge roll, if the result is greater than 6 (after modifiers), change it to 6.When selecting charge targets, you can select any enemy units that are within 6\" of your unit and within the maximum distance."
+        },
+        {
+          "name": "SNAP SHOOTING15.09",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "ELIGIBLE IF: As stated in the rule allowing this shooting type.\nEFFECT: Your unit shoots as described in Making Attacks (04).\nWHILE SHOOTING:\nYou can only target one visible enemy unit within 24\" of your unit (and only if it is an eligible target).Each attack only hits on an unmodified hit roll of 6 (irrespective of the attacking weapon’s BS characteristic or any modifiers).You cannot re-roll hit rolls.AFTER SHOOTING: Until the end of the phase, your unit is not eligible to start an action."
+        },
+        {
+          "name": "FIRE OVERWATCH15.08",
+          "cp": 1,
+          "kind": "Core",
+          "flavor": "A hail of fire can drive back advancing foes.",
+          "text": "WHEN: End of your opponent’s Movement phase.\nTARGET: One friendly unengaged unit (excluding TITANIC units).\nEFFECT: Your unit shoots using snap shooting."
+        },
+        {
+          "name": "CONSOLIDATION MOVE12.08",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: 3\"ELIGIBLE IF: It is the Fight phase and your unit was eligible to fight this phase.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Select consolidation mode:\nOngoing Consolidation: If your unit is engaged, you must select this mode and select every enemy unit it is engaged with.Engaging Consolidation: Otherwise, if your unit is within 3\" of one or more enemy units, you must select this mode and select one or more of those enemy units.Objective Consolidation: Otherwise, if your unit is within 3\" of one or more objectives, you must select this mode and select one of those objectives.WHILE MOVING:\nOngoing Consolidation: Models in base-contact with one or more enemy models cannot be moved. Each model that is moved must end its move closer to the closest selected enemy unit, and engaged with it if possible.Engaging Consolidation: Each model that is moved must end its move closer to the closest selected enemy unit, and engaged with it if possible.Objective Consolidation: Each model that is moved must end its move within range of the selected objective if possible, or closer to it if not.AFTER MOVING:\nOngoing Consolidation: Each model that started this move engaged with an enemy unit must still be engaged with that enemy unit.Engaging Consolidation: Your unit must be engaged with all of the selected enemy units. If one or more enemy units engaged with your unit have not been selected to fight this phase, your opponent must select each of those units, one at a time; when each is selected, it becomes eligible to fight and is selected to fight (12.04).Objective Consolidation: Your unit must be unengaged and within range of the selected objective."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Army Rules, For the Greater Good",
+          "text": "Change to:\n‘If your Army Faction is T’AU EMPIRE, at the start of your Shooting phase you can select units from your army with this ability to become Observer units.\nDuring your Shooting phase, for each Observer unit from your army that has not been selected to shoot this phase and is eligible to shoot (excluding FORTIFICATION and Battle-shocked units) select one enemy unit that is visible to be marked as their Spotted unit until the end of the phase. Each enemy unit can only be marked as a Spotted unit once per phase.\nUnits from your army with the For the Greater Good ability (excluding Observer units) are Guided units while targeting one or more Spotted units.\nUntil the end of the phase, each time a model from your army in a Guided unit makes an attack that targets a Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if the Spotted unit was marked by an Observer unit that has the Markerlight keyword, that attack has the [IGNORES COVER] ability.’"
+        },
+        {
+          "scope": "Kauyon Detachment, Patient Hunter Detachment Rule",
+          "text": "Change to:\n'During the third, fourth and fifth battle rounds, ranged weapons equipped by T'AU EMPIRE models from your army have the [SUSTAINED HITS 1] ability. During the third, fourth and fifth battle rounds, while a unit is a Guided unit (see For the Greater Good), each time a ranged attack is made by a model in that unit that targets a Spotted unit, you can ignore any or all modifiers to that attack’s Ballistic skill characteristics and/or all modifiers to the Hit roll.'"
+        },
+        {
+          "scope": "13.09 - Change to First Bullet Point",
+          "text": "Change to: ‘That model has the INFANTRY/BEASTS/SWARM keyword and is within a terrain area that contains one or more light/dense terrain features.’"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,684 @@
+{
+  "source": "https://wahapedia.ru/wh40k11ed/factions/imperial-knights/",
+  "armyRules": [
+    {
+      "name": null,
+      "errata": [
+        {
+          "scope": "Code Chivalric, ‘We pledge to reap a great tally’ Deed",
+          "text": "Change to:\n‘This deed is completed at the end of the battle round if the number of enemy units destroyed this battle round is greater than the battle round number even if those units are subsequently returned to the battlefield (for example, two destroyed enemy units in the first battle round).’"
+        }
+      ],
+      "text": "Imperial Knights fight by a stringent set of codes. In addition to defeating the foe, honour must always be upheld.\nIf your Army Faction is IMPERIAL KNIGHTS, at the end of the Read Mission Objectives step, you must determine your army’s Oath for the coming battle. An Oath consists of two parts - one Deed and one Quality. There are three options for each part, shown below.\nTo determine your army’s Deed, you can either select one Deed or you can randomly select one Deed by rolling a D6 and consulting the relevant table below. The selected Deed will describe what needs to be achieved in order to complete that Deed.\nTo determine your army’s Quality, you can either select one Quality or you can randomly select one Quality by rolling a D6 and consulting the relevant table below. Until the end of the battle, the ability described in the Quality selected applies to all models in your army with this ability.\nThe first time your selected Deed is completed your Oath is fulfilled and, until the end of the battle, your army becomes Honoured and you gain 2CP, or 3CP if you randomly selected your Deed and/or Quality (CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).\nDeedD6\nWe vow to lay low the tyrant...\nAt the start of the battle, select one\nCHARACTER\nmodel in your opponent’s army. This Deed is completed at the end of a turn if that\nCHARACTER\nis destroyed.\nWe swear to reclaim the realm...\nThis deed is completed at the end of your opponent’s turn if you control more objective markers than your opponent.\nWe pledge to reap a great tally...\nThis deed is completed at the end of the\nbattle round\nif the number of enemy units destroyed this battle round is greater than the battle round number even if those units are subsequently returned to the battlefield (for example, two destroyed enemy units in the first battle round).\nQualityD6\n...with our martial valour risen over all.\nEach time this model is selected to shoot or fight, you can re-roll one\nHit roll\nand you can re-roll one\nWound roll\n.\n...and we are eager for the challenge.\nAdd 2\" to this model’s Move characteristic and add 1 to\nAdvance\nand\nCharge rolls\nmade for this model.\n...yet shall our legacy be unsullied.\nImprove this model’s Objective Control characteristic by 2 and its Leadership characteristic by 1."
+    },
+    {
+      "name": "Bondsman",
+      "errata": [],
+      "text": "Those honoured to serve a great hero do so unto death.\nSome\nIMPERIAL KNIGHTS\nmodels have a Bondsman ability, tagged with the word ‘Bondsman’. In your\nCommand phase\n, one or more models from your army with a Bondsman ability can use that ability. For each one that does, select one friendly\nARMIGER\nmodel within 12\" of that model (you cannot select an\nARMIGER\nmodel that is already being affected by a Bondsman ability). Until the start of your next Command phase, that\nARMIGER\nmodel is affected by that Bondsman ability."
+    },
+    {
+      "name": "Super-heavy Walker",
+      "errata": [],
+      "text": "Imperial Knights tower over the battlefield, striding over lesser warriors to eagerly engage the foe.\nEach time a model with this ability makes a\nNormal\n,\nAdvance\nor\nFall Back move\n, it can move through models (excluding\nTITANIC\nmodels) and sections of\nterrain features\nthat are 4\" or less in height. When doing so:\nIt can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them.\nIt can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked."
+    },
+    {
+      "name": "Freeblades",
+      "errata": [],
+      "text": "Freeblades often wander the galaxy, aiding the armies of the Imperium against the xenos and heretics who threaten the Emperor’s realm.\nIf every model in your army has the\nIMPERIUM\nkeyword, you can include either one\nTITANIC IMPERIAL KNIGHTS\nmodel or up to three\nARMIGER\nmodels in your army, even if they do not have the\nFaction keyword\nyou selected in the Select Army Faction step. None of these models can be your\nWARLORD\n, and they cannot be given Enhancements."
+    }
+  ],
+  "detachments": {
+    "Valourstrike Lance": {
+      "name": "Valourstrike Lance",
+      "rules": [
+        {
+          "name": "Bold Gallantry",
+          "errata": [
+            {
+              "scope": "Valourstrike Lance Detachment, Bold Gallantry Detachment Rule",
+              "text": "Change to:\n‘Each time an IMPERIAL KNIGHTS unit from your army Advances, until the end of the turn, ranged weapons equipped by IMPERIAL KNIGHTS models from your army have the [ASSAULT] ability.’"
+            }
+          ],
+          "text": "With their companions beside them - kin of their blood, allies in honour - Knightly Nobles are inspired to near-reckless heroism. Their fervour spreads through neural interfaces to reach the machine spirits of their towering Knight suits. The Knights’ power cores flare with motive energy. Target stabilisers sputter into life, glaring balefully at the foe. Servo-motors and fibre bundles thrum, powering the Nobles’ steeds to a thunderous speed, such that the ground trembles.\nEach time an\nIMPERIAL KNIGHTS\nunit from your army\nAdvances\n, until the end of the turn, ranged weapons equipped by\nIMPERIAL\nKNIGHTS\nmodels from your army have the\n[ASSAULT]\nability."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Bearer of the Iron Chalice",
+          "flavor": "Deep within the Knight’s chassis is an ancient STC artefact. The device communes with its weakened machine spirit kin, bolstering their resolve to endure.",
+          "text": "IMPERIAL KNIGHTS model only. At the end of your Movement phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. That selected model regains up to D3 lost wounds, or up to 3 lost wounds if your army is Honoured."
+        },
+        {
+          "name": "Bearer of the Evanescent Ion",
+          "flavor": "This Knight’s ion shield projects a stream of nictitating particles that can obscure fellow Nobles from sight.",
+          "text": "IMPERIAL KNIGHTS model only. At the end of your Movement phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the start of your next Movement phase, that selected model has the Stealth ability."
+        },
+        {
+          "name": "Bearer of the Judicant’s Helm",
+          "flavor": "A courtly counsellor against deception and a visionary hunter of lurking prey, this Noble’s sage advice unmasks the contemptible before their companions.",
+          "text": "IMPERIAL KNIGHTS model only. At the start of your Shooting phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the end of the phase, ranged weapons equipped by that selected model have the [ignores cover] ability."
+        },
+        {
+          "name": "Bearer of the Lancer’s Sigil",
+          "flavor": "Honoured with a vivid heraldic insignia, this Noble is a wise mentor in the deadly art of battlefield intercession.",
+          "text": "IMPERIAL KNIGHTS model only. At the start of your Charge phase, select one other IMPERIAL KNIGHTS model from your army that is within 12\" of and visible to the bearer. Until the end of the phase, you can re-roll Charge rolls made for that selected model."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "RUN THEM THROUGH!",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "With deafening challenges blaring from their emitters, honour-bound comrades slam into their foes, where the Nobles' martial prowess and their Knight suits’ overwhelming power are wedded to overcome the most monstrous resilience.",
+          "text": "WHEN: Fight phase.\nTARGET: One IMPERIAL KNIGHTS unit from your army that has not been selected to fight this phase.\nEFFECT: Until the end of the phase, melee weapons equipped by your models have the [LANCE] ability."
+        },
+        {
+          "name": "THUNDERSTOMP",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "The Noble brings their Knight suit’s weight down with the force of an industrial piledriver, trampling their honourless foes beneath their iron tread.",
+          "text": "WHEN: Fight phase.\nTARGET: One IMPERIAL KNIGHTS model from your army that has not been selected to fight this phase.\nEFFECT: Until the end of the phase, the Attacks characteristic of any armoured Feet melee weapons equipped by your model is 8, the Attacks characteristic of any titanic Feet melee weapons equipped by your model is 12, and improve the Armour Penetration characteristic of those weapons by 1."
+        },
+        {
+          "name": "FULL TILT",
+          "cp": 2,
+          "kind": "Battle Tactic",
+          "flavor": "With their fellows' oaths ringing through the vox-net and the rush of battle coursing through their veins, Noble pilots pour power into their steeds' motive actuators and thunder onwards.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One IMPERIAL KNIGHTS unit from your army that has not been selected to move this phase.\nEFFECT: Until the end of the phase, add 2\" to the Move characteristic of your models and add 2 to Advance rolls made for those model’s units."
+        },
+        {
+          "name": "VOW OF RETRIBUTION",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "With the swearing of cooperative pacts, Knightly companions vow to visit annihilation on their enemies in a searing barrage of retributive firepower.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One IMPERIAL KNIGHTS unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, ranged weapons equipped by your models have the [LETHAL HITS] ability."
+        },
+        {
+          "name": "TACTICAL FOIL",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "The neural bond through their Throne Mechanicum enables seasoned pilots to accomplish swift counter-monoeuvres seemingly impossible for such towering war engines.",
+          "text": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\nTARGET: One IMPERIAL KNIGHTS model from your army that is within 8\" of that unit.\nEFFECT: Your model can make a Normal move of up to D6\"."
+        },
+        {
+          "name": "ROTATE ION SHIELDS",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "Veteran Knight pilots can swiftly re-angle their ion shields and manipulate their energies to deflect incoming firepower.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\nTARGET: One IMPERIAL KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Valourstrike Lance Detachment, Run Them Through! Stratagem, Target Section",
+          "text": "Change to:\n‘One IMPERIAL KNIGHTS unit from your army that has not been selected to fight this phase.’"
+        },
+        {
+          "scope": "Valourstrike Lance Detachment, Full Tilt Stratagem, Target Section",
+          "text": "Change to:\n‘One IMPERIAL KNIGHTS unit from your army that has not been selected to move this phase.’"
+        },
+        {
+          "scope": "Valourstrike Lance Detachment, Tactical Foil Stratagem, Target Section",
+          "text": "Change 9\" to 8\"."
+        }
+      ]
+    },
+    "Gate Warden Lance": {
+      "name": "Gate Warden Lance",
+      "rules": [
+        {
+          "name": "Dauntless Defenders",
+          "errata": [
+            {
+              "scope": "Gate Warden Lance Detachment, Dauntless Defenders Detachment Rule",
+              "text": "Change to:\n‘At the start of the first battle round, select two objectives to be your foundations. Place a circular foundation marker in each one. When you draw a line from the closest part of one foundation marker to the closest part of the other, if any part of a model’s base (or any part of a model’s hull, for a model without a base) crosses that line, that model’s unit is said to be on your defensive line.\nWhile an IMPERIAL KNIGHTS unit from your army is on your defensive line, that unit has the following ability:\nAgainst the Horde: Each time a model in this unit makes an attack that targets a visible enemy unit, you can ignore any or all modifiers to the Hit roll, and weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.’"
+            }
+          ],
+          "text": "With a rigid, strategic intuition born of the unyielding fortifications defended by their ancestors, the Nobles of a Gate Warden Lance hold their ground with an arrogant superiority. While even one defends the marches of their claimed realm, they will fight to the ends of their honour to hurl back the besiegers.\nAt the start of the first\nbattle round\n, select two\nobjectives\nto be your\nfoundations\n. Place a circular\nfoundation marker\nin each one. When you draw a line from the closest part of one\nfoundation marker\nto the closest part of the other, if any part of a model’s base (or any part of a model’s hull, for a model without a base) crosses that line, that model’s unit is said to be on your defensive line.\nWhile an\nIMPERIAL KNIGHTS\nunit from your army is on your defensive line, that unit has the following ability:\nAgainst the Horde:\nEach time a model in this unit makes an attack that targets a\nvisible\nenemy unit, you can ignore any or all\nmodifiers\nto the\nHit roll\n, and weapons equipped by models in this unit have the\n[SUSTAINED HITS 1]\nability."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Acquisitor-at-Arms",
+          "flavor": "This stern Noble serves their household by seizing territories and domains deemed the property of their lord. They are a grim and fearsome agent who inspires their charges with an unwillingness to relent.",
+          "text": "IMPERIAL KNIGHTS model only. While the bearer is on your defensive line and there are no enemy units on your defensive line, add the bearers Objective Control characteristic to that of each model affected by the bearers Bondsman ability."
+        },
+        {
+          "name": "Purgation’s Hand",
+          "flavor": "The Noble dubbed with this honourable title has sworn to purge the frontiers of their realm, scouring it clean of the stain of everything foul and inimical to the Code.",
+          "text": "IMPERIAL KNIGHTS model only. Each time the bearer makes a melee attack, if the bearer is on your defensive line, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        },
+        {
+          "name": "Augury Halo",
+          "flavor": "This web of neuro-couplings has been worked into a richly ornamented helmet. Through it, the Noble pilot can access nearby hidden augur nodes deployed by servitor clades of the Sacristans, inloading targeting data to pick out the locations of shrouded besiegers.",
+          "text": "IMPERIAL KNIGHTS model only. Each time the bearer makes a ranged attack, while the bearer is on your defensive line, weapons equipped by the bearer have the [ignores cover] ability."
+        },
+        {
+          "name": "Vengeful Tread",
+          "flavor": "The punitive anger of this pilot towards those who dare defile their realm is terrifying to behold. War horns blaring, they barge and trample forward, crushing their lessers in a terminal lesson of humility.",
+          "text": "IMPERIAL KNIGHTS model only. Once per turn, you can target the bearer with the Crushing Impact Stratagem for 0CP."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "DRIVE THEM OUT!",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Drawing upon their indignant fury at a repugnant incursion into their realm, Nobles pilot their Knight suits in an aggressive purgation of the breach.",
+          "text": "WHEN: Your Shooting phase or the Fight phase.\nTARGET: One IMPERIAL KNIGHTS unit from your army that has not been selected to shoot or fight this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit on your defensive line, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "name": "LANCEBREAKER",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "With a command, experienced Nobles can lock huge actuators into position, bring reserve power cells into wakefulness and shunt extra shielding into place to make their Knightly steed a bastion of defiance.",
+          "text": "WHEN: Fight phase, just after an enemy unit has selected its targets.\nTARGET: One IMPERIAL KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks and is on your defensive line.\nEFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greaterthan the Toughness characteristic of your unit, subtract 1 from the Wound roll"
+        },
+        {
+          "name": "STEADFAST SUPERIORITY",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Once tasked with preserving a war zone’s sanctity, a Knight will fight with unbowed destructive ferocity, unyielding in their anger while foes remain.",
+          "text": "WHEN: Fight phase.\nTARGET: One IMPERIAL KNIGHTS unit from your army that is within Engagement Range of one or more enemy units, that is on your defensive line and that has not already been selected to fight this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "name": "MARSHAL THE DEFENCE",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "When the cry goes up to redress their defensive positions - to shut down incursions or leave assaulting enemies flat-footed and vulnerable - the Nobles pour power into their Knights’ servos.",
+          "text": "WHEN: Your Movement phase.\nTARGET: Up to two IMPERIAL KNIGHTS units from your army that have not been selected to move this phase.\nEFFECT: Until the end of the phase, add 3\" to the Move characteristic of models in your units."
+        },
+        {
+          "name": "TITANIC BOMBARDMENT",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Like an imperious artillery captain atop their gatehouse, the Noble directs a deluge of apocalyptic firepower into the enemy's seething tides.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One IMPERIAL KNIGHTS TITANIC unit from your army that Remained Stationary this turn, that is on your defensive line and that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 2] ability."
+        },
+        {
+          "name": "FORTRESS OF INTIMIDATION",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "Rising like towering keeps armed with threatening weapons and inscribed with heraldry proclaiming bloody victories in countless campaigns, Imperial Knights are daunting prospects to engage.",
+          "text": "WHEN: Start of your opponent’s Charge phase.\nTARGET: One IMPERIAL KNIGHTS TITANIC unit from your army that is on your defensive line.\nEFFECT: Until the end of the phase, each time an enemy unit selects your unit as a target of a charge, that unit must take a Battle-shock test, subtracting 1 from the result."
+        }
+      ],
+      "errata": []
+    },
+    "Questoris Companions": {
+      "name": "Questoris Companions",
+      "rules": [
+        {
+          "name": "Heroes of Legend",
+          "errata": [],
+          "text": "To those who quest for honour - in service to their liege, to avenge atrocities, to wipe clean the stain of disfavour - there can be no end. The Imperium’s foes are legion, an endless horde from which more arise. As one quest ends, another always begins.\nAt the start of your turn, if your current Oath is fulfilled, determine an additional Oath as described\nhere\n, with the exception that you cannot select a Deed or Quality you have already selected (if you are randomly selecting the Deed and/or Quality and roll any result that you have already selected, select a Deed or Quality you have not already selected instead). If you cannot determine an additional Oath because you have already selected each Deed and each Quality, do not determine an additional Oath.\nThe Qualities from Oaths you have fulfilled continue to apply to all models in your army with the\nCode Chivalric\nability. When the Deed for an additional Oath is completed, you instead gain 1CP, regardless of how you selected the Deed or Quality."
+        },
+        {
+          "name": "Valour’s Reward",
+          "errata": [],
+          "text": "With every deed sealed with honour, every clarion call heralding a duty met, a champions spirit is strengthened and their ardour restored.\nThe Enhancements shown below can become expended. You cannot use such Enhancements while they are expended. Each time you\nfulfil your Oath\n, each expended Enhancement is no longer expended."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Herald of Triumph",
+          "flavor": "This Noble’s arrogant challenges herald a feat of victory, a promise of death that blares from their suit’s emitters.",
+          "text": "IMPERIAL KNIGHTS model only. When the bearer ends a Charge move, it can use this Enhancement. If it does, this Enhancement is expended, then each enemy unit within Engagement Range of the bearer must take a Battle-shock test, subtracting 1 from the result."
+        },
+        {
+          "name": "Wyrmslayer Divination",
+          "flavor": "Whispered to a Knights machine spirit before battle, this techno-omen prophesies doom for airborne foes.",
+          "text": "IMPERIAL KNIGHTS model only. In your Shooting phase, when the bearer is selected to shoot, it can use this Enhancement. If it does, this Enhancement is expended, then until the end of the phase, each time it makes an attack that targets a unit that can FLY, you can re-roll the Hit roll."
+        },
+        {
+          "name": "Pennant of Silvered Fury",
+          "flavor": "This circuit-etched pennant marks a slayer of hordes and is linked to a glowing electoo beneath the pilot’s skin.",
+          "text": "IMPERIAL KNIGHTS model only. When the bearer is selected to fight, it can use this Enhancement. If it does, this Enhancement is expended, then until the end of the phase, melee weapons equipped by the bearer have the [sustained hits 2] ability."
+        },
+        {
+          "name": "Crushing Condemnation",
+          "flavor": "With the sweep of an armoured limb, the Noble can cast wreckage and ruin towards yet another foe.",
+          "text": "IMPERIAL KNIGHTS model only. When the bearer is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, the bearer can use this Enhancement. If it does, this Enhancement is expended, then select one enemy unit that is not within Engagement Range of any units from your army and is within 12\" of and visible to the bearer. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "COURAGEOUS STAND",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "When the night is long and the unworthy claw at one's shield, it is chivalry and duty that buoy the soul and bolster failing strength.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\nTARGET: One IMPERIAL KNIGHTS TITANIC unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 6+ ability."
+        },
+        {
+          "name": "TITANIC DUEL",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "The greatest Knightly champions suffer no dishonourable rival to insult them for long with their existence.",
+          "text": "WHEN: Your Shooting phase or the Fight phase.\nTARGET: One IMPERIAL KNIGHTS TITANIC model from your army that has not been selected to shoot or fight this phase.\nEFFECT: Until the end of the phase, each time your model makes an attack that targets a MONSTER, TITANIC or WALKER unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "MOMENT OF GLORY",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "Veteran pilots waste no more time exalting their victory than the Code Chivalric demands before powering back into the fray with the long strides of the selflessly determined warrior Noble.",
+          "text": "WHEN: Fight phase, just before an IMPERIAL KNIGHTS TITANIC unit from your army Consolidates.\nTARGET: That IMPERIAL KNIGHTS TITANIC unit.\nEFFECT: Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3\" provided your unit can end that move within Engagement Range of one or more enemy units."
+        },
+        {
+          "name": "HERO’S TREAD",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "It is said that unalloyed heroism can purge the foulest dishonour, that the very footsteps of those of noblest purity are enough to sanctify their path.",
+          "text": "WHEN: End of your Command phase.\nTARGET: One IMPERIAL KNIGHTS TITANIC model from your army that is within range of an objective marker you control.\nEFFECT: Your Level of Control over that objective marker is 5 (unless it would otherwise be higher), until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+        },
+        {
+          "name": "UNSTOPPABLE WARRIOR",
+          "cp": 2,
+          "kind": "Epic Deed",
+          "flavor": "Death is a distant priority when heroism's favour awaits. A breath to seize a new perspective, a new angle at which to tilt towards the foe, permits only a brief reprieve for the enemy of a true warrior.",
+          "text": "WHEN: Your Movement phase, just after an IMPERIAL KNIGHTS TITANIC unit from your army Falls Back.\nTARGET: That IMPERIAL KNIGHTS TITANIC unit.\nEFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "name": "DRIVEN BY THE PAST",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "To the worthiest Noble, the whispers that reach their mind from a Throne Mechanicum appear as a tapestry of virtues, standards they strive to meet with wholehearted alacrity.",
+          "text": "WHEN: Your Charge phase.\nTARGET: One IMPERIAL KNIGHTS TITANIC unit from your army.\nEFFECT: Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced."
+        }
+      ],
+      "errata": []
+    },
+    "Spearhead-At-Arms": {
+      "name": "Spearhead-At-Arms",
+      "rules": [
+        {
+          "name": "Knightly Teachings",
+          "errata": [],
+          "text": "Knightly Nobles are exalted paragons of honour who uphold the tenets of the Code Chivalric and the glorious histories of their household. Through stern teachings and heroic tales, and no less their own deeds, they exemplify the virtues which Bondsmen aspire to emulate. It is not only in courtly life, upon the practice fields and during thrilling hunts that a Nobles squires and retainers cleave to their duty, but also in the fiery heart of every battle. There such teachings are tested as never before, and also find their most lauded expressions.\nEach time a model from your army uses its\nBondsman\nability, if no other model from your army has used that Bondsman ability that turn, you can select up to three friendly\nARMIGER\nmodels (instead of one) within 12\" of that model, or within 15\" of that model while your army is\nHonoured\n(you still cannot select a model that is already being affected by a Bondsman ability). Until the start of your next\nCommand phase\n, those models are affected by that Bondsman ability.\nKEYWORDS\nARMIGER\nmodels from your army gain the\nBATTLELINE\nkeyword."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Mentor’s Pride",
+          "flavor": "A draconian enforcer of stringent standards, when this stern Noble does acknowledge pride in their servants, their Bondsmen zealously strive to retain it.",
+          "text": "IMPERIAL KNIGHTS model only. While two or more ARMIGER models are under the effects of the bearers Bondsman ability, each time each of those ARMIGER models makes an attack, you can re-roll a Hit roll of 1."
+        },
+        {
+          "name": "Fables of Nightmare",
+          "flavor": "Many are the fiends and unnamed dooms that lead hosts of darkness in the oldest tales. Their retelling spurs this Noble’s Bondsmen to seek out the lurking commanders of the foe and cut them down, so that they may end the spread of their evil.",
+          "text": "IMPERIAL KNIGHTS model only. While two or more ARMIGER models are under the effects of the bearer’s Bondsman ability, melee weapons equipped by those ARMIGER models have the [precision] ability."
+        },
+        {
+          "name": "Tales of Heroism",
+          "flavor": "Recounting the valorous feats of legendary Nobles, this champion inspires their squires to deride and denounce the foes every attempt at evading a just execution.",
+          "text": "IMPERIAL KNIGHTS model only. While two or more ARMIGER models are under the effects of the bearer’s Bondsman ability, each time one of those ARMIGER models makes a melee attack, you can ignore any or all modifiers to the Hit roll and/or the Wound roll."
+        },
+        {
+          "name": "Martial Tuition",
+          "flavor": "Long has this Noble trained their Bondsmen in hunting the deadliest prey, instilling in them the skills to honourably exploit any opening in an enemy’s defence.",
+          "text": "IMPERIAL KNIGHTS model only. While two or more ARMIGER models arc under the effects of the bearer’s Bondsman ability, once per turn, you can target one of those ARMIGER models with the Counter-offensive Stratagem for 0CP."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "VIRTUE OF COURAGE",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "A Knight must have the courage to face the greatest horrors of the galaxy, with duty focusing their blows.",
+          "text": "WHEN: Start of the Fight phase.\nTARGET: One ARMIGER model from your army, or one IMPERIAL KNIGHTS TITANIC model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.\nEFFECT: Select one enemy unit. Until the end of the phase, each time one of your ARMIGER models makes an attack that targets that enemy unit, add 1 to the Hit roll."
+        },
+        {
+          "name": "EXEMPLAR’S WISDOM",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "With a fusillade upon their chosen enemy, the Bondsmen's mentor lectures their loyal servants on the application offeree to the foe's weak points.",
+          "text": "WHEN: Your Shooting phase, just after an IMPERIAL KNIGHTS TITANIC model from your army has shot.\nTARGET: That IMPERIAL KNIGHTS TITANIC model, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.\nEFFECT: Select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time one of your ARMIGER models makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "MANTLE OF THE MENTOR",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "With a rapid volley of covering fire from a Noble liege, Bondsmen employ hit-and-run tactics at high speed.",
+          "text": "WHEN: Start of your Shooting phase.\nTARGET: One ARMIGER model from your army, or one IMPERIAL KNIGHTS TITANIC model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.\nEFFECT: Until the end of the phase, your ARMIGER models are eligible to shoot in a turn in which they Fell Back."
+        },
+        {
+          "name": "THIN THEIR RANKS",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "A stentorian firing solution floods their Helms Mechanicum, and eager young Nobles shred their master's foes in a blizzard of fury.",
+          "text": "WHEN: Start of your Shooting phase.\nTARGET: One ARMIGER model from your army, or one IMPERIAL KNIGHTS TITANIC model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.\nEFFECT: Until the end of the phase, ranged weapons equipped by your ARMIGER models have the [RAPID FIRE 1] ability."
+        },
+        {
+          "name": "LET DUTY BE YOUR SHIELD",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "Heeding the teachings of their Noble master, a Bondsman is reminded that only by enduring can they hope to discharge their sworn obligations.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\nTARGET: One ARMIGER unit from your army that was selected as the target of one or more of the attacking units attacks.\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "SQUIRES OFTHE HUNT",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "At a ritualised signal, Bondsmen encircle the foe to cut off escape, prowling onto unexpected attack routes.",
+          "text": "WHEN: End of your opponent’s Fight phase.\nTARGET: One ARMIGER model from your army, or one IMPERIAL KNIGHTS TITANIC model from your army, and one or more friendly ARMIGER models affected by that model’s Bondsman ability.\nEFFECT: For each of your ARMIGER models that is within 9\" of one or more battlefield edges and not within Engagement Range of one or more enemy units, remove that ARMIGER model from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "errata": []
+    },
+    "Freeblade Company": {
+      "name": "Freeblade Company",
+      "rules": [
+        {
+          "name": "Knights of Legend",
+          "errata": [],
+          "text": "Warriors such as these are truly indomitable. Driven on by deadly oaths, bolstered by ancient technology or shimmering with supernatural energies, they stride through the most punishing firestorms to emerge victorious on the other side.\nIMPERIAL KNIGHTS\nmodels from your army have the\nFeel No Pain 6+\nability. In addition, at the start of your\nCommand phase\n, each\nIMPERIAL\nKNIGHTS\nmodel from your army regains 1 lost wound."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Bringer of Justice",
+          "flavor": "It is said that whenever this famed weapon is brought to life, it shall not fall silent until it has slaked its thirst for justice.",
+          "text": "IMPERIAL KNIGHTS model only. Improve the Attacks characteristic of melee weapons equipped by the bearer by 2, and each time the bearer makes a melee attack, add 1 to the Hit roll."
+        },
+        {
+          "name": "Hunter’s Eye",
+          "flavor": "This remarkable data‑manifold surrounds a scion with holo‑projected bioscans and engine‑signature readouts, whose gaze penetrates the densest terrain as though it was not there.",
+          "text": "IMPERIAL KNIGHTS model only. Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
+        },
+        {
+          "name": "Mysterious Guardian",
+          "flavor": "Manifesting as though from nowhere, this Knight is an elemental force of vengeance against the Emperor of Mankind’s foes. At battle’s end, it disappears as mysteriously as it arrived.",
+          "text": "IMPERIAL KNIGHTS model only. (Once per battle, per army) At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do:\nPlace this unit in strategic reserves.This unit has Deep Strike until the start of your next Shooting phase.This unit must make an ingress move in your next Movement phase (including in your first turn)."
+        },
+        {
+          "name": "Sanctuary",
+          "flavor": "Through the projection of rapidly modulating ion fields, this unique generator’s effects wreathe the suit in an all encompassing fog of protective energies that defend it from close‑quarters attacks.",
+          "text": "IMPERIAL KNIGHTS model only. The bearer has a 5+ invulnerable save."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "NOBLE SACRIFICE",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "Sensing their end drawing close, the scion overloads their Knight’s plasma core to take the enemy with them.",
+          "text": "WHEN: Any phase.\nTARGET: One IMPERIAL KNIGHTS unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.\nEFFECT: Your unit’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 4+, adding 1 to the result if it is an ARMIGER unit, instead of only a 6."
+        },
+        {
+          "name": "STRENGTH FROM EXILE",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Well used to a life without allies or fire support, Freeblades operate more effectively alone.",
+          "text": "WHEN: Your Shooting phase or the Fight phase.\nTARGET: One IMPERIAL KNIGHTS unit from your army that has not been selected to shoot or fight this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, if there are no other friendly units within 9\" of your unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        },
+        {
+          "name": "FULL TILT",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "With the enemy before them, their Knight’s machine spirit snarling, and the rush of battle coursing through their veins, this scion pours power into their motive actuators and thunders forward.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One IMPERIAL KNIGHTS unit from your army.\nEFFECT: Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit, or 9\" instead if your unit is an ARMIGER or DESTRIER unit."
+        },
+        {
+          "name": "POINT‑BLANK BARRAGE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Few can withstand the point‑blank fury of a Knight.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One IMPERIAL KNIGHTS unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, when making ranged attacks with Blast weapons, models in your unit can target enemy units within Engagement Range of your unit (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, until the end of the phase, your unit does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units, but each time a model in your unit makes an attack with a Blast weapon that targets a unit within Engagement Range of your unit, on an unmodified Hit roll of 1, your unit suffers 1 mortal wound after all of its attacks have been resolved."
+        },
+        {
+          "name": "SURVIVOR OF STRIFE",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "The fires of war have steeled this Freeblade’s resolve.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\nTARGET: One IMPERIAL KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "FLANKING MANOEUVRES",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Eager to earn glory, Knight Armigers focus on swiftly redeploying mid‑battle to flank the foe.",
+          "text": "WHEN: End of your opponent’s Fight phase.\nTARGET: One ARMIGER unit from your army that is within 9\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "errata": []
+    },
+    "Dominus Foebreakers": {
+      "name": "Dominus Foebreakers",
+      "rules": [
+        {
+          "name": "Rain of Devastation",
+          "errata": [],
+          "text": "Packing together within the confines of cover might work against small arms, but in the face of Dominus-class Knights, it only serves to concentrate and magnify the fury of their firepower.\nFriendly\nIMPERIAL KNIGHTS DOMINUS\nunits’ attacks that target a unit\nin a\nterrain area\nhave +1 to\nhit rolls\n."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Blessed Plate",
+          "flavor": "Some of this Knight’s hull plates are revered antiques, dating back millennia; their durability is a testament to the secrets of construction now lost to the mists of time.",
+          "text": "IMPERIAL KNIGHTS DOMINUS model only. This model has +1 T."
+        },
+        {
+          "name": "Archeotech Autoloaders",
+          "flavor": "These ancient and precious components are installed with great reverence; their function is to keep the Dominus‑class Knight’s guns firing with ferocious efficiency",
+          "text": "IMPERIAL KNIGHTS DOMINUS model only. This unit can re-roll rolls to determine the A of a weapon."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "GROUND-SHAKING STRIDES",
+          "cp": 1,
+          "kind": "Dominus Foebreakers Stratagem",
+          "flavor": "Making the most of their Knight‑suit’s twinned reactor cores, the pilot pushes its motivator‑units to their limits to gain a burst of speed.",
+          "text": "WHEN: Your Movement phase, when a friendly IMPERIAL KNIGHTS DOMINUS unit is selected to move.\nTARGET: That IMPERIAL KNIGHTS DOMINUS unit.\nEFFECT: Your unit has +2\" M."
+        },
+        {
+          "name": "FOEBREAKER FIRESTORM",
+          "cp": 1,
+          "kind": "Dominus Foebreakers Stratagem",
+          "flavor": "It takes a skilled noble and a steady machine spirit to unleash such weaponry at point‑blank range into closing enemy threats.",
+          "text": "WHEN: Your Shooting phase, when a friendly engaged IMPERIAL KNIGHTS DOMINUS unit is selected to shoot.\nTARGET: That IMPERIAL KNIGHTS DOMINUS unit.\nEFFECT: Your unit’s [BLAST] ranged attacks:\nDo not have [BLAST].Have +1 A."
+        },
+        {
+          "name": "FIRE SHOCKED",
+          "cp": 1,
+          "kind": "Dominus Foebreakers Stratagem",
+          "flavor": "So thunderous is the fire of a Dominus‑class Knight that even those who survive its salvoes are often reduced to shattered remnants cowering and praying for their lives.",
+          "text": "WHEN: Your Shooting phase, when a friendly IMPERIAL KNIGHTS DOMINUS unit has shot.\nTARGET: That IMPERIAL KNIGHTS DOMINUS unit.\nEFFECT: Select one enemy unit hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll."
+        }
+      ],
+      "errata": []
+    },
+    "Questor Forgepact": {
+      "name": "Questor Forgepact",
+      "rules": [
+        {
+          "name": "Cogbound Alliance",
+          "errata": [],
+          "text": "The Nobles of Questor Mechanicus houses commonly fight alongside the armies of forge worlds. They are bound together by their shared devotion to the Machine Cult.\nFriendly\nIMPERIAL KNIGHTS\nmodels have the following ability:\nAssisted Targeting (Aura):\nWhile a friendly\nADEPTUS MECHANICUS\nunit is within 6\" of this model, that\nADEPTUS\nMECHANICUS\nunit’s\nranged attacks\nhave:\n+1 BS.\n[HEAVY].\nFriendly\nTECH-PRIEST\nmodels have the following ability:\nSacristan Pledge: In your Command phase, you can select one friendly IMPERIAL KNIGHTS model within 3\" of this model that has not been selected by this ability this phase. If you do, that model heals D3 wounds.\nMechanicus Allies:\nYou can include\nTECH-PRIEST DOMINUS\n/\nTECH-PRIEST MANIPULUS\n/\nMARSHAL\n/\nRANGERS\n/\nVANGUARD\nunits in your army. The combined points value of such units cannot exceed 500 points."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Magos Questoris",
+          "flavor": "An expert in the intricate mechanisms and weapons systems of Imperial Knights, this Tech‑Priest taught Sacristans their craft. They now walk in the shadow of these war machines and make field repairs in the midst of battle.",
+          "text": "TECH-PRIEST model only. When using this model’s Sacristan Pledge ability, the selected IMPERIAL KNIGHTS model heals 2 additional wounds."
+        },
+        {
+          "name": "Knight of the Opus Machina (Aura)",
+          "flavor": "A devotee of the Omnissian creed, this Noble is inspired by the presence of the Adeptus Mechanicus, fighting with greater zeal and vigour in their holy presence.",
+          "text": "IMPERIAL KNIGHTS model only. While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that ADEPTUS MECHANICUS unit’s melee attacks have +1 WS and AP."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "OMNISSIAH’S GRACE",
+          "cp": 1,
+          "kind": "Questor Forgepact Stratagem",
+          "flavor": "So resolute is their faith that the Machine God’s worshippers brave storms of killing fire, trusting in the Omnissiah to shield them from harm.",
+          "text": "WHEN: Any phase, when a friendly IMPERIAL KNIGHTS unit suffers a mortal wound.\nTARGET: That IMPERIAL KNIGHTS unit.\nEFFECT: Your unit has Feel No Pain 5+ against mortal wounds."
+        },
+        {
+          "name": "VENGEANCE OF THE MACHINE CULT",
+          "cp": 1,
+          "kind": "Questor Forgepact Stratagem",
+          "flavor": "Those who dare to fell the Machine God’s creations find themselves subject to the vengeance of the Adeptus Mechanicus.",
+          "text": "WHEN: Any phase, when a friendly IMPERIAL KNIGHTS TITANIC unit is destroyed by an enemy unit.\nTARGET: One friendly ADEPTUS MECHANICUS unit.\nEFFECT: That enemy unit is marked until the end of the battle:\nWhile a unit is marked, friendly ADEPTUS MECHANICUS units’ attacks that target that unit can re-roll wound rolls."
+        },
+        {
+          "name": "IN THE SHADOW OF GIANTS",
+          "cp": 1,
+          "kind": "Questor Forgepact Stratagem",
+          "flavor": "With the enemy distracted by battling the mighty Knights, the servants of the Omnissiah are free to complete crucial missions unimpeded.",
+          "text": "WHEN: Your Movement phase, when a friendly ADEPTUS MECHANICUS unit is selected to make an advance/fall-back move.\nTARGET: That ADEPTUS MECHANICUS unit.\nEFFECT: That move does not prevent your unit from being eligible to start an action."
+        }
+      ],
+      "errata": []
+    },
+    "Throne-Bonded Outriders": {
+      "name": "Throne-Bonded Outriders",
+      "rules": [
+        {
+          "name": "Driven from Their Lairs",
+          "errata": [],
+          "text": "The moment the loyal bondsmen locate and identify the foe, they share targeting data-choristry with their ruling lords and ladies.\nWhile a friendly\nARMIGER\nunit is affected by a\nBondsman\nability, that unit’s\nranged attacks\nhave\n[IGNORES COVER]\n.\nThis\ndetachment\nhas the\nARMIGERS\ntag and cannot be taken with another\nARMIGERS\ndetachment\n."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Gyro-Optimised Actuators",
+          "flavor": "Flowing down the neural tether between Thrones and Helms Mechanicum, the faint whispering of ancestral gheists drives bondsmen on to greater urgency.",
+          "text": "ARMIGER unit only. This unit has MOBILE."
+        },
+        {
+          "name": "Ancestral Overbleed",
+          "flavor": "Though it requires additional work by the Sacristans, when Armigers are to be used like hunting hounds amidst dense terrain, it is considered worthwhile to enhance their steeds’ agility.",
+          "text": "ARMIGER unit only. When you target this unit with the Fire Overwatch/Heroic Intervention stratagem, that use is -1 CP."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "NEURAL LASH",
+          "cp": 1,
+          "kind": "Throne-Bonded Outriders Stratagem",
+          "flavor": "Noble pilots have little time for panicked or despairing bondsmen, and think nothing of enforcing stoic obedience by way of stinging neural compulsion.",
+          "text": "WHEN: Command phase.\nTARGET: One friendly IMPERIAL KNIGHTS TITANIC unit.\nEFFECT: Select one friendly battle-shocked ARMIGER unit within 12\" of your unit. That ARMIGER unit is no longer battle-shocked."
+        },
+        {
+          "name": "HELM CONDITIONING",
+          "cp": 1,
+          "kind": "Throne-Bonded Outriders Stratagem",
+          "flavor": "Some longer‑serving bondsmen become so conditioned to efficient obedience by their Helm Mechanicum that they can be issued neural commands from ever‑greater distances.",
+          "text": "WHEN: Your Command phase, when a friendly IMPERIAL KNIGHTS unit uses a Bondsman ability.\nTARGET: That IMPERIAL KNIGHTS unit.\nEFFECT: When selecting an ARMIGER model for that Bondsman ability, you can select one within 18\" of your unit (excluding models already affected by a Bondsman ability)."
+        },
+        {
+          "name": "HONOURED TO SERVE",
+          "cp": 1,
+          "kind": "Throne-Bonded Outriders Stratagem",
+          "flavor": "Determined to prove worthy of a place in battle alongside their supposed betters, bondsmen jump to obey every command issued by their rulers.",
+          "text": "WHEN: Your Shooting phase, when a friendly ARMIGER unit has shot.\nTARGET: That ARMIGER unit.\nEFFECT: Those attacks do not prevent your unit from being eligible to start an action."
+        },
+        {
+          "name": "ADVANCE MOVE09.06",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Advance roll + your unit’s M characteristic.ELIGIBLE IF: Your unit is on the battlefield and unengaged.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Make an advance roll by rolling one D6.\nAFTER MOVING:\nYour unit must be unengaged.Until the end of the turn, unless otherwise stated, your unit is not eligible to declare a charge or start an action."
+        },
+        {
+          "name": "ASSAULT SHOOTING10.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "ELIGIBLE IF: All of the following apply to your unit:\nUnengaged and made an advance move this turn.Has one or more [ASSAULT] weapons.EFFECT: Your unit shoots as described in Making Attacks (04).\nWHILE SHOOTING: You can only select [ASSAULT] weapons to make attacks with.\nAFTER SHOOTING: Until the end of the phase, your unit is not eligible to start an action."
+        },
+        {
+          "name": "NORMAL MOVE09.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Your unit’s M characteristic.ELIGIBLE IF: Your unit is on the battlefield and unengaged.\nEFFECT: Your unit moves as described in Moving (03).\nAFTER MOVING: Your unit must be unengaged."
+        },
+        {
+          "name": "FALL-BACK MOVE09.07",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Your unit’s M characteristic.ELIGIBLE IF: Your unit is engaged.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Select fall-back mode:\nOrdered Retreat: If your unit is not battle-shocked, you can select this mode.Desperate Escape: Otherwise, you must select this mode. Make a hazard roll for each model in your unit (06.03).WHILE MOVING:\nDesperate Escape: Each model that is moved can be moved through enemy models.AFTER MOVING:\nYour unit must be unengaged.Until the end of the turn, unless otherwise stated, your unit is not eligible to shoot, declare a charge or start an action.Desperate Escape: If your unit is not battle-shocked, you must make a battle-shock roll for your unit (01.07)."
+        },
+        {
+          "name": "CHARGE MOVE11.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Charge roll.ELIGIBLE IF: Your unit declared a charge this phase.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Select one or more enemy units that are within 12\" of your unit and within the maximum distance of your unit; until the end of this move, each of those enemy units is a charge target.\nWHILE MOVING:\nEach model must end its move closer to one or more charge targets.Each model that can end its move within 1\" of one or more charge targets must do so.Each model that can end its move engaged with one or more charge targets must do so.AFTER MOVING:\nYour unit must be engaged with all of the charge targets.Your unit cannot be engaged with one or more enemy units that are not charge targets.Until the end of the turn, each model in your unit has the Fights First ability (24.13)."
+        },
+        {
+          "name": "CRUSHING IMPACT15.06",
+          "cp": 1,
+          "kind": "Core",
+          "flavor": "In extremis, armoured vehicles and rampaging monsters can use their sheer size as a weapon, ramming and crushing enemies beneath their colossal bulk, though doing so risks sustaining damage in return.",
+          "text": "WHEN: Your Charge phase, just after a friendly MONSTER/VEHICLE unit ends a charge move.\nTARGET: That MONSTER/VEHICLE unit.\nEFFECT: Resolve the following sequence:\nSelect one enemy unit engaged with your unit.Select one model in your unit engaged with that enemy unit.Roll a number of D6 equal to the T characteristic of that model: for each 1, your unit suffers 1 mortal wound; for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds per unit)."
+        },
+        {
+          "name": "REMAIN STATIONARY09.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: ‘–’ELIGIBLE IF: Any unit.\nEFFECT: No models are moved (either in straight lines or rotated). Units that remain stationary do not trigger any rules that are triggered when a unit starts or ends a move."
+        },
+        {
+          "name": "INGRESS MOVE20.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE: 6\"ELIGIBLE IF: Your unit is in strategic reserves (excluding units that are embarked within TRANSPORTS that are themselves in strategic reserves).\nEFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Your unit is set up as described in Set Up (03.02).\nWHILE MOVING: Set up your unit wholly within the set-up distance of one or more battlefield edges and more than 8\" horizontally from all enemy units.\nBefore the Third Battle Round: While doing so, no models can be set up within your opponent’s deployment zone.AFTER MOVING: Unless otherwise stated, until the start of the next Charge phase, your unit is not eligible to make any other type of move."
+        },
+        {
+          "name": "EMERGENCY DISEMBARK MOVE18.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE: 6\"ELIGIBLE IF: Your unit is embarked within a TRANSPORT model that was just destroyed.\nEFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Make a hazard roll for each model in your unit (06.03).\nWHILE MOVING: Set up each model in your unit: (1) Wholly within the set-up distance of that TRANSPORT, and as close as possible to that TRANSPORT. OR: (2) If the above is not possible while remaining unengaged, set up that model wholly within the set-up distance of that TRANSPORT, as close as possible to that TRANSPORT, and engaged. Each model that still cannot be set up is destroyed.\nAFTER MOVING: Your unit is battle-shocked and, until the end of the turn, it is not eligible to declare a charge."
+        },
+        {
+          "name": "SNAP SHOOTING15.09",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "ELIGIBLE IF: As stated in the rule allowing this shooting type.\nEFFECT: Your unit shoots as described in Making Attacks (04).\nWHILE SHOOTING:\nYou can only target one visible enemy unit within 24\" of your unit (and only if it is an eligible target).Each attack only hits on an unmodified hit roll of 6 (irrespective of the attacking weapon’s BS characteristic or any modifiers).You cannot re-roll hit rolls.AFTER SHOOTING: Until the end of the phase, your unit is not eligible to start an action."
+        },
+        {
+          "name": "FIRE OVERWATCH15.08",
+          "cp": 1,
+          "kind": "Core",
+          "flavor": "A hail of fire can drive back advancing foes.",
+          "text": "WHEN: End of your opponent’s Movement phase.\nTARGET: One friendly unengaged unit (excluding TITANIC units).\nEFFECT: Your unit shoots using snap shooting."
+        },
+        {
+          "name": "HEROIC INTERVENTION15.11",
+          "cp": 1,
+          "kind": "Core",
+          "flavor": "Voices raised in furious war cries, your warriors surge forth to meet the enemy’s onslaught head-on.",
+          "text": "WHEN: End of your opponent’s Charge phase.\nTARGET: One friendly unengaged unit within 12\" of one or more enemy units. You can only select a VEHICLE unit if it is a CHARACTER/WALKER unit.\nEFFECT: Resolve a charge with your unit (11.02). While doing so, before making the charge roll, you must select one of the following modes:\nLeap to Defend: When selecting charge targets, you can only select enemy units that made a charge move this phase and are within the maximum distance.+1CPInto the Fray:\nWhen making the charge roll, if the result is greater than 6 (after modifiers), change it to 6.When selecting charge targets, you can select any enemy units that are within 6\" of your unit and within the maximum distance."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Doctrina Imperatives",
+          "text": "Change Protector Imperative to:\n‘Ranged weapons equipped by models in this unit have the [HEAVY] abilityImprove the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.Each time a melee attack targets this unit, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, subtract 1 from the Hit roll.’\nChange Conqueror Imperative to:\n‘Ranged weapons equipped by models in this unit have the [ASSAULT] ability.Improve the Weapon Skill characteristic of melee weapons equipped by models in this unit by 1.Each time a model in this unit makes an attack, if this unit has the BATTLELINE keyword and/or it is within 6\" of one or more friendly ADEPTUS MECHANICUS BATTLELINE units, improve the Armour Penetration characteristic of that attack by 1.’"
+        },
+        {
+          "scope": "Code Chivalric, ‘We pledge to reap a great tally’ Deed",
+          "text": "Change to:\n‘This deed is completed at the end of the battle round if the number of enemy units destroyed this battle round is greater than the battle round number even if those units are subsequently returned to the battlefield (for example, two destroyed enemy units in the first battle round).’"
+        },
+        {
+          "scope": "Gate Warden Lance Detachment, Dauntless Defenders Detachment Rule",
+          "text": "Change to:\n‘At the start of the first battle round, select two objectives to be your foundations. Place a circular foundation marker in each one. When you draw a line from the closest part of one foundation marker to the closest part of the other, if any part of a model’s base (or any part of a model’s hull, for a model without a base) crosses that line, that model’s unit is said to be on your defensive line.\nWhile an IMPERIAL KNIGHTS unit from your army is on your defensive line, that unit has the following ability:\nAgainst the Horde: Each time a model in this unit makes an attack that targets a visible enemy unit, you can ignore any or all modifiers to the Hit roll, and weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.’"
+        },
+        {
+          "scope": "Tank Shock Stratagem",
+          "text": "The Tank Shock Stratagem is the same as the Crushing Impact stratagem."
+        }
+      ]
+    }
+  }
+}

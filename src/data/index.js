@@ -100,3 +100,13 @@ export async function getDatasheets(factionKey) {
   }
   return dsCache[folder];
 }
+
+const rulesCache = {};
+
+export async function getRules(factionKey) {
+  const folder = DS_FOLDER_FOR[factionKey] ?? factionKey;
+  if (!rulesCache[folder]) {
+    rulesCache[folder] = (await import(`./rules/${folder}.json`)).default;
+  }
+  return rulesCache[folder];
+}
