@@ -1,0 +1,974 @@
+{
+  "source": "https://wahapedia.ru/wh40k11ed/factions/tyranids/",
+  "armyRules": [
+    {
+      "name": "Synapse",
+      "errata": [
+        {
+          "scope": "Synapse Army Rule",
+          "text": "Change to: ‘If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly SYNAPSE models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army:\nEach time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6.Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.’"
+        }
+      ],
+      "text": "Some Tyranids serve as synaptic conduits or nodal relays through which a portion of the Hive Mind’s iron will flows, overriding the natural instincts of the swarm to direct the teeming warrior-beasts to function as a single, gestalt organism on the battlefield.\nIf your Army Faction is\nTYRANIDS\n, while a\nTYRANIDS\nunit from your army is within 6\" of one or more friendly\nSYNAPSE\nmodels, that\nTYRANIDS\nunit is said to be within Synapse Range of that model and of your army. While a\nTYRANIDS\nunit from your army is within Synapse Range of your army:\nEach time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6.\nEach time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack."
+    },
+    {
+      "name": "Shadow in the Warp",
+      "errata": [
+        {
+          "scope": "Shadow in the Warp Army Rule",
+          "text": "Change to: ‘If your Army Faction is TYRANIDS, once per battle, in either player’s Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test. Each time an enemy unit takes such a Battle-shock test, if it is within 6\" of one or more SYNAPSE units from your army, subtract 1 from that test.’"
+        }
+      ],
+      "text": "Tyranids flood the battlefield with the psychic signature of the hive fleet - an icy, alien dread that gnaws at the minds of their prey and smothers even the most stalwart courage. When faced with such unfathomable horror, many are driven insane or suffer catastrophic neural damage.\nIf your Army Faction is\nTYRANIDS\n, once per battle, in either player’s\nCommand phase\n, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a\nBattle-shock test\n. Each time an enemy unit takes such a Battle-shock test, if it is within 6\" of one or more\nSYNAPSE\nunits from your army, subtract 1 from that test."
+    }
+  ],
+  "detachments": {
+    "Invasion Fleet": {
+      "name": "Invasion Fleet",
+      "rules": [
+        {
+          "name": "Hyper-adaptations",
+          "errata": [],
+          "text": "Every warrior organism in the Tyranid race is fashioned by the ineffable alien will of the Hive Mind. Their flesh and chitin is endlessly mutable, honed into whatever form will prove most lethal to the prey.\nAt the start of the first\nbattle round\n, select one of the following Hyper-adaptations to be active for\nTYRANIDS\nunits from your army until the end of the battle:\nSwarming Instincts\nEach time a TYRANIDS model with this Hyper-adaptation makes an attack that targets an INFANTRY or SWARM unit, that attack has the [SUSTAINED HITS 1] ability.\nHyper-aggression\nEach time a TYRANIDS model with this Hyper-adaptation makes an attack that targets a MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.\nHive Predators\nEach time a TYRANIDS model with this Hyper-adaptation makes an attack that targets a CHARACTER unit, on a Critical Hit, that attack has the [PRECISION] ability."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Alien Cunning",
+          "flavor": "This leader-beast possesses highly sophisticated neural pathways, allowing it to identify priority strategic assets and adapt the disposition of its warriors to seize them before the foe even recognise their value.",
+          "text": "TYRANIDS model only. After both players have deployed their armies, select up to three TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Perfectly Adapted",
+          "flavor": "This creature was created for one purpose: to completely eradicate the defenders of the target prey world.",
+          "text": "TYRANIDS model only. Once per turn, you can re-roll one Hit roll, one Wound roll, one Damage roll, one Advance roll, one Charge roll or one saving throw made for the bearer."
+        },
+        {
+          "name": "Synaptic Linchpin",
+          "flavor": "With a neuro-cortex that pulsates with the irresistible power of the Hive Mind, this leader acts as a blazing synaptic beacon to the lesser creatures of the swarm, the better to direct their actions and react to the ever-changing state of battle.",
+          "text": "TYRANIDS model only. While a friendly TYRANIDS unit is within 9\" of the bearer, that unit is within Synapse Range of your army."
+        },
+        {
+          "name": "Adaptive Biology",
+          "flavor": "The same weapon rarely works against this leader-beast twice, as its alien physiology adapts at an astonishing rate to counter the attacks of the foe.",
+          "text": "TYRANIDS model only. The bearer has the Feel No Pain 5+ ability. At the start of any turn, if the bearer has fewer than its starting number of wounds remaining, until the end of the battle, it has the Feel No Pain 4+ ability instead."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "RAPID REGENERATION",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Prey stare in horror as chitinous armour regrows and flesh, muscle and sinew knots back together.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\nTARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within Synapse Range of your army, models in your unit have the Feel No Pain 5+ ability instead."
+        },
+        {
+          "name": "ADRENAL SURGE",
+          "cp": 2,
+          "kind": "Battle Tactic",
+          "flavor": "These warrior organisms destroy all as their adrenaline surges.",
+          "text": "WHEN: Fight phase.\nTARGET: Up to two TYRANIDS units from your army that are within Synapse Range of your army and are eligible to fight, or one other TYRANIDS unit from your army that is eligible to fight.\nEFFECT: Until the end of the phase, each time a model in any of those selected units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "name": "DEATH FRENZY",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Tyranids care nothing for self-preservation, lashing out even in death.",
+          "text": "WHEN: Fight phase, just after an enemy unit has selected its targets.\nTARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "OVERRUN",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Tyranids in battle form an unstoppable avalanche of flesh and chitin that buries the foe alive.",
+          "text": "WHEN: Fight phase, just before a TYRANIDS unit from your army Consolidates.\nTARGET: That TYRANIDS unit.\nEFFECT: Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3\" as long as your unit can end that move within Engagement Range of one or more enemy units. If your unit is within Synapse Range of your army and not within Engagement Range of any enemy units, instead of making that Consolidation move, it can make a Normal move of up to 6\"."
+        },
+        {
+          "name": "PREDATORY IMPERATIVE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Guided by the instincts of leader-beasts, the swarm can be tasked with focusing its hunting instincts.",
+          "text": "WHEN: Your Command phase.\nTARGET: Up to two TYRANIDS units from your army that are within Synapse Range of your army, or one other TYRANIDS unit from your army.\nEFFECT: Select one Hyper-adaptation. Until the start of your next Command phase, that Hyper-adaptation is active for those selected units in addition to any other that may be active for your army.\nRESTRICTIONS: You cannot select the same Hyper-adaptation you selected at the start of the first battle round."
+        },
+        {
+          "name": "ENDLESS SWARM",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "As the battle rages, more organisms pour in to bolster the swarms.",
+          "text": "WHEN: Your Command phase.\nTARGET: Up to two ENDLESS MULTITUDE units from your army that are within Synapse Range of your army, or one other ENDLESS MULTITUDE unit from your army.\nEFFECT: You can return up to D3+3 destroyed models to each of the selected units."
+        }
+      ],
+      "errata": []
+    },
+    "Crusher Stampede": {
+      "name": "Crusher Stampede",
+      "rules": [
+        {
+          "name": "Enraged Behemoths",
+          "errata": [
+            {
+              "scope": "Enraged Behemoths Detachment Rule",
+              "text": "Change to:\n‘Each time a TYRANIDS MONSTER model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll as well if that model’s unit is Below Half-strength. In addition, while a TYRANIDS MONSTER unit from your army (excluding Battle-shocked units) is at its Starting Strength, add 2 to the Objective Control characteristic of models in that unit.’"
+            }
+          ],
+          "text": "In their efforts to lay the monstrous beasts of a Crusher Stampede low, the prey only succeed in further enraging the rampaging monsters. The surviving beasts are driven to fight with greater fury the more of their number that fall.\nEach time a\nTYRANIDS MONSTER\nmodel from your army makes an attack, add 1 to the\nHit roll\nif that model’s unit is below its\nStarting Strength\n, and add 1 to the\nWound roll\nas well if that model’s unit is\nBelow Half-strength\n. In addition, while a\nTYRANIDS\nMONSTER\nunit from your army (excluding\nBattle-shocked\nunits) is at its Starting Strength, add 2 to the Objective Control characteristic of models in that unit."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Ominous Presence",
+          "flavor": "The crushing menace of the Hive Mind rolls off this monstrous creature in waves, causing it to loom even larger in the minds of its quailing prey and lending it absolute dominance of the battlefield.",
+          "text": "TYRANIDS MONSTER model only. Add 3 to the bearer’s Objective Control characteristic."
+        },
+        {
+          "name": "Enraged Reserves",
+          "flavor": "Contained deep within this organism’s body is a pulsating sac filled with a cocktail of adrenostimulant fluids linked to a ring of vascular-pneumatic sphincters, allowing them one last-ditch strike.",
+          "text": "TYRANIDS MONSTER model only. If the bearer is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 3+, do not remove it from play. It can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "Null Nodules",
+          "flavor": "A contraganglion knot in this creature’s cranium channels and amplifies the smothering power of the Shadow in the Warp to nullify its prey’s psychic abilities.",
+          "text": "TYRANIDS MONSTER model only. Once per battle, when a Psychic Attack is allocated to the bearer, it can use this ability. If it does, until the end of the phase, the bearer has the Feel No Pain 5+ ability against Psychic Attacks."
+        },
+        {
+          "name": "Monstrous Nemesis",
+          "flavor": "With its basic logic centres and instinctive drivers augmented, this warrior organism is capable of singling out and hunting down valuable prey without direct synaptic oversight.",
+          "text": "TYRANIDS MONSTER model only. Each time the bearer makes a melee attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "CORROSIVE VISCERA",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Highly acidic fluids spray from the creature’s wounds, lethal to those nearby.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after a TYRANIDS MONSTER model from your army with the Deadly Demise ability that cannot FLY is destroyed.\nTARGET: That TYRANIDS MONSTER model. You can use this Stratagem on that model even though it was just destroyed.\nEFFECT: Do not roll one D6 to determine whether mortal wounds are inflicted by your model’s Deadly Demise ability. Instead, mortal wounds are automatically inflicted."
+        },
+        {
+          "name": "RAMPAGING MONSTROSITIES",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Tyranid monsters have reserves of energy that they unleash in waves of devastating fury.",
+          "text": "WHEN: Fight phase.\nTARGET: One TYRANIDS MONSTER unit from your army that has not been selected to fight this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "name": "SAVAGE ROAR",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "This monster is even more terrifying to behold than other bioforms of its kind.",
+          "text": "WHEN: Fight phase, just after an enemy unit has selected its targets.\nTARGET: One TYRANIDS MONSTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll. If that Battle-shock test was failed, subtract 1 from the Wound roll as well."
+        },
+        {
+          "name": "UNTRAMMELLED FEROCITY",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Encircling and entrapping such physically powerful and fearless beasts is nigh on impossible.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One TYRANIDS MONSTER unit from your army that has not been selected to move this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so:\nIt can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after its unit has moved, roll one D6: on a 1, your unit is Battle-shocked."
+        },
+        {
+          "name": "SWARM-GUIDED SALVOES",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "One cannot hide from a gestalt entity with a million eyes, even in the densest cover.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One TYRANIDS MONSTER unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase each time a model in your unit makes an attack, you can ignore any or all modifiers to that model’s Ballistic Skill characteristic and any or all modifiers to the Hit roll."
+        },
+        {
+          "name": "MASSIVE IMPACT",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "Employing their sheer bulk and vicious chitinous horns and spikes, the largest Tyranids crash headlong through the foe, often with devastating results.",
+          "text": "WHEN: Your Charge phase, just after a TYRANIDS MONSTER model from your army ends a Charge move.\nTARGET: That TYRANIDS MONSTER model.\nEFFECT: Select one enemy unit within Engagement Range of your model and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Untrammelled Ferocity Stratagem, Effect Section",
+          "text": "Change to:\n‘Until the end of the phase, each time a model in your unit makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4\" or less in height. When doing so:\nIt can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them.It can also move through sections of terrain features that are more than 4\" in height, but if it does, after its unit has moved, roll one D6: on a 1, your unit is Battle-shocked.’"
+        }
+      ]
+    },
+    "Unending Swarm": {
+      "name": "Unending Swarm",
+      "rules": [
+        {
+          "name": "Insurmountable Odds",
+          "errata": [
+            {
+              "scope": "Insurmountable Odds Detachment Rule",
+              "text": "Change to:\n'In your opponent’s Shooting phase, when an enemy unit has shot, if a model from a friendly ENDLESS MULTITUDE unit was destroyed as a result of those attacks, that friendly unit can make a surge move of up to D6”.'"
+            }
+          ],
+          "text": "When Hormagaunts, Termagants and other such expendable warrior organisms attack en masse they make up for their comparative fragility with sheer numbers. Coupled with the speed and ferocity of their onslaught - which only seems to increase as the prey try to gun the creatures down or drive them back - the gathered broods soon overrun even the most determined defenders.\nIn your opponent’s\nShooting phase\n, when an enemy unit has\nshot\n, if a model from a friendly\nENDLESS MULTITUDE\nunit was\ndestroyed\nas a result of those attacks, that friendly unit can make a\nsurge move\nof up to D6\"."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Relentless Hunger",
+          "flavor": "An overriding need to sink their fangs into the flesh of their prey drives these creatures toward the foe.",
+          "text": "TYRANIDS model only. Add 2\" to the Move characteristic of models in the bearer’s unit."
+        },
+        {
+          "name": "Naturalised Camouflage",
+          "flavor": "These warrior organisms possess limited chameleonic properties that conceal their advance. The benefits of such deceptions decrease as they approach their prey, but can be enough to bring them safely into range to strike.",
+          "text": "TYRANIDS model only. At the start of the first battle round, select up to three friendly ENDLESS MULTITUDE units within 9\" of the bearer. Until the end of the battle round, each time a ranged attack targets one of those units, models in that unit have the Benefit of Cover against that attack."
+        },
+        {
+          "name": "Piercing Talons",
+          "flavor": "A simple but potent biomorphic enhancement of these warrior organisms sees some amongst their number boast diamond-sharp talon tips. Lashing suddenly from amidst the mass of thrashing weapon limbs these plunge through armour to pierce organs and rupture delicate systems.",
+          "text": "TYRANIDS model only. Each time a model in the bearer’s unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "Adrenalised Onslaught",
+          "flavor": "Biostimulants course through the bodies of these warrior organisms, combining with goading synaptic impulses to lend them an unholy turn of speed.",
+          "text": "TYRANIDS model only. Each time the bearer’s unit Piles In or Consolidates, models in this unit can move an additional 3\"."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "SYNAPTIC GOADING",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "For a moment, a minuscule sliver of the Hive Mind’s ineffable will is focussed through these warrior organisms, driving them to pounce upon either valuable prey or else some vital strategic target.",
+          "text": "WHEN: Any phase, just before an ENDLESS MULTITUDE unit from your army that is within Synapse Range of your army makes a Surge move.\nTARGET: That ENDLESS MULTITUDE unit.\nEFFECT: When making that Surge move, you can re-roll the D6 to determine how far your unit moves, and your unit can end that move as close as possible to the closest objective marker (instead of as close as possible to the closest enemy unit]. All other rules for making Surge moves still apply."
+        },
+        {
+          "name": "UNENDING WAVES",
+          "cp": 2,
+          "kind": "Strategic Ploy",
+          "flavor": "No matter how many warrior organisms are slain, more are already surging forward over their corpses.",
+          "text": "WHEN: Any phase.\nTARGET: One ENDLESS MULTITUDE unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\nEFFECT: Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.\nRESTRICTIONS: Any destroyed CHARACTER units that were attached to your unit are not returned. You can only use this Stratagem once per battle."
+        },
+        {
+          "name": "TEEMING MASSES",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Skittering, darting and pouring over one another, the Tyranids make for hard and confusing targets.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\nTARGET: One ENDLESS MULTITUDE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "SWARMING MASSES",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "The sheer weight of Tyranid numbers begins to tell as they bury their victims in lashing, biting horror.",
+          "text": "WHEN: Your Shooting phase or the Fight phase.\nTARGET: One ENDLESS MULTITUDE unit from your army that has not been selected to shoot or fight this phase.\nEFFECT: Until the end of the phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability, and If your unit contains 15 or more models, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit."
+        },
+        {
+          "name": "BOUNDING ADVANCE",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Synaptic impulses from the Hive Mind urge greater speed from the swarm’s warrior organisms.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One ENDLESS MULTITUDE unit from your army.\nEFFECT: Until the end of the phase, each time your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+        },
+        {
+          "name": "PRESERVATION IMPERATIVE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Triggered by incoming projectile fire, a synaptic pulse spurs the danger-senses of lesser warrior organisms and causes them to scatter like a shoal evading predators. Only once the explosions have stopped and the dust cleared do the bioforms bunch up once again.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\nTARGET: One ENDLESS MULTITUDE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, your unit is treated as containing fewer than five models for the purpose of the [BLAST] ability."
+        }
+      ],
+      "errata": []
+    },
+    "Assimilation Swarm": {
+      "name": "Assimilation Swarm",
+      "rules": [
+        {
+          "name": "Feed the Swarm",
+          "errata": [
+            {
+              "scope": "Feed the Swarm Detachment Rule",
+              "text": "Change to:\n‘In your Command phase, each HARVESTER unit from your army can Regenerate one friendly TYRANIDS unit that is within 6\" of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:\nOne model in that unit regains up to D3+1 lost wounds.One destroyed INFANTRY model (excluding CHARACTERS) is returned to that unit with its full wounds remaining. If that unit is an ENDLESS MULTITUDE unit, up to 3 destroyed models are returned instead.’"
+            }
+          ],
+          "text": "Even as the beasts of the Assimilation Swarm stalk across the battlefield they make use of the abundant biomass yielded up by the prey worlds slow demise. Warrior organisms heal even the most grievous wounds in moments, or stagger upright and return to the fight after they seemed slain. A strain of revolting vitality flows through the Tyranid broods as though leeched direct from their dismayed victims.\nIn your\nCommand phase\n, each\nHARVESTER\nunit from your army can Regenerate one friendly\nTYRANIDS\nunit that is within 6\" of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:\nOne model in that unit regains up to D3+1 lost wounds.\nOne destroyed INFANTRY model (excluding CHARACTERS) is returned to that unit with its full wounds remaining. If that unit is an ENDLESS MULTITUDE unit, up to 3 destroyed models are returned instead."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Regenerating Monstrosity",
+          "flavor": "This nightmarish creature seems virtually unkillable, its every hurt healing in moments as it guzzles down the hunks of bubbling biomatter that were once foes.",
+          "text": "TYRANIDS model only (excluding MONSTERS models). The bearer’s unit can be regenerated up to twice per phase, instead of once."
+        },
+        {
+          "name": "Instinctive Defence",
+          "flavor": "The swarm’s warrior organisms fight with instinctive and single-minded ferocity to protect the all-devouring organisms in their midst.",
+          "text": "TYRANIDS model only. While the bearer is within 6\" of one or more friendly HARVESTER units, when you target this unit with the Heroic Intervention stratagem, that use is -1 CP. In addition, while the bearer is within 6\" of one or more friendly HARVESTER units, models in the bearer’s unit have the Fights First ability.ErrataShowInstinctive Defence EnhancementChange to:\n‘TYRANIDS model only. While the bearer is within 6\" of one or more friendly HARVESTER units, when you target this unit with the Heroic Intervention stratagem, that use is -1 CP. In addition, while the bearer is within 6\" of one or more friendly HARVESTER units, models in the bearer’s unit have the Fights First ability.’"
+        },
+        {
+          "name": "Biophagic Flow (Aura)",
+          "flavor": "Parasitised biomass and revivifying fluids flow through the Assimilation Swarm like lifeblood.",
+          "text": "TYRANIDS model only. While a friendly HARVESTER model is within 12\" of the bearer, when using the Feed the Swarm ability, that HARVESTER model can Regenerate one friendly TYRANIDS unit that is within 9\" of it, instead of one within 6\"."
+        },
+        {
+          "name": "Parasitic Biomorphology",
+          "flavor": "These warrior organisms boast additional fanged maws, jabbing probosci and haemophagic membranes that consume the fluids of their prey.",
+          "text": "TYRANIDS model only. Add 1 to the Strength characteristic of melee weapons equipped by models in the bearer’s unit. The first time the bearer’s unit destroys an enemy unit in the Fight phase while the bearer is within 6\" of one or more friendly HARVESTER units, until the end of the battle, add 1 to the Attacks characteristic of melee weapons equipped by models in the bearer’s unit."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "BROODGUARD IMPULSE",
+          "cp": 1,
+          "kind": "Epic Deed",
+          "flavor": "Should a foe successfully slay one of the swarm’s assimilation organisms, they only mark themselves as a priority for predation and consumption in turn.",
+          "text": "WHEN: Any phase.\nTARGET: One HARVESTER unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.\nEFFECT: Until the end of the battle, each time a friendly TYRANIDS model makes an attack that targets the enemy unit that just destroyed your HARVESTER unit, add 1 to the Wound roll."
+        },
+        {
+          "name": "RECLAIM BIOMASS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Dead Tyranids are consumed and reconstituted by the swarm just as readily as the lifeless carcasses of their prey.",
+          "text": "WHEN: Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.\nTARGET: One HARVESTER unit from your army that is within 6\" of that destroyed unit.\nEFFECT: Regenerate one friendly TYRANIDS unit within 6\" of your HARVESTER unit (See Feed the Swarm)."
+        },
+        {
+          "name": "TYRANNOFORMED",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Swarms of diminutive Tyranid phage organisms carpet even the most vital strategic assets, steadily breaking them down for assimilation.",
+          "text": "WHEN: Command phase.\nTARGET: One HARVESTER unit from your army that is within range of an objective marker you control.\nEFFECT: That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        },
+        {
+          "name": "ABLATIVE CARAPACE",
+          "cp": 2,
+          "kind": "Epic Deed",
+          "flavor": "These organisms have employed consumed minerals to exude an additional hardened protective layer over their chitinous armour.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\nTARGET: One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead."
+        },
+        {
+          "name": "SECURE BIOMASS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "When rich sources of biomass are identified the warrior organisms of this swarm will stop at nothing to destroy resistance and claim them.",
+          "text": "WHEN: Fight phase.\nTARGET: One TYRANIDS unit from your army that has not been selected to fight this phase.\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a HARVESTER unit, each time a model in that unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit as well."
+        },
+        {
+          "name": "RAPACIOUS HUNGER",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "The hunger of the Tyranids can never be satiated.",
+          "text": "WHEN: Your Fight phase.\nTARGET: One TYRANIDS unit from your army that just destroyed an enemy unit.\nEFFECT: Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead."
+        }
+      ],
+      "errata": []
+    },
+    "Vanguard Onslaught": {
+      "name": "Vanguard Onslaught",
+      "rules": [
+        {
+          "name": "Questing Tendrils",
+          "errata": [],
+          "text": "In the early stages of an invasion, the Hive Mind harries and unbalances its foes with lightning-fast flanking attacks, before encircling them for the final, bloody slaughter.\nTYRANIDS\nunits with this ability are\neligible to charge\nin a turn in which they\nFell Back\n.\nVANGUARD INVADER\nunits with this ability are eligible to charge in a turn in which they\nAdvanced\n."
+        },
+        {
+          "name": "Vanguard Prime",
+          "errata": [],
+          "text": "During the earliest stages of a Tyranid invasion, the rare bioform Imperial observers have named Deathleaper has been seen fulfilling a leadership and coordination role amongst the swarms. Employing pheromone trails and goading imperatives, the creature provides guidance to other warrior organisms that is the localised equivalent of synaptic control.\nDEATHLEAPER\nloses the Hunter Organism rule and can be your\nWARLORD\n."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Hunting Grounds",
+          "flavor": "This warrior organism has identified installations and routes of communication and supply vital to the prey. As the Tyranid invasion commences so the beast orchestrates ambushes and terror raids against these priority targets, ensuring that those enemy reinforcements who do reach the battlefield do so in bloodied disarray.",
+          "text": "TYRANIDS model only. While the bearer is on the battlefield, each time your opponent sets up a Reserves unit on the battlefield, roll one D6: on a 2+, that unit must take a Battle-shock test.FAQShowQ:Do units that are repositioned by rules that do not specify that the unit being repositioned is first placed into Reserves (e.g. the Grey Knights Teleport Assault rule) need to take a Battle-shock test on a roll of 2+ if a TYRANIDS CHARACTER with the Hunting Grounds Enhancement is on the battlefield?A:Yes. Rules that are triggered by or apply to Reserves units are also triggered by and apply to a repositioned unit when it is set back up."
+        },
+        {
+          "name": "Chameleonic",
+          "flavor": "Subdermal crystals in this organisms carapace capture and redirect light, helping to conceal it.",
+          "text": "VANGUARD INVADER model only. This unit has Stealth.ErrataShowVanguard Onslaught Detachment, Chameleonic EnhancementChange to:\n‘VANGUARD INVADER model only. This unit has Stealth.'"
+        },
+        {
+          "name": "Stalker",
+          "flavor": "This hunter seeks vital priority prey that has been pheromonally marked for swift slaughter.",
+          "text": "VANGUARD INVADER model only. At the start of the battle, select one enemy unit. Each time the bearer makes an attack that targets that enemy unit, add 1 to the Hit roll and add 1 to the Wound roll."
+        },
+        {
+          "name": "Neuronode",
+          "flavor": "While no true synapse beast, this bioform has been grafted with a limited synaptic symbiote, the influence of which increases its host’s ability to formulate and enforce large-scale predatory strategies.",
+          "text": "TYRANIDS model only. After both players have deployed their armies, you can select up to three VANGUARD INVADER units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.ErrataShowNeuronode EnhancementChange to:\n‘TYRANIDS model only. After both players have deployed their armies, you can select up to three VANGUARD INVADER units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.’"
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "SURPRISE ASSAULT",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Vanguard organisms strike from unexpected quarters with calculated and emotionless alien savagery that is appalling to behold.",
+          "text": "WHEN: Your Shooting phase or the Fight phase, just after a VANGUARD INVADER unit from your army has selected its targets.\nTARGET: That VANGUARD INVADER unit.\nEFFECT: Select one enemy unit that was selected as the target of one or more of your unit’s attacks. That enemy unit must take a Battle-shock test. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, add 1 to the Hit roll. If the Battle-shock test was failed, add 1 to the Wound roll as well."
+        },
+        {
+          "name": "ASSASSIN BEASTS",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "These bioforms have been adapted to strike with pinpoint precision at the pre-assessed weak points of selected prey that require elimination.",
+          "text": "WHEN: Fight phase.\nTARGET: One VANGUARD INVADER INFANTRY unit from your army that has not been selected to fight this phase.\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability."
+        },
+        {
+          "name": "SEEDED BROODS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Warrior organisms erupt from concealment straight into advanced positions.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One TYRANIDS unit from your army that is in Reserves, or up to two VANGUARD INVADER units from your army that are in Reserves.\nEFFECT: Until the end of the phase, for the purposes of setting up those selected units on the battlefield, treat the current battle round number as being one higher than it actually is."
+        },
+        {
+          "name": "HYPERSENSORY SCILLIA",
+          "cp": 2,
+          "kind": "Strategic Ploy",
+          "flavor": "Hissing clusters of scillia warn of the slightest prey movements, allowing the Tyranids to react.",
+          "text": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\nTARGET: Up to two VANGUARD INVADER units from your army that are within 8\" of that enemy unit, or one other TYRANIDS INFANTRY unit from your army that is within 8\" of that enemy unit.\nEFFECT: Those selected units can each make a Normal move of up to 6\".\nRESTRICTIONS: You cannot target units that are within Engagement Range of one or more enemy units."
+        },
+        {
+          "name": "UNSEEN LURKERS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Hyper-attuned senses warn vanguard organisms when they are being targeted by the prey.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\nTARGET: One VANGUARD INVADER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\" or, if your unit has the Lone Operative ability, if the attacking model is within 6\". Your opponent can select new targets for the attacking unit’s attacks."
+        },
+        {
+          "name": "INVISIBLE HUNTER",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Hunter-slayer organisms can melt away before the eyes of their foes, only to strike from a new direction.",
+          "text": "WHEN: End of your opponent’s Fight phase.\nTARGET: Up to two VANGUARD INVADER units from your army, or one TYRANIDS INFANTRY unit from your army.\nEFFECT: Remove the targeted units from the battlefield and place them into Strategic Reserves.\nRESTRICTIONS: The targeted units must be more than 3\" away from all enemy units."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Hypersensory Scillia Stratagem, Target Section",
+          "text": "Change 9\" to 8\"."
+        }
+      ]
+    },
+    "Synaptic Nexus": {
+      "name": "Synaptic Nexus",
+      "rules": [
+        {
+          "name": "Synaptic Imperatives",
+          "errata": [],
+          "text": "The leader-beasts of these swarms act as conduits to the will of the Hive Mind. Irresistible imperatives lash out from them like whips that drive lesser bioforms to hurl themselves at the prey, to fight on through fatal wounds or to attack with redoubled savagery.\nAt the start of the\nbattle round\n, you can select one of the Synaptic Imperatives shown below. Until the end of the battle round, that Synaptic Imperative is active for your army and while a\nTYRANIDS\nunit from your army is within\nSynapse Range\nof your army, it will benefit from it. Each Synaptic Imperative can only be selected once per battle.\nSynaptic Augmentation: While this unit is within Synapse Range of your army, models in this unit have a 5+ invulnerable save.\nSurging Vitality: While this unit is within Synapse Range of your army, add 1 to Advance and Charge rolls made for this unit.\nGoaded to Slaughter: While this unit is within Synapse Range of your army, each time a model in this unit makes a melee attack, add 1 to the Hit roll."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Power of the Hive Mind",
+          "flavor": "The Hive Mind channels lethal energy through its synaptic bioforms.",
+          "text": "TYRANIDS PSYKER model only. Improve the Strength and Armour Penetration characteristics of psychic weapons equipped by the bearer by 1."
+        },
+        {
+          "name": "Psychostatic Disruption",
+          "flavor": "A maelstrom of psychostatic disruption boils about this bioform. It degrades artificial and biological cognition alike, causing teleport signals to fluctuate, geopositioning cogitators to spew contradictory data, and onrushing enemy warriors to reel in confusion.",
+          "text": "TYRANIDS SYNAPSE model only. Enemy units that arrive on the battlefield from Reserves cannot be set up within 12\" of the bearer. In addition, once per battle, during the first or second battle round, when your opponent declares that a unit will arrive on the battlefield from Strategic Reserves, the bearer can use this Enhancement. If it does, roll one D6: on a 4+, that enemy unit cannot arrive on the battlefield this turn.FAQShowQ:If my opponent uses a rule to place a unit into Strategic Reserves during the first battle round, and that rule states that the unit must arrive on the battlefield in the next battle round, what happens if a model from my army uses the Psychostatic Disruption Enhancement in the second battle round when that enemy Strategic Reserves unit is due to arrive?A:The ‘cannot arrive’ rule takes precedence over the rule stating that the unit ‘must arrive’ from Strategic Reserves. Roll one D6: on a 4+, that enemy unit cannot arrive on the battlefield this turn.\nQ:Does a unit affected by the Psychostatic Disruption Enhancement have to arrive from Reserves in the next Movement phase?A:No."
+        },
+        {
+          "name": "Synaptic Control",
+          "flavor": "The Hive Mind’s synaptic network is so strong that even the mangled remains of mortally wounded beasts can be compelled to fight on.",
+          "text": "TYRANIDS SYNAPSE model only. Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack."
+        },
+        {
+          "name": "The Dirgeheart of Kharis (Aura)",
+          "flavor": "This grotesque biomorphic symbiote buries itself in its hosts thorax and emits a droning psychic note. The longer prey are exposed to the sound, the worse their atavistic terror response becomes...",
+          "text": "TYRANIDS SYNAPSE model only. While an enemy unit is within 9\" of the bearer, worsen that units Leadership characteristic by 1."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "THE SMOTHERING SHADOW",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "In the heart of the swarms, the Shadow in the Warp can literally kill with its smothering power.",
+          "text": "WHEN: Any phase, just after an enemy unit fails a Battle-shock test.\nTARGET: One SYNAPSE unit from your army within 12\" of that enemy unit.\nEFFECT: Roll six D6: for each 3+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+          "name": "SYNAPTIC CHANNELLING",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Tyranids are one with the Hive Mind; individuality is a disadvantage that they surpass.",
+          "text": "WHEN: Command phase.\nTARGET: One SYNAPSE unit from your army.\nEFFECT: Until the end of the turn, while a friendly TYRANIDS unit is within 9\" of the selected unit, that unit is within Synapse Range of your army."
+        },
+        {
+          "name": "IRRESISTIBLE WILL",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Whether paralysing its prey or forcing them to stumble out of cover with its force of will, or else puppeteering nearby warrior organisms, the leader-beast ensures the prey targets are struck down.",
+          "text": "WHEN: Your Shooting phase or the Fight phase.\nTARGET: One SYNAPSE unit from your army that has not been selected to shoot or fight this phase, and one enemy unit within 24\" of and visible to the SYNAPSE unit.\nEFFECT: Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that enemy unit, if the attacking model’s unit is within 6\" of your SYNAPSE unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        },
+        {
+          "name": "REINFORCED HIVE NODE",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Psionic shielding crackles around these leader-beasts, helping to ensure their survival.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\nTARGET: One SYNAPSE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "IMPERATIVE DOMINANCE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "At need, the focused will of the Tyranid leader-beasts can goad warrior organisms to exhibit strategically beneficial behaviours at the instant they are needed most.",
+          "text": "WHEN: Your Command phase.\nTARGET: One TYRANIDS unit from your army that is within Synapse Range of your army.\nEFFECT: Select one Synaptic Imperative, even if you have already selected that imperative this battle. Until the start of your next Command phase, that Synaptic Imperative is active for your unit instead of any other Synaptic Imperative that is active for your army."
+        },
+        {
+          "name": "OVERRIDE INSTINCTS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "The seemingly omniscient Hive Mind processes the sensory input of its swarms at an impossible rate, and compels its broods to react accordingly.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One TYRANIDS unit from your army that is within Synapse Range of your army and made a Fall Back move this phase.\nEFFECT: Your unit is eligible to shoot and declare a charge this turn."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Reinforced Hive Node Stratagem, Effect Section",
+          "text": "Change to:\n'Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.’"
+        }
+      ]
+    },
+    "Subterranean Assault": {
+      "name": "Subterranean Assault",
+      "rules": [
+        {
+          "name": "Surprise Assault",
+          "errata": [],
+          "text": "Burrowing Tyranid bioforms burst from the ground in all their horror.\nEach time a\nTYRANIDS\nmodel from your army makes an attack, re-roll a\nHit roll\nof 1.\nEach time a\nBURROWER\nunit from your army is set up on the battlefield from\nReserves\n, place a circular 40mm Tunnel Marker anywhere on the battlefield within 1\" of that unit and more than 3\" horizontally away from all enemy units.\nIn the\nReinforcements step\nof your\nMovement phase\n, when you set up a unit on the battlefield from Reserves, you can set that unit up wholly within 9\" of one of your Tunnel Markers and more than 6\" horizontally away from any enemy units.\nIf an enemy model (excluding\nAIRCRAFT\n) ends any kind of move within 3\" of one of your Tunnel Markers, that Tunnel Marker is removed from the battlefield.\nKEYWORDS\nMAWLOC\nand\nTRYGON\nunits from your army have the\nBURROWER\nkeyword.\nIn the Muster Armies step, you can select up to 2\nTRYGON\nmodels from your army. The selected units gain the\nCHARACTER\nkeyword.\nDesigner’s Note:\nThis means that the selected models can be given Enhancements and one of them can be selected as your WARLORD."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Synaptic Strategy",
+          "flavor": "Possessing an exceptionally acute connection to the hive mind, this creature benefits from a constant influx of sensory data, enabling it to traverse the battlefield and emerge at the place and time of maximum impact.",
+          "text": "TYRANIDS model only. Once per battle, you can target the bearer’s unit with the Rapid Ingress stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+        },
+        {
+          "name": "Tremor Senses",
+          "flavor": "From its concealed position beneath the battlefield, this bioform picks up on subtle traces of movement from the enemy force, impelling its fellow organisms to reposition themselves in preparation for a coordinated assault.",
+          "text": "TYRANIDS model only. After both players have deployed their armies, select up to three friendly TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+        },
+        {
+          "name": "Vanguard Intellect",
+          "flavor": "This bioform uses its own keen senses and predatory intellect to burrow into position and strike before the enemy can react.",
+          "text": "TYRANIDS model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+        },
+        {
+          "name": "Trygon Prime",
+          "flavor": "Only rarely manifested by the hive fleets, the Trygon Prime possesses a greatly enhanced synaptic network within its neural cortex, enabling it to more precisely coordinate the assaults of burrowing Tyranid creatures.",
+          "text": "TRYGON model only. The bearer gains the SYNAPSE keyword. Improve the Strength and Weapon Skill characteristics of melee weapons equipped by the bearer by 1."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "ADAPTIVE OPTIMISATION",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "On occasions where subterranean assaults are deemed tactically useful, the hive mind may spontaneously alter its burrowing organisms, enabling them to act as beacons for its will.",
+          "text": "WHEN: Command phase.\nTARGET: One MAWLOC or TRYGON unit from your army.\nEFFECT: Until the start of your next Command phase, your unit has the SYNAPSE keyword."
+        },
+        {
+          "name": "REPLENISHING SWARMS",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "Scrambling through the tunnels come endless multitudes of warrior-beasts and harvester bioforms, spilling out of the depths to reinforce the teeming masses.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One TYRANIDS unit from your army, wholly within 9\" of one or more Tunnel Markers you placed.\nEFFECT: One model in your unit regains up to D3+1 lost wounds, or you can return up to D3+1 destroyed models with a Wounds characteristic of 1 to your unit, with their full wounds remaining, instead."
+        },
+        {
+          "name": "ENFILADING EMERGENCE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Emerging from the depths, Tyranid bioforms level their weapon morphs and spit hissing volleys of living ammunition into the exposed backs of outflanked prey.",
+          "text": "WHEN: End of your Movement phase.\nTARGET: One TYRANIDS unit from your army that was set up as Reinforcements this turn.\nEFFECT: Until the end of your next Fight phase, weapons equipped by models in your unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities."
+        },
+        {
+          "name": "TUNNEL NETWORK",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Taking advantage of freshly burrowed tunnels, Tyranid bioforms move swiftly across the landscape, emerging in unexpected locations.",
+          "text": "WHEN: End of your Movement phase.\nTARGET: One TYRANIDS unit from your army that is wholly within 9\" of one or more of your Tunnel Markers and not within Engagement Range of one or more enemy units.\nEFFECT: Remove your unit from the battlefield and set it up again, wholly within 9\" of another Tunnel Marker you placed, and more than 6\" horizontally away from all enemy units."
+        },
+        {
+          "name": "SWARMING ASSAULT",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "A hive fleet’s vanguard organisms favour mobility and aggression, keeping the foe on the back foot with repeated coordinated assaults.",
+          "text": "WHEN: Your Charge phase.\nTARGET: One TYRANIDS MONSTER unit from your army that was set up as Reinforcements this turn.\nEFFECT: Until the end of the phase, friendly TYRANIDS units within 6\" of your unit can re-roll Charge rolls."
+        },
+        {
+          "name": "RETREAT BELOW",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "The network of tunnels beneath the battlefield enables Tyranid organisms to retreat from the foe and prepare further ambushes.",
+          "text": "WHEN: End of your opponent’s Fight phase.\nTARGET: One TYRANIDS unit or up to two BURROWER units from your army that are not within Engagement Range of one or more enemy units.\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "errata": []
+    },
+    "Ambush Predators": {
+      "name": "Ambush Predators",
+      "rules": [
+        {
+          "name": "Mindhunger",
+          "errata": [],
+          "text": "Ravenous instinct drives these vanguard organisms to predate leaders amongst the prey, and to crack open their crania and devour the quivering mind-meat within.\nFriendly DEATHLEAPER/LICTOR/NEUROLICTOR units have Deep Strike.\nFriendly LICTOR/NEUROLICTOR units’ attacks that target a CHARACTER unit can re-roll hit rolls of 1."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Encircling Horrors",
+          "flavor": "By the time the prey realise that they are being hunted, the Hive Mind’s vanguard organisms have already enfolded them in a murderous embrace. There is no hiding from what comes next.",
+          "text": "NEUROLICTOR/LICTOR/VON RYAN’S LEAPERS unit only. In your opponent’s Movement phase, when an enemy unit ends a move within 8\" of this unit, this unit can make a normal move of up to D3+3\"."
+        },
+        {
+          "name": "Cryptophotaic Camouflage",
+          "flavor": "The dermis of these biohunters has been adapted to subtly alter hue according to what the ocular receptors of the prey expect to see, thus hiding the creatures even in plain sight.",
+          "text": "VON RYAN’S LEAPERS unit only. This unit has -3\" detection range."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "COUNTERPREDATION",
+          "cp": 1,
+          "kind": "Ambush Predators Stratagem",
+          "flavor": "One should never attempt to lay a trap for perfectly adapted ambush hunters, lest one become the prey in turn.",
+          "text": "WHEN: Fight phase, when a friendly DEATHLEAPER/LICTOR/ NEUROLICTOR/VON RYAN’S LEAPERS unit is selected to fight.\nTARGET: That DEATHLEAPER/LICTOR/NEUROLICTOR/VON RYAN’S LEAPERS unit.\nEFFECT: Your unit’s attacks that target a hidden unit have +1 S and AP."
+        },
+        {
+          "name": "HYPERSENSORY ADAPTATIONS",
+          "cp": 1,
+          "kind": "Ambush Predators Stratagem",
+          "flavor": "The organisms that comprise the Tyranid vanguard possess exceptionally keen senses, detecting prey no matter how well hidden it may be and relaying its location to the wider Hive Mind.",
+          "text": "WHEN: Start of your Shooting phase.\nTARGET: One friendly DEATHLEAPER/LICTOR/NEUROLICTOR/VON RYAN’S LEAPERS unit.\nEFFECT: Select one visible enemy unit within 12\" of your unit. That enemy unit has +6\" detection range."
+        },
+        {
+          "name": "SCANNER GHEIST",
+          "cp": 1,
+          "kind": "Ambush Predators Stratagem",
+          "flavor": "What seemed a certain and identified Tyranid contact vanishes suddenly from sight and sensors both, seemingly nothing but a ghost all along.",
+          "text": "WHEN: End of your opponent’s Fight phase.\nTARGET: One friendly unengaged DEATHLEAPER/LICTOR/ NEUROLICTOR unit.\nEFFECT: Place your unit in strategic reserves."
+        }
+      ],
+      "errata": []
+    },
+    "Talons of the Norn Queen": {
+      "name": "Talons of the Norn Queen",
+      "rules": [
+        {
+          "name": "Higher Imperatives",
+          "errata": [],
+          "text": "Capable of incredibly complex reasoning and a frightening level of self-direction, Norn Emissaries and Assimilators display great agency and alien cunning in the completion of their tasks.\nFriendly\nNORN EMISSARY\n/\nNORN ASSIMILATOR\nunits have the following ability:\nProtean Purpose: (Once per battle, per unit) In your Command phase, you can use this ability. If you do, this unit can make a selection for its Singular Purpose ability (this replaces the previous selection)."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Destabilising Predation",
+          "flavor": "Reaching out like the will of the Hive Mind made manifest, this organism’s pinpoint fire is perfectly tailored to strike down leaders amongst the prey.",
+          "text": "NORN EMISSARY unit only. This unit’s ranged attacks have [ANTI-CHARACTER 2+]."
+        },
+        {
+          "name": "Synaptoprescience",
+          "flavor": "As though privy to glimpses of the Hive Mind’s own near‑omniscient view of events, this towering beast weaves unerringly aside from incoming threats.",
+          "text": "NORN ASSIMILATOR unit only. This unit has 4+ InSv."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "CATALYTIC BIOFORTIFICATION",
+          "cp": 1,
+          "kind": "Talons of the Norn Queen Stratagem",
+          "flavor": "Impacts and surface damage trigger explosive inflammation within this organism’s exoskeleton, spawning hardened outer layers that stave off even the most grievous hurts.",
+          "text": "WHEN: Any phase, when a friendly NORN ASSIMILATOR unit suffers a mortal wound.\nTARGET: That NORN ASSIMILATOR unit.\nEFFECT: Your unit has Feel No Pain 4+ against mortal wounds."
+        },
+        {
+          "name": "LESSER PREY",
+          "cp": 1,
+          "kind": "Talons of the Norn Queen Stratagem",
+          "flavor": "Focused on achieving its assigned imperative, this towering bioform smashes prey from its path with glad‑driven surges of additional might.",
+          "text": "WHEN: Fight phase, when a friendly NORN ASSIMILATOR/NORN EMISSARY unit is selected to fight.\nTARGET: That NORN ASSIMILATOR/NORN EMISSARY unit.\nEFFECT: Your unit’s melee attacks have +2 S."
+        },
+        {
+          "name": "TANGLESTRIKE ROUNDS",
+          "cp": 1,
+          "kind": "Talons of the Norn Queen Stratagem",
+          "flavor": "These revolting living shells burst on impact to ensnare nearby prey organisms in a mess of dripping, incredibly sticky strands that take time to tear free of.",
+          "text": "WHEN: Your Shooting phase, when a friendly NORN ASSIMILATOR unit has shot.\nTARGET: That NORN ASSIMILATOR unit.\nEFFECT: Select one enemy unit hit by those attacks. That enemy unit is tethered until the start of your next Command phase:\nWhile a unit is tethered, that unit has -2\" M."
+        }
+      ],
+      "errata": []
+    },
+    "Warrior Bioform Onslaught": {
+      "name": "Warrior Bioform Onslaught",
+      "rules": [
+        {
+          "name": "Leader-beasts",
+          "errata": [],
+          "text": "The Hive Mind has spawned entire swarms of Tyranid Warriors upon this battlefield, adapting them to be tougher as well as more numerous, and thus to serve as better conduits for its will.\nFriendly\nTYRANID WARRIORS WITH RANGED BIO-WEAPONS\n/\nTYRANID WARRIORS WITH MELEE BIO-WEAPONS\nunits have:\nTYRANID WARRIORS.\nBATTLELINE.\nTYRANID WARRIORS/TYRANID PRIME WITH LASH WHIP/WINGED TYRANID PRIME models from your army have 5+ InSv."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Elevated Might",
+          "flavor": "This bioform and its symbiotic weapon-beasts have been adapted for maximum lethality",
+          "text": "WINGED TYRANID PRIME/TYRANID PRIME WITH LASH WHIP model only. This model’s melee attacks:\nCan re-roll wound rolls.Have +1 AP."
+        },
+        {
+          "name": "Ocular Adaptation",
+          "flavor": "This node‑beast’s bioadaptations allow it to perceive the minutest electrical impulse or heat signature. Few prey organisms escape its clutches.",
+          "text": "WINGED TYRANID PRIME/TYRANID PRIME WITH LASH WHIP model only. This unit’s melee attacks have +1 to hit rolls."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "ALIEN PHYSIOLOGY",
+          "cp": 1,
+          "kind": "Warrior Bioform Onslaught Stratagem",
+          "flavor": "The sheer resilience of these warrior organisms appears nighsupernatural to their horrified prey.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly TYRANID WARRIORS unit.\nTARGET: That TYRANID WARRIORS unit.\nEFFECT: Attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
+        },
+        {
+          "name": "SYNAPTIC MICRONODES",
+          "cp": 1,
+          "kind": "Warrior Bioform Onslaught Stratagem",
+          "flavor": "Shed like spores from chitinous exoskeletons, these micronodes infest the very battlefield with minute motes of the Hive Mind’s consciousness.",
+          "text": "WHEN: End of your Movement phase.\nTARGET: One friendly TYRANID WARRIORS unit.\nEFFECT: Select one objective your unit is controlling. That objective is secured."
+        },
+        {
+          "name": "PARASITIC PAYLOAD",
+          "cp": 1,
+          "kind": "Warrior Bioform Onslaught Stratagem",
+          "flavor": "The projectiles fired by this weapon are infected with parasites that burrow into the central nervous systems of their targets, causing them to shriek and convulse, giving away their position to the oncoming swarms.",
+          "text": "WHEN: Your Shooting phase, when a friendly TYRANID WARRIORS unit is selected to shoot.\nTARGET: That TYRANID WARRIORS unit.\nEFFECT: Your unit’s ranged attacks have [IGNORE COVER]."
+        },
+        {
+          "name": "BIO-ACID SURGE",
+          "cp": 1,
+          "kind": "Tyranid Attack – Battle Tactic",
+          "flavor": "Triggered by synaptic imperative, these warrior organisms'weapon limbs secrete dripping gouts of virulent bio-acid.",
+          "text": "WHEN: Fight phase.\nTARGET: One TYRANIDS unit from your army that is within Synapse Range of your army and has not been selected to fight this phase.\nEFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "name": "PHAGIC SPORES",
+          "cp": 1,
+          "kind": "Tyranid Attack – Wargear",
+          "flavor": "In death, these warrior organisms release billowing clouds of hideously corrosive spores that reduce nearby prey to bubbling organic slicks.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\nTARGET: One TYRANID WARRIORS WITH MELEE BIO-WEAPONS or TYRANID WARRIORS WITH RANGED BIO-WEAPONS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed as a result of an attack, do not remove it from play; after the attacking unit has finished making its attacks, roll one D6: on a 3-5, the closest enemy unit within 3\" of and visible to your unit suffers 1 mortal wound; on a 6, the closest enemy unit within 3\" of and visible to your unit suffers 2 mortal wounds. The destroyed model is then removed from play."
+        },
+        {
+          "name": "EXPENDABLE BIOMASS",
+          "cp": 1,
+          "kind": "Tyranid Attack – Strategic Ploy",
+          "flavor": "The Tyranids will expend the lives of their lesser organisms in droves provided it results in their prey’s defeat.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One TYRANID WARRIORS WITH RANGED BIO-WEAPONS unit from your army that has not been selected to shoot this phase.\nEFFECT: Select one enemy unit that is visible to your unit and within Engagement Range of one or more friendly ENDLESS MULTITUDE or RIPPER SWARMS units. Until the end of the phase, your unit is eligible to make ranged attacks against that enemy unit as if it was not within Engagement Range of those friendly units. When doing so, each time a model in your unit makes a ranged attack, subtract 1 from the Hit roll and, after your unit has finished making its attacks, each of those friendly units that started the phase within Engagement Range of that enemy unit suffers D3 mortal wounds."
+        },
+        {
+          "name": "HIVE SIGHT",
+          "cp": 1,
+          "kind": "Tyranid Attack – Strategic Ploy",
+          "flavor": "It is whispered amongst the fearful prey species that if one Tyranid can see you, they all can...",
+          "text": "WHEN: Your Charge phase.\nTARGET: One TYRANIDS SYNAPSE unit from your army and one friendly TYRANIDS unit that has not declared a charge this phase.\nEFFECT: Select one enemy unit that is visible to your SYNAPSE unit. Until the end of the phase, each time your other unit declares a charge, it can include that enemy unit as a target of that charge, even if it is not visible to it, and when doing so, add 1 to the Charge roll."
+        },
+        {
+          "name": "LITHE KILLERS",
+          "cp": 1,
+          "kind": "Boarding Swarm – Battle Tactic",
+          "flavor": "These warrior organisms employ agility and stealth in place of resilience, weaving around their victims' blows and exploiting the tangled internal structures of the voidship to their advantage.",
+          "text": "WHEN: Fight phase, just after an enemy unit has selected its targets.\nTARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, models in your unit have a 5+ invulnerable save."
+        },
+        {
+          "name": "ADRENALISED SLAUGHTER",
+          "cp": 1,
+          "kind": "Boarding Swarm – Strategic Ploy",
+          "flavor": "These organisms contain additional adrenal biomorphs, which send them into a final killing frenzy just before death.",
+          "text": "WHEN: Fight phase, just after an enemy unit has selected its targets.\nTARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 5+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        },
+        {
+          "name": "TALON-TIP SWARM",
+          "cp": 1,
+          "kind": "Boarding Swarm – Strategic Ploy",
+          "flavor": "As they break the prey's lines, these organisms seek key strategic sites to tear apart.",
+          "text": "WHEN: Fight phase, just after a TYRANIDS unit from your army destroys an enemy unit.\nTARGET: That TYRANIDS unit.\nEFFECT: If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 3\". After that move, if your unit is within range of an objective marker and no enemy units are within range of that objective marker, that objective marker is Secured by your army."
+        },
+        {
+          "name": "PREDATORY POUNCE",
+          "cp": 1,
+          "kind": "Boarding Swarm – Strategic Ploy",
+          "flavor": "The internal hatchways of prey voidships make excellent ambush sites for vanguard organisms.",
+          "text": "WHEN: Your opponent’s Movement phase, just after an enemy unit opens a Hatchway.\nTARGET: One TYRANIDS unit from your army that is within 3\" of that Hatchway and is not within Engagement Range of one or more enemy units.\nEFFECT: Your unit can make a Pounce move. To do so, your unit can be moved up to 3\", but must end that move as close as possible to that Hatchway. When doing so, those models can be moved within Engagement Range of that enemy unit, but only that enemy unit."
+        },
+        {
+          "name": "LIVING AVALANCHE",
+          "cp": 1,
+          "kind": "Biotide – Strategic Ploy",
+          "flavor": "This hatchway does not so much slide open as burst asunder like a breached dam, warrior organisms spilling forth from it in a heaving mass.",
+          "text": "WHEN: Your Movement phase, just after a TYRANIDS unit from your army has opened a Hatchway.\nTARGET: That TYRANIDS unit.\nEFFECT: Your unit can make a Swarm move. To do so, your unit can be moved up to 3\", but at least one model from your unit must end that move on the opposite side of that Hatchway from the one it started the phase on. When doing so, those models can be moved within Engagement Range of enemy units."
+        },
+        {
+          "name": "SQUIRMING MASSES",
+          "cp": 1,
+          "kind": "Biotide – Strategic Ploy",
+          "flavor": "Like water flowing through every available gap and channel, the Tyranids squeeze through ducts and vents to spill out in the midst of the prey.",
+          "text": "WHEN: Your Movement phase, at the start of the Reinforcements step.\nTARGET: One ENDLESS MULTITUDE unit from your army that is in Reserves.\nEFFECT: Until the end of the phase, models in your unit have the Deep Strike ability and, when setting them upon the battlefield using that ability, they can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, provided they are also within Synapse Range of your army.\nRESTRICTIONS: You can only use this Stratagem once and, until the end of the turn, your unit is not eligible to declare a charge."
+        },
+        {
+          "name": "SWARM HUNTERS",
+          "cp": 1,
+          "kind": "Biotide – Battle Tactic",
+          "flavor": "These Termagants act like a single, many-limbed, many-weaponed organism, squirming around one another to level the most firepower possible.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One TERMAGANTS unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, models in your unit can ignore other models in their unit for the purposes of determining visibility. In addition, if your unit is within Synapse Range of your army, each time a model in your unit makes an attack, you can re-roll the Hit roll."
+        },
+        {
+          "name": "ONRUSHING HORDE",
+          "cp": 1,
+          "kind": "Biotide – Battle Tactic",
+          "flavor": "Surging toward their victims in a swift mass of screeching maws and lashing talons, the Tyranids are a panic-inducing sight.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\nTARGET: One TYRANIDS unit from your army (excluding WINGED TYRANID PRIME units), that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "HYPERADRENAL REFLEXES",
+          "cp": 1,
+          "kind": "Infestation Swarm – Battle Tactic",
+          "flavor": "Goaded by the biostimulants surging through their bodies, these warrior organisms evade their enemies'attacks with unbelievable swiftness.",
+          "text": "WHEN: Fight phase, just after an enemy unit has selected its targets.\nTARGET: One GREAT DEVOURER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save."
+        },
+        {
+          "name": "PERVASIVE DREAD",
+          "cp": 1,
+          "kind": "Infestation Swarm – Strategic Ploy",
+          "flavor": "With the death of their leader, the surviving prey feel an ominous sense of doom press down upon them, heightened by subtle psionic assault.",
+          "text": "WHEN: Fight phase, just after the enemy WARLORD is destroyed (and is not returned to the battlefield) by a GREAT DEVOURER unit from your army.\nTARGET: That GREAT DEVOURER unit.\nEFFECT: In your opponent’s next Command phase, each enemy unit on the battlefield must take a Battle-shock test, subtracting 1 from the result. This Stratagem cannot cause a unit to take two Battle-shock tests in the same phase."
+        },
+        {
+          "name": "HUNTING GROUNDS",
+          "cp": 1,
+          "kind": "Infestation Swarm – Strategic Ploy",
+          "flavor": "Genestealers on the hunt are relentless, squirming through hatches before they have even half opened.",
+          "text": "WHEN: Your Movement phase, just after a GREAT DEVOURER unit from your army opens a Hatchway.\nTARGET: That GREAT DEVOURER unit.\nEFFECT: Your unit can make a Normal move of up to 3\", provided at least one of its models ends that move on the opposite side of that Hatchway from when your unit opened it."
+        },
+        {
+          "name": "OUTFLANK",
+          "cp": 1,
+          "kind": "Infestation Swarm – Strategic Ploy",
+          "flavor": "Swarms of Genestealers crawl through vents and ducts as they seek to outflank their prey.",
+          "text": "WHEN: End of your opponent’s Fight phase.\nTARGET: One GENESTEALERS or PURESTRAIN GENESTEALERS unit from your army that is wholly within an Entry Zone.\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves. It will arrive back on the battlefield in the Reinforcements step of your next Movement phase. When doing so, if it was within one of your Entry Zones when it was removed, it must be set up wholly within another one of your Entry Zones. If it was within one of your opponent’s Entry Zones when it was removed, it must be set up wholly within another one of your opponent’s Entry Zones instead. If this is not possible, your unit is destroyed."
+        },
+        {
+          "name": "UNSEEN LURKERS",
+          "cp": 1,
+          "kind": "Vanguard Onslaught – Strategic Ploy",
+          "flavor": "Hyper-attuned senses warn vanguard organisms when they are being targeted by the prey.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\nTARGET: One VANGUARD INVADER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\" or, if your unit has the Lone Operative ability, if the attacking model is within 6\". Your opponent can select new targets for the attacking unit’s attacks."
+        },
+        {
+          "name": "RAPID REGENERATION",
+          "cp": 1,
+          "kind": "Invasion Fleet – Battle Tactic",
+          "flavor": "Prey stare in horror as chitinous armour regrows and flesh, muscle and sinew knots back together.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\nTARGET: One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within Synapse Range of your army, models in your unit have the Feel No Pain 5+ ability instead."
+        },
+        {
+          "name": "RECLAIM BIOMASS",
+          "cp": 1,
+          "kind": "Assimilation Swarm – Strategic Ploy",
+          "flavor": "Dead Tyranids are consumed and reconstituted by the swarm just as readily as the lifeless carcasses of their prey.",
+          "text": "WHEN: Any phase, when a TYRANIDS unit from your army is destroyed, before the last model in it is removed from play.\nTARGET: One HARVESTER unit from your army that is within 6\" of that destroyed unit.\nEFFECT: Regenerate one friendly TYRANIDS unit within 6\" of your HARVESTER unit (See Feed the Swarm)."
+        },
+        {
+          "name": "SYNAPTIC GOADING",
+          "cp": 1,
+          "kind": "Unending Swarm – Strategic Ploy",
+          "flavor": "For a moment, a minuscule sliver of the Hive Mind’s ineffable will is focussed through these warrior organisms, driving them to pounce upon either valuable prey or else some vital strategic target.",
+          "text": "WHEN: Any phase, just before an ENDLESS MULTITUDE unit from your army that is within Synapse Range of your army makes a Surge move.\nTARGET: That ENDLESS MULTITUDE unit.\nEFFECT: When making that Surge move, you can re-roll the D6 to determine how far your unit moves, and your unit can end that move as close as possible to the closest objective marker (instead of as close as possible to the closest enemy unit]. All other rules for making Surge moves still apply."
+        },
+        {
+          "name": "INSANE BRAVERY15.04",
+          "cp": 1,
+          "kind": "Core",
+          "flavor": "Indifferent to their own survival, these warriors hold their ground against seemingly impossible odds.",
+          "text": "WHEN: Battle-shock step of your Command phase, just before you make a battle-shock roll for a friendly unit.\nTARGET: That unit.\nEFFECT: That battle-shock roll is automatically successful.\nRESTRICTIONS: You cannot use this stratagem more than once per battle."
+        },
+        {
+          "name": "SURGE MOVE21.02",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE: As stated in the rule allowing this move type.ELIGIBLE IF: All of the following apply:\nThe rule allowing this move type has been triggered.Your unit is not battle-shocked.Your unit is unengaged.Your unit has not moved this phase.EFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Select the closest enemy unit to be the surge target.\nWHILE MOVING:\nEach model must end its move engaged with the surge target if possible.Each model that cannot end its move engaged with the surge target must end its move as close as possible to the surge target.AFTER MOVING:\nYour unit cannot be engaged with one or more enemy units that were not the surge target.Your unit cannot move again this phase."
+        },
+        {
+          "name": "ADVANCE MOVE09.06",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Advance roll + your unit’s M characteristic.ELIGIBLE IF: Your unit is on the battlefield and unengaged.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Make an advance roll by rolling one D6.\nAFTER MOVING:\nYour unit must be unengaged.Until the end of the turn, unless otherwise stated, your unit is not eligible to declare a charge or start an action."
+        },
+        {
+          "name": "CONSOLIDATION MOVE12.08",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: 3\"ELIGIBLE IF: It is the Fight phase and your unit was eligible to fight this phase.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Select consolidation mode:\nOngoing Consolidation: If your unit is engaged, you must select this mode and select every enemy unit it is engaged with.Engaging Consolidation: Otherwise, if your unit is within 3\" of one or more enemy units, you must select this mode and select one or more of those enemy units.Objective Consolidation: Otherwise, if your unit is within 3\" of one or more objectives, you must select this mode and select one of those objectives.WHILE MOVING:\nOngoing Consolidation: Models in base-contact with one or more enemy models cannot be moved. Each model that is moved must end its move closer to the closest selected enemy unit, and engaged with it if possible.Engaging Consolidation: Each model that is moved must end its move closer to the closest selected enemy unit, and engaged with it if possible.Objective Consolidation: Each model that is moved must end its move within range of the selected objective if possible, or closer to it if not.AFTER MOVING:\nOngoing Consolidation: Each model that started this move engaged with an enemy unit must still be engaged with that enemy unit.Engaging Consolidation: Your unit must be engaged with all of the selected enemy units. If one or more enemy units engaged with your unit have not been selected to fight this phase, your opponent must select each of those units, one at a time; when each is selected, it becomes eligible to fight and is selected to fight (12.04).Objective Consolidation: Your unit must be unengaged and within range of the selected objective."
+        },
+        {
+          "name": "NORMAL MOVE09.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Your unit’s M characteristic.ELIGIBLE IF: Your unit is on the battlefield and unengaged.\nEFFECT: Your unit moves as described in Moving (03).\nAFTER MOVING: Your unit must be unengaged."
+        },
+        {
+          "name": "EMERGENCY DISEMBARK MOVE18.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE: 6\"ELIGIBLE IF: Your unit is embarked within a TRANSPORT model that was just destroyed.\nEFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Make a hazard roll for each model in your unit (06.03).\nWHILE MOVING: Set up each model in your unit: (1) Wholly within the set-up distance of that TRANSPORT, and as close as possible to that TRANSPORT. OR: (2) If the above is not possible while remaining unengaged, set up that model wholly within the set-up distance of that TRANSPORT, as close as possible to that TRANSPORT, and engaged. Each model that still cannot be set up is destroyed.\nAFTER MOVING: Your unit is battle-shocked and, until the end of the turn, it is not eligible to declare a charge."
+        },
+        {
+          "name": "FALL-BACK MOVE09.07",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Your unit’s M characteristic.ELIGIBLE IF: Your unit is engaged.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Select fall-back mode:\nOrdered Retreat: If your unit is not battle-shocked, you can select this mode.Desperate Escape: Otherwise, you must select this mode. Make a hazard roll for each model in your unit (06.03).WHILE MOVING:\nDesperate Escape: Each model that is moved can be moved through enemy models.AFTER MOVING:\nYour unit must be unengaged.Until the end of the turn, unless otherwise stated, your unit is not eligible to shoot, declare a charge or start an action.Desperate Escape: If your unit is not battle-shocked, you must make a battle-shock roll for your unit (01.07)."
+        },
+        {
+          "name": "HEROIC INTERVENTION15.11",
+          "cp": 1,
+          "kind": "Core",
+          "flavor": "Voices raised in furious war cries, your warriors surge forth to meet the enemy’s onslaught head-on.",
+          "text": "WHEN: End of your opponent’s Charge phase.\nTARGET: One friendly unengaged unit within 12\" of one or more enemy units. You can only select a VEHICLE unit if it is a CHARACTER/WALKER unit.\nEFFECT: Resolve a charge with your unit (11.02). While doing so, before making the charge roll, you must select one of the following modes:\nLeap to Defend: When selecting charge targets, you can only select enemy units that made a charge move this phase and are within the maximum distance.+1CPInto the Fray:\nWhen making the charge roll, if the result is greater than 6 (after modifiers), change it to 6.When selecting charge targets, you can select any enemy units that are within 6\" of your unit and within the maximum distance."
+        },
+        {
+          "name": "INGRESS MOVE20.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE: 6\"ELIGIBLE IF: Your unit is in strategic reserves (excluding units that are embarked within TRANSPORTS that are themselves in strategic reserves).\nEFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Your unit is set up as described in Set Up (03.02).\nWHILE MOVING: Set up your unit wholly within the set-up distance of one or more battlefield edges and more than 8\" horizontally from all enemy units.\nBefore the Third Battle Round: While doing so, no models can be set up within your opponent’s deployment zone.AFTER MOVING: Unless otherwise stated, until the start of the next Charge phase, your unit is not eligible to make any other type of move."
+        },
+        {
+          "name": "RAPID INGRESS15.07",
+          "cp": 1,
+          "kind": "Core",
+          "flavor": "Be it cunning strategy, potent technology or supernatural ritual, there are many means by which a commander may hasten their warriors’ onset.",
+          "text": "WHEN: End of your opponent’s Movement phase.\nTARGET: One friendly unit that is in strategic reserves (excluding AIRCRAFT).\nEFFECT: Your unit makes an ingress move (20.04).\nRESTRICTIONS: You cannot use this stratagem during the first battle round."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Synapse Army Rule",
+          "text": "Change to: ‘If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly SYNAPSE models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army:\nEach time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6.Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.’"
+        },
+        {
+          "scope": "Feed the Swarm Detachment Rule",
+          "text": "Change to:\n‘In your Command phase, each HARVESTER unit from your army can Regenerate one friendly TYRANIDS unit that is within 6\" of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following:\nOne model in that unit regains up to D3+1 lost wounds.One destroyed INFANTRY model (excluding CHARACTERS) is returned to that unit with its full wounds remaining. If that unit is an ENDLESS MULTITUDE unit, up to 3 destroyed models are returned instead.’"
+        },
+        {
+          "scope": "Insurmountable Odds Detachment Rule",
+          "text": "Change to:\n'In your opponent’s Shooting phase, when an enemy unit has shot, if a model from a friendly ENDLESS MULTITUDE unit was destroyed as a result of those attacks, that friendly unit can make a surge move of up to D6”.'"
+        },
+        {
+          "scope": "Shadow in the Warp Army Rule",
+          "text": "Change to: ‘If your Army Faction is TYRANIDS, once per battle, in either player’s Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test. Each time an enemy unit takes such a Battle-shock test, if it is within 6\" of one or more SYNAPSE units from your army, subtract 1 from that test.’"
+        },
+        {
+          "scope": "13.09 - Change to First Bullet Point",
+          "text": "Change to: ‘That model has the INFANTRY/BEASTS/SWARM keyword and is within a terrain area that contains one or more light/dense terrain features.’"
+        },
+        {
+          "scope": "Cult Ambush",
+          "text": "Change to:\n‘If your Army Faction is GENESTEALER CULTS, you start the battle with a number of Resurgence points, depending on the battle size, as shown below.\nIncursion: 6 Resurgence pointsStrike Force: 10 Resurgence pointsOnslaught: 14 Resurgence points\nEach time a unit from your army is destroyed, if every model (excluding CHARACTER models) in that unit has this ability, you can spend the relevant number of Resurgence points shown below based on that unit’s Starting Strength (not including attached CHARACTER models).\nAberrants\n5 models 4 Resurgence points\n10 models 8 Resurgence points\nAcolyte Hybrids with Autopistols, Acolyte Hybrids with Hand Flamers, Hybrid Metamorphs\n5 models 2 Resurgence points\n10 models 4 Resurgence points\nAtalan Jackals\n5 models 2 Resurgence points\n10 models 6 Resurgence points\nNeophyte Hybrids\n10 models 3 Resurgence points\n20 models 6 Resurgence points\nPurestrain Genestealers\n5 models 2 Resurgence points\n10 models 6 Resurgence points\nIf you do:\nAdd a new unit to your army identical to your destroyed unit (excluding CHARACTER models), in Cult Ambush, at its Starting Strength, with all of its wounds remaining and any [ONE SHOT] weapons those models are equipped with considered as not having been shot.Place one Cult Ambush marker (see below) anywhere on the battlefield that is more than 8\" horizontally away from all enemy units (if this is not possible, no marker is placed).\nUNITS IN CULT AMBUSH\nCult Ambush is a type of Strategic Reserves. Units in Cult Ambush cannot be targeted with the Rapid Ingress Stratagem, but can be set up on the battlefield using a Cult Ambush marker as described below, or by following the rules for Strategic Reserves in a subsequent turn. Units in Cult Ambush are not automically destroyed at the end of the third battle round.\nCULT AMBUSH MARKERS\nUse a circular 32mm diameter marker for Cult Ambush markers. If an enemy model (excluding AIRCRAFT) ends any kind of move within 8\" of a Cult Ambush marker you placed, that Cult Ambush marker is removed from the battlefield. At the end of your opponent’s next Movement phase, for each of your Cult Ambush markers still on the battlefield, you can select one unit from your army that is in Cult Ambush to make an ingress move. For that ingress move, set that unit up with at least one model in that unit in base contact with that Cult Ambush marker and all other models placed wholly within 3\" of that Cult Ambush marker (that Cult Ambush marker is then removed from the battlefield). Units in Cult Ambush can make an ingress move in the first battle round using this rule.’"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,867 @@
+{
+  "source": "https://wahapedia.ru/wh40k11ed/factions/leagues-of-votann/",
+  "armyRules": [
+    {
+      "name": "Prioritised Efficiency",
+      "errata": [],
+      "text": "As the Kin truth describes, Luck has. Need keeps. Toil earns. The kinhost’s ability to efficiently switch its strategic footing embodies this wisdom. It results from swift assessments of a foe’s possessions, how best to seize them for the kindred’s need and then to stubbornly toil to hold them against counterattacks.\nIf your Army Faction is\nLEAGUES\nOF\nVOTANN\n,\nLEAGUES OF VOTANN\nunits from your army have one of two abilities: Hostile Acquisition or Fortify Takeover (see below). During the battle, which ability those\nLEAGUES\nOF\nVOTANN\nunits have will change depending on how many Yield points (YP) you currently have:\nAt the start of the battle, your units have Hostile Acquisition until the start of your next Command phase.\nAt the end of your Command phase, if you have fewer than 7YP, your units have Hostile Acquisition until the start of your next Command phase.\nAt the end of your Command phase, if you have 7YP or more, your units have Fortify Takeover until the start of your next Command phase.\nHostile Acquisition\nEach time a model in this unit makes an attack that targets an enemy unit within range of one or more objective markers, add 1 to the Hit roll.\nYou can re-roll Advance and Charge rolls made for this unit.\nFortify Takeover\nEach time a model in this unit makes an attack that targets an enemy unit, if this unit is within range of one or more objective markers you control, add 1 to the Hit roll.\nEach time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic and this unit is not a VEHICLE, subtract 1 from the Wound roll.\nYield Points\nAt the end of each player’s Command phase, you gain 1YP if you control one or more objective markers within your deployment zone, and, from the second\nbattle round\nonwards, you gain 1 additional YP for each of the following conditions you satisfy:\nYou control one or more objective markers not within your deployment zone.\nYou control two or more objective markers not within your deployment zone.\nYou control more objective markers than your opponent.\nIn your turn, YP gained in this way are always gained before checking which ability\nLEAGUES\nOF\nVOTANN\nunits from your army have.\nWhenever a rule allows you to spend YP, reduce the number of YP you have by that amount (your YP cannot go below 0), otherwise you cannot use that rule.\nDesigner’s Note:\nThis means you can use rules that let you gain or spend YP to influence which ability your units have - Hostile Acquisition or Fortify Takeover - depending on which will be most beneficial to you. Remember that your army only changes ability at the end of your Command phase, so you will - sometimes need to plan ahead if you want your army to stay in or change ability.\nExample: In her third turn, Freida’s units had the Hostile Acquisition ability, as she had 6YP at the end of her Command phase. In her fourth turn, at the end of her Command phase, she controls one objective marker within her deployment zone, and one objective marker not within her deployment zone, and her opponent controls two objective markers. Freida gains 2YP, so she now has 8YP, and her units now have the Fortify Takeover ability instead.\nDuring her turn, Freida uses a Stratagem that allows her to spend YP. She spends 2YP, bringing her total down to 6YP. However, units from her army still have Fortify Takeover - it will only change if, at the end of her next Command phase, she still has fewer than 7YP."
+    }
+  ],
+  "detachments": {
+    "Needgaârd Oathband": {
+      "name": "Needgaârd Oathband",
+      "rules": [
+        {
+          "name": "Martial Leverage",
+          "errata": [],
+          "text": "The weighing of costs in Kin lives and materiel expended against prospective material benefits is an instinct amongst kinhost commanders. Those who lead needgaârd oathbands leverage the deaths of their foes into these equations at every opportunity. Crushing the enemy’s soldiery and war engines can shift the balance of martial power, enabling a canny commander to spend the advantage it provides elsewhere.\nEach time an enemy unit is destroyed, you gain 1YP."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Oathbound Speculator",
+          "flavor": "This kindred hero is a master of knowing the right moment to funnel the kinhosts precious resources into the most efficient destruction of the foe.",
+          "text": "LEAGUES OF VOTANN model only. Each time a model in the bearer’s unit makes an attack, re-roll a Wound roll of 1. Each time the bearer’s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer’s unit makes an attack, add 1 to the Wound roll."
+        },
+        {
+          "name": "Dead Reckoning",
+          "flavor": "Through vigilant and judicious calculation, this commander marshals their warriors’ reserves against future martial requirements.",
+          "text": "LEAGUES OF VOTANN model only. At the end of the turn, if the bearer is on the battlefield and you spent no YP in that turn, you can gain 1YP."
+        },
+        {
+          "name": "Iron Ambassador",
+          "flavor": "This exceptional weapon has been wielded by heroes against the enemies of numerous leagues and has been the last word in many a failed negotiation with obdurate foes.",
+          "text": "LEAGUES OF VOTANN model equipped with an Autoch-pattern combi-bolter only. Once per battle, when the bearer’s unit is selected to shoot, the bearer can use this Enhancement. If it does, spend up to 3YP and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer’s ranged weapons."
+        },
+        {
+          "name": "Ancestral Crest",
+          "flavor": "It is said that this crest, inscribed with runes of the great Ancestor Cores, acts like a mobile fane through which the wisdom and gestalt power of the Votann flow.",
+          "text": "LEAGUES OF VOTANN model only. Once per turn, when you target the bearer’s unit with the Command Re-roll Stratagem, the bearer can use this Enhancement. If it does, spend 1YP and reduce the CP cost of that use of that Stratagem by 1CP."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "VOID HARDENED",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "Between their resilient armour and technology and their capacity to stoically endure pain and suffering, the Kin can weather devastating attacks.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets, if units from your army have Fortify Takeover.\nTARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1."
+        },
+        {
+          "name": "HONOUR OF THE HOLD",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "A kinhost's warriors take great pride in their combat proficiency as a symbol of their hold’s honour. The drive to cleave their foes apart is given greater impetus in pursuit of their kindred's needs.",
+          "text": "WHEN: Fight phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.\nEFFECT: Each time you use this Stratagem, you can spend 3YP. Select one enemy unit within Engagement Range of your unit. Until the end of the phase, each time a model in your unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. If you spent YP during this use of this Stratagem, improve the Armour Penetration characteristic of that attack by 2 instead."
+        },
+        {
+          "name": "ORDERED RETREAT",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Not for the Kin the sudden panic of the rout. Instead, they fall back steadily and by squads, laying down suppressing fire while preparing fresh assaults.",
+          "text": "WHEN: Your Movement phase, just after a LEAGUES OF VOTANN unit from your army Falls Back.\nTARGET: That LEAGUES OF VOTANN unit.\nEFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "name": "ANCESTRAL SENTENCE",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Some foes are so loathed that their ancestors are told to pass a sentence upon them. Marked for death, these enemies suffer the undiluted wrath of the Kin.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.\nEFFECT: Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. If you spent YP during this use of this Stratagem, until the end of the phase, those weapons have the [SUSTAINED HITS 2] ability instead."
+        },
+        {
+          "name": "HUNTR’S MARK",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Sensor-network calibration tied to the HunTR modules on Kin weaponry can portly automate targeting to ensure the uncompromising judgement of the Votann is carried out without fail.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+        },
+        {
+          "name": "REACTIVE REPRISAL",
+          "cp": 2,
+          "kind": "Strategic Ploy",
+          "flavor": "Once prizes have been seized, the Kin focus their efforts upon maximising their control and respond with redoubled fury to attempts to loosen their grip.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot, if units from your army have Fortify Takeover.\nTARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Your unit can shoot as if it were your Shooting phase, can only target that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Needgaârd Oathband Detachment, Void Hardened Stratagem, Effect Section",
+          "text": "Change to:\n‘Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.’"
+        },
+        {
+          "scope": "Needgaârd Oathband Detachment, Reactive Reprisal Stratagem, Effect Section",
+          "text": "Change to:\n‘Your unit can shoot as if it were your Shooting phase, can only target that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.’"
+        }
+      ]
+    },
+    "Persecution Prospect": {
+      "name": "Persecution Prospect",
+      "rules": [
+        {
+          "name": "Assailed From Every Angle",
+          "errata": [],
+          "text": "The Kin of persecution prospects are skilled in escalating their attacks with unrelenting volleys of fire. They pressure the kindred’s foes repeatedly from infiltration positions, unleash enfilading fire from the flanks and surge forward to blaze away at point-blank range before manoeuvring swiftly to other attack angles. Besides the death and destruction they cause, the prospect’s forces leave foes disarrayed, with little chance to rally any ravaged survivors before other Kin capitalise on their plight.\nLEAGUES OF VOTANN\nunits from your army have the following ability:\nGuerrilla Adepts:\nIn your\nShooting phase\n, just after this unit is selected to shoot, this unit can use this ability. If it does, select one enemy unit (excluding\nMONSTERS\nand\nVEHICLES\n). Until the end of the phase, attacks made by models in this unit can only target that enemy unit (and only if it is an eligible target) and, after resolving those attacks, if one or more of those attacks hit that enemy unit, until the start of your next Shooting phase, that enemy unit is assailed (this simply labels that unit for the purposes of this ability and some Enhancements and Stratagems). If that unit is already assailed, until the start of your next Shooting phase, it is also pinned. While a unit is pinned, subtract 2\" from its Move characteristic and subtract 2 from\nCharge rolls\nmade for it."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Eye for Weakness",
+          "flavor": "Any hint of vulnerability draws the gaze of this punitive assessor like a rich vein of ore.",
+          "text": "LEAGUES OF VOTANN model only. Each time a model in the bearer’s unit makes an attack that targets an assailed unit, add 1 to the Wound roll."
+        },
+        {
+          "name": "Writ of Acquisition",
+          "flavor": "This mnestic mesh of circuitry records and analyses the enemy’s response under fire as witnessed by the bearer, harvesting valuable intelligence on their capabilities.",
+          "text": "LEAGUES OF VOTANN model only. In your Shooting phase, after the bearer’s unit has shot, you gain 1YP for each assailed enemy unit hit by one or more of those attacks (to a maximum of 3YP)."
+        },
+        {
+          "name": "Surgical Saboteur",
+          "flavor": "Experience has taught this survivor the weak points of the most significant threats, enabling them to pinpoint joints and locomotive mechanisms to slow down such brutes.",
+          "text": "LEAGUES OF VOTANN model only. In your Shooting phase, after the bearer’s unit has shot, select one MONSTER or VEHICLE unit hit by one or more of those attacks; until the start of your next Shooting phase, that unit is pinned."
+        },
+        {
+          "name": "Nomad Strategist",
+          "flavor": "The mobile strategies of this far-ranging commander allow them to swiftly reposition their most versatile forces and exploit weaknesses in the enemy’s battle lines.",
+          "text": "LEAGUES OF VOTANN model only. Once per battle, at the end of your opponent’s Fight phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, you can spend up to 4YP. Select one HERNKYN unit from your army, and, for every 2YP you just spent, select up to one additional HERNKYN unit from your army. You can remove those units from the battlefield and place them into Strategic Reserves. You cannot select a unit that is within Engagement Range of one or more enemy units (excluding assailed units)."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "ADAPTABLE AVARICE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "When opportunity catches the eye of a prospect's commander, they will readily resume a rapid and aggressive footing.",
+          "text": "WHEN: Start of any phase, if units from your army have Fortify Takeover.\nTARGET: One LEAGUES OF VOTANN CHARACTER unit from your army.\nEFFECT: Each time you use this Stratagem, you can spend any number of YP. Once you have done so, if you have 6 or fewer YP, until the start of your next turn, units from your army have Hostile Acquisition instead."
+        },
+        {
+          "name": "FRONTIER MOMENTUM",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Beyond the frontiers of kindred territory, survival depends upon swiftness of thought and action.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One HERNKYN unit from your army that has not been selected to move this phase.\nEFFECT: Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit."
+        },
+        {
+          "name": "EXPOSED FLAWS",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Attuned to discerning imperfections in possible resources, Hernkyn soon spot weaknesses in their foes and are just as swift to profit from them.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One HERNKYN unit from your army that has not been selected to shoot this phase.\nEFFECT: Each time you use this Stratagem, you can spend 2YP. Until the end of the phase, each time a model in your unit makes an attack, if you spent YP during this use of this Stratagem and/or if that attack targets an assailed unit, you can re-roll the Wound roll."
+        },
+        {
+          "name": "RANGER TACTICS",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Foes thrown into disarray by the Hernkyn offer a vulnerability that is swiftly exploited.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, if that attack targets an assailed unit and/or if your unit has the HERNKYN keyword, you can re-roll the Hit roll."
+        },
+        {
+          "name": "CLAIMSTAKER REFLEX",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "The instinct to seize the most advantageous and dominating positions is ingrained in the Kin.",
+          "text": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.\nTARGET: One LEAGUES OF VOTANN unit from your army (excluding ARTILLERY and VEHICLE units) that is within 8\" of that enemy unit.\nEFFECT: Each time you use this Stratagem, you can spend 2YP. Your unit can make a Normal move of up to D6\". If you spent YP during this use of this Stratagem, your unit can make a Normal move of up to 6\" instead.\nRESTRICTIONS: A unit cannot embark within a TRANSPORT as part of this move."
+        },
+        {
+          "name": "DISPERSED FORMATION",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "A prospect's warriors will efficiently scatter to minimise the threat of concerted enemy fire.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.\nTARGET: One LEAGUES OF VOTANN INFANTRY or LEAGUES OF VOTANN MOUNTED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, your unit has the Stealth ability and each time a ranged attack targets your unit, models in your unit have the Benefit of Cover against that attack."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Persection Prosepct Detachment, Claimstaker Reflex Stratagem, Target Section",
+          "text": "Change 9\" to 8\"."
+        }
+      ]
+    },
+    "Dêlve Assault Shift": {
+      "name": "Dêlve Assault Shift",
+      "rules": [
+        {
+          "name": "Fury From The Dêlve",
+          "errata": [],
+          "text": "Efficiency and practicality are ingrained in all Kin. Thus, the most meagre of Cthonian dêlves are well-equipped networks of passages, accessways and teleport nodes that enable a guild's bionically altered elites to appear where the foe least expects them. They emerge saturated with cyberstimulants and full of fury, ready to smash asunder those who dare trespass amongst their guild’s operations.\nCTHONIAN BESERKS\nunits from your army have the\nDeep Strike\nability.\nKEYWORDS\nCTHONIAN\nBESERKS\nunits from your army gain the\nBATTLELINE\nkeyword."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Dêlvwerke Navigator",
+          "flavor": "With a mastery of the dêllve’s workings, guild reserves can be expertly directed to where they are needed most.",
+          "text": "LEAGUES OF VOTANN model only. In the Reinforcements step of your Movement phase, the bearer can use this Enhancement. If it does, select one friendly CTHONIAN BESERKS unit visible to the bearer and then spend any number of YP. Return one destroyed model (excluding CHARACTER models) to that unit and then, for every 2YP you just spent, return up to one additional destroyed model (excluding CHARACTER models) to that unit.ErrataShowDêlve Assault Shift Detachment, Dêlvewerke Navigator Enhancement, Last SentenceChange to:\n‘Return one destroyed model (excluding CHARACTER models) to that unit and then, for every 2YP you just spent, return up to one additional destroyed model (excluding CHARACTER models) to that unit.'"
+        },
+        {
+          "name": "Multiwave System Jammer",
+          "flavor": "This master-wrought comms array fouls enemy sensors, blinding the foe to the bearer's closing Cthonian allies.",
+          "text": "LEAGUES OF VOTANN model only. Once per battle, in your Movement phase, if the bearer is on the battlefield, it can use this Enhancement. If it does, select one friendly CTHONIAN unit that is in Reserves. Until the end of the phase, for the purposes of setting up that unit on the battlefield, treat the current battle round number as being one higher than it actually is."
+        },
+        {
+          "name": "Quake Supervisor",
+          "flavor": "This structural analyst specialises in plotting attacks that exploit underlying weaknesses to deadly effect:",
+          "text": "LEAGUES OF VOTANN model only. While the bearer is within 3\" of one or more friendly LEAGUES OF VOTANN ARTILLERY units, the bearer has the Lone Operative ability, and each time one of those ARTILLERY units makes a ranged attack that targets an enemy unit visible to the bearer, add 1 to the Hit roll."
+        },
+        {
+          "name": "Piledriver",
+          "flavor": "Kin possessed of a ruthlessly direct attitude allow no impediments - no matter how large - to bar their path.",
+          "text": "LEAGUES OF VOTANN model only. Each time the bearer’s unit is selected to fight, the bearer can use this Enhancement. If it does, spend up to 2YP and, until the end of the phase, add the number of YP you just spent to the Damage characteristic of the bearer’s melee weapons."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "CYBERSTIMM INFUSION",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "The subdermal shunts of Cthonian Beserks can flood their bodies with stimulant chemicals. So empowered, they can smash through the toughest of enemies as easily as an obdurate ore seam.",
+          "text": "WHEN: Fight phase.\nTARGET: One CTHONIAN BESERKS unit from your army that has not been selected to fight this phase.\nEFFECT: Each time you use this Stratagem, you can spend 2YP. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If you spent YP during this use of this Stratagem, you can re-roll the Wound roll instead."
+        },
+        {
+          "name": "UNSTOPPABLE FORCE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "With their enemies within reach, the Kin’s fury and momentum become an elemental force that will not be stayed.",
+          "text": "WHEN: Fight phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.\nEFFECT: Until the end of the phase, each time your unit Piles In or Consolidates, each model in that unit can move up to 6\" instead of up to 3\"."
+        },
+        {
+          "name": "AUGMENTED ASSAULT",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "The profusion of bionic augmentations that Beserks possess can grant them a burst of incredible speed, one that can drive them - a guttural war song on their lips - into their reeling foes like a meteor.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One CTHONIAN BESERKS unit from your army that has not been selected to move this phase.\nEFFECT: Each time you use this Stratagem, you can spend up to 2YP. Until the end of the turn, add X\" to the Move characteristic of models in your unit, where X is the number of YP you spent during this use of this Stratagem, and your unit is eligible to declare a charge in a turn in which it Advanced."
+        },
+        {
+          "name": "TECTONIC FRACTURE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Skilled Cthonian gunners can initiate localised quakes and pressure waves of such intensity that foes struggle to retain their impetus.",
+          "text": "WHEN: Your Shooting phase, just after a CTHONIAN EARTHSHAKERS unit from your army has shot.\nTARGET: That CTHONIAN EARTHSHAKERS unit.\nEFFECT: Each time you use this Stratagem, you can spend 2YP. Select one enemy unit hit by one or more of your unit’s attacks this phase. Until the start of your next Shooting phase, subtract 2 from that unit’s Move characteristic and, if you spent YP during this use of this Stratagem, subtract 2 from Charge rolls made for that unit."
+        },
+        {
+          "name": "WEAVEWËRKE BUTTRESS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Every dêlve is threaded with force fields to shield against catastrophe, a protection that can be tapped in battle to support advances into hostile territory.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets, if units from your army have Hostile Acquisition.\nTARGET: One LEAGUES OF VOTANN INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "HIDDEN ACCESSWAYS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "A guild’s elite can swiftly reenter the dêlve’s labyrinth, slipping into an artfully hidden tunnel or activating site-to-site teleports, ready to attack elsewhere at a moment's notice.",
+          "text": "WHEN: End of your opponent’s Fight phase.\nTARGET: One CTHONIAN BESERKS, HEARTHKYN WARRIORS or HERNKYN YAEGIRS unit from your army that is not within Engagement Range of one or more enemy units.\nEFFECT: Remove your unit from the battlefield and place it into Strategic Reserves."
+        }
+      ],
+      "errata": []
+    },
+    "Brandfast Oathband": {
+      "name": "Brandfast Oathband",
+      "rules": [
+        {
+          "name": "Mobile Sensor Relays",
+          "errata": [],
+          "text": "The massed armoured transports of a brandfast oathband connect to an encrypted data network shared by squads of Kin. Their robust sensor webs broadcast various targeting information and extrapolated judgements on enemy movements. Nearby warriors can tap into this wealth of data, enabling them to unleash salvoes of lethal efficiency.\nLEAGUES OF VOTANN TRANSPORT\nunits from your army have the following ability:\nFirebase Control (Aura):\nWhile a friendly\nLEAGUES OF VOTANN INFANTRY\nunit is wholly within 6\" of this\nTRANSPORT\n, ranged weapons equipped by models in that\nINFANTRY\nunit have the\n[sustained hits 1]\nability."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Tactical Alchemy",
+          "flavor": "The greatest kinhost commanders can transmute profitable yields into more immediate tactical and strategic support.",
+          "text": "KÂHL model only. In your Command phase, if the bearer’s unit is within range of one or more objective markers you control that are not within your deployment zone, you can spend 1YP. If you do, roll one D6: on a 4+, you gain 1CP."
+        },
+        {
+          "name": "Trivärg Cyber Implant",
+          "flavor": "A neural artefact of the famed - but tragically extinct - Trivärg Fisculate Guild of Brôkhyr, this implant enables its host to coordinate fire patterns with exemplary skill and extraordinary speed, directly accessing vehicular systems to triangulate overlapping attack angles.",
+          "text": "LEAGUES OF VOTANN model only. In your Shooting phase, each time the bearer’s unit is selected to shoot, if it disembarked from a TRANSPORT this turn, or if you spend 2YP, until the end of the phase, ranged weapons equipped by models in that unit have the [sustained HITS 2] ability."
+        },
+        {
+          "name": "Precursive Judgement",
+          "flavor": "This commander swiftly acts on alerts from trusted logic cores and unleashes deadly judgements before the kindred’s foes escape.",
+          "text": "KÂHL model only. While the bearer’s unit is wholly within 6\" of one or more friendly LEAGUES OF VOTANN TRANSPORT units, you can target the bearer’s unit with the Fire Overwatch Stratagem for 0CP and hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem."
+        },
+        {
+          "name": "Signature Restoration",
+          "flavor": "The masterful and efficient work of this senior Brôkhyr is renowned and admired amongst the leagues.",
+          "text": "IRON-MASTER model only. Each time a friendly LEAGUES OF VOTANN model is repaired using the bearer’s Forgewrought Expertise ability, that model regains 1 additional lost wound."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "SECURE POSITIONS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "While there are resources to secure, the Kin will seize any opportunity to effect a rapid and ordered deployment to establish defensive positions.",
+          "text": "WHEN: End of any of your phases.\nTARGET: One LEAGUES OF VOTANN TRANSPORT unit from your army.\nEFFECT: One LEAGUES OF VOTANN unit embarked within your TRANSPORT can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your TRANSPORT. That unit cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+        },
+        {
+          "name": "BASTION RUNNING",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "A Hekaton Land Fortress can be temporarily rigged by its crew for bastion running. They fortify its systems to provide a brief power surge, allowing the tank to smash its way through hostile environments.",
+          "text": "WHEN: Your Movement phase.\nTARGET: One HEKATON LAND FORTRESS unit from your army that has not been selected to move this phase.\nEFFECT: Until the end of the phase, each time your unit makes a Normal or Advance move, it can move horizontally through terrain features."
+        },
+        {
+          "name": "ILLUMINATED PRIORITY",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "Using specialised beam emission signatures, multispectral ammunition, or broadcasting targeting data, the gunnery crews of Kin war engines can signify priority targets for their comrades.",
+          "text": "WHEN: Your Shooting phase, just after a LEAGUES OF VOTANN VEHICLE unit from your army has shot.\nTARGET: That LEAGUES OF VOTANN VEHICLE unit.\nEFFECT: Select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a LEAGUES OF VOTANN INFANTRY model from your army makes an attack that targets that enemy unit, re-roll a Hit roll of 1."
+        },
+        {
+          "name": "INEXORABLE EFFICIENCY",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "With the wealth of sensor-wrought information they can access, the Kin can efficiently adapt fighting withdrawals into deadly counterattacks.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One LEAGUES OF VOTANN unit from your army.\nEFFECT: Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back."
+        },
+        {
+          "name": "OPPORTUNISTIC ESCALATION",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Even amid heavy incoming fire, the crew of a kinhost's lighter vehicles can make rapid manoeuvres to exploit sudden openings.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot, if units from your army have Hostile Acquisition.\nTARGET: One LEAGUES OF VOTANN VEHICLE unit from your army (excluding HEKATON LAND FORTRESS units) that was hit by one or more of those attacks.\nEFFECT: Your unit can make a Normal move of up to D6\"."
+        },
+        {
+          "name": "VENGEANCE FLARE",
+          "cp": 2,
+          "kind": "Strategic Ploy",
+          "flavor": "With a narrow-band data burst, those of an oathband who have been wronged can call in the devastating vengeance of their armoured support.",
+          "text": "WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.\nTARGET: One LEAGUES OF VOTANN INFANTRY unit that was hit by one or more of those attacks.\nEFFECT: Each time you use this Stratagem, you can spend 2YP. Select one friendly KAPRICUS or SAGITAUR unit within 6\" of your INFANTRY unit. If you spent YP during this use of this Stratagem, you can select one friendly HEKATON LAND FORTRESS unit within 6\" of your INFANTRY unit instead. The selected unit can shoot as if it were your Shooting phase. When doing so, models in the selected unit can only target that enemy unit (and only if it is an eligible target)."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "Brandfast Oathband Detachment, Secure Positions Stratagem",
+          "text": "Change to:\n‘WHEN: End of any of your phases.\nTARGET: One LEAGUES OF VOTANN TRANSPORT unit from your army.\nEFFECT: One LEAGUES OF VOTANN unit embarked within your TRANSPORT can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your TRANSPORT. That unit cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.’"
+        }
+      ]
+    },
+    "Hearthfyre Arsenal": {
+      "name": "Hearthfyre Arsenal",
+      "rules": [
+        {
+          "name": "Optimal Application",
+          "errata": [],
+          "text": "With advanced engineering knowledge and cogitational expertise, a hearthfyre arsenal’s specialists can apply the resources and information seized by the Kin to eradicate their foes efficiently. Such assets are used to coordinate the devastating fire patterns of the force’s support infantry, empowering already heavily armed Kin to the extent that little can escape their murderous fusillades.\nAt the end of your\nCommand phase\n, you gain 1YP for each objective marker you control that is not within your deployment zone and has one or more\nIRON-MASTER\nand/or\nMEMNYR STRATEGIST\nmodels from your army within range of it (to a maximum of 2YP gained from this Detachment rule per turn).\nIn your\nShooting phase\n, each time a\nBRÔKHYR\n,\nIRONKIN STEELJACKS\nor\nARKANYST EVALUATOR\nunit from your army is selected to shoot, you can spend 1YP. If you do, until the end of the phase, each time a model in that unit makes an attack, re-roll a\nHit roll\nof 1."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Fârstrydr Node",
+          "flavor": "An evolutionary stride in teleportation technology, this experimental device shields its wearer and their companions in a bubble of esoteric force. It is.so strong that they can endure brief teleportation plunges through the Warp to strike at the most opportune time.",
+          "text": "IRON-MASTER or MEMNYR STRATEGIST model only. Models in the bearer’s unit have the Deep Strike ability."
+        },
+        {
+          "name": "Calculated Tenacity",
+          "flavor": "Like any other resource, resolve and bloody-mindedness can be applied in force when and where needed by those with the will to do so.",
+          "text": "IRON-MASTER or MEMNYR STRATEGIST model only. While the bearer is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+        },
+        {
+          "name": "Mantle of Elders",
+          "flavor": "The minds linked in this kognitaar mantle are believed to be the oldest of their kind. The complexity of their shared cognition permits strategic calculations at a level that Memnyr believe approaches the greatest fane.",
+          "text": "MEMNYR STRATEGIST model only. Each time the bearer’s unit is selected to shoot, if you spend YP using the Optimal Application Detachment rule when doing so, you can roll one D6: on a 2+, you gain 1YP."
+        },
+        {
+          "name": "Graviton Vault",
+          "flavor": "This rune-scribed device holds a cache of forgewrought particles. Funnelled through an Iron-master’s graviton arsenal, they mutate and cause anarchic fluxes in neuroelectrical impulses of the largest targets.",
+          "text": "IRON-MASTER model only. In your Shooting phase, after the bearer has shot, and in the Fight phase, after the bearer has fought, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "UNWAVERING ACCURACY",
+          "cp": 2,
+          "kind": "Battle Tactic",
+          "flavor": "Besides offering stable fire platforms, exoframes have multiple targeting and sensor subsystems that cut through foes' duplicitous evasion.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One BRÔKHYR THUNDERKYN unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack’s Ballistic Skill characteristic; the Hit roll; the Wound roll; that attack’s Armour Penetration characteristic."
+        },
+        {
+          "name": "FIRST CONCERN",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Only after executing their prepared firing solutions will the kinhost's heaviest gun lines move on, dispassionately assessing their next target.",
+          "text": "WHEN: Your Shooting phase, just after a BRÔKHYR, IRONKIN STEELJACKS or ARKANYST EVALUATOR unit from your army has shot.\nTARGET: That BRÔKHYR, IRONKIN STEELJACKS or ARKANYST EVALUATOR unit.\nEFFECT: If your unit Remained Stationary in your Movement phase this turn, it can make a Normal move."
+        },
+        {
+          "name": "DELAYED-FIRE ROUNDS",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "Exotic munitions can seed enemy lines with slow-reiease death, stalling those who neutralise the threat while ravaging any who push on.",
+          "text": "WHEN: Your Shooting phase, just after a BRÔKHYR, IRONKIN STEELJACKS or ARKANYST EVALUATOR unit from your army has shot.\nTARGET: That BRÔKHYR, IRONKIN STEELJACKS or ARKANYST EVALUATOR unit.\nEFFECT: Select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next Shooting phase, each time that enemy unit makes a Normal, Advance or Fall Back move, roll one D6 for each model in that unit: for each 1, that unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        },
+        {
+          "name": "WALL OF STEEL",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "Ironkin Steeljacks use their indomitable strength and bulk on the charge to crush enemy infantry in brutal, mechanised body slams.",
+          "text": "WHEN: Your Charge phase, just after an IRONKIN STEELJACKS unit from your army ends a Charge move.\nTARGET: That IRONKIN STEELJACKS unit.\nEFFECT: Each time you use this Stratagem, you can spend 2YP. Select one enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of your unit and roll one D6 for each model in your unit, rolling two additional D6 if you spent YP during this use of this Stratagem: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+        },
+        {
+          "name": "PREVENTATIVE PURGE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Using their strength and rapid target acquisition subroutines to alter fire arcs swiftly, Thunderkyn and Steeljacks are skilled in focusing on escaping foes that might pose a future threat.",
+          "text": "WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Fall Back move.\nTARGET: One BRÔKHYR THUNDERKYN or IRONKIN STEELJACKS unit from your army.\nEFFECT: Your unit can shoot as if it were your Shooting phase. When doing so, models in your unit can only target that enemy unit (and only if it is an eligible target) and each time a model in your unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "COGITATED NEED",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Focused on aiding their kindred to the best of their abilities, Ironkin Steeljacks locked onto an identified asset will push onward regardless of obstacles.",
+          "text": "WHEN: End of your opponent’s Movement phase.\nTARGET: One IRONKIN STEELJACKS unit from your army.\nEFFECT: Your unit can make a Normal move. When doing so, your unit must end that move as close as possible to the closest objective marker."
+        }
+      ],
+      "errata": []
+    },
+    "Hearthband": {
+      "name": "Hearthband",
+      "rules": [
+        {
+          "name": "Methodical Annihilation",
+          "errata": [],
+          "text": "With their minds entirely focused on the singular mission with which they have been charged, the Kin work to blast a path through the enemy lines with the same tenacity as a Brôkhyr beating metal or a Cthonian miner splitting bedrock.\nEach time a\nLEAGUES OF VOTANN\nmodel from your army makes an attack with a weapon that targets the closest eligible target or a target that is within\nEngagement Range\nof that model’s unit:\nRe-roll a Wound roll of 1.\nIf your unit is a KÂHL, EINHYR HEARTHGUARD or ÛTHAR THE DESTINED unit, improve the Armour Penetration characteristic of that attack by 1."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Bastion Shield",
+          "flavor": "The technologies contained within this heraldic crest radiate a dome of ablative weavewërke shielding that robs the force from enemy projectiles.",
+          "text": "LEAGUES OF VOTANN model only. Each time a ranged attack targets the bearer’s unit, if the attacking model is within 12\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1. If you spend 1YP, until the end of the phase, if the attacking model is within 18\" of the bearer’s unit, worsen the Armour Penetration characteristic of that attack by 1 instead."
+        },
+        {
+          "name": "Quake Multigenerator",
+          "flavor": "Extremely rare and costly to manufacture, this darkstar-powered coil enables a weapon to initiate tremendously powerful reverberations.",
+          "text": "KÂHL model only. In your Shooting phase, after the bearer has shot, select one enemy unit (excluding TITANIC units) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "Ironskein",
+          "flavor": "A rare cloneskein threads this warrior’s bone structure and epidermis with metallic fibres.",
+          "text": "LEAGUES OF VOTANN model only. Add 2 to the bearer’s Wounds characteristic."
+        },
+        {
+          "name": "High Kâhl",
+          "flavor": "This warrior’s value is only too well known by their comrades. Those Kin sworn to defend them will fight to their last breath rather than fail in this duty.",
+          "text": "KÂHL model only. Each time a model in the bearer’s unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "BRËKKEKNOTS",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "These micro shield generators, worked into warrior jewellery or armour crests, trigger on command to provide short-lived boosted protection.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\nTARGET: One KÂHL, ÛTHAR THE DESTINED or EINHYR HEARTHGUARD unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save."
+        },
+        {
+          "name": "SURE OF PURPOSE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "The single-minded advance of the Kin rolls over collapsing enemy lines and exploits every fault and weakness, driving on towards the objective.",
+          "text": "WHEN: Fight phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\"."
+        },
+        {
+          "name": "SUPERIOR CRAFTSMANSHIP",
+          "cp": 2,
+          "kind": "Battle Tactic",
+          "flavor": "Not only are the finest of the Kindred’s warriors selected for this duty, but they are also equipped with the best weaponry and wargear the Brôkhyr can produce.",
+          "text": "WHEN: Fight phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to fight this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Damage characteristic of that attack."
+        },
+        {
+          "name": "UNYIELDING AGGRESSION",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Even should they be compelled to pull back momentarily, the warriors of the Hearthband maintain a punishing curtain of fire to erode the enemy further or rally swiftly and drive back into the fight.",
+          "text": "WHEN: Your Movement phase, just after a LEAGUES OF VOTANN INFANTRY unit from your army Falls Back.\nTARGET: That LEAGUES OF VOTANN INFANTRY unit.\nEFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "name": "MATERIALISATION MATRICES",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Built to a superior standard using secrets imparted by the Votann, the teleporters employed by this Hearthband can stabilise rematerialisation fields remarkably close to the foe.",
+          "text": "WHEN: The Reinforcements step of your Movement phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that is in Reserves and has the Deep Strike ability.\nEFFECT: Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.\nRESTRICTIONS: Until the end of the turn, your unit is not eligible to declare a charge."
+        },
+        {
+          "name": "FURY OF THE HEARTH",
+          "cp": 1,
+          "kind": "Battle Tactic",
+          "flavor": "As though they unleash the raging flames of their kindred’s hearth upon the enemy, the Einhyr all but drown their enemies in fire.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, improve the Strength characteristic of ranged weapons equipped by models in your unit by 1. If you spend 1YP, until the end of the phase, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability as well."
+        }
+      ],
+      "errata": []
+    },
+    "Mercenary Oathband": {
+      "name": "Mercenary Oathband",
+      "rules": [
+        {
+          "name": "Ruthless Reinvestment",
+          "errata": [],
+          "text": "Kin mercenaries are notoriously frugal and ungenerous in the spending of resources to fulfil their employers’ needs. They are nonetheless acquisitively motivated. Where it benefits them, they will not hesitate to spend ammunition, energy, information or any other resource secured in advance from their paymasters if doing so will reap prizes of greater value.\nYour\nLEAGUES OF VOTANN\nunits do not have the\nHostile Acquisition\nor\nFortify Takeover\nabilities except as described in this rule. At the start of the battle, your\nLEAGUES\nOF\nVOTANN\nunits have the Hostile Acquisition ability. At the end of your\nCommand phase\n, you can spend 3YP. If you do,\nLEAGUES\nOF\nVOTANN\nunits from your army lose the Hostile Acquisition ability and gain the Fortify Takeover ability, or vice versa."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Mercenary Prospector",
+          "flavor": "The most renowned military commanders of mercenary oathbands are swift to capitalise on the death and destruction of their foes. Whether tangible assets or a strategic benefit, to ignore such prizes would be to dishonour the ancestors.",
+          "text": "KÂHL model only. Each time an enemy unit is destroyed by the bearer’s unit, gain 2YP."
+        },
+        {
+          "name": "Metaphysical Brokerage",
+          "flavor": "This cogitator analyses every scrap of data uncovered by their mercenary comrades, and is capable of eking an advantage over their foes in the direst of circumstances.",
+          "text": "MEMNYR STRATEGIST model only. At the end of your turn, if the bearer is on the battlefield and you gained fewer than 3YP this turn, you gain an amount of YP equal to the difference."
+        },
+        {
+          "name": "Etacarn SB9 Targeting Implant",
+          "flavor": "By feeding tactical data harvested from across the battlesphere into this costly device, the wearer can gain optimal target acquisition information.",
+          "text": "LEAGUES OF VOTANN model only. Each time a model in the bearer’s unit makes an attack, re-roll a Hit roll of 1. Each time the bearer’s unit is selected to shoot or fight, you can spend 3YP. If you do, until the end of the phase, each time a model in the bearer’s unit makes an attack, that attack has the [SUSTAINED HITS 1] ability."
+        },
+        {
+          "name": "Asset Manipulator",
+          "flavor": "This warrior’s value is only too well known by their comrades. Those Kin sworn to defend them will fight to their last breath rather than fail in this duty.",
+          "text": "LEAGUES OF VOTANN model only. At the start of the Command phase, you can spend 3YP. If you do, until the end of the turn, while an enemy unit is within 3\" of the bearer, subtract 1 from the Objective Control characteristic of models in that enemy unit."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "AUXILIARY CONTRACT",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Mercenary Kin are no strangers to working more than one seam of wealth at once, and extra contracts to slay or capture individuals or to gather specific trophies can be highly profitable.",
+          "text": "WHEN: Your Shooting phase or the Fight phase.\nTARGET: One LEAGUES OF VOTANN INFANTRY or LEAGUES OF VOTANN MOUNTED unit from your army that has not been selected to shoot or fight this phase.\nEFFECT: Until the end of the phase, weapons equipped by models in your unit have the [PRECISION] ability."
+        },
+        {
+          "name": "OPTIMAL EXPENDITURE",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "By expending energy reserves, the Kin’s close-quarter weapons thrum with forgewrought power. The allotment of such resources sees their wielders determined to make every blow strike true.",
+          "text": "WHEN: The Fight phase.\nTARGET: One LEAGUES OF VOTANN INFANTRY unit from your army that has not been selected to fight this phase.\nEFFECT: Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If you spent YP during this usage of this Stratagem, you can re-roll a Hit roll of 1 and re-roll the Wound roll instead."
+        },
+        {
+          "name": "GRAND ARTIFICE",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Unfazed by deception where it serves a practical use, Kin privateers willingly effect a seemingly ragged retreat only to turn back into the fight from a more advantageous position the moment they are clear of the mire of foes.",
+          "text": "WHEN: Your Movement phase, just after a LEAGUES OF VOTANN unit from your army Falls Back.\nTARGET: That LEAGUES OF VOTANN unit.\nEFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+        },
+        {
+          "name": "PRIVATEER ARSENAL",
+          "cp": 1,
+          "kind": "Wargear",
+          "flavor": "Confident their use will turn the tide, the Kin draw on personal caches of munitions, power cells bearing the signatures of acclaimed Brôkhyr or heirloom augurs to unleash a potent fusillade into the foe.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One LEAGUES OF VOTANN INFANTRY unit from your army that has not been selected to shoot this phase.\nEFFECT: Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If you spent YP during this usage of this Stratagem, you can re-roll the Hit roll and re-roll a Wound roll of 1 instead."
+        },
+        {
+          "name": "NEW HORIZONS",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "Efficient and eager to stake their next claim, the Kin are ready to board their transports at a moment’s notice to reach fresh prizes.",
+          "text": "WHEN: End of your opponent’s Fight phase.\nTARGET: One LEAGUES OF VOTANN INFANTRY unit from your army that is not within Engagement range of one or more enemy units and one friendly TRANSPORT it is able to embark within.\nEFFECT: If your LEAGUES OF VOTANN unit is wholly within 6\" of that TRANSPORT, it can embark within it."
+        },
+        {
+          "name": "MOBILE EXPLOITATION",
+          "cp": 1,
+          "kind": "Strategic Ploy",
+          "flavor": "The Hernkyn of mercenary oathbands are swift to outflank and outmanoeuvre the enemy, seeking avenues by which to punish any vulnerability as well as scouting for new sources of wealth.",
+          "text": "WHEN: End of your opponent’s Fight phase.\nTARGET: One HERNKYN unit from your army that is not within Engagement Range of one or more enemy units. Alternatively, you can spend 2YP and target up to two HERNKYN units from your army that are not within Engagement Range of one or more enemy units instead.\nEFFECT: Remove your units from the battlefield and place them into Strategic Reserves."
+        }
+      ],
+      "errata": []
+    },
+    "Armoured Trailblazers": {
+      "name": "Armoured Trailblazers",
+      "rules": [
+        {
+          "name": "Sagitaur Spearhead",
+          "errata": [],
+          "text": "Scouting out the foe’s positions and performing reconnaissance in force, speeding Sagitaurs lead the armoured charge of the Kin.\nFriendly\nSAGITAUR\nunits have\nScouts 6\"\n."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Saturation Rounds",
+          "flavor": "Scouting out the foe’s positions and performing reconnaissance in force, speeding Sagitaurs lead the armoured charge of the Kin.",
+          "text": "SAGITAUR unit only. This unit’s ranged attacks have [IGNORES COVER]."
+        },
+        {
+          "name": "Optimised Attack Lines",
+          "flavor": "With suitable structural reinforcement, Sagitaurs can smash right through battlefield debris and ruins rather than waste time in circumnavigation.",
+          "text": "SAGITAUR unit only. This unit has MOBILE."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "COORDINATED CROSSFIRE",
+          "cp": 1,
+          "kind": "Armoured Trailblazers Stratagem",
+          "flavor": "With their quarry caught outflanked and in the open, the Sagitaurs’ gunners coordinate fire to pick them apart with swift efficiency.",
+          "text": "WHEN: Start of your Shooting phase.\nTARGET: Up to two friendly SAGITAUR units.\nEFFECT: Select one enemy unit. Your units’ ranged attacks that target that enemy unit can:\nRe-roll hit rolls of 1.Re-roll wound rolls of 1."
+        },
+        {
+          "name": "OUTFLANKING ARMOUR",
+          "cp": 1,
+          "kind": "Armoured Trailblazers Stratagem",
+          "flavor": "With the foes’ weaknesses identified, outflanking Sagitaurs streak in to exploit the gaps and punch deep into their lines.",
+          "text": "WHEN: End of your opponent’s Movement phase, from the second battle round onwards.\nTARGET: Up to two friendly SAGITAUR units in strategic reserves.\nEFFECT: Your units each make an ingress move."
+        },
+        {
+          "name": "BUILT TO LAST",
+          "cp": 1,
+          "kind": "Armoured Trailblazers Stratagem",
+          "flavor": "Intended to shrug off the worst punishment by hostile alien environments, not to mention the hostile aliens themselves, Sagitaurs can withstand remarkable quantities of enemy fire.",
+          "text": "WHEN: Your opponent’s Shooting phase, when an enemy unit targets a friendly SAGITAUR unit.\nTARGET: That SAGITAUR unit.\nEFFECT: Ranged attacks that target your unit with a S greater than your unit’s T have -1 to wound rolls."
+        }
+      ],
+      "errata": []
+    },
+    "Farseekers": {
+      "name": "Farseekers",
+      "rules": [
+        {
+          "name": "Eye of the Hunt",
+          "errata": [],
+          "text": "Combining scanning and targeting functions for maximum efficiency, the Hernkyn guide fire unerringly down on their targets.\nFriendly\nHERNKYN\nunits’\nranged attacks\nthat target a unit within 12\" have +1 to\nhit rolls\n."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "Pan-Spectral Lockons",
+          "flavor": "Employing their pan‑spectral scanners and frontier‑scouting instincts, the Pioneers rapidly locate enemy forces and mark their positions for their comrades.",
+          "text": "PIONEERS unit only. In your Shooting phase, you can select one visible enemy unit within 12\" of this unit. That enemy unit is spotted:\nWhile a unit is spotted, that unit has +3\" detection range."
+        },
+        {
+          "name": "Shroudwërke Talismans",
+          "flavor": "These small, rugged devices project a modified weavewërke field that, instead of shielding the bearer physically, deadens their signature on enemy scanners and confounds predatory senses.",
+          "text": "YAEGIRS unit only. This unit has -3\" detection range"
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "SCORNFUL ANALYSIS",
+          "cp": 1,
+          "kind": "Farseekers Stratagem",
+          "flavor": "Casting a jaundiced eye over the so-called fortifications of their foes, the Hernkyn quickly identify weak spots in the enemy defences and spread the word to their comrades.",
+          "text": "WHEN: Start of your Shooting phase.\nTARGET: One friendly HERNKYN unit.\nEFFECT: Select one visible enemy unit within 12\" of your unit. Friendly LEAGUES OF VOTANN units’ attacks that target that enemy unit have [IGNORES COVER]."
+        },
+        {
+          "name": "NO SHOT WASTED",
+          "cp": 1,
+          "kind": "Farseekers Stratagem",
+          "flavor": "Knowing the burden of responsibility placed upon them by Kindred and Ancestors, Hernkyn focus on their marksmanship with a stern determination that makes every shot count.",
+          "text": "WHEN: Your Shooting phase, when a friendly HERNKYN unit is selected to shoot.\nTARGET: That HERNKYN unit.\nEFFECT: Your unit’s ranged attacks have [LETHAL HITS]."
+        },
+        {
+          "name": "ECONOMY OF MOTION",
+          "cp": 1,
+          "kind": "Farseekers Stratagem",
+          "flavor": "Pioneers operate in great peril behind hostile lines so often that it becomes second nature to respond with alacrity and cunning to the slightest scraps of intelligence on enemy movements.",
+          "text": "WHEN: Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged PIONEERS unit.\nTARGET: That PIONEERS unit.\nEFFECT: Your unit can make a normal move of up to D3+3\"."
+        }
+      ],
+      "errata": []
+    },
+    "Hearthguard Covenant": {
+      "name": "Hearthguard Covenant",
+      "rules": [
+        {
+          "name": "Avatars of the Ancestors",
+          "errata": [],
+          "text": "Shouldering the greatest responsibility for achieving victory, the elites of the Hearthband fight hardest of all to defeat and destroy their foes.\nFriendly\nKÂHL\n/\nEINHYR CHAMPION\n/\nEINHYR HEARTHGUARD\n/\nÛTHAR THE DESTINED\nunits’\nranged attacks\nthat target a unit within 9\" can re-roll\nwound rolls\nof 1.\nThis\ndetachment\nhas the\nHEARTHGUARD\ntag and cannot be taken with another\nHEARTHGUARD\ndetachment\n."
+        }
+      ],
+      "enhancements": [
+        {
+          "name": "High Kâhl",
+          "flavor": "Not easily do the greatest Kâhls of the Kin let go their grasp on life, not while they might yet benefit the Votann further.",
+          "text": "KÂHL model only. In the Fight phase, when a model in this unit is destroyed, if this unit has not been selected to fight this phase, roll one D6: on a 4+, do not remove that model from the battlefield; after this unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+        },
+        {
+          "name": "Ironskein",
+          "flavor": "A rare cloneskein threads this warrior’s bone structure and epidermis with metallic fibres.",
+          "text": "KÂHL model only. This model has +2 W."
+        }
+      ],
+      "stratagems": [
+        {
+          "name": "BRËKKEKNOTS",
+          "cp": 1,
+          "kind": "Hearthguard Covenant Stratagem",
+          "flavor": "These micro shield generators, worked into warrior jewellery or armour crests, trigger on command to provide short‑lived boosted protection.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, when an enemy unit targets a friendly EINHYR HEARTHGUARD unit.\nTARGET: That EINHYR HEARTHGUARD unit.\nEFFECT: Your unit has 4+ InSv."
+        },
+        {
+          "name": "FURY OF THE HEARTH",
+          "cp": 1,
+          "kind": "Hearthguard Covenant Stratagem",
+          "flavor": "As though they unleash the raging flames of their kindred’s hearth upon the enemy, the Einhyr all but drown their enemies in fire.",
+          "text": "WHEN: Your Shooting phase, when a friendly EINHYR HEARTHGUARD unit is selected to shoot.\nTARGET: That EINHYR HEARTHGUARD unit.\nEFFECT: Your unit’s ranged attacks have:\n+1 S.If you spend 1 YP, [SUSTAINED HITS 1]."
+        },
+        {
+          "name": "MATERIALISATION MATRICES",
+          "cp": 1,
+          "kind": "Hearthguard Covenant Stratagem",
+          "flavor": "Built to a superior standard using secrets imparted by the Votann, the teleporters employed by this Hearthband can stabilise rematerialisation fields remarkably close to the foe.",
+          "text": "WHEN: Your Movement phase, when a friendly EINHYR HEARTHGUARD unit with Deep Strike is selected to make an ingress move.\nTARGET: That EINHYR HEARTHGUARD unit.\nEFFECT:\nYour unit can be set up anywhere on the battlefield that is more than 6\" horizontally from all enemy units, even if that is within your opponent’s deployment zone.Your unit is not eligible to declare a charge until the end of the turn."
+        },
+        {
+          "name": "RELIC CYPHER",
+          "cp": 1,
+          "kind": "Void Salvagers – Strategic Ploy",
+          "flavor": "The Kin possess the accumulated knowledge of their ancestors, including ancient cyphers that enable them to seize control of cogitational systems.",
+          "text": "WHEN: Your Command phase.\nTARGET: One LEAGUES OF VOTANN unit from your army.\nEFFECT: Select one closed Hatchway on the battlefield and open it.\nRESTRICTIONS: You can only use this Stratagem once."
+        },
+        {
+          "name": "POINT-BLANK FIRE",
+          "cp": 1,
+          "kind": "Void Salvagers – Battle Tactic",
+          "flavor": "The Kin are well used to working in close confines and can fire their ranged weapons with precision even within the restrictive corridors of a voidship.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One HEARTHKYN WARRIORS unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [PISTOL] ability."
+        },
+        {
+          "name": "JUDGED AND PUNISHED",
+          "cp": 1,
+          "kind": "Void Salvagers – Battle Tactic",
+          "flavor": "To draw the ire of the Kin is to invite a swift and brutal death.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack, if the target has 1 or more Judgement tokens, you can re-roll the Hit roll, and if the target has 2 Judgement tokens, you can re-roll the Wound roll as well."
+        },
+        {
+          "name": "CORRIDOR COVERED",
+          "cp": 1,
+          "kind": "Void Salvagers – Battle Tactic",
+          "flavor": "As their allies push forwards, Kin squads train their guns down darkened corridors, preparing to repel unexpected ambushes.",
+          "text": "WHEN: Your opponent's Movement or Charge phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that has not fired Overwatch this phase.\nEFFECT: Until the end of the phase, each time a model in your unit makes an attack while firing Overwatch, an unmodified Hit roll of 5+ is required to score a hit, instead of an unmodified 6."
+        },
+        {
+          "name": "WEAVEFIELD FLARE",
+          "cp": 1,
+          "kind": "Hearthfire Strike – Battle Tactic",
+          "flavor": "Triggering weavefield generators worked into their wargear, the Einhyr bleed off the power of incoming enemy attacks.",
+          "text": "WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\nTARGET: One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll."
+        },
+        {
+          "name": "PAN-SPECTRAL VISUALISER",
+          "cp": 1,
+          "kind": "Hearthfire Strike – Battle Tactic",
+          "flavor": "These advanced sets of helm optics pierce veils both technological and sorcerous, laying the foe bare.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One LEAGUES OF VOTANN unit from your army that has not been selected to shoot this phase.\nEFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability and each time a model in your unit makes an attack with a weapon, you can ignore any or all modifiers to that attack’s or that weapon’s Ballistic Skill characteristic and any or all modifiers to the Hit roll."
+        },
+        {
+          "name": "ECONOMY OF AGGRESSION",
+          "cp": 1,
+          "kind": "Hearthfire Strike – Battle Tactic",
+          "flavor": "A few grenades placed with care and skill reap greater returns in bloodshed than a wealth of recklessly hurled materiel.",
+          "text": "WHEN: Your Shooting phase.\nTARGET: One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.\nEFFECT: Select one enemy unit that is visible to your unit and wholly on the opposite side of a Hatchway from it. Until the end of the phase, exo-armour grenade launchers equipped by models in your unit have an Attacks characteristic of 6 and lose the [BLAST] ability while targeting that enemy unit, and attacks made with such weapons that target that enemy unit can be allocated to models that are not visible to the attacking model."
+        },
+        {
+          "name": "GRAVITRONIC PULSE",
+          "cp": 1,
+          "kind": "Hearthfire Strike – Battle Tactic",
+          "flavor": "Emitters built into this squad's exo-armour batter the foe with focused gravity waves in the instant before the Kin charge crashes home.",
+          "text": "WHEN: Your Charge phase, just after a LEAGUES OF VOTANN unit from your army ends a Charge move.\nTARGET: That LEAGUES OF VOTANN unit.\nEFFECT: For each enemy unit within Engagement Range of your unit, until the end of the turn, that unit loses the Fights First ability (if it has it) and, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+        },
+        {
+          "name": "ADVANCE MOVE09.06",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Advance roll + your unit’s M characteristic.ELIGIBLE IF: Your unit is on the battlefield and unengaged.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Make an advance roll by rolling one D6.\nAFTER MOVING:\nYour unit must be unengaged.Until the end of the turn, unless otherwise stated, your unit is not eligible to declare a charge or start an action."
+        },
+        {
+          "name": "COMMAND RE-ROLL15.02",
+          "cp": 1,
+          "kind": "Core",
+          "flavor": "A great commander can bend even the vagaries of fate and fortune to their will, the better to ensure victory.",
+          "text": "WHEN: Any phase, just after you make one of the following rolls for a friendly unit or model:\nAdvance rollCharge rollDamage rollHazard rollHit rollSave rollWound rollA roll to determine the number of attacks generated with a weapon.\nTARGET: That unit or model.\nEFFECT: You re-roll that roll. If you are rolling more than one dice together, select one of those dice to re-roll (excluding charge rolls, which you must re-roll in full)."
+        },
+        {
+          "name": "FALL-BACK MOVE09.07",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Your unit’s M characteristic.ELIGIBLE IF: Your unit is engaged.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Select fall-back mode:\nOrdered Retreat: If your unit is not battle-shocked, you can select this mode.Desperate Escape: Otherwise, you must select this mode. Make a hazard roll for each model in your unit (06.03).WHILE MOVING:\nDesperate Escape: Each model that is moved can be moved through enemy models.AFTER MOVING:\nYour unit must be unengaged.Until the end of the turn, unless otherwise stated, your unit is not eligible to shoot, declare a charge or start an action.Desperate Escape: If your unit is not battle-shocked, you must make a battle-shock roll for your unit (01.07)."
+        },
+        {
+          "name": "NORMAL MOVE09.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: Your unit’s M characteristic.ELIGIBLE IF: Your unit is on the battlefield and unengaged.\nEFFECT: Your unit moves as described in Moving (03).\nAFTER MOVING: Your unit must be unengaged."
+        },
+        {
+          "name": "INGRESS MOVE20.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE: 6\"ELIGIBLE IF: Your unit is in strategic reserves (excluding units that are embarked within TRANSPORTS that are themselves in strategic reserves).\nEFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Your unit is set up as described in Set Up (03.02).\nWHILE MOVING: Set up your unit wholly within the set-up distance of one or more battlefield edges and more than 8\" horizontally from all enemy units.\nBefore the Third Battle Round: While doing so, no models can be set up within your opponent’s deployment zone.AFTER MOVING: Unless otherwise stated, until the start of the next Charge phase, your unit is not eligible to make any other type of move."
+        },
+        {
+          "name": "REMAIN STATIONARY09.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: ‘–’ELIGIBLE IF: Any unit.\nEFFECT: No models are moved (either in straight lines or rotated). Units that remain stationary do not trigger any rules that are triggered when a unit starts or ends a move."
+        },
+        {
+          "name": "DISEMBARK MOVE18.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE:\n- Rapid/Tactical Disembark: 3\"\n- Combat Disembark: 6\"ELIGIBLE IF: All of the following apply to your unit:\nEmbarked within a TRANSPORT model that is on the battlefield.Did not embark within that TRANSPORT this phase.That TRANSPORT has not made an advance or fall-back move this phase.EFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Select disembark mode:\nRapid Disembark: If that TRANSPORT made a normal or ingress move this phase, you must select this mode.Tactical Disembark: Otherwise, If that TRANSPORT remained stationary or has not yet been selected to move this phase, and if you can set up your unit as described below, you must select this mode.Combat Disembark: Otherwise, you must select this mode. Make a hazard roll for each model in your unit.WHILE MOVING: Set up each model in your unit wholly within the set-up distance of that TRANSPORT.\nRapid Disembark: If that TRANSPORT made an ingress move this turn, each model must follow the same rules that TRANSPORT had to follow while resolving that move.Combat Disembark: Each model can be set up engaged with one or more enemy units that TRANSPORT is engaged with.AFTER MOVING:\nRapid Disembark: Until the end of the turn, your unit is not eligible to declare a charge.Tactical Disembark: Select your unit to make a normal or advance move.Combat Disembark: Your unit is battle-shocked and, until the end of the turn, it is not eligible to declare a charge.RAPID DISEMBARKWhen a unit uses the rapid disembark mode after its TRANSPORT makes an ingress move, the models must follow the same rules and restrictions as that TRANSPORT did. For example, if that TRANSPORT had to be set up more than 8\" from all enemy units and not within your opponent’s deployment zone, the same applies to the disembarking unit."
+        },
+        {
+          "name": "DISEMBARK MOVE18.04",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE:\n- Rapid/Tactical Disembark: 3\"\n- Combat Disembark: 6\"ELIGIBLE IF: All of the following apply to your unit:\nEmbarked within a TRANSPORT model that is on the battlefield.Did not embark within that TRANSPORT this phase.That TRANSPORT has not made an advance or fall-back move this phase.EFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Select disembark mode:\nRapid Disembark: If that TRANSPORT made a normal or ingress move this phase, you must select this mode.Tactical Disembark: Otherwise, If that TRANSPORT remained stationary or has not yet been selected to move this phase, and if you can set up your unit as described below, you must select this mode.Combat Disembark: Otherwise, you must select this mode. Make a hazard roll for each model in your unit.WHILE MOVING: Set up each model in your unit wholly within the set-up distance of that TRANSPORT.\nRapid Disembark: If that TRANSPORT made an ingress move this turn, each model must follow the same rules that TRANSPORT had to follow while resolving that move.Combat Disembark: Each model can be set up engaged with one or more enemy units that TRANSPORT is engaged with.AFTER MOVING:\nRapid Disembark: Until the end of the turn, your unit is not eligible to declare a charge.Tactical Disembark: Select your unit to make a normal or advance move.Combat Disembark: Your unit is battle-shocked and, until the end of the turn, it is not eligible to declare a charge.RAPID DISEMBARKWhen a unit uses the rapid disembark mode after its TRANSPORT makes an ingress move, the models must follow the same rules and restrictions as that TRANSPORT did. For example, if that TRANSPORT had to be set up more than 8\" from all enemy units and not within your opponent’s deployment zone, the same applies to the disembarking unit."
+        },
+        {
+          "name": "EMERGENCY DISEMBARK MOVE18.05",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "SET-UP DISTANCE: 6\"ELIGIBLE IF: Your unit is embarked within a TRANSPORT model that was just destroyed.\nEFFECT: Your unit is set up as described in Set Up (03.02).\nBEFORE MOVING: Make a hazard roll for each model in your unit (06.03).\nWHILE MOVING: Set up each model in your unit: (1) Wholly within the set-up distance of that TRANSPORT, and as close as possible to that TRANSPORT. OR: (2) If the above is not possible while remaining unengaged, set up that model wholly within the set-up distance of that TRANSPORT, as close as possible to that TRANSPORT, and engaged. Each model that still cannot be set up is destroyed.\nAFTER MOVING: Your unit is battle-shocked and, until the end of the turn, it is not eligible to declare a charge."
+        },
+        {
+          "name": "SNAP SHOOTING15.09",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "ELIGIBLE IF: As stated in the rule allowing this shooting type.\nEFFECT: Your unit shoots as described in Making Attacks (04).\nWHILE SHOOTING:\nYou can only target one visible enemy unit within 24\" of your unit (and only if it is an eligible target).Each attack only hits on an unmodified hit roll of 6 (irrespective of the attacking weapon’s BS characteristic or any modifiers).You cannot re-roll hit rolls.AFTER SHOOTING: Until the end of the phase, your unit is not eligible to start an action."
+        },
+        {
+          "name": "FIRE OVERWATCH15.08",
+          "cp": 1,
+          "kind": "Core",
+          "flavor": "A hail of fire can drive back advancing foes.",
+          "text": "WHEN: End of your opponent’s Movement phase.\nTARGET: One friendly unengaged unit (excluding TITANIC units).\nEFFECT: Your unit shoots using snap shooting."
+        },
+        {
+          "name": "CONSOLIDATION MOVE12.08",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: 3\"ELIGIBLE IF: It is the Fight phase and your unit was eligible to fight this phase.\nEFFECT: Your unit moves as described in Moving (03).\nBEFORE MOVING: Select consolidation mode:\nOngoing Consolidation: If your unit is engaged, you must select this mode and select every enemy unit it is engaged with.Engaging Consolidation: Otherwise, if your unit is within 3\" of one or more enemy units, you must select this mode and select one or more of those enemy units.Objective Consolidation: Otherwise, if your unit is within 3\" of one or more objectives, you must select this mode and select one of those objectives.WHILE MOVING:\nOngoing Consolidation: Models in base-contact with one or more enemy models cannot be moved. Each model that is moved must end its move closer to the closest selected enemy unit, and engaged with it if possible.Engaging Consolidation: Each model that is moved must end its move closer to the closest selected enemy unit, and engaged with it if possible.Objective Consolidation: Each model that is moved must end its move within range of the selected objective if possible, or closer to it if not.AFTER MOVING:\nOngoing Consolidation: Each model that started this move engaged with an enemy unit must still be engaged with that enemy unit.Engaging Consolidation: Your unit must be engaged with all of the selected enemy units. If one or more enemy units engaged with your unit have not been selected to fight this phase, your opponent must select each of those units, one at a time; when each is selected, it becomes eligible to fight and is selected to fight (12.04).Objective Consolidation: Your unit must be unengaged and within range of the selected objective."
+        },
+        {
+          "name": "SCOUT MOVE24.32",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "MAXIMUM DISTANCE: The X\" in Scouts X\".ELIGIBLE IF: It is the Resolve Pre-battle Abilities step, and your unit is wholly within your deployment zone.\nEFFECT: Your unit moves as described in Moving (03).\nAFTER MOVING: Your unit must be more than 8\" horizontally from all enemy units."
+        },
+        {
+          "name": "CLOSE-QUARTERS SHOOTING10.06",
+          "cp": 0,
+          "kind": "",
+          "flavor": "",
+          "text": "ELIGIBLE IF: All of the following apply to your unit:\nEngaged and did not make an advance move this turn.Has one or more [CLOSE-QUARTERS] weapons or is a MONSTER/VEHICLE unit.EFFECT: Your unit shoots as described in Making Attacks (04).\nWHILE SHOOTING: Models in your unit can target enemy units your unit is engaged with.\nMONSTER/VEHICLE Models: Each time a MONSTER/VEHICLE model in your unit makes an attack:\nUnless that attack is made with a [CLOSE-QUARTERS] weapon and targets a unit your unit is engaged with, subtract 1 from the hit roll.If that attack is made with a [BLAST] weapon, it still cannot target a unit your unit is engaged with.Non-MONSTER/Non-VEHICLE Models: You can only select [CLOSE-QUARTERS] weapons to make attacks with and you can only select enemy units that are engaged with your unit as targets.AFTER SHOOTING: Until the end of the phase, your unit is not eligible to start an action."
+        }
+      ],
+      "errata": [
+        {
+          "scope": "13.09 - Change to First Bullet Point",
+          "text": "Change to: ‘That model has the INFANTRY/BEASTS/SWARM keyword and is within a terrain area that contains one or more light/dense terrain features.’"
+        }
+      ]
+    }
+  }
+}

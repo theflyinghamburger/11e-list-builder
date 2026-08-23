@@ -81,6 +81,23 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith('.json')).sort()) {
     }
   }
 
+  // Rules coverage: every detachment must match a entry in its Wahapedia rules file
+  // (same fuzzy match as the UI: name drift like "The X" / "(Aura)" is acceptable).
+  const norm = (s) => s.toUpperCase().replace(/[’'.,\-\s]+/g, '');
+  const rulesPath = join(dir, 'rules', `${folder}.json`);
+  if (!existsSync(rulesPath)) {
+    errors.push(`rules chunk missing: rules/${folder}.json`);
+  } else {
+    const rules = JSON.parse(readFileSync(rulesPath, 'utf8'));
+    const have = Object.keys(rules.detachments).map(norm);
+    for (const d of data.detachments || []) {
+      const n = norm(d.name);
+      if (!have.some((h) => h === n || h.includes(n) || n.includes(h))) {
+        errors.push(`no rules: ${d.name}`);
+      }
+    }
+  }
+
   const status = errors.length ? 'ERROR' : warns.length ? 'warn' : 'ok';
   console.log(`${file}: ${status}${errors.length || warns.length ? ' — ' + summarize([...errors, ...warns]) : ''}`);
   if (errors.length) failed = true;

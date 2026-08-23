@@ -398,6 +398,116 @@ body {
   font-size: 0.75rem;
 }
 
+/* -- Army & detachment rules, stratagems (Wahapedia data) -- */
+
+.det-header-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.wahapedia-link {
+  font-size: 0.75rem;
+  color: var(--parchment-dim);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--parchment-dim);
+}
+.wahapedia-link:hover { color: var(--gold); border-bottom-color: var(--gold); }
+
+.army-rules-btn {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  background: transparent;
+  border: 1px solid var(--bronze-border);
+  border-radius: 2px;
+  color: var(--parchment-dim);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.army-rules-btn:hover { color: var(--gold); border-color: var(--gold-dim); }
+
+.army-rules-panel {
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid var(--bronze-border);
+  background: var(--bg-card);
+}
+
+.det-rules-section {
+  margin-top: 8px;
+  border-top: 1px solid var(--bronze);
+  padding-top: 8px;
+}
+
+.rule-block { margin-top: 8px; }
+.rule-block:first-child { margin-top: 0; }
+
+.rule-name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--parchment);
+  margin-bottom: 2px;
+}
+
+.rule-text,
+.str-text {
+  white-space: pre-line;
+  font-size: 0.8rem;
+  color: var(--parchment-dim);
+}
+
+.errata-block {
+  margin-top: 6px;
+  padding-left: 8px;
+  border-left: 2px solid var(--red-dark);
+}
+.errata-block .rule-text { color: var(--red-dim); }
+
+.str-list { margin-top: 8px; }
+
+.str-item {
+  margin-top: 4px;
+  padding: 4px 8px;
+  border: 1px solid var(--bronze-border);
+  border-radius: 2px;
+  background: var(--bg-card);
+}
+.str-item summary {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+}
+.str-item summary::-webkit-details-marker { display: none; }
+.str-item[open] summary {
+  border-bottom: 1px solid var(--bronze);
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+}
+
+.str-name { flex: 1; font-size: 0.8rem; font-weight: 600; color: var(--parchment); }
+
+.str-kind {
+  font-size: 0.75rem;
+  color: var(--parchment-dim);
+}
+
+.cp-badge {
+  padding: 1px 6px;
+  border: 1px solid var(--gold-dim);
+  border-radius: 2px;
+  font-size: 0.7rem;
+  color: var(--gold);
+}
+
+.str-flavor {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: var(--parchment-dim);
+  margin-bottom: 4px;
+}
+
 .dp-limit-msg {
   padding: 4px 8px;
   background: var(--bg-warning);
