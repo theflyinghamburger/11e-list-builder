@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { getUnitPoints } from '../utils/costs';
 import { validateArmy } from '../utils/validate';
 
-export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetName }) {
+export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetName, onShowDatasheet }) {
   const fileInputRef = useRef(null);
   const [name, setName] = useState(army.name || '');
   const prevNameRef = useRef(army.name);
@@ -160,6 +160,13 @@ return (
                <tr key={unit.id} className={`${isOver ? 'over-budget' : ''} ${issueIds.has(unit.id) ? 'orphaned' : ''}`}>
                 <td>
                   {unit.unitName}
+                  <button
+                    className="info-btn"
+                    title="View datasheet"
+                    onClick={() => onShowDatasheet(unit.unitName)}
+                  >
+                    &#9432;
+                  </button>
                   {tierLabel}
                   {unit.wargear &&
                     Object.entries(unit.wargear)
