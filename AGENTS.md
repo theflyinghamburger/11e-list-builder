@@ -14,6 +14,7 @@ Warhammer 40k 11e army list builder. 29 factions. Vite + React, no TypeScript.
 | `node scripts/fetch-mfm.js <url>` | Scrape MFM faction page → JSON (requires Node 22) |
 | `node scripts/validate-data.js` | Validate `src/data/*.json` (exit 1 on errors) |
 | `node scripts/test-costs.js` | Tiered pricing self-check (assert-based) |
+| `node scripts/test-yellowscribe.js` | YellowScribe .ros round-trip self-check (assert-based) |
 
 No lint, typecheck, or test framework configured.
 

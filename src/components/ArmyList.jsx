@@ -1,6 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
-import { getUnitPoints } from '../utils/costs';
+import { unzipSync } from 'fflate';
+import { getData } from '../data';
+import { getUnitPoints, normName } from '../utils/costs';
 import { validateArmy } from '../utils/validate';
+import { PROXY, armyToRozs, rosToArmy, getYellowScribeCode, armyFromCode } from '../utils/yellowscribe';
 
 export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetName, onShowDatasheet }) {
   const fileInputRef = useRef(null);
@@ -15,6 +18,41 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetNa
     document.addEventListener('click', handler);
     return () => document.removeEventListener('click', handler);
   }, [menuOpen]);
+  const slug = (name || army.name || army.faction).replace(/[^a-zA-Z0-9_-]/g, '_');
+
+  const downloadBytes = (bytes, filename, type) => {
+    const blob = new Blob([bytes], { type });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const exportRozs = () => {
+    onSetName(name);
+    downloadBytes(armyToRozs({ ...army, name: name || army.name || '' }), `${slug}.rosz`, 'application/rosz');
+  };
+
+  // Shared by .ros/.rosz file import and import-by-code; flags wargear whose
+  // names don't match this faction's wargearOptions (imported at cost 0).
+  const applyImported = (imported) => {
+    const idata = getData(imported.faction);
+    setName(imported.name);
+    onLoadArmy(imported);
+    const mismatches = [];
+    if (idata) {
+      for (const u of imported.units) {
+        const ud = idata.units.find((d) => d.name === u.unitName);
+        for (const [wg, count] of Object.entries(u.wargear || {})) {
+          if (count > 0 && !(ud?.wargearOptions || []).some((w) => normName(w.name) === normName(wg))) mismatches.push(`${u.unitName}: ${wg}`);
+        }
+      }
+    }
+    if (mismatches.length) alert(`Imported with unknown wargear (cost 0):\n${mismatches.join('\n')}`);
+  };
+
   const tierCount = {};
   const totalPoints = army.units.reduce((sum, u) => {
     tierCount[u.unitName] = (tierCount[u.unitName] || 0) + 1;
@@ -68,6 +106,7 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetNa
                 URL.revokeObjectURL(url);
                 setMenuOpen(false);
               }}>Save</button>
+              <button onClick={() => { exportRozs(); setMenuOpen(false); }}>Export .rosz</button>
               <button onClick={() => { fileInputRef.current?.click(); setMenuOpen(false); }}>Load</button>
               <button onClick={() => { window.print(); setMenuOpen(false); }}>Print</button>
             </div>
@@ -90,29 +129,97 @@ export default function ArmyList({ data, army, onRemoveUnit, onLoadArmy, onSetNa
           <button className="load-btn" onClick={() => fileInputRef.current?.click()}>
             Load
           </button>
-          <input ref={fileInputRef} type="file" accept=".json" style={{ display: 'none' }} onChange={(e) => {
-            const file = e.target.files[0];
-            if (!file) return;
-            const reader = new FileReader();
-            reader.onload = (ev) => {
-              try {
-                const parsed = JSON.parse(ev.target.result);
-                if (parsed.faction && parsed.units) {
-                  setName(parsed.name || '');
-                  onLoadArmy(parsed);
-                } else {
-                  alert('Invalid army list file');
-                }
-              } catch {
-                alert('Invalid JSON file');
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept=".json,.ros,.rosz"
+            style={{ display: 'none' }}
+            onChange={(e) => {
+              const file = e.target.files[0];
+              e.target.value = '';
+              if (!file) return;
+              const lower = file.name.toLowerCase();
+              if (lower.endsWith('.rosz') || lower.endsWith('.ros')) {
+                const reader = new FileReader();
+                reader.onload = (ev) => {
+                  try {
+                    let xml;
+                    if (lower.endsWith('.rosz')) {
+                      const entry = Object.values(unzipSync(new Uint8Array(ev.target.result)))[0];
+                      if (!entry) throw new Error('no roster in file');
+                      xml = new TextDecoder().decode(entry);
+                    } else {
+                      xml = ev.target.result;
+                    }
+                    applyImported(rosToArmy(xml, getData));
+                  } catch (err) {
+                    alert('Could not import roster: ' + err.message);
+                  }
+                };
+                if (lower.endsWith('.rosz')) reader.readAsArrayBuffer(file);
+                else reader.readAsText(file);
+                return;
               }
-            };
-            reader.readAsText(file);
-            e.target.value = '';
-          }} />
+              const reader = new FileReader();
+              reader.onload = (ev) => {
+                try {
+                  const parsed = JSON.parse(ev.target.result);
+                  if (parsed.faction && parsed.units) {
+                    setName(parsed.name || '');
+                    onLoadArmy(parsed);
+                  } else {
+                    alert('Invalid army list file');
+                  }
+                } catch {
+                  alert('Invalid JSON file');
+                }
+              };
+              reader.readAsText(file);
+            }}
+          />
+          <button className="save-btn" onClick={exportRozs} title="Export as .rosz — import it in New Recruit, or drag it to yellowscribe.link to get a TTS code">
+            Export .rosz (New Recruit / YellowScribe)
+          </button>
+          {PROXY && (
+            <>
+              <button
+                className="save-btn"
+                title="Uploads the army via your relay and copies an 8-char TTS code (expires in ~10 minutes)"
+                onClick={async () => {
+                  try {
+                    const code = await getYellowScribeCode({ ...army, name: name || army.name || '' });
+                    try { await navigator.clipboard.writeText(code); } catch { /* clipboard unavailable */ }
+                    alert(`YellowScribe code: ${code}\n\nExpires in ~10 minutes — paste it into the Yellow Machine mod now.`);
+                  } catch (err) {
+                    alert('Could not get a code: ' + err.message);
+                  }
+                }}
+              >
+                Get Code
+              </button>
+              <button
+                className="load-btn"
+                title="Load an army from a YellowScribe code"
+                onClick={async () => {
+                  const code = prompt('Paste the 8-character YellowScribe code:');
+                  if (!code) return;
+                  try {
+                    applyImported(await armyFromCode(code));
+                  } catch (err) {
+                    alert(err.message);
+                  }
+                }}
+              >
+                Import Code
+              </button>
+            </>
+          )}
           <button className="print-btn" onClick={() => window.print()}>
             Print
           </button>
+        </div>
+        <div className="ys-hint">
+          Drag an exported .rosz to yellowscribe.link to get a TTS code
         </div>
       </div>
 

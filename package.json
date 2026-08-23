@@ -9,12 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fflate": "^0.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
-    "cheerio": "^1.0.0-rc.12",
     "vite": "^5.0.0"
   }
 }
