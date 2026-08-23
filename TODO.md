@@ -20,6 +20,16 @@
   headless Chrome CDP matrix (scripts run ad hoc, not committed). Known quirk:
   titan-legions resolves to rules/adeptus-titanicus.json whose armyRules are polluted
   with core-rules text and a "Disable Ads" block — printed verbatim, re-scrape later.
+- YellowScribe import/export (2026-08-23): src/utils/yellowscribe.js converts army
+  state to 11e .ros/.rosz (fflate zip) and back (cheerio xmlMode parse), plus
+  Phase 2 helpers for 8-hex TTS codes via a user-deployed relay (proxy/
+  yellowscribe-worker.js, CORS relay to yellowscribe.link; PROXY constant in
+  yellowscribe.js, code buttons hidden while empty). ArmyList: Export .rosz
+  (New Recruit / YellowScribe) button, Load accepts .json/.ros/.rosz with
+  unknown-wargear warnings. Round-trip self-check: node scripts/
+  test-yellowscribe.js. Per plan .opencode/plans/yellowscribe-import-export.md;
+  detachments and wargear statlines are not representable and are dropped
+  (see plan §8).
 
 ## Next
 - [ ] CI job running node scripts/validate-data.js (optional; no CI set up yet)
