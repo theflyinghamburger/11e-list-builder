@@ -178,7 +178,7 @@ export default function UnitList({ data, factionKey, units, onAddUnit, onShowDat
             <div key={g.title}>
               <button className="unit-section" onClick={() => toggleSection(g.title)}>
                 <span className="section-caret">{collapsed.has(g.title) ? '▸' : '▾'}</span>
-                {g.title} ({g.units.length})
+                {g.title}
               </button>
               {!collapsed.has(g.title) && g.units.map(renderUnit)}
             </div>
