@@ -22,16 +22,17 @@ function Section({ title, children }) {
 }
 
 function ProfileTable({ p }) {
+  const headers = p.headers.includes('WS') ? p.headers.filter((h) => h !== 'RANGE') : p.headers;
   return (
     <table className="ds-table">
       <thead>
-        <tr>{p.headers.map((h) => <th key={h}>{h}</th>)}</tr>
+        <tr><th>WEAPON</th>{headers.map((h) => <th key={h}>{h}</th>)}</tr>
       </thead>
       <tbody>
         {p.rows.map((r, i) => (
           <tr key={i}>
             <td className="ds-weapon-name">{r.name}</td>
-            {p.headers.map((h) => (
+            {headers.map((h) => (
               <td key={h}>{r[h.toLowerCase()] ?? '—'}</td>
             ))}
           </tr>
