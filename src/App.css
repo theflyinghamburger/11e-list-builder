@@ -868,6 +868,9 @@ body {
   font-family: var(--font-header);
   color: var(--gold);
 }
+.det-entry > span {
+  float: right;
+}
 
 .det-enhancements {
   display: flex;
