@@ -154,25 +154,6 @@ export default function DatasheetModal({ factionKey, unitName, onClose }) {
                 </Section>
               )}
 
-              {sheet.stratagems?.length > 0 && (
-                <Section title="Stratagems">
-                  <table className="ds-table">
-                    <thead>
-                      <tr><th>Stratagem</th><th>CP</th><th>Source</th></tr>
-                    </thead>
-                    <tbody>
-                      {sheet.stratagems.map((s, i) => (
-                        <tr key={i}>
-                          <td className="ds-weapon-name">{s.name}</td>
-                          <td>{s.cp}</td>
-                          <td>{s.source}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </Section>
-              )}
-
               {(sheet.ledBy?.length > 0 || sheet.supportedBy?.length > 0) && (
                 <div className="ds-keys">
                   {sheet.ledBy?.length > 0 && (
@@ -187,13 +168,6 @@ export default function DatasheetModal({ factionKey, unitName, onClose }) {
                       <Chips list={sheet.supportedBy} />
                     </div>
                   )}
-                </div>
-              )}
-
-              {sheet.detachmentAbilities?.length > 0 && (
-                <div className="ds-keyline">
-                  <span className="ds-keyline-label">Detachment abilities</span>
-                  <Chips list={sheet.detachmentAbilities} extraCls="ds-chip-faction" />
                 </div>
               )}
             </>

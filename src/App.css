@@ -1249,6 +1249,11 @@ body {
   text-shadow: 0 0 6px var(--gold-glow);
 }
 
+/* ponytail: auto margin pins the button to the cost instead of centering it (space-between) */
+.unit-header .info-btn {
+  margin-left: auto;
+}
+
 /* Datasheet modal */
 .ds-backdrop {
   position: fixed;
