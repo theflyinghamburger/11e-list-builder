@@ -1,0 +1,6390 @@
+{
+  "ABERRANTS": {
+    "slug": "Aberrants",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Aberrants",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "GREAT DEVOURER",
+      "ABERRANTS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Aberrant weapons",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "7",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Feel No Pain 5+",
+      "FACTION: Cult Ambush",
+      "Hulking Bodyguards: While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll."
+    ],
+    "composition": [
+      "1 Aberrant Hypermorph",
+      "4-9 Aberrants",
+      "Every Aberrant is equipped with: Aberrant weapons."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 140
+      },
+      {
+        "label": "10 models",
+        "pts": 280
+      },
+      {
+        "label": "5 models",
+        "pts": 150
+      },
+      {
+        "label": "10 models",
+        "pts": 290
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "BIO-HORROR REVELATION",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "STIMULATED BIO-SURGE",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Battle Tactic"
+      },
+      {
+        "name": "GENE-TWISTED MUSCLE",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Battle Tactic"
+      },
+      {
+        "name": "HYPER-METABOLIC VIGOUR",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Battle Tactic"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "UNSTOPPABLE BRUTES",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "GROWING DREAD",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "MONSTROUS MOMENTUM",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      }
+    ],
+    "ledBy": [
+      "ABOMINANT"
+    ],
+    "supportedBy": [
+      "BIOPHAGUS"
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Hypermorphic Fury",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Blessed Visages"
+    ]
+  },
+  "ABOMINANT": {
+    "slug": "Abominant",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Abominant",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GREAT DEVOURER",
+      "ABOMINANT"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "6",
+      "SV": "5+",
+      "W": "5",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Power sledgehammer",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "12",
+            "ap": "-2",
+            "d": "D6+1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Feel No Pain 5+, Leader",
+      "The Chosen One: While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.Regenerating Gene-mass: The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
+    ],
+    "composition": [
+      "1 Abominant",
+      "This model is equipped with: power sledgehammer."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 85
+      },
+      {
+        "label": "1 model",
+        "pts": 95
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "UNSTOPPABLE BRUTES",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "GROWING DREAD",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "MONSTROUS MOMENTUM",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Blessed Visages",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Mutagenic Regeneration10",
+      "Alien Majesty15",
+      "Predatory Instincts20",
+      "Biomorph Adaptation25",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Spiteful Imp"
+    ]
+  },
+  "ACHILLES RIDGERUNNERS": {
+    "slug": "Achilles-Ridgerunners",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Achilles-Ridgerunners",
+    "keywords": [
+      "VEHICLE",
+      "GREAT DEVOURER",
+      "ACHILLES RIDGERUNNERS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "7",
+      "SV": "3+",
+      "W": "8",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Achilles missile launcher",
+            "range": "36\"",
+            "a": "3",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Heavy mining laser (blast)",
+            "range": "36\"",
+            "a": "D3",
+            "bs": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Heavy mortar (blast, indirect fire)",
+            "range": "48\"",
+            "a": "D6+3",
+            "bs": "4+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Twin heavy stubber (twin-linked, rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "a": "3",
+            "ws": "4+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "Any number of models can each have their heavy mining laser replaced with one of the following:",
+      "1 achilles missile launcher",
+      "1 heavy mortar",
+      "Any number of models can each have their flare launcher replaced with one of the following:",
+      "1 spotter",
+      "1 survey augur"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise 1, Scouts 9\"",
+      "Crossfire: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly GENESTEALER CULTS unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+    ],
+    "wargearAbilities": [
+      "Flare Launcher: The bearer’s unit has the SMOKE keyword and you can target it with the Smokescreen Stratagem for 0CP.",
+      "Spotter: The bearer’s ranged weapons have a Ballistic Skill characteristic of 3+.",
+      "Survey Augur: Each time the bearer’s unit has shot, select one enemy unit that was hit by one or more attacks made by the bearer this phase. Until the end of the phase, each time a friendly GENESTEALER CULTS model makes an attack against that unit, that attack has the [IGNORES COVER] ability."
+    ],
+    "composition": [
+      "1-2 Achilles Ridgerunners",
+      "Every model is equipped with: heavy mining laser; twin heavy stubbers; armoured hull; flare launcher."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 95
+      },
+      {
+        "label": "2 models",
+        "pts": 160
+      },
+      {
+        "label": "1 model",
+        "pts": 105
+      },
+      {
+        "label": "2 models",
+        "pts": 170
+      },
+      {
+        "label": "per Heavy mining laser",
+        "pts": 10
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "RAPID FEINT",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "CLOSE-RANGE SHOOT-OUT",
+        "cp": 1,
+        "source": "Outlander Claw – Battle Tactic"
+      },
+      {
+        "name": "DEFT MANOEUVRING",
+        "cp": 1,
+        "source": "Outlander Claw – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING THE PREY",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Rapid Takeover",
+      "Integrated Tactics",
+      "Psionic Parasitism"
+    ]
+  },
+  "ACOLYTE HYBRIDS WITH AUTOPISTOLS": {
+    "slug": "Acolyte-Hybrids-With-Autopistols",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Acolyte-Hybrids-With-Autopistols",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "GRENADES",
+      "GREAT DEVOURER",
+      "ACOLYTE HYBRIDS",
+      "ACOLYTE HYBRIDS WITH AUTOPISTOLS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Cult claws and knife",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Heavy mining tool (anti-vehicle 4+)",
+            "range": "Melee",
+            "a": "2",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Leader’s bio-weapons",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "One Acolyte Hybrid’s autopistol can be replaced with 1 cult icon.",
+      "For every 5 models in this unit, up to 3 Acolyte Hybrids can each have their autopistol and cult claws and knife replaced with 1 heavy mining tool.",
+      "The Acolyte Leader’s cult claws and knife can be replaced with 1 Leader's bio-weapons."
+    ],
+    "abilities": [
+      "CORE: Deep Strike",
+      "FACTION: Cult Ambush",
+      "Claimed for the Cult: At the start of your Command phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
+    ],
+    "wargearAbilities": [
+      "Cult Icon: In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
+    ],
+    "composition": [
+      "1 Acolyte Leader",
+      "4-9 Acolyte Hybrids",
+      "Every model is equipped with: autopistol; cult claws and knife."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 70
+      },
+      {
+        "label": "10 models",
+        "pts": 130
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "FOR THE BROOD",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "PLANNED EXTRACTION",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "LURKING MENACE",
+        "cp": 1,
+        "source": "Cult Unveiled – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "LYING IN WAIT",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "THE DOWNTRODDEN RISE",
+        "cp": 2,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "TRANSCENDENT CELERITY",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "THE PATH OF ANGUISH",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "TIRELESS FERVOUR",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "FRENZIED DEVOTION",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Battle Tactic"
+      }
+    ],
+    "ledBy": [
+      "ACOLYTE ICONWARD",
+      "BENEFICTUS",
+      "MAGUS",
+      "PRIMUS"
+    ],
+    "supportedBy": [
+      "BIOPHAGUS",
+      "CLAMAVUS",
+      "LOCUS",
+      "NEXOS"
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Unquestioning Fanaticism",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Harassing Fire"
+    ]
+  },
+  "ACOLYTE HYBRIDS WITH HAND FLAMERS": {
+    "slug": "Acolyte-Hybrids-With-Hand-Flamers",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Acolyte-Hybrids-With-Hand-Flamers",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "GRENADES",
+      "GREAT DEVOURER",
+      "ACOLYTE HYBRIDS",
+      "ACOLYTE HYBRIDS WITH HAND FLAMERS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Demolition charges (assault, blast, hazardous, one shot)",
+            "range": "8\"",
+            "a": "D6",
+            "bs": "5+",
+            "s": "9",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Hand flamer (ignores cover, pistol, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Cult claws and knife",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Leader’s bio-weapons",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "One Acolyte Hybrid’s hand flamer can be replaced with 1 cult icon.",
+      "For every 5 models in this unit, up to 2 Acolyte Hybrids can each have their hand flamer replaced with 1 demolition charges",
+      "The Acolyte Leader’s cult claws and knife can be replaced with 1 Leader’s bio-weapons."
+    ],
+    "abilities": [
+      "CORE: Deep Strike",
+      "FACTION: Cult Ambush",
+      "Industrialised Destruction: Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll."
+    ],
+    "wargearAbilities": [
+      "Cult Icon: In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
+    ],
+    "composition": [
+      "1 Acolyte Leader",
+      "4-9 Acolyte Hybrids",
+      "Every model is equipped with: hand flamer; cult claws and knife."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 75
+      },
+      {
+        "label": "10 models",
+        "pts": 140
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "FOR THE BROOD",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "PLANNED EXTRACTION",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "LURKING MENACE",
+        "cp": 1,
+        "source": "Cult Unveiled – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "LYING IN WAIT",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "THE DOWNTRODDEN RISE",
+        "cp": 2,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "TRANSCENDENT CELERITY",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "THE PATH OF ANGUISH",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "TIRELESS FERVOUR",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "FRENZIED DEVOTION",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Battle Tactic"
+      }
+    ],
+    "ledBy": [
+      "ACOLYTE ICONWARD",
+      "BENEFICTUS",
+      "MAGUS",
+      "PRIMUS"
+    ],
+    "supportedBy": [
+      "BIOPHAGUS",
+      "CLAMAVUS",
+      "LOCUS",
+      "NEXOS"
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Unquestioning Fanaticism",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Harassing Fire"
+    ]
+  },
+  "ACOLYTE ICONWARD": {
+    "slug": "Acolyte-Iconward",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Acolyte-Iconward",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "GREAT DEVOURER",
+      "ACOLYTE ICONWARD"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Cult claws",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Leader, Scouts 6\"",
+      "Nexus of Devotion: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability. If that unit has the HYBRID METAMORPHS keyword, models in that unit have the Feel No Pain 4+ ability instead.Summon the Cult: Once per battle, when you have to remove a Cult Ambush marker because your opponent has moved too close to it, if one or more models from your army with this ability are on the battlefield, you can use this ability. If you do, instead of removing that marker, you can place it anywhere on the battlefield that is within 12\" of a model from your army with this ability and more than 8\" horizontally away from all enemy units (if this is not possible, this ability is not considered to have been used and that marker is removed as normal)."
+    ],
+    "composition": [
+      "1 Acolyte Iconward",
+      "This model is equipped with: autopistol; cult claws."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 50
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "FOR THE BROOD",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "PLANNED EXTRACTION",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "LURKING MENACE",
+        "cp": 1,
+        "source": "Cult Unveiled – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Harassing Fire",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Incendiary Inspiration15",
+      "Deeds That Speak to the Masses25",
+      "Denunciator of Tyrants25",
+      "Gene-sire’s Reliquant5",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Master Saboteur",
+      "Primary Detonator"
+    ]
+  },
+  "ATALAN JACKALS": {
+    "slug": "Atalan-Jackals",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Atalan-Jackals",
+    "keywords": [
+      "MOUNTED",
+      "GRENADES",
+      "GREAT DEVOURER",
+      "ATALAN JACKALS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Atalan incinerator (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Atalan small arms (pistol)",
+            "range": "12\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Grenade launcher – frag (blast)",
+            "range": "24\"",
+            "a": "D3",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Grenade launcher – krak",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-2",
+            "d": "D3"
+          },
+          {
+            "name": "Heavy stubber (assault, rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Mining laser",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Atalan power weapon",
+            "range": "Melee",
+            "a": "2",
+            "ws": "4+",
+            "s": "4",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "2",
+            "ws": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "For every 4 Atalan Jackals in this unit, up to 2 Atalan Jackals' close combat weapons can each be replaced with 1 Atalan power weapon.",
+      "For every 4 Atalan Jackals in this unit, 1 Atalan Jackal's Atalan small arms can be replaced with 1 grenade launcher.",
+      "Any number of Atalan Wolfquads can each have their heavy stubber replaced with one of the following:",
+      "1 Atalan incinerator",
+      "1 mining laser"
+    ],
+    "abilities": [
+      "CORE: Scouts 9\", Stealth",
+      "FACTION: Cult Ambush",
+      "Outrider Gangs: Each time you use the Cult Ambush ability to set this unit back upon the battlefield, in addition to the normal rules, all of its models must be set up wholly within 9\" of a battlefield edge and at least one of its models must be touching one of your Cult Ambush markers (that marker is then removed from the battlefield). If this cannot be done, this unit cannot be set back up.Demolition Run: Once per turn, in your Movement phase, when this unit ends a Normal, Advance or Fall Back move, you can select one enemy unit within 6\" of and visible to this unit and roll one D6 for each ATALAN JACKALS model in this unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+    ],
+    "composition": [
+      "4-8 Atalan Jackals",
+      "1-2 Atalan Wolfquads*",
+      "* This unit can only contain 2 Atalan Wolfquads if it also contains 8 Atalan Jackals.Every Atalan Jackal is equipped with: Atalan small arms; close combat weapon. Every Atalan Wolfquad is equipped with: Atalan small arms; heavy stubber; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 85
+      },
+      {
+        "label": "10 models",
+        "pts": 150
+      },
+      {
+        "label": "9 models",
+        "pts": 160
+      },
+      {
+        "label": "5 models",
+        "pts": 95
+      },
+      {
+        "label": "10 models",
+        "pts": 160
+      },
+      {
+        "label": "9 models",
+        "pts": 170
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "RAPID FEINT",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "CLOSE-RANGE SHOOT-OUT",
+        "cp": 1,
+        "source": "Outlander Claw – Battle Tactic"
+      },
+      {
+        "name": "DEFT MANOEUVRING",
+        "cp": 1,
+        "source": "Outlander Claw – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING THE PREY",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      }
+    ],
+    "ledBy": [
+      "JACKAL ALPHUS"
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Rapid Takeover",
+      "Integrated Tactics",
+      "Psionic Parasitism"
+    ]
+  },
+  "BENEFICTUS": {
+    "slug": "Benefictus",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Benefictus",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "GREAT DEVOURER",
+      "BENEFICTUS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Psionic Cascade - witchfire (ignores cover, psychic)",
+            "range": "18\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Psionic Cascade - focused witchfire (hazardous, ignores cover, psychic)",
+            "range": "18\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "2",
+            "ws": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Leader",
+      "Bio-horror Disruption (Psychic): While this model is leading a unit, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability.Psionic Shield (Psychic): Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 4+ invulnerable save."
+    ],
+    "composition": [
+      "1 Benefictus",
+      "This model is equipped with: Psionic Cascade; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 75
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "GROWING DREAD",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "MONSTROUS MOMENTUM",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Blessed Visages",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20"
+    ]
+  },
+  "BIOPHAGUS": {
+    "slug": "Biophagus",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Biophagus",
+    "base": "25mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GREAT DEVOURER",
+      "BIOPHAGUS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Chemical vials (anti-infantry 2+)",
+            "range": "6\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "1",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Injector goad (anti-infantry 2+)",
+            "range": "Melee",
+            "a": "1",
+            "ws": "3+",
+            "s": "2",
+            "ap": "0",
+            "d": "D3"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Support",
+      "Twisted Science: While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability.Biological Warfare: Once per battle, when this model's unit is selected to fight, this model can use this ability. If it does, until the end of the phase, improve the Attacks and Damage characteristics of its injector goad by 3."
+    ],
+    "wargearAbilities": [
+      "Alchemicus Familiar: Once per battle, when the bearer’s unit is selected to fight, the bearer can use its alchemicus familiar. If it does, until the end of the phase, each time a model in the bearer’s unit makes an attack that targets an INFANTRY unit, add 1 to the Wound roll.Designer’s Note: Place an Alchemicus Familiar token next to the bearer, removing it once this ability has been used."
+    ],
+    "composition": [
+      "1 Biophagus",
+      "This model is equipped with: autopistol; chemical vials; injector goad, alchemicus familiar."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 50
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "BIO-HORROR REVELATION",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "STIMULATED BIO-SURGE",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Battle Tactic"
+      },
+      {
+        "name": "GENE-TWISTED MUSCLE",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Battle Tactic"
+      },
+      {
+        "name": "HYPER-METABOLIC VIGOUR",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Battle Tactic"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "GROWING DREAD",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "MONSTROUS MOMENTUM",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Hypermorphic Fury",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Blessed Visages",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Mutagenic Regeneration10",
+      "Alien Majesty15",
+      "Predatory Instincts20",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Miasmic Fumes"
+    ]
+  },
+  "CLAMAVUS": {
+    "slug": "Clamavus",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Clamavus",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GREAT DEVOURER",
+      "CLAMAVUS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "2",
+            "ws": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Support",
+      "Voice of New Truths: In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test.Scrambler Array: Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
+    ],
+    "composition": [
+      "1 Clamavus",
+      "This model is equipped with: autopistol; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 50
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "FOR THE BROOD",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "PLANNED EXTRACTION",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "LURKING MENACE",
+        "cp": 1,
+        "source": "Cult Unveiled – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Harassing Fire",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Master Saboteur",
+      "Primary Detonator"
+    ]
+  },
+  "GOLIATH ROCKGRINDER": {
+    "slug": "Goliath-Rockgrinder",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Goliath-Rockgrinder",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "FRAME",
+      "GREAT DEVOURER",
+      "GOLIATH ROCKGRINDER"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "3"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Clearance incinerator (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "2D6",
+            "bs": "N/A",
+            "s": "6",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Demolition charge cache (assault, blast, hazardous)",
+            "range": "8\"",
+            "a": "D6",
+            "bs": "5+",
+            "s": "9",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Heavy mining laser (blast)",
+            "range": "36\"",
+            "a": "D3",
+            "bs": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Heavy seismic cannon (rapid fire 2)",
+            "range": "24\"",
+            "a": "4",
+            "bs": "4+",
+            "s": "8",
+            "ap": "-2",
+            "d": "D3"
+          },
+          {
+            "name": "Heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Drilldozer blade",
+            "range": "Melee",
+            "a": "8",
+            "ws": "3+",
+            "s": "10",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s heavy mining laser can be replaced with one of the following:",
+      "1 clearance incinerator",
+      "1 heavy seismic cannon"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3, Firing Deck 6",
+      "Grinding Clearance: Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+    ],
+    "composition": [
+      "1 Goliath Rockgrinder",
+      "This model is equipped with: heavy mining laser; heavy stubber; drilldozer blade; demolition charge cache."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 120
+      },
+      {
+        "label": "1 model",
+        "pts": 130
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "DEVOTED CREW",
+        "cp": 1,
+        "source": "Outlander Claw – Battle Tactic"
+      },
+      {
+        "name": "CLOSE-RANGE SHOOT-OUT",
+        "cp": 1,
+        "source": "Outlander Claw – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING THE PREY",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Rapid Takeover",
+      "Integrated Tactics",
+      "Psionic Parasitism"
+    ]
+  },
+  "GOLIATH TRUCK": {
+    "slug": "Goliath-Truck",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Goliath-Truck",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "FRAME",
+      "DEDICATED TRANSPORT",
+      "GREAT DEVOURER",
+      "GOLIATH TRUCK"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Demolition charge cache (assault, blast, hazardous)",
+            "range": "8\"",
+            "a": "D6",
+            "bs": "5+",
+            "s": "9",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Twin autocannon (twin-linked)",
+            "range": "48\"",
+            "a": "2",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-1",
+            "d": "3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured hull",
+            "range": "Melee",
+            "a": "3",
+            "ws": "4+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3, Firing Deck 6",
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+    ],
+    "composition": [
+      "1 Goliath Truck",
+      "This model is equipped with: heavy stubber; twin autocannon; demolition charge cache; armoured hull."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 75
+      },
+      {
+        "label": "1 model",
+        "pts": 85
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "DEVOTED CREW",
+        "cp": 1,
+        "source": "Outlander Claw – Battle Tactic"
+      },
+      {
+        "name": "CLOSE-RANGE SHOOT-OUT",
+        "cp": 1,
+        "source": "Outlander Claw – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING THE PREY",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Rapid Takeover",
+      "Integrated Tactics",
+      "Psionic Parasitism"
+    ]
+  },
+  "HYBRID METAMORPHS": {
+    "slug": "Hybrid-Metamorphs",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Hybrid-Metamorphs",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "GRENADES",
+      "GREAT DEVOURER",
+      "HYBRID METAMORPHS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Hand flamer (ignores cover, pistol, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Leader’s bio-weapons",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Metamorph mutations – strike",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Metamorph mutations – sweep",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "Any number of models can each have their autopistol replaced with 1 hand flamer.",
+      "One Hybrid Metamorph’s autopistol can be replaced with 1 cult icon."
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Feel No Pain 5+, Scouts 6\"",
+      "FACTION: Cult Ambush",
+      "Brood Surge: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6\"."
+    ],
+    "wargearAbilities": [
+      "Cult Icon: In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
+    ],
+    "composition": [
+      "1 Metamorph Leader",
+      "4-9 Hybrid Metamorphs",
+      "The Metamorph Leader is equipped with: autopistol; Leader’s bio-weapons.Every Hybrid Metamorph is equipped with: autopistol; Metamorph mutations."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 75
+      },
+      {
+        "label": "10 models",
+        "pts": 140
+      },
+      {
+        "label": "5 models",
+        "pts": 85
+      },
+      {
+        "label": "10 models",
+        "pts": 150
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "SOLDIERS OF THE STAR CHILDREN",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "GROWING DREAD",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "MONSTROUS MOMENTUM",
+        "cp": 1,
+        "source": "Genespawn Onslaught – Strategic Ploy"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "THE DOWNTRODDEN RISE",
+        "cp": 2,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "TRANSCENDENT CELERITY",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "TIRELESS FERVOUR",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "FRENZIED DEVOTION",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Battle Tactic"
+      }
+    ],
+    "ledBy": [
+      "ACOLYTE ICONWARD",
+      "BENEFICTUS",
+      "MAGUS",
+      "PRIMUS"
+    ],
+    "supportedBy": [
+      "BIOPHAGUS",
+      "CLAMAVUS",
+      "LOCUS",
+      "NEXOS"
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Unquestioning Fanaticism",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Blessed Visages"
+    ]
+  },
+  "JACKAL ALPHUS": {
+    "slug": "Jackal-Alphus",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Jackal-Alphus",
+    "keywords": [
+      "MOUNTED",
+      "CHARACTER",
+      "GRENADES",
+      "GREAT DEVOURER",
+      "JACKAL ALPHUS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Cult sniper rifle (heavy, precision)",
+            "range": "36\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Leader, Scouts 9\", Stealth",
+      "Priority Target: In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the end of the phase, each time a friendly GENESTEALER CULTS model makes an attack that targets that enemy unit, re-roll a Hit roll of 1.Master Outrider: In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy units, that unit can make a Normal move of up to 6\" as if it were your Movement phase. If it does, until the end of the turn, that unit is not eligible to declare a charge."
+    ],
+    "composition": [
+      "1 Jackal Alphus",
+      "This model is equipped with: autopistol; cult sniper rifle; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 55
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "CLOSE-RANGE SHOOT-OUT",
+        "cp": 1,
+        "source": "Outlander Claw – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING THE PREY",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Rapid Takeover",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Cartographic Data-leech10",
+      "Serpentine Tactics10",
+      "Starfall Shells10",
+      "Assault Commando15",
+      "Enraptured Damnation10",
+      "Inhuman Integration20"
+    ]
+  },
+  "KELERMORPH": {
+    "slug": "Kelermorph",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Kelermorph",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GREAT DEVOURER",
+      "KELERMORPH"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Liberator autostubs (devastating wounds, pistol)",
+            "range": "12\"",
+            "a": "6",
+            "bs": "2+",
+            "s": "6",
+            "ap": "-2",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Lone Operative",
+      "Heroic Fusillade: Once per turn, after one model from your army with this ability has shot, you can select one INFANTRY unit hit by one or more of those attacks. That unit must take a Battle-shock test.Hypersensory Abilities: Once per turn, in your opponent’s Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase and then make a Normal move of up to D6\" (it cannot embark within a TRANSPORT as part of this move)."
+    ],
+    "composition": [
+      "1 Kelermorph",
+      "This model is equipped with: liberator autostubs; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 60
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "FOR THE BROOD",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "PLANNED EXTRACTION",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "LURKING MENACE",
+        "cp": 1,
+        "source": "Cult Unveiled – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "LIVING UP TO LEGEND",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "SURGING BROODWORSHIP",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "LOYAL TO THE END",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Harassing Fire",
+      "Killer Reputation",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Master Saboteur",
+      "Primary Detonator",
+      "Contraband Munitions20"
+    ]
+  },
+  "LOCUS": {
+    "slug": "Locus",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Locus",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GREAT DEVOURER",
+      "LOCUS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Locus blades",
+            "range": "Melee",
+            "a": "5",
+            "ws": "2+",
+            "s": "5",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Fights First, Support",
+      "Sudden Assault: While this model is leading a unit, models in that unit have the Fights First ability.Bodyguard: While this model is leading a unit, other CHARACTER models attached to that unit have the Feel No Pain 4+ ability."
+    ],
+    "composition": [
+      "1 Locus",
+      "This model is equipped with: Locus blades."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 35
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "FOR THE BROOD",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "PLANNED EXTRACTION",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "LURKING MENACE",
+        "cp": 1,
+        "source": "Cult Unveiled – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "LIVING UP TO LEGEND",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "SURGING BROODWORSHIP",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "LOYAL TO THE END",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Harassing Fire",
+      "Killer Reputation",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Master Saboteur",
+      "Primary Detonator",
+      "Gene-Tailored Toxins35"
+    ]
+  },
+  "MAGUS": {
+    "slug": "Magus",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Magus",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "GREAT DEVOURER",
+      "MAGUS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Magus stave (psychic)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "D3"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Leader",
+      "Spiritual Leader: Once per battle, at the start of any phase, you can select one friendly GENESTEALER CULTS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.Mind Control (Psychic): At the start of your opponent’s Shooting phase, one PSYKER model from your army with this ability can use it. If used, select one enemy unit within 18\" of that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll and subtract 1 from the Wound roll.Psychic Familiar: Once per battle, at the start of your opponent’s Shooting phase, this model can use its psychic familiar. If it does, until the end of the phase, add 6 ” to the range of its Mind Control ability.Designer’s Note: Place a Psychic Familiar token next to the model, removing it once this ability has been used."
+    ],
+    "composition": [
+      "1 Magus",
+      "This model is equipped with: autopistol; Magus stave."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 50
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "FOR THE BROOD",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "PLANNED EXTRACTION",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "LURKING MENACE",
+        "cp": 1,
+        "source": "Cult Unveiled – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Harassing Fire",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Incendiary Inspiration15",
+      "Deeds That Speak to the Masses25",
+      "Denunciator of Tyrants25",
+      "Gene-sire’s Reliquant5",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Master Saboteur",
+      "Primary Detonator",
+      "Inspired to Greatness15"
+    ]
+  },
+  "NEOPHYTE HYBRIDS": {
+    "slug": "Neophyte-Hybrids",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Neophyte-Hybrids",
+    "base": "25mm",
+    "baseNote": "32mm if equipped with Heavy Mining Weapon",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "GRENADES",
+      "GREAT DEVOURER",
+      "NEOPHYTE HYBRIDS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Anointed pistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Hybrid firearm (rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Flamer (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Grenade launcher – frag (blast)",
+            "range": "24\"",
+            "a": "D3",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Grenade launcher – krak",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "9",
+            "ap": "-2",
+            "d": "D3"
+          },
+          {
+            "name": "Heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Mining laser (heavy)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "5+",
+            "s": "10",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Seismic cannon (heavy, rapid fire 2)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "5+",
+            "s": "6",
+            "ap": "-1",
+            "d": "D3"
+          },
+          {
+            "name": "Webber (devastating wounds, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "2",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Chainsword",
+            "range": "Melee",
+            "a": "2",
+            "ws": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Power weapon",
+            "range": "Melee",
+            "a": "1",
+            "ws": "4+",
+            "s": "4",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "1",
+            "ws": "4+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "One Neophyte Hybrid equipped with a Hybrid firearm can be equipped with 1 cult icon.",
+      "For every 10 models in this unit, up to 2 Neophyte Hybrids can each have their Hybrid firearm replaced with one of the following:",
+      "Heavy stubber*",
+      "Mining laser*",
+      "Seismic cannon*",
+      "For every 10 models in this unit, up to 2 Neophyte Hybrids can each have their Hybrid firearm replaced with one of the following:",
+      "Flamer*",
+      "Grenade launcher*",
+      "Webber*",
+      "The Neophyte Leader’s Hybrid firearm and close combat weapon can be replaced with 1 of the following:",
+      "1 anointed pistol and 1 chainsword",
+      "1 anointed pistol and 1 power weapon",
+      "* To a maximum of 1 per 10 models in this unit."
+    ],
+    "abilities": [
+      "CORE: Deep Strike",
+      "FACTION: Cult Ambush",
+      "A Plan Generations in the Making: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+    ],
+    "wargearAbilities": [
+      "Cult Icon: In your Command phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models to that unit instead. This ability cannot be used to return destroyed CHARACTER models in Attached units and any [ONE SHOT] weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
+    ],
+    "composition": [
+      "1 Neophyte Leader",
+      "9-19 Neophyte Hybrids",
+      "Every model is equipped with: autopistol; Hybrid firearm; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "10 models",
+        "pts": 70
+      },
+      {
+        "label": "20 models",
+        "pts": 135
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "OUT OF HIDING",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "FOR THE BROOD",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "PLANNED EXTRACTION",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "LURKING MENACE",
+        "cp": 1,
+        "source": "Cult Unveiled – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "LYING IN WAIT",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "THE DOWNTRODDEN RISE",
+        "cp": 2,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "TRANSCENDENT CELERITY",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "THE PATH OF ANGUISH",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "TIRELESS FERVOUR",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Strategic Ploy"
+      },
+      {
+        "name": "FRENZIED DEVOTION",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Battle Tactic"
+      },
+      {
+        "name": "EYES OF THE CULT",
+        "cp": 0,
+        "source": "Xenocult Masses Stratagem"
+      },
+      {
+        "name": "FANATICAL HAIL",
+        "cp": 0,
+        "source": "Xenocult Masses Stratagem"
+      },
+      {
+        "name": "SLUNK FROM THE UNDERBELLY",
+        "cp": 0,
+        "source": "Xenocult Masses Stratagem"
+      }
+    ],
+    "ledBy": [
+      "ACOLYTE ICONWARD",
+      "BENEFICTUS",
+      "MAGUS",
+      "PRIMUS"
+    ],
+    "supportedBy": [
+      "BIOPHAGUS",
+      "CLAMAVUS",
+      "LOCUS",
+      "NEXOS"
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Unquestioning Fanaticism",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Harassing Fire",
+      "Devious Disguises15"
+    ]
+  },
+  "NEXOS": {
+    "slug": "Nexos",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Nexos",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GREAT DEVOURER",
+      "NEXOS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "2",
+            "ws": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Support",
+      "Battlefield Analysis: Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.Cult Infiltration: At the start of each player’s Command phase, if this model is on the battlefield, you can select one of your Cult Ambush markers that is on the battlefield and has not been moved this turn and move it up to 6\"."
+    ],
+    "composition": [
+      "1 Nexos",
+      "This model is equipped with: autopistol; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 60
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20"
+    ]
+  },
+  "PATRIARCH": {
+    "slug": "Patriarch",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Patriarch",
+    "base": "50mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "GREAT DEVOURER",
+      "PATRIARCH"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Patriarch’s claws (devastating wounds, twin-linked)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "2+",
+            "s": "6",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Infiltrators, Leader",
+      "Might From Beyond: While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.Cosmic Horror (Psychic): At the start of the Fight phase, each enemy unit within 6\" of this model must take a Battle-shock test.Psychic Familiar: Once per battle, at the start of the Fight phase, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Cosmic Horror ability.Designer’s Note: Place a Psychic Familiar token next to the model, removing it once this ability has been used."
+    ],
+    "composition": [
+      "1 Patriarch",
+      "This model is equipped with: Patriarch’s claws."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 80
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "HUNTING GROUNDS",
+        "cp": 1,
+        "source": "Infestation Swarm – Strategic Ploy"
+      },
+      {
+        "name": "HYPERADRENAL REFLEXES",
+        "cp": 1,
+        "source": "Infestation Swarm – Battle Tactic"
+      },
+      {
+        "name": "PERVASIVE DREAD",
+        "cp": 1,
+        "source": "Infestation Swarm – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Half-Glimpsed Shadows",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Mutagenic Regeneration10",
+      "Alien Majesty15",
+      "Predatory Instincts20",
+      "Biomorph Adaptation25",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Psi-spoor Sensitivity",
+      "Stalking Menace",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Psi-spoor Sensitivity",
+      "Stalking Menace",
+      "Talons of the Sire15"
+    ]
+  },
+  "PRIMUS": {
+    "slug": "Primus",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Primus",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GREAT DEVOURER",
+      "PRIMUS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Scoped needle pistol (anti-infantry 2+, ignores cover, pistol)",
+            "range": "18\"",
+            "a": "1",
+            "bs": "2+",
+            "s": "1",
+            "ap": "0",
+            "d": "D3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Cult bonesword",
+            "range": "Melee",
+            "a": "5",
+            "ws": "2+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Toxin injector claw (anti-infantry 2+, extra attacks)",
+            "range": "Melee",
+            "a": "2",
+            "ws": "2+",
+            "s": "2",
+            "ap": "0",
+            "d": "D3"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Leader",
+      "Cult Demagogue: While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll.Decoys and Misdirection: If your army includes one or more models with this ability, after both players have deployed their armies, select up to three GENESTEALER CULTS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+    ],
+    "composition": [
+      "1 Primus",
+      "This model is equipped with: scoped needle pistol; cult bonesword; toxin injector claw."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 70
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "FOR THE BROOD",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "PLANNED EXTRACTION",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "LURKING MENACE",
+        "cp": 1,
+        "source": "Cult Unveiled – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Harassing Fire",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Incendiary Inspiration15",
+      "Deeds That Speak to the Masses25",
+      "Denunciator of Tyrants25",
+      "Gene-sire’s Reliquant5",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Master Saboteur",
+      "Primary Detonator",
+      "Inspired to Greatness15"
+    ]
+  },
+  "PURESTRAIN GENESTEALERS": {
+    "slug": "Purestrain-Genestealers",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Purestrain-Genestealers",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "GREAT DEVOURER",
+      "PURESTRAIN GENESTEALERS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "4",
+      "SV": "5+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Cult claws and talons",
+            "range": "Melee",
+            "a": "4",
+            "ws": "2+",
+            "s": "4",
+            "ap": "-2",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Infiltrators",
+      "FACTION: Cult Ambush",
+      "Swift and Deadly: This unit is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "composition": [
+      "5-10 Purestrain Genestealers",
+      "Every model is equipped with: cult claws and talons."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 75
+      },
+      {
+        "label": "10 models",
+        "pts": 140
+      },
+      {
+        "label": "5 models",
+        "pts": 85
+      },
+      {
+        "label": "10 models",
+        "pts": 150
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "BIO-HORROR REVELATION",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "STIMULATED BIO-SURGE",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Battle Tactic"
+      },
+      {
+        "name": "GENE-TWISTED MUSCLE",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Battle Tactic"
+      },
+      {
+        "name": "HYPER-METABOLIC VIGOUR",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Battle Tactic"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "HUNTING GROUNDS",
+        "cp": 1,
+        "source": "Infestation Swarm – Strategic Ploy"
+      },
+      {
+        "name": "HYPERADRENAL REFLEXES",
+        "cp": 1,
+        "source": "Infestation Swarm – Battle Tactic"
+      },
+      {
+        "name": "PERVASIVE DREAD",
+        "cp": 1,
+        "source": "Infestation Swarm – Strategic Ploy"
+      },
+      {
+        "name": "OUTFLANK",
+        "cp": 1,
+        "source": "Infestation Swarm – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "LURK AND STRIKE",
+        "cp": 0,
+        "source": "Purestrain Broodswarm Stratagem"
+      },
+      {
+        "name": "CRAWLING HORROR",
+        "cp": 0,
+        "source": "Purestrain Broodswarm Stratagem"
+      },
+      {
+        "name": "INHUMAN REACTIONS",
+        "cp": 0,
+        "source": "Purestrain Broodswarm Stratagem"
+      }
+    ],
+    "ledBy": [
+      "PATRIARCH"
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Hypermorphic Fury",
+      "Integrated Tactics",
+      "Half-Glimpsed Shadows",
+      "Enemy Within",
+      "Hordes of the Faithful",
+      "Mark of the Star Children30"
+    ]
+  },
+  "REDUCTUS SABOTEUR": {
+    "slug": "Reductus-Saboteur",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Reductus-Saboteur",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "GREAT DEVOURER",
+      "REDUCTUS SABOTEUR"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Autopistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Demolition charges (assault, blast, one shot)",
+            "range": "8\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Remote explosives (blast, indirect fire)",
+            "range": "24\"",
+            "a": "D6+3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "2",
+            "ws": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Infiltrators, Lone Operative, Stealth",
+      "Primed and Ready: In your Shooting phase, you can select one model from your army with this ability as the target of the Explosives Stratagem for 0CP, provided that model has not already been the target of that Stratagem this phase.Planted Explosives: Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, this model can use its Reductus mine. If it does, roll one D6: on a 2+, that enemy unit suffers D3+3 mortal wounds. Only one model from your army with this ability can use it in the same battle round.Designer’s Note: Place a Reductus Mine token next to the model, removing it once this ability has been used."
+    ],
+    "composition": [
+      "1 Reductus Saboteur",
+      "This model is equipped with: autopistol; demolition charges; remote explosives; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 70
+      },
+      {
+        "label": "1 model",
+        "pts": 80
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "LIVING UP TO LEGEND",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "SURGING BROODWORSHIP",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "LOYAL TO THE END",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Killer Reputation",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Contraband Munitions20"
+    ]
+  },
+  "SANCTUS": {
+    "slug": "Sanctus",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/genestealer-cults/Sanctus",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GREAT DEVOURER",
+      "SANCTUS"
+    ],
+    "factionKeywords": [
+      "GENESTEALER CULTS"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "3",
+      "SV": "5+",
+      "W": "3",
+      "LD": "7+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Cult sniper rifle (anti-psyker 2+, heavy, precision)",
+            "range": "36\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Sanctus bio-dagger (anti-infantry 3+, precision)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "3",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "2",
+            "ws": "3+",
+            "s": "3",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Sanctus bio-dagger can be replaced with 1 cult sniper rifle and 1 close combat weapon."
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Infiltrators, Lone Operative, Stealth",
+      "Creeping Shadow: If this model is equipped with a cult sniper rifle, In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6\".Cloaked Assassin: Enemy units cannot target this unit with snap shooting attacks.Psychic Spoor: At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    ],
+    "composition": [
+      "1 Sanctus",
+      "This model is equipped with: Sanctus bio-dagger."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 65
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "EVASIVE VANGUARD",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Strategic Ploy"
+      },
+      {
+        "name": "SAINTLY PAROXYSM",
+        "cp": 1,
+        "source": "Biosanctic Broodsurge – Epic Deed"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "A DARK NETWORK",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Strategic Ploy"
+      },
+      {
+        "name": "SYMBIOTIC DESTRUCTION",
+        "cp": 1,
+        "source": "Brood Brother Auxilia – Battle Tactic"
+      },
+      {
+        "name": "FOR THE BROOD",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "PLANNED EXTRACTION",
+        "cp": 1,
+        "source": "Cult Unveiled – Strategic Ploy"
+      },
+      {
+        "name": "LURKING MENACE",
+        "cp": 1,
+        "source": "Cult Unveiled – Battle Tactic"
+      },
+      {
+        "name": "DIVINE IMPERATIVE",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "RESISTANCE TUNNELS",
+        "cp": 0,
+        "source": "Final Day – Strategic Ploy"
+      },
+      {
+        "name": "HYPERFEROCITY",
+        "cp": 0,
+        "source": "Final Day – Battle Tactic"
+      },
+      {
+        "name": "LIVING UP TO LEGEND",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "SURGING BROODWORSHIP",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "LOYAL TO THE END",
+        "cp": 0,
+        "source": "Heroes of the Uprising Stratagem"
+      },
+      {
+        "name": "TUNNEL CRAWLERS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "COORDINATED TRAP",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "PRIMED AND READIED",
+        "cp": 2,
+        "source": "Host of Ascension – Battle Tactic"
+      },
+      {
+        "name": "A DEADLY SNARE",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "RETURN TO THE SHADOWS",
+        "cp": 1,
+        "source": "Host of Ascension – Strategic Ploy"
+      },
+      {
+        "name": "ALONG SHADOWED TRAILS",
+        "cp": 1,
+        "source": "Outlander Claw – Strategic Ploy"
+      },
+      {
+        "name": "VENGEANCE FOR THE MARTYR!",
+        "cp": 1,
+        "source": "Xenocreed Congregation – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "A Perfect Ambush",
+      "Integrated Tactics",
+      "Psionic Parasitism",
+      "Harassing Fire",
+      "Killer Reputation",
+      "Assassination Edict15",
+      "Prowling Agitant15",
+      "A Chink in Their Armour20",
+      "Our Time Is Nigh20",
+      "Cartographic Data-leech10",
+      "Assault Commando15",
+      "Firepoint Commander10",
+      "Adaptive Reprisal15",
+      "The Hero Returned20",
+      "Martial Espionage25",
+      "Enraptured Damnation10",
+      "Inhuman Integration20",
+      "Master Saboteur",
+      "Primary Detonator",
+      "Gene-Tailored Toxins35"
+    ]
+  }
+}

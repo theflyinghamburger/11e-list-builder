@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { getUnitPoints } from '../utils/costs';
 import { canAddUnit } from '../utils/validate';
 
-export default function UnitList({ data, units, onAddUnit }) {
+export default function UnitList({ data, units, onAddUnit, onShowDatasheet }) {
   const [search, setSearch] = useState('');
   const [expandedUnit, setExpandedUnit] = useState(null);
   const [addForm, setAddForm] = useState(null);
@@ -62,6 +62,16 @@ export default function UnitList({ data, units, onAddUnit }) {
             <div key={unitData.name} className="unit-card">
               <div className="unit-header" onClick={() => openAddForm(unitData)}>
                 <span className="unit-name">{unitData.name}</span>
+                <button
+                  className="info-btn"
+                  title="View datasheet"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onShowDatasheet(unitData.name);
+                  }}
+                >
+                  &#9432;
+                </button>
                 <span className="unit-cost">
                   {getUnitPoints(unitData, unitData.modelOptions[0].count, nextOrdinal, {})} pts
                 </span>

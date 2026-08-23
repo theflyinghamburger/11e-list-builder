@@ -76,3 +76,27 @@ export function getData(key) {
 export function getFactionKeys() {
   return Object.keys(factions);
 }
+
+// Repo faction key → Wahapedia folder (mirror of scripts/fetch-wahapedia.js).
+const DS_FOLDER_FOR = {
+  'blood-angels': 'space-marines',
+  'dark-angels': 'space-marines',
+  'black-templars': 'space-marines',
+  'deathwatch': 'space-marines',
+  'space-wolves': 'space-marines',
+  'titan-legions': 'adeptus-titanicus',
+  'chaos-titan-legions': 'adeptus-titanicus',
+  'tau-empire': 't-au-empire',
+  'emperors-children': 'emperor-s-children',
+  // ponytail: every other key is its own folder
+};
+
+const dsCache = {};
+
+export async function getDatasheets(factionKey) {
+  const folder = DS_FOLDER_FOR[factionKey] ?? factionKey;
+  if (!dsCache[folder]) {
+    dsCache[folder] = (await import(`./datasheets/${folder}.json`)).default;
+  }
+  return dsCache[folder];
+}

@@ -1,0 +1,7035 @@
+{
+  "CHAOS LAND RAIDER": {
+    "slug": "Chaos-Land-Raider",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Chaos-Land-Raider",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "FRAME",
+      "SMOKE",
+      "CHAOS",
+      "SLAANESH",
+      "LAND RAIDER"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "12",
+      "SV": "2+",
+      "W": "16",
+      "LD": "6+",
+      "OC": "5"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Combi-bolter (rapid fire 2)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Combi-weapon (anti-infantry 4+, devastating wounds, rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Havoc launcher (blast)",
+            "range": "48\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Soulshatter lascannon",
+            "range": "48\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Twin heavy bolter (sustained hits 1, twin-linked)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "8",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model can be equipped with one of the following:",
+      "1 combi-bolter",
+      "1 combi-weapon",
+      "This model can be equipped with 1 havoc launcher."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Thrill Seekers",
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "composition": [
+      "1 Chaos Land Raider",
+      "This model is equipped with: 2 soulshatter lascannons; twin heavy bolter; armoured tracks."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 220
+      },
+      {
+        "label": "1 model",
+        "pts": 240
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "SMOKESCREEN",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "ADVANCE AND CLAIM",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "DYNAMIC BREAKTHROUGH",
+        "cp": 1,
+        "source": "Rapid Evisceration – Epic Deed"
+      },
+      {
+        "name": "REACTIVE DISEMBARKATION",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "OUTFLANKING STRIKE",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant"
+    ]
+  },
+  "CHAOS RHINO": {
+    "slug": "Chaos-Rhino",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Chaos-Rhino",
+    "keywords": [
+      "VEHICLE",
+      "TRANSPORT",
+      "FRAME",
+      "DEDICATED TRANSPORT",
+      "SMOKE",
+      "CHAOS",
+      "SLAANESH",
+      "RHINO"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Combi-bolter (rapid fire 2)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Combi-weapon (anti-infantry 4+, devastating wounds, rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Havoc launcher (blast)",
+            "range": "48\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured tracks",
+            "range": "Melee",
+            "a": "3",
+            "ws": "4+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model can be equipped with one of the following:",
+      "1 combi-bolter",
+      "1 combi-weapon",
+      "This model can be equipped with 1 havoc launcher or can replace 1 combi-bolter with 1 havoc launcher."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3, Firing Deck 2",
+      "FACTION: Thrill Seekers",
+      "Assault Vehicle: Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+    ],
+    "composition": [
+      "1 Chaos Rhino",
+      "This model is equipped with: combi-bolter; armoured tracks."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 70
+      },
+      {
+        "label": "1 model",
+        "pts": 80
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "SMOKESCREEN",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "ADVANCE AND CLAIM",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "DYNAMIC BREAKTHROUGH",
+        "cp": 1,
+        "source": "Rapid Evisceration – Epic Deed"
+      },
+      {
+        "name": "REACTIVE DISEMBARKATION",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "OUTFLANKING STRIKE",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant"
+    ]
+  },
+  "CHAOS SPAWN": {
+    "slug": "Chaos-Spawn",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Chaos-Spawn",
+    "base": "50mm",
+    "keywords": [
+      "BEAST",
+      "CHAOS",
+      "SLAANESH",
+      "CHAOS SPAWN"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hideous mutations",
+            "range": "Melee",
+            "a": "D6+2",
+            "ws": "4+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Feel No Pain 5+",
+      "FACTION: Thrill Seekers",
+      "Scuttling Horrors: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6\"."
+    ],
+    "composition": [
+      "2 Chaos Spawn",
+      "Every model is equipped with: hideous mutations."
+    ],
+    "costs": [
+      {
+        "label": "2 models",
+        "pts": 70
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant"
+    ]
+  },
+  "CHAOS TERMINATORS": {
+    "slug": "Chaos-Terminators",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Chaos-Terminators",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "SLAANESH",
+      "TERMINATOR",
+      "TERMINATOR SQUAD"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Combi-bolter (rapid fire 2)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Combi-weapon (anti-infantry 4+, devastating wounds, rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Heavy flamer (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Reaper autocannon (devastating wounds, sustained hits 1)",
+            "range": "36\"",
+            "a": "4",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Accursed weapon",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Chainfist (anti-vehicle 3+)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "4+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Paired accursed weapons (twin-linked)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "1 Chaos Terminator’s combi-bolter can be replaced with one of the following:",
+      "1 heavy flamer",
+      "1 reaper autocannon",
+      "Any number of models can each have their combi-bolter replaced with 1 combi-weapon.",
+      "1 model’s combi-bolter and accursed weapon can be replaced with 1 paired accursed weapons.",
+      "Up to 3 models can each have their accursed weapon replaced with 1 power fist.",
+      "1 model’s accursed weapon can be replaced with 1 chainfist."
+    ],
+    "abilities": [
+      "CORE: Deep Strike",
+      "FACTION: Thrill Seekers",
+      "Lethal Obsession: In your Shooting phase, after this unit has shot, you can use this ability. If you do, select one enemy unit hit by those ranged attacks. Until the end of the turn, when this unit declares a charge:This unit can re-roll that charge roll.This unit must end that charge move engaged with that enemy unit."
+    ],
+    "composition": [
+      "1 Terminator Champion",
+      "4 Chaos Terminators",
+      "Every model is equipped with: combi-bolter; accursed weapon."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 145
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "EMBRACE THE PAIN",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "DELIGHT IN AGONY",
+        "cp": 0,
+        "source": "Elegant Brutes Stratagem"
+      },
+      {
+        "name": "PSYCHEDELIC SOULFLAME",
+        "cp": 0,
+        "source": "Elegant Brutes Stratagem"
+      },
+      {
+        "name": "WARP PLUNGE",
+        "cp": 0,
+        "source": "Elegant Brutes Stratagem"
+      },
+      {
+        "name": "HONOUR THE PRINCE",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "COMBAT STIMMS",
+        "cp": 2,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "CEASELESS ONSLAUGHT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "EAGER FOR MORE",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      },
+      {
+        "name": "VYING FOR VICTORY",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      },
+      {
+        "name": "ALLURING GROTESQUERIE",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      }
+    ],
+    "ledBy": [
+      "LORD KAKOPHONIST"
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Daemonic Empowerment",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant",
+      "Dark Radiance",
+      "Eager to Kill",
+      "Frenzied Ferocity15"
+    ]
+  },
+  "DAEMON PRINCE OF SLAANESH": {
+    "slug": "Daemon-Prince-of-Slaanesh",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Daemon-Prince-of-Slaanesh",
+    "base": "60mm",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "DAEMON PRINCE"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Infernal cannon",
+            "range": "24\"",
+            "a": "3",
+            "bs": "2+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hellforged weapons – strike",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "8",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Hellforged weapons – sweep",
+            "range": "Melee",
+            "a": "14",
+            "ws": "2+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Thrill Seekers",
+      "Lord of Excess: While this model is within 3\" of one or more friendly SLAANESH INFANTRY units, this model has the Lone Operative ability.Excessive Vigour (Aura): While a friendly SLAANESH unit is within 6\" of this model, if that unit made a Charge move this turn, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.Ecstatic Death: If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    ],
+    "composition": [
+      "1 Daemon Prince of Slaanesh",
+      "This model is equipped with: infernal cannon; hellforged weapons."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 170
+      },
+      {
+        "label": "1 model",
+        "pts": 185
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "SINUOUS BREACH",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "EUPHORIC INSPIRATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DIABOLIC MAJESTY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Epic Deed"
+      },
+      {
+        "name": "HEIGHTENED JEALOUSY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "VENGEFUL SURGE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "REFUSAL TO BE OUTDONE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "BEAUTIFUL DEATH",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "DEVOTED DUELLISTS",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Pledges to the Dark Prince",
+      "Internal Rivalries",
+      "Sensational Performance",
+      "Master of the Pageant",
+      "Loathsome Dexterity10",
+      "Tactical Perfection15",
+      "Intoxicating Musk20",
+      "Steeped in Suffering20",
+      "Faultless Opportunist15",
+      "Blinding Speed25",
+      "Distortion25",
+      "Empyric Suffusion15",
+      "Possessed Blade25",
+      "Warp Walker30",
+      "Pledge of Mortal Pain15",
+      "Pledge of Dark Glory25",
+      "Pledge of Eternal Servitude25",
+      "Pledge of Unholy Fortune30",
+      "Eager to Prove15",
+      "Slayer of Champions15",
+      "Proud and Vainglorious20",
+      "Repulsed by Weakness25",
+      "Soulstain Made Manifest15",
+      "Spiritsliver20",
+      "Tears of the Phoenix25"
+    ]
+  },
+  "DAEMON PRINCE OF SLAANESH WITH WINGS": {
+    "slug": "Daemon-Prince-of-Slaanesh-with-Wings",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Daemon-Prince-of-Slaanesh-with-Wings",
+    "base": "60mm",
+    "keywords": [
+      "MONSTER",
+      "FLY",
+      "CHARACTER",
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "DAEMON PRINCE WITH WINGS"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "2+",
+      "W": "10",
+      "LD": "6+",
+      "OC": "3",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Infernal cannon",
+            "range": "24\"",
+            "a": "3",
+            "bs": "2+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hellforged weapons – strike",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "8",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Hellforged weapons – sweep",
+            "range": "Melee",
+            "a": "14",
+            "ws": "2+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3, Deep Strike",
+      "FACTION: Thrill Seekers",
+      "Daemonic Destruction: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each of this model’s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).Stimulated by Pain: Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "composition": [
+      "1 Daemon Prince of Slaanesh with Wings",
+      "This model is equipped with: infernal cannon; hellforged weapons."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 205
+      },
+      {
+        "label": "1 model",
+        "pts": 235
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "SINUOUS BREACH",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "EUPHORIC INSPIRATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DIABOLIC MAJESTY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Epic Deed"
+      },
+      {
+        "name": "HEIGHTENED JEALOUSY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "VENGEFUL SURGE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "REFUSAL TO BE OUTDONE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "BEAUTIFUL DEATH",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "DEVOTED DUELLISTS",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Pledges to the Dark Prince",
+      "Internal Rivalries",
+      "Sensational Performance",
+      "Master of the Pageant",
+      "Loathsome Dexterity10",
+      "Tactical Perfection15",
+      "Intoxicating Musk20",
+      "Steeped in Suffering20",
+      "Faultless Opportunist15",
+      "Blinding Speed25",
+      "Distortion25",
+      "Empyric Suffusion15",
+      "Possessed Blade25",
+      "Warp Walker30",
+      "Pledge of Mortal Pain15",
+      "Pledge of Dark Glory25",
+      "Pledge of Eternal Servitude25",
+      "Pledge of Unholy Fortune30",
+      "Eager to Prove15",
+      "Slayer of Champions15",
+      "Proud and Vainglorious20",
+      "Repulsed by Weakness25",
+      "Soulstain Made Manifest15",
+      "Tears of the Phoenix25"
+    ]
+  },
+  "DAEMONETTES": {
+    "slug": "Daemonettes",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Daemonettes",
+    "base": "25mm",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "CHAOS",
+      "DAEMON",
+      "SUMMONED",
+      "SLAANESH",
+      "DAEMONETTES"
+    ],
+    "factionKeywords": [
+      "LEGIONS OF EXCESS"
+    ],
+    "characteristics": {
+      "M": "9\"",
+      "T": "3",
+      "SV": "7+",
+      "W": "1",
+      "LD": "7+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Slashing claws (devastating wounds)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "1 Daemonette that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos.",
+      "1 Daemonette that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon."
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Fights First",
+      "FACTION: Pact of Excess",
+      "Horrifying Beauty: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units from your army with this ability must take a Battle-shock test, subtracting 1 from the result if that enemy unit is Below Half-strength."
+    ],
+    "wargearAbilities": [
+      "Daemonic Icon: Models in the bearer’s unit have a Leadership characteristic of 6+.",
+      "Instrument of Chaos: Add 1 to Charge rolls made for the bearer’s unit."
+    ],
+    "composition": [
+      "1 Alluress",
+      "9 Daemonettes",
+      "Every model is equipped with: slashing claws."
+    ],
+    "costs": [
+      {
+        "label": "10 models",
+        "pts": 90
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "SYCOPHANTIC SURGE",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "DARK APPARITIONS",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      }
+    ]
+  },
+  "DEFILER": {
+    "slug": "Defiler",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Defiler",
+    "base": "160mm",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "SLAANESH",
+      "DAEMON",
+      "DEFILER"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hades battle cannon (blast)",
+            "range": "48\"",
+            "a": "D6+3",
+            "bs": "3+",
+            "s": "10",
+            "ap": "-1",
+            "d": "3"
+          },
+          {
+            "name": "Ectoplasma destructor (blast)",
+            "range": "36\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "3"
+          },
+          {
+            "name": "Excruciator cannon",
+            "range": "36\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Magma cutters (melta 2)",
+            "range": "12\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Heavy baleflamer (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6+3",
+            "bs": "N/A",
+            "s": "7",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Hades lascannon",
+            "range": "48\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Heavy reaper autocannon (devastating wounds, sustained hits 1)",
+            "range": "48\"",
+            "a": "4",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-1",
+            "d": "3"
+          },
+          {
+            "name": "Heavy missile launcher – krak",
+            "range": "48\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "10",
+            "ap": "-2",
+            "d": "D6+1"
+          },
+          {
+            "name": "Heavy missile launcher – frag (blast)",
+            "range": "48\"",
+            "a": "2D6",
+            "bs": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Shearing claws – strike (precision)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "16",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Shearing claws – sweep",
+            "range": "Melee",
+            "a": "10",
+            "ws": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Electroscourge (extra attacks, sustained hits 2)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "12",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Hades battle cannon can be replaced with 1 ectoplasma destructor.",
+      "This model’s excruciator cannons can be replaced with 2 magma cutters",
+      "This model’s heavy baleflamer can be replaced with one of the following:",
+      "1 Hades lascannon",
+      "1 heavy reaper autocannon",
+      "1 electroscourge (a model cannot be equipped with more than one electroscourge)",
+      "This model’s heavy missile launcher can be replaced with one of the following:",
+      "1 Hades lascannon",
+      "1 heavy reaper autocannon",
+      "1 electroscourge (a model cannot be equipped with more than one electroscourge)"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Thrill Seekers",
+      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.Revel in Desecration: Each time this model makes an attack that targets an enemy unit that is not below Half-strength, add 1 to the Hit roll."
+    ],
+    "composition": [
+      "1 Defiler",
+      "This model is equipped with: 1 Hades battle cannon; 2 excruciator cannons; 1 heavy missile launcher; 1 heavy baleflamer; 1 shearing claws"
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 300
+      },
+      {
+        "label": "1 model",
+        "pts": 340
+      },
+      {
+        "label": "per Heavy reaper autocannon",
+        "pts": 15
+      },
+      {
+        "label": "per Hades lascannon",
+        "pts": 15
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "SINUOUS BREACH",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "EUPHORIC INSPIRATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DYNAMIC BREAKTHROUGH",
+        "cp": 1,
+        "source": "Rapid Evisceration – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant"
+    ]
+  },
+  "FIENDS": {
+    "slug": "Fiends",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Fiends",
+    "keywords": [
+      "BEAST",
+      "CHAOS",
+      "DAEMON",
+      "SUMMONED",
+      "SLAANESH",
+      "FIENDS"
+    ],
+    "factionKeywords": [
+      "LEGIONS OF EXCESS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "5",
+      "SV": "7+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Barbed tail and dissecting claws (devastating wounds)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deep Strike",
+      "FACTION: Pact of Excess",
+      "Soporific Musk: Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
+    ],
+    "composition": [
+      "1 Blissbringer",
+      "2-5 Fiends",
+      "Every model is equipped with: barbed tail and dissecting claws."
+    ],
+    "costs": [
+      {
+        "label": "3 models",
+        "pts": 90
+      },
+      {
+        "label": "6 models",
+        "pts": 180
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "SYCOPHANTIC SURGE",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      }
+    ]
+  },
+  "FLAWLESS BLADES": {
+    "slug": "Flawless-Blades",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Flawless-Blades",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "FLAWLESS BLADES"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "3",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Bolt pistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Blissblade",
+            "range": "Melee",
+            "a": "4",
+            "ws": "2+",
+            "s": "6",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "FACTION: Thrill Seekers",
+      "Daemonic Patrons: Each time this unit is selected to fight, it can call upon daemonic patrons. If it does, until the end of the phase, each time a model in this unit makes an attack, an unmodified Wound roll of 3+ scores a Critical Wound. At the end of the Fight phase, if this unit called upon daemonic patrons this phase and no enemy models were destroyed by attacks made by models in this unit this phase, one model in this unit is destroyed."
+    ],
+    "composition": [
+      "3-6 Flawless Blades",
+      "Every model is equipped with: bolt pistol; blissblade."
+    ],
+    "costs": [
+      {
+        "label": "3 models",
+        "pts": 95
+      },
+      {
+        "label": "6 models",
+        "pts": 190
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "EMBRACE THE PAIN",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "HONOUR THE PRINCE",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "COMBAT STIMMS",
+        "cp": 2,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "CEASELESS ONSLAUGHT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "INTOXICATED BY TRIUMPH",
+        "cp": 0,
+        "source": "Spectacle of Slaughter Stratagem"
+      },
+      {
+        "name": "SINGLE-MINDED STRIKE",
+        "cp": 0,
+        "source": "Spectacle of Slaughter Stratagem"
+      },
+      {
+        "name": "HONOUR IS FOR FOOLS",
+        "cp": 0,
+        "source": "Spectacle of Slaughter Stratagem"
+      },
+      {
+        "name": "CLOYING CORRUPTION",
+        "cp": 0,
+        "source": "Sublime Strike – Strategic Ploy"
+      },
+      {
+        "name": "EAGER FOR MORE",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      },
+      {
+        "name": "VYING FOR VICTORY",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      },
+      {
+        "name": "ALLURING GROTESQUERIE",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      }
+    ],
+    "ledBy": [
+      "LUCIUS THE ETERNAL"
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Daemonic Empowerment",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant",
+      "Dark Radiance",
+      "Entitled to Victory",
+      "Beguiling Grotesquerie15",
+      "Eager Patrons20"
+    ]
+  },
+  "FULGRIM": {
+    "slug": "Fulgrim",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Fulgrim",
+    "base": "130mm",
+    "keywords": [
+      "MONSTER",
+      "MOBILE",
+      "FLY",
+      "CHARACTER",
+      "EPIC HERO",
+      "DAEMON",
+      "CHAOS",
+      "SLAANESH",
+      "PRIMARCH",
+      "FULGRIM"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "16\"",
+      "T": "11",
+      "SV": "2+",
+      "W": "16",
+      "LD": "5+",
+      "OC": "6",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Malefic lash (sustained hits 1)",
+            "range": "12\"",
+            "a": "6",
+            "bs": "2+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Daemonic blades – strike (sustained hits 1)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "14",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Daemonic blades – sweep (sustained hits 1)",
+            "range": "Melee",
+            "a": "12",
+            "ws": "2+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Serpentine tail (extra attacks)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "6",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6, Deep Strike",
+      "FACTION: Thrill Seekers",
+      "Daemonic Poisons: In your Shooting phase and the Fight phase, after this model has finished making its attacks, select one enemy unit hit by one or more of those attacks. Until the end of the battle, that enemy unit is poisoned. At the start of each player’s Command phase, roll one D6 for each poisoned enemy unit on the battlefield: on a 4+,that enemy unit suffers D3 mortal wounds.Daemon Primarch of Slaanesh: At the start of your opponent’s Command phase, select one of the abilities in the Daemon Primarch of Slaanesh section. Until the start of your opponent’s next Command phase, this model has that ability."
+    ],
+    "composition": [
+      "1 Fulgrim – EPIC HERO",
+      "This model is equipped with: malefic lash; daemonic blades; serpentine tail."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 340
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "SINUOUS BREACH",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "EUPHORIC INSPIRATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DIABOLIC MAJESTY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Epic Deed"
+      },
+      {
+        "name": "HEIGHTENED JEALOUSY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "VENGEFUL SURGE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "REFUSAL TO BE OUTDONE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "BEAUTIFUL DEATH",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "DEVOTED DUELLISTS",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Pledges to the Dark Prince",
+      "Internal Rivalries",
+      "Sensational Performance",
+      "Master of the Pageant"
+    ]
+  },
+  "HELDRAKE": {
+    "slug": "Heldrake",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Heldrake",
+    "keywords": [
+      "VEHICLE",
+      "FLY",
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "HELDRAKE"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "-",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Baleflamer (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6+3",
+            "bs": "N/A",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Hades autocannon",
+            "range": "36\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Heldrake claws (anti-fly 2+, devastating wounds)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Hades autocannon can be replaced with 1 baleflamer."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3, Hover",
+      "FACTION: Thrill Seekers",
+      "Airborne Predator: Each time this model ends a Normal move, you can select one enemy unit that it moved over during that move and roll two D6, adding 1 to each result if that enemy unit can FLY: for each 4+, that enemy unit suffers D3 mortal wounds."
+    ],
+    "composition": [
+      "1 Heldrake",
+      "This model is equipped with: Hades autocannon; Heldrake claws."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 175
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "SINUOUS BREACH",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "EUPHORIC INSPIRATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DYNAMIC BREAKTHROUGH",
+        "cp": 1,
+        "source": "Rapid Evisceration – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant"
+    ]
+  },
+  "INFRACTORS": {
+    "slug": "Infractors",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Infractors",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "INFRACTORS"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Bolt pistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Plasma pistol - standard (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Plasma pistol - supercharge (hazardous, pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Duelling sabre (precision)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Power sword (precision)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Rapture lash (precision)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "The Obsessionist’s bolt pistol can be replaced with 1 plasma pistol.",
+      "The Obsessionist’s power sword can be replaced with 1 rapture lash.",
+      "1 Infractor can be equipped with 1 icon of excess."
+    ],
+    "abilities": [
+      "CORE: Scouts 6\"",
+      "FACTION: Thrill Seekers",
+      "Excessive Assault: Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
+    ],
+    "wargearAbilities": [
+      "Icon of Excess: At the end of your Shooting phase or the Fight phase, if the bearer’s unit destroyed one or more enemy units that phase, the bearer’s unit takes a Leadership test. If that test is passed, you gain 1CP."
+    ],
+    "composition": [
+      "1 Obsessionist",
+      "4-9 Infractors",
+      "The Obsessionist is equipped with: bolt pistol; power sword.Every Infractor is equipped with: bolt pistol; duelling sabre."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 85
+      },
+      {
+        "label": "10 models",
+        "pts": 160
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "EMBRACE THE PAIN",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "POSSESSIVE MANIA",
+        "cp": 0,
+        "source": "Frenzied Host Stratagem"
+      },
+      {
+        "name": "ABSOLUTE SENSORY OVERLOAD",
+        "cp": 0,
+        "source": "Frenzied Host Stratagem"
+      },
+      {
+        "name": "AGONISED CACOPHONY",
+        "cp": 0,
+        "source": "Frenzied Host Stratagem"
+      },
+      {
+        "name": "HONOUR THE PRINCE",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "COMBAT STIMMS",
+        "cp": 2,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "CEASELESS ONSLAUGHT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      }
+    ],
+    "ledBy": [
+      "LORD EXULTANT",
+      "SORCERER"
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Daemonic Empowerment",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant",
+      "Frantic Focus"
+    ]
+  },
+  "KEEPER OF SECRETS": {
+    "slug": "Keeper-of-Secrets",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Keeper-of-Secrets",
+    "base": "100mm",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "PSYKER",
+      "CHAOS",
+      "DAEMON",
+      "SUMMONED",
+      "SLAANESH",
+      "KEEPER OF SECRETS"
+    ],
+    "factionKeywords": [
+      "LEGIONS OF EXCESS"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "10",
+      "SV": "5+",
+      "W": "18",
+      "LD": "6+",
+      "OC": "5",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Living whip (assault)",
+            "range": "12\"",
+            "a": "6",
+            "bs": "2+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Phantasmagoria – witchfire (devastating wounds, psychic)",
+            "range": "18\"",
+            "a": "6",
+            "bs": "2+",
+            "s": "6",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Phantasmagoria – focused witchfire (devastating wounds, hazardous, psychic)",
+            "range": "18\"",
+            "a": "9",
+            "bs": "2+",
+            "s": "6",
+            "ap": "-2",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Ritual knife (extra attacks)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "2+",
+            "s": "6",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Snapping claws (devastating wounds, extra attacks)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "2+",
+            "s": "6",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Witstealer sword",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "8",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model can be equipped with one of the following:",
+      "living whip",
+      "ritual knife",
+      "shining aegis"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6, Deep Strike",
+      "FACTION: Pact of Excess",
+      "Daemon Lord of Slaanesh (Aura): While a friendly LEGIONS OF EXCESS unit is within 6\" of this model, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.Mesmerising Form: Each time an attack targets this model, subtract 1 from the Hit roll."
+    ],
+    "wargearAbilities": [
+      "Shining Aegis: The bearer has a Save characteristic of 3+."
+    ],
+    "composition": [
+      "1 Keeper of Secrets",
+      "This model is equipped with: Phantasmagoria; snapping claws; witstealer sword."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 255
+      },
+      {
+        "label": "1 model",
+        "pts": 270
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "SYCOPHANTIC SURGE",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Warp Walker30"
+    ]
+  },
+  "LORD EXULTANT": {
+    "slug": "Lord-Exultant",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Lord-Exultant",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "LORD EXULTANT"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "5",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Bolt pistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "2+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Plasma pistol - standard (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "2+",
+            "s": "7",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Plasma pistol - supercharge (hazardous, pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "2+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          },
+          {
+            "name": "Screamer pistol (ignores cover, pistol)",
+            "range": "12\"",
+            "a": "3",
+            "bs": "2+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Master-crafted power sword (precision)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "2+",
+            "s": "5",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Phoenix power spear (lance)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "2+",
+            "s": "7",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Power fist",
+            "range": "Melee",
+            "a": "5",
+            "ws": "2+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Rapture lash (extra attacks)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "2+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s plasma pistol can be replaced with one of the following:",
+      "1 power fist",
+      "1 rapture lash",
+      "This model’s Phoenix power spear can be replaced with one of the following:",
+      "1 master-crafted power sword",
+      "1 screamer pistol"
+    ],
+    "abilities": [
+      "CORE: Leader",
+      "FACTION: Thrill Seekers",
+      "Perfectionists: While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.Euphoric Strikes: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
+    ],
+    "composition": [
+      "1 Lord Exultant",
+      "This model is equipped with: bolt pistol; plasma pistol; Phoenix power spear; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 80
+      },
+      {
+        "label": "1 model",
+        "pts": 90
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "EMBRACE THE PAIN",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "HONOUR THE PRINCE",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "COMBAT STIMMS",
+        "cp": 2,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "CEASELESS ONSLAUGHT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "DIABOLIC MAJESTY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Epic Deed"
+      },
+      {
+        "name": "HEIGHTENED JEALOUSY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "VENGEFUL SURGE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "REFUSAL TO BE OUTDONE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "BEAUTIFUL DEATH",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "DEVOTED DUELLISTS",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Daemonic Empowerment",
+      "Pledges to the Dark Prince",
+      "Internal Rivalries",
+      "Sensational Performance",
+      "Master of the Pageant",
+      "Loathsome Dexterity10",
+      "Tactical Perfection15",
+      "Intoxicating Musk20",
+      "Steeped in Suffering20",
+      "Faultless Opportunist15",
+      "Blinding Speed25",
+      "Distortion25",
+      "Rise to the Challenge30",
+      "Spearhead Striker20",
+      "Sublime Prescience25",
+      "Accomplished Tactician35",
+      "Heretek Adept35",
+      "Dark Blessings10",
+      "Empyric Suffusion15",
+      "Possessed Blade25",
+      "Warp Walker30",
+      "Pledge of Mortal Pain15",
+      "Pledge of Dark Glory25",
+      "Pledge of Eternal Servitude25",
+      "Pledge of Unholy Fortune30",
+      "Eager to Prove15",
+      "Slayer of Champions15",
+      "Proud and Vainglorious20",
+      "Repulsed by Weakness25",
+      "Exalted Patron15",
+      "Soulstain Made Manifest15",
+      "Tears of the Phoenix25",
+      "Euphoric Crown20",
+      "Howling Plate20"
+    ]
+  },
+  "LORD KAKOPHONIST": {
+    "slug": "Lord-Kakophonist",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Lord-Kakophonist",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "LORD KAKOPHONIST"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Screamer pistol (ignores cover, pistol)",
+            "range": "12\"",
+            "a": "3",
+            "bs": "2+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Power sword",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s power sword can be replaced with 1 screamer pistol and 1 close combat weapon."
+    ],
+    "abilities": [
+      "CORE: Leader",
+      "FACTION: Thrill Seekers",
+      "Obsessive Annunciation: While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.Doom Siren: In your Shooting phase, after this model’s unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound. If an enemy unit suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test."
+    ],
+    "composition": [
+      "1 Lord Kakophonist",
+      "This model is equipped with: screamer pistol; power sword."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 70
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "EMBRACE THE PAIN",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "HONOUR THE PRINCE",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "COMBAT STIMMS",
+        "cp": 2,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "CEASELESS ONSLAUGHT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "DIABOLIC MAJESTY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Epic Deed"
+      },
+      {
+        "name": "HEIGHTENED JEALOUSY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "VENGEFUL SURGE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "REFUSAL TO BE OUTDONE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "BEAUTIFUL DEATH",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "DEVOTED DUELLISTS",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "EAGER FOR MORE",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      },
+      {
+        "name": "VYING FOR VICTORY",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      },
+      {
+        "name": "ALLURING GROTESQUERIE",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Daemonic Empowerment",
+      "Pledges to the Dark Prince",
+      "Internal Rivalries",
+      "Sensational Performance",
+      "Master of the Pageant",
+      "Dark Radiance",
+      "Loathsome Dexterity10",
+      "Tactical Perfection15",
+      "Intoxicating Musk20",
+      "Steeped in Suffering20",
+      "Faultless Opportunist15",
+      "Blinding Speed25",
+      "Distortion25",
+      "Rise to the Challenge30",
+      "Spearhead Striker20",
+      "Sublime Prescience25",
+      "Accomplished Tactician35",
+      "Heretek Adept35",
+      "Dark Blessings10",
+      "Empyric Suffusion15",
+      "Possessed Blade25",
+      "Warp Walker30",
+      "Pledge of Mortal Pain15",
+      "Pledge of Dark Glory25",
+      "Pledge of Eternal Servitude25",
+      "Pledge of Unholy Fortune30",
+      "Eager to Prove15",
+      "Slayer of Champions15",
+      "Proud and Vainglorious20",
+      "Repulsed by Weakness25",
+      "Soulstain Made Manifest15",
+      "Tears of the Phoenix25",
+      "Daemonshrieker",
+      "Venom of the Six-fanged Serpent",
+      "Cacophonic Accompaniment20"
+    ]
+  },
+  "LUCIUS THE ETERNAL": {
+    "slug": "Lucius-the-Eternal",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Lucius-the-Eternal",
+    "base": "50mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "EPIC HERO",
+      "CHAOS",
+      "SLAANESH",
+      "LUCIUS THE ETERNAL"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "5",
+      "SV": "2+",
+      "W": "6",
+      "LD": "6+",
+      "OC": "1",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Blade of the Laer (precision)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "8",
+            "ap": "-3",
+            "d": "3"
+          },
+          {
+            "name": "Lash of Torment (sustained hits 1)",
+            "range": "Melee",
+            "a": "10",
+            "ws": "2+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Feel No Pain 5+, Leader, Lone Operative",
+      "FACTION: Thrill Seekers",
+      "A Challenge Worthy of Skill: Each time this model makes an attack that targets a CHARACTER, MONSTER or WALKER unit, you can re-roll the Hit roll and you can re-roll the Wound roll.Duellist’s Hubris: At the start of the Fight phase; if this model is not leading a unit, until the end of the phase, it has the Fights First ability."
+    ],
+    "composition": [
+      "1 Lucius the Eternal – EPIC HERO",
+      "This model is equipped with: Blade of the Laer; Lash of Torment."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 120
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "EMBRACE THE PAIN",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "HONOUR THE PRINCE",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "COMBAT STIMMS",
+        "cp": 2,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "CEASELESS ONSLAUGHT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "DIABOLIC MAJESTY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Epic Deed"
+      },
+      {
+        "name": "HEIGHTENED JEALOUSY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "VENGEFUL SURGE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "REFUSAL TO BE OUTDONE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "BEAUTIFUL DEATH",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "DEVOTED DUELLISTS",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "EAGER FOR MORE",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      },
+      {
+        "name": "VYING FOR VICTORY",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      },
+      {
+        "name": "ALLURING GROTESQUERIE",
+        "cp": 0,
+        "source": "Sublime Strike – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Daemonic Empowerment",
+      "Pledges to the Dark Prince",
+      "Internal Rivalries",
+      "Sensational Performance",
+      "Master of the Pageant",
+      "Dark Radiance"
+    ]
+  },
+  "MAULERFIEND": {
+    "slug": "Maulerfiend",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Maulerfiend",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "DAEMON",
+      "SLAANESH",
+      "MAULERFIEND"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "6+",
+      "OC": "3",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Magma cutters (melta 2)",
+            "range": "6\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-4",
+            "d": "D6"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Lasher tendrils (extra attacks)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Maulerfiend fists",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "14",
+            "ap": "-2",
+            "d": "D6+1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s lasher tendrils can be replaced with 2 magma cutters."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Thrill Seekers",
+      "Glutton for Punishment: Each time this model makes an attack, if it is below its Starting Strength, add 1 to the Hit roll. If this model is also Below Half-strength, add 1 to the Wound roll as well."
+    ],
+    "composition": [
+      "1 Maulerfiend",
+      "This model is equipped with: lasher tendrils; Maulerfiend fists."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 120
+      },
+      {
+        "label": "1 model",
+        "pts": 130
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "SINUOUS BREACH",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "EUPHORIC INSPIRATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DYNAMIC BREAKTHROUGH",
+        "cp": 1,
+        "source": "Rapid Evisceration – Epic Deed"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant"
+    ]
+  },
+  "NOISE MARINES": {
+    "slug": "Noise-Marines",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Noise-Marines",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHAOS",
+      "SLAANESH",
+      "NOISE MARINES"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "6\"",
+      "T": "5",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Blastmaster – single frequency (ignores cover)",
+            "range": "18\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "10",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Blastmaster – varied frequency (ignores cover)",
+            "range": "18\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Screamer pistol (ignores cover, pistol)",
+            "range": "12\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Sonic blaster (ignores cover)",
+            "range": "18\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Power sword",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "The Disharmonist’s sonic blaster can be replaced with 1 screamer pistol and 1 power sword.",
+      "Up to 2 Noise Marines can each replace their sonic blaster with 1 blastmaster."
+    ],
+    "abilities": [
+      "FACTION: Thrill Seekers",
+      "Terrifying Crescendo: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
+    ],
+    "composition": [
+      "1 Disharmonist",
+      "5 Noise Marines",
+      "Every model is equipped with: sonic blaster; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "6 models",
+        "pts": 145
+      },
+      {
+        "label": "6 models",
+        "pts": 160
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "EMBRACE THE PAIN",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "HONOUR THE PRINCE",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "COMBAT STIMMS",
+        "cp": 2,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "CEASELESS ONSLAUGHT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      }
+    ],
+    "ledBy": [
+      "LORD KAKOPHONIST",
+      "SORCERER"
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Daemonic Empowerment",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant"
+    ]
+  },
+  "SEEKERS": {
+    "slug": "Seekers",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Seekers",
+    "keywords": [
+      "MOUNTED",
+      "CHAOS",
+      "DAEMON",
+      "SUMMONED",
+      "SLAANESH",
+      "SEEKERS"
+    ],
+    "factionKeywords": [
+      "LEGIONS OF EXCESS"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "4",
+      "SV": "7+",
+      "W": "2",
+      "LD": "7+",
+      "OC": "1",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Lashing tongue (extra attacks, lethal hits)",
+            "range": "Melee",
+            "a": "2",
+            "ws": "4+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Slashing claws (devastating wounds)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "1 Seeker that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos.",
+      "1 Seeker that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon."
+    ],
+    "abilities": [
+      "CORE: Deep Strike, Scouts 9\"",
+      "FACTION: Pact of Excess",
+      "Unholy Speed: You can re-roll Advance and Charge rolls made for this unit."
+    ],
+    "wargearAbilities": [
+      "Daemonic Icon: Models in the bearer’s unit have a Leadership characteristic of 6+.",
+      "Instrument of Chaos: Add 1 to Charge rolls made for the bearer’s unit."
+    ],
+    "composition": [
+      "1 Heartseeker",
+      "4-9 Seekers",
+      "Every model is equipped with: lashing tongue; slashing claws."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 80
+      },
+      {
+        "label": "10 models",
+        "pts": 155
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "SYCOPHANTIC SURGE",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      }
+    ]
+  },
+  "SHALAXI HELBANE": {
+    "slug": "Shalaxi-Helbane",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Shalaxi-Helbane",
+    "base": "100mm",
+    "keywords": [
+      "MONSTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "PSYKER",
+      "CHAOS",
+      "DAEMON",
+      "SUMMONED",
+      "SLAANESH",
+      "SHALAXI HELBANE"
+    ],
+    "factionKeywords": [
+      "LEGIONS OF EXCESS"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "20",
+      "LD": "6+",
+      "OC": "5",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Lash of Slaanesh (assault)",
+            "range": "12\"",
+            "a": "6",
+            "bs": "2+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Pavane of Slaanesh – witchfire (devastating wounds, psychic)",
+            "range": "18\"",
+            "a": "D6",
+            "bs": "2+",
+            "s": "9",
+            "ap": "-1",
+            "d": "D3"
+          },
+          {
+            "name": "Pavane of Slaanesh – focused witchfire (hazardous, devastating wounds, psychic, sustained hits 3)",
+            "range": "18\"",
+            "a": "D6",
+            "bs": "2+",
+            "s": "9",
+            "ap": "-2",
+            "d": "D3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Snapping claws (devastating wounds, extra attacks)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "2+",
+            "s": "6",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Soulpiercer (precision)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6, Deep Strike",
+      "FACTION: Pact of Excess",
+      "No Prey Can Evade: You can re-roll Advance and Charge rolls made for this model.Monarch of the Hunt: At the start of the first battle round, select one enemy unit to be this model’s quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model’s quarry is destroyed, select one new enemy unit to be this model’s quarry."
+    ],
+    "composition": [
+      "1 Shalaxi Helbane – EPIC HERO",
+      "This model is equipped with: lash of Slaanesh; Pavane of Slaanesh; snapping claws; Soulpiercer."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 315
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "SYCOPHANTIC SURGE",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      }
+    ]
+  },
+  "SORCERER": {
+    "slug": "Sorcerer",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Sorcerer",
+    "base": "40mm",
+    "keywords": [
+      "INFANTRY",
+      "CHARACTER",
+      "PSYKER",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "SORCERER"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "1"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Agonising Energies – witchfire (psychic)",
+            "range": "18\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "D3"
+          },
+          {
+            "name": "Agonising Energies – focused witchfire (devastating wounds, hazardous, psychic)",
+            "range": "18\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "D3"
+          },
+          {
+            "name": "Bolt pistol (pistol)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Force weapon (psychic)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "D3"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Leader",
+      "FACTION: Thrill Seekers",
+      "Warped Interference (Psychic): While this model is leading a unit, each time a ranged attack targets that unit, models in it have the Benefit of Cover against that attack.Wracking Agonies (Psychic): In your Shooting phase, after this model has shot, select one INFANTRY unit hit by one or more of those attacks made with its Agonising Energies. Until the start of your next turn, that unit is wracked with agonies. While a unit is wracked with agonies, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+    ],
+    "composition": [
+      "1 Sorcerer",
+      "This model is equipped with: Agonising Energies; bolt pistol; force weapon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 55
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "EMBRACE THE PAIN",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "HONOUR THE PRINCE",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "COMBAT STIMMS",
+        "cp": 2,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "CEASELESS ONSLAUGHT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "DIABOLIC MAJESTY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Epic Deed"
+      },
+      {
+        "name": "HEIGHTENED JEALOUSY",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "VENGEFUL SURGE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "REFUSAL TO BE OUTDONE",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      },
+      {
+        "name": "BEAUTIFUL DEATH",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Strategic Ploy"
+      },
+      {
+        "name": "DEVOTED DUELLISTS",
+        "cp": 1,
+        "source": "Slaanesh’s Chosen – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Daemonic Empowerment",
+      "Pledges to the Dark Prince",
+      "Internal Rivalries",
+      "Sensational Performance",
+      "Master of the Pageant",
+      "Loathsome Dexterity10",
+      "Tactical Perfection15",
+      "Intoxicating Musk20",
+      "Steeped in Suffering20",
+      "Faultless Opportunist15",
+      "Blinding Speed25",
+      "Distortion25",
+      "Rise to the Challenge30",
+      "Spearhead Striker20",
+      "Sublime Prescience25",
+      "Accomplished Tactician35",
+      "Heretek Adept35",
+      "Dark Blessings10",
+      "Empyric Suffusion15",
+      "Possessed Blade25",
+      "Warp Walker30",
+      "Pledge of Mortal Pain15",
+      "Pledge of Dark Glory25",
+      "Pledge of Eternal Servitude25",
+      "Pledge of Unholy Fortune30",
+      "Eager to Prove15",
+      "Slayer of Champions15",
+      "Proud and Vainglorious20",
+      "Repulsed by Weakness25",
+      "Soulstain Made Manifest15",
+      "Tears of the Phoenix25"
+    ]
+  },
+  "TORMENTORS": {
+    "slug": "Tormentors",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/emperor-s-children/Tormentors",
+    "base": "32mm",
+    "keywords": [
+      "INFANTRY",
+      "BATTLELINE",
+      "GRENADES",
+      "CHAOS",
+      "SLAANESH",
+      "TORMENTORS"
+    ],
+    "factionKeywords": [
+      "EMPEROR’S CHILDREN"
+    ],
+    "characteristics": {
+      "M": "7\"",
+      "T": "4",
+      "SV": "3+",
+      "W": "2",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Bolt pistol (pistol, precision)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Boltgun (precision)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Meltagun (melta 2, precision)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Plasma gun - standard (precision, rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Plasma gun - supercharge (hazardous, precision, rapid fire 1)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          },
+          {
+            "name": "Plasma pistol - standard (pistol, precision)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Plasma pistol - supercharge (hazardous, pistol, precision)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Close combat weapon",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Power sword",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Rapture lash",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "4",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "The Obsessionist’s bolt pistol can be replaced with 1 plasma pistol.",
+      "The Obsessionist’s power sword can be replaced with 1 rapture lash.",
+      "For every 5 models in this unit, 1 Tormentor’s boltgun can be replaced with 1 meltagun.",
+      "For every 5 models in this unit, 1 Tormentor’s boltgun can be replaced with 1 plasma gun.",
+      "1 Tormentor can be equipped with 1 icon of excess."
+    ],
+    "abilities": [
+      "CORE: Infiltrators",
+      "FACTION: Thrill Seekers",
+      "Objective Defiled: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+    ],
+    "wargearAbilities": [
+      "Icon of Excess: At the end of your Shooting phase or the Fight phase, if the bearer’s unit destroyed one or more enemy units that phase, the bearer’s unit takes a Leadership test. If that test is passed, you gain 1CP."
+    ],
+    "composition": [
+      "1 Obsessionist",
+      "4-9 Tormentors",
+      "The Obsessionist is equipped with: bolt pistol; power sword.Every Tormentor is equipped with: boltgun; close combat weapon."
+    ],
+    "costs": [
+      {
+        "label": "5 models",
+        "pts": 80
+      },
+      {
+        "label": "10 models",
+        "pts": 160
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EXPLOSIVES",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "UNCANNY REACTIONS",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "ECSTATIC SLAUGHTER",
+        "cp": 1,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "SUSTAINED BY AGONY",
+        "cp": 1,
+        "source": "Carnival of Excess – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT CRESCENDO",
+        "cp": 2,
+        "source": "Carnival of Excess – Strategic Ploy"
+      },
+      {
+        "name": "PROTECTION OF THE DARK PRINCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "UNSHAKEABLE OPPONENTS",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "ARMOUR OF ABHORRENCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Wargear"
+      },
+      {
+        "name": "UNBOUND ARROGANCE",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Epic Deed"
+      },
+      {
+        "name": "EMBRACE THE PAIN",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Strategic Ploy"
+      },
+      {
+        "name": "MARTIAL PERFECTION",
+        "cp": 1,
+        "source": "Coterie of the Conceited – Battle Tactic"
+      },
+      {
+        "name": "CONTEMPTUOUS DISREGARD",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CLOSE-QUARTERS EXCRUCIATION",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "CATALYTIC STIMULUS",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "PRIDEFUL SUPERIORITY",
+        "cp": 0,
+        "source": "Court of the Phoenician Stratagem"
+      },
+      {
+        "name": "POSSESSIVE MANIA",
+        "cp": 0,
+        "source": "Frenzied Host Stratagem"
+      },
+      {
+        "name": "ABSOLUTE SENSORY OVERLOAD",
+        "cp": 0,
+        "source": "Frenzied Host Stratagem"
+      },
+      {
+        "name": "AGONISED CACOPHONY",
+        "cp": 0,
+        "source": "Frenzied Host Stratagem"
+      },
+      {
+        "name": "HONOUR THE PRINCE",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "DARK VIGOUR",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "CAPRICIOUS REACTIONS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "COMBAT STIMMS",
+        "cp": 2,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "VIOLENT EXCESS",
+        "cp": 1,
+        "source": "Mercurial Host – Battle Tactic"
+      },
+      {
+        "name": "CRUEL RAIDERS",
+        "cp": 1,
+        "source": "Mercurial Host – Strategic Ploy"
+      },
+      {
+        "name": "TERRIFYING SPECTACLE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CUT DOWN THE WEAK",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "CRUEL BLADESMAN",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "DEATH ECSTASY",
+        "cp": 2,
+        "source": "Peerless Bladesmen – Strategic Ploy"
+      },
+      {
+        "name": "DEFT PARRY",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "INCESSANT VIOLENCE",
+        "cp": 1,
+        "source": "Peerless Bladesmen – Battle Tactic"
+      },
+      {
+        "name": "CEASELESS ONSLAUGHT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      },
+      {
+        "name": "ONTO THE NEXT",
+        "cp": 1,
+        "source": "Rapid Evisceration – Strategic Ploy"
+      }
+    ],
+    "ledBy": [
+      "LORD EXULTANT",
+      "SORCERER"
+    ],
+    "detachmentAbilities": [
+      "Quicksilver Grace",
+      "Exquisite Swordsmanship",
+      "Mechanised Murder",
+      "Daemonic Empowerment",
+      "Pledges to the Dark Prince",
+      "Sensational Performance",
+      "Master of the Pageant",
+      "Frantic Focus"
+    ]
+  }
+}

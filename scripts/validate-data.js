@@ -1,9 +1,23 @@
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const dir = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'data');
 let failed = false;
+
+// Repo faction key → Wahapedia folder (mirror of scripts/fetch-wahapedia.js).
+const FOLDER_FOR = {
+  'blood-angels': 'space-marines',
+  'dark-angels': 'space-marines',
+  'black-templars': 'space-marines',
+  'deathwatch': 'space-marines',
+  'space-wolves': 'space-marines',
+  'titan-legions': 'adeptus-titanicus',
+  'chaos-titan-legions': 'adeptus-titanicus',
+  'tau-empire': 't-au-empire',
+  'emperors-children': 'emperor-s-children',
+  // ponytail: every other key is its own folder
+};
 
 function summarize(list) {
   if (!list.length) return '';
@@ -51,6 +65,19 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith('.json')).sort()) {
   for (const d of data.detachments || []) {
     if (typeof d.dpCost !== 'number' || !isFinite(d.dpCost) || d.dpCost < 0) {
       errors.push(`detachment ${d.name}: bad dpCost ${JSON.stringify(d.dpCost)}`);
+    }
+  }
+
+  // Datasheet coverage: every unit must exist in its Wahapedia folder chunk
+  const key = file.replace('.json', '');
+  const folder = FOLDER_FOR[key] ?? key;
+  const chunkPath = join(dir, 'datasheets', `${folder}.json`);
+  if (!existsSync(chunkPath)) {
+    errors.push(`datasheet chunk missing: datasheets/${folder}.json`);
+  } else {
+    const chunk = JSON.parse(readFileSync(chunkPath, 'utf8'));
+    for (const u of data.units || []) {
+      if (!chunk[u.name.toUpperCase()]) errors.push(`no datasheet: ${u.name}`);
     }
   }
 

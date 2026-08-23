@@ -1,0 +1,6558 @@
+{
+  "CHAOS ACASTUS KNIGHT ASTERIUS": {
+    "slug": "Chaos-Acastus-Knight-Asterius",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Chaos-Acastus-Knight-Asterius",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "FRAME",
+      "CHAOS",
+      "ACASTUS",
+      "KNIGHT ASTERIUS"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "30",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Asterius volkite culverin (devastating wounds)",
+            "range": "24\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "2"
+          },
+          {
+            "name": "Karacnos mortar battery (anti-infantry 2+, blast, ignores cover, indirect fire)",
+            "range": "48\"",
+            "a": "D6+3",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Twin conversion beam cannon (conversion, sustained hits d3, twin-linked)",
+            "range": "48\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "16",
+            "ap": "-2",
+            "d": "6"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Titanic feet",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "10",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "None"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise 2D6",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Sunderer of Fortresses: Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead)."
+    ],
+    "composition": [
+      "1 Chaos Acastus Knight Asterius",
+      "This model is equipped with: 2 Asterius volkite culverins; karacnos mortar battery; 2 twin conversion beam cannons; titanic feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 785
+      },
+      {
+        "label": "1 model",
+        "pts": 860
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Throne Tyrannicus25"
+    ]
+  },
+  "CHAOS ACASTUS KNIGHT PORPHYRION": {
+    "slug": "Chaos-Acastus-Knight-Porphyrion",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Chaos-Acastus-Knight-Porphyrion",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "FRAME",
+      "CHAOS",
+      "ACASTUS",
+      "KNIGHT PORPHYRION"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "30",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Acastus Autocannon",
+            "range": "48\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-1",
+            "d": "3"
+          },
+          {
+            "name": "Acastus ironstorm missile pod (blast, heavy, indirect fire)",
+            "range": "48\"",
+            "a": "D6+6",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Helios defence missiles (anti-fly 2+, heavy)",
+            "range": "48\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "10",
+            "ap": "-2",
+            "d": "D6"
+          },
+          {
+            "name": "Lascannon",
+            "range": "48\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Twin magna lascannon (blast, twin-linked)",
+            "range": "72\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "18",
+            "ap": "-4",
+            "d": "D6+6"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Titanic feet",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "10",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s 2 Acastus autocannons can each be replaced with one of the following:",
+      "2 lascannons",
+      "1 Acastus autocannon and 1 lascannon",
+      "This model’s Acastus ironstorm missile pod can be replaced with 1 helios defence missiles."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise 2D6",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Bastion of Firepower: Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."
+    ],
+    "composition": [
+      "1 Chaos Acastus Knight Porphyrion",
+      "This model is equipped with: 2 Acastus autocannons; Acastus ironstorm missile pod; 2 twin magna lascannons; titanic feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 725
+      },
+      {
+        "label": "1 model",
+        "pts": 800
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Throne Tyrannicus25"
+    ]
+  },
+  "CHAOS CERASTUS KNIGHT ACHERON": {
+    "slug": "Chaos-Cerastus-Knight-Acheron",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Chaos-Cerastus-Knight-Acheron",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHARACTER",
+      "TITANIC",
+      "TOWERING",
+      "CHAOS",
+      "CERASTUS",
+      "KNIGHT ACHERON"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "28",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Acheron flame cannon (ignores cover, torrent)",
+            "range": "18\"",
+            "a": "2D6",
+            "bs": "N/A",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Twin heavy bolter (sustained hits 1, twin-linked)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaper chainfist – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "14",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Reaper chainfist – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "3+",
+            "s": "9",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "None"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6+2",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Searing Flames: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.Unrestrained Terror (Aura): While a friendly WAR DOG model is within 6\" of this model, it is affected by this ability. At the start of the Fight phase, each enemy unit within Engagement Range of one or more WAR DOG units affected by this ability must take a Battle-shock test."
+    ],
+    "composition": [
+      "1 Chaos Cerastus Knight Acheron",
+      "This model is equipped with: Acheron flame cannon; twin heavy bolter; reaper chainfist."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 370
+      },
+      {
+        "label": "1 model",
+        "pts": 385
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30"
+    ]
+  },
+  "CHAOS CERASTUS KNIGHT ATRAPOS": {
+    "slug": "Chaos-Cerastus-Knight-Atrapos",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Chaos-Cerastus-Knight-Atrapos",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHARACTER",
+      "TITANIC",
+      "TOWERING",
+      "CHAOS",
+      "CERASTUS",
+      "KNIGHT ATRAPOS"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "28",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Atrapos lascutter – low intensity (sustained hits 1)",
+            "range": "36\"",
+            "a": "2D6",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Atrapos lascutter – high intensity (sustained hits 1)",
+            "range": "24\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "14",
+            "ap": "-3",
+            "d": "4"
+          },
+          {
+            "name": "Graviton singularity cannon – contained (blast)",
+            "range": "24\"",
+            "a": "D3",
+            "bs": "3+",
+            "s": "16",
+            "ap": "-4",
+            "d": "D6+1"
+          },
+          {
+            "name": "Graviton singularity cannon – singularity (blast, devastating wounds, hazardous)",
+            "range": "24\"",
+            "a": "D3",
+            "bs": "3+",
+            "s": "16",
+            "ap": "-4",
+            "d": "D6+1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Atrapos lascutter – low intensity (sustained hits 1)",
+            "range": "Melee",
+            "a": "12",
+            "ws": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Atrapos lascutter – high intensity (sustained hits 1)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "14",
+            "ap": "-3",
+            "d": "4"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "None"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6+2",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Macro-extinction Protocols: Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well.Consumed with Hunger (Aura): While a friendly WAR DOG model is within 6\" of this model, each time that WAR DOG model makes an attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
+    ],
+    "composition": [
+      "1 Chaos Cerastus Knight Atrapos",
+      "This model is equipped with: Atrapos lascutter; graviton singularity cannon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 395
+      },
+      {
+        "label": "1 model",
+        "pts": 415
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30"
+    ]
+  },
+  "CHAOS CERASTUS KNIGHT CASTIGATOR": {
+    "slug": "Chaos-Cerastus-Knight-Castigator",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Chaos-Cerastus-Knight-Castigator",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHARACTER",
+      "TITANIC",
+      "TOWERING",
+      "CHAOS",
+      "CERASTUS",
+      "KNIGHT CASTIGATOR"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "28",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Castigator bolt cannon (twin-linked)",
+            "range": "36\"",
+            "a": "18",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Tempest warblade – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "14",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Tempest warblade – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "3+",
+            "s": "9",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "None"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6+2",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Storm of Bolts: In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.Offerings for the Dark Gods (Aura): While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [SUSTAINED HITS 1] ability."
+    ],
+    "composition": [
+      "1 Chaos Cerastus Knight Castigator",
+      "This model is equipped with: Castigator bolt cannon; tempest warblade."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 370
+      },
+      {
+        "label": "1 model",
+        "pts": 385
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30"
+    ]
+  },
+  "CHAOS CERASTUS KNIGHT LANCER": {
+    "slug": "Chaos-Cerastus-Knight-Lancer",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Chaos-Cerastus-Knight-Lancer",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHARACTER",
+      "TITANIC",
+      "TOWERING",
+      "CHAOS",
+      "CERASTUS",
+      "KNIGHT LANCER"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "28",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "4+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Cerastus shock lance (assault, sustained hits 2)",
+            "range": "12\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Cerastus shock lance – strike (lance)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "2+",
+            "s": "20",
+            "ap": "-3",
+            "d": "8"
+          },
+          {
+            "name": "Cerastus shock lance – sweep",
+            "range": "Melee",
+            "a": "10",
+            "ws": "2+",
+            "s": "10",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "None"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6+2",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Shock Charge: You can target this model with the Crushing Impact Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.Dark Fervour (Aura): While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that War Dog model have the [ASSAULT] ability."
+    ],
+    "composition": [
+      "1 Chaos Cerastus Knight Lancer",
+      "This model is equipped with: Cerastus shock lance."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 395
+      },
+      {
+        "label": "1 model",
+        "pts": 415
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30"
+    ]
+  },
+  "CHAOS QUESTORIS KNIGHT MAGAERA": {
+    "slug": "Chaos-Questoris-Knight-Magaera",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Chaos-Questoris-Knight-Magaera",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHARACTER",
+      "TITANIC",
+      "TOWERING",
+      "CHAOS",
+      "ABHORRENT",
+      "KNIGHT MAGAERA"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "26",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Lightning cannon (sustained hits 2)",
+            "range": "48\"",
+            "a": "12",
+            "bs": "3+",
+            "s": "9",
+            "ap": "0",
+            "d": "2"
+          },
+          {
+            "name": "Phased plasma-fusil (rapid fire 2)",
+            "range": "24\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          },
+          {
+            "name": "Twin rad cleanser (anti-infantry 2+, ignores cover, torrent, twin-linked)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "2",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hekaton siege claw – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "20",
+            "ap": "-3",
+            "d": "8"
+          },
+          {
+            "name": "Hekaton siege claw – sweep",
+            "range": "Melee",
+            "a": "8",
+            "ws": "3+",
+            "s": "10",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Reaper chainsword – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "14",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Reaper chainsword – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "3+",
+            "s": "9",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s reaper chainsword can be replaced with 1 hekaton siege claw and 1 twin rad cleanser."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Huntmaster (Aura): While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [ASSAULT] ability.Repair Auto-simulacra: At the end of your Command phase, this model regains up to D3 lost wounds."
+    ],
+    "composition": [
+      "1 Chaos Questoris Knight Magaera",
+      "This model is equipped with: lightning cannon; phased plasma-fusil; reaper chainsword."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 375
+      },
+      {
+        "label": "1 model",
+        "pts": 390
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30"
+    ]
+  },
+  "CHAOS QUESTORIS KNIGHT STYRIX": {
+    "slug": "Chaos-Questoris-Knight-Styrix",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Chaos-Questoris-Knight-Styrix",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHARACTER",
+      "TITANIC",
+      "TOWERING",
+      "CHAOS",
+      "ABHORRENT",
+      "KNIGHT STYRIX"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "26",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Graviton crusher (anti-vehicle 2+, blast)",
+            "range": "18\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Twin rad cleanser (anti-infantry 2+, ignores cover, torrent, twin-linked)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "2",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Volkite chierovile (devastating wounds)",
+            "range": "30\"",
+            "a": "12",
+            "bs": "3+",
+            "s": "12",
+            "ap": "0",
+            "d": "3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Hekaton siege claw – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "20",
+            "ap": "-3",
+            "d": "8"
+          },
+          {
+            "name": "Hekaton siege claw – sweep",
+            "range": "Melee",
+            "a": "8",
+            "ws": "3+",
+            "s": "10",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Reaper chainsword – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "14",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Reaper chainsword – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "3+",
+            "s": "9",
+            "ap": "-3",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s reaper chainsword can be replaced with 1 hekaton siege claw and 1 twin rad cleanser."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Preysight (Aura): While a friendly WAR DOG model is within 6\" of this model, ranged weapons equipped by that WAR DOG model have the [IGNORES COVER] ability.Grav-pinned: In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit."
+    ],
+    "composition": [
+      "1 Chaos Questoris Knight Styrix",
+      "This model is equipped with: graviton crusher; volkite chierovile; reaper chainsword."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 365
+      },
+      {
+        "label": "1 model",
+        "pts": 380
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30"
+    ]
+  },
+  "KNIGHT ABOMINANT": {
+    "slug": "Knight-Abominant",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Knight-Abominant",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "ABHORRENT",
+      "PSYKER",
+      "CHARACTER",
+      "CHAOS",
+      "KNIGHT ABOMINANT"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "26",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Diabolus heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Volkite combustor (Ignores Cover, devastating wounds)",
+            "range": "30\"",
+            "a": "12",
+            "bs": "3+",
+            "s": "12",
+            "ap": "0",
+            "d": "3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Balemace (extra attacks)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Electroscourge (sustained hits 1)",
+            "range": "Melee",
+            "a": "9",
+            "ws": "3+",
+            "s": "10",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Vortex Terrors (Psychic): At the start of your Shooting phase, select one enemy unit within 24\" of and visible to this model. That enemy unit must take a Battle-shock test.Warp Storms (Psychic): At the end of your Movement phase, roll one D6 for each enemy unit within 9\" of one or more models with this ability: on a 3+, that enemy unit suffers D3 mortal wounds."
+    ],
+    "composition": [
+      "1 Knight Abominant",
+      "This model is equipped with: diabolus heavy stubber; volkite combustor; balemace; electroscourge."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 355
+      },
+      {
+        "label": "1 model",
+        "pts": 370
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30",
+      "Octagram of Conjuration40"
+    ]
+  },
+  "KNIGHT DESECRATOR": {
+    "slug": "Knight-Desecrator",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Knight-Desecrator",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "ABHORRENT",
+      "CHARACTER",
+      "CHAOS",
+      "KNIGHT DESECRATOR"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "26",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Desecrator laser destructor (DEVASTATING WOUNDS: MONSTER/VEHICLE)",
+            "range": "72\"",
+            "a": "3",
+            "bs": "2+",
+            "s": "18",
+            "ap": "-4",
+            "d": "D6+3"
+          },
+          {
+            "name": "Diabolus heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "2+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaper chainsword – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "14",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Reaper chainsword – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "3+",
+            "s": "9",
+            "ap": "-3",
+            "d": "2"
+          },
+          {
+            "name": "Warpstrike claw – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "20",
+            "ap": "-3",
+            "d": "8"
+          },
+          {
+            "name": "Warpstrike claw – sweep",
+            "range": "Melee",
+            "a": "8",
+            "ws": "3+",
+            "s": "10",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s reaper chainsword can be replaced with 1 warpstrike claw."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Obsessive Ruthlessness: This unit’s ranged attacks that target a MONSTER/VEHICLE unit can ignore modifiers to this unit’s:BS.Hit rolls and wound rolls.Taskmaster (Aura): While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a ranged attack, re-roll a Hit roll of 1."
+    ],
+    "composition": [
+      "1 Knight Desecrator",
+      "This model is equipped with: desecrator laser destructor; diabolus heavy stubber; reaper chainsword."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 355
+      },
+      {
+        "label": "1 model",
+        "pts": 370
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30"
+    ]
+  },
+  "KNIGHT DESPOILER": {
+    "slug": "Knight-Despoiler",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Knight-Despoiler",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "ABHORRENT",
+      "CHARACTER",
+      "CHAOS",
+      "KNIGHT DESPOILER"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "26",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Daemonbreath meltagun (melta 2)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Daemonbreath thermal cannon (blast, melta 6)",
+            "range": "24\"",
+            "a": "2D3",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Despoiler battle cannon (blast, rapid fire d6+3)",
+            "range": "72\"",
+            "a": "D6+3",
+            "bs": "3+",
+            "s": "10",
+            "ap": "-1",
+            "d": "3"
+          },
+          {
+            "name": "Despoiler gatling cannon",
+            "range": "36\"",
+            "a": "18",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Diabolus heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Havoc missile pod (blast, indirect fire)",
+            "range": "48\"",
+            "a": "D6+1",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Heavy darkflamer (ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Hellstorm autocannons (anti-fly 2+, twin-linked)",
+            "range": "48\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Ruinspear rocket pod",
+            "range": "48\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "D6"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaper chainsword – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "14",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Reaper chainsword – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "3+",
+            "s": "9",
+            "ap": "-3",
+            "d": "2"
+          },
+          {
+            "name": "Titanic feet",
+            "range": "Melee",
+            "a": "4",
+            "ws": "4+",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Warpstrike claw – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "20",
+            "ap": "-3",
+            "d": "8"
+          },
+          {
+            "name": "Warpstrike claw – sweep",
+            "range": "Melee",
+            "a": "8",
+            "ws": "3+",
+            "s": "10",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s daemonbreath meltagun can be replaced with 1 diabolus heavy stubber.",
+      "This model’s reaper chainsword can be replaced with one of the following:",
+      "1 daemonbreath thermal cannon",
+      "1 despoiler gatling cannon and 1 heavy darkflamer",
+      "1 despoiler battle cannon and 1 diabolus heavy stubber",
+      "This model’s warpstrike claw can be replaced with one of the following:",
+      "1 daemonbreath thermal cannon",
+      "1 despoiler gatling cannon and 1 heavy darkflamer",
+      "1 despoiler battle cannon and 1 diabolus heavy stubber",
+      "This model can be equipped with one of the following:",
+      "1 havoc missile pod",
+      "1 ruinspear rocket pod",
+      "1 hellstorm autocannons"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Dread Dominion (Aura): While a friendly WAR DOG model is within 9\" of this model, improve that WAR DOG model’s Leadership and Objective Control characteristics by 1.Seething Hatred: Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+    ],
+    "composition": [
+      "1 Knight Despoiler",
+      "This model is equipped with: daemonbreath meltagun; reaper chainsword; titanic feet; warpstrike claw."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 380
+      },
+      {
+        "label": "1 model",
+        "pts": 400
+      },
+      {
+        "label": "per Despoiler gatling cannon",
+        "pts": 25
+      },
+      {
+        "label": "per Despoiler battle cannon",
+        "pts": 15
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30"
+    ]
+  },
+  "KNIGHT RAMPAGER": {
+    "slug": "Knight-Rampager",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Knight-Rampager",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "ABHORRENT",
+      "CHARACTER",
+      "CHAOS",
+      "KNIGHT RAMPAGER"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "26",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Diabolus heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaper chainsword – strike (sustained hits 1)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "14",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Reaper chainsword – sweep (sustained hits 1)",
+            "range": "Melee",
+            "a": "18",
+            "ws": "2+",
+            "s": "9",
+            "ap": "-3",
+            "d": "2"
+          },
+          {
+            "name": "Warpstrike claw – strike (sustained hits 1)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "2+",
+            "s": "20",
+            "ap": "-3",
+            "d": "8"
+          },
+          {
+            "name": "Warpstrike claw – sweep (sustained hits 1)",
+            "range": "Melee",
+            "a": "12",
+            "ws": "2+",
+            "s": "10",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Bloodlust: Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [DEVASTATING WOUNDS] ability.Frenzied Rampage (Aura): While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes a melee attack, re-roll a Hit roll of 1."
+    ],
+    "composition": [
+      "1 Knight Rampager",
+      "This model is equipped with: diabolus heavy stubber; reaper chainsword; warpstrike claw."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 365
+      },
+      {
+        "label": "1 model",
+        "pts": 380
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30"
+    ]
+  },
+  "KNIGHT RUINATOR": {
+    "slug": "Knight-Ruinator",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Knight-Ruinator",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "ABHORRENT",
+      "CHARACTER",
+      "CHAOS",
+      "KNIGHT RUINATOR"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "11",
+      "SV": "3+",
+      "W": "26",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Darkflame lance (ignores cover, torrent)",
+            "range": "18\"",
+            "a": "D6+6",
+            "bs": "N/A",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Terrorpulse missiles (blast)",
+            "range": "36\"",
+            "a": "D6+6",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Fellbore – strike (anti-monster 2+, anti-vehicle 2+)",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "14",
+            "ap": "-3",
+            "d": "6"
+          },
+          {
+            "name": "Fellbore – sweep",
+            "range": "Melee",
+            "a": "10",
+            "ws": "3+",
+            "s": "9",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Methodical Destruction: At the start of the first battle round, select one unit from your opponent’s army to be this model’s victim. Each time this model makes an attack that targets its victim, you can re-roll the Wound roll. Each time this model’s victim is destroyed, select one new enemy unit to be this model’s victim.Close-range Killers (Aura): While a friendly WAR DOG model is within 9\" of this model, each time that WAR DOG model makes an attack that targets the closest enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "composition": [
+      "1 Knight Ruinator",
+      "This model is equipped with: darkflame lance; terrorpulse missiles; fellbore."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 340
+      },
+      {
+        "label": "1 model",
+        "pts": 355
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30"
+    ]
+  },
+  "KNIGHT TYRANT": {
+    "slug": "Knight-Tyrant",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/Knight-Tyrant",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "CHARACTER",
+      "CHAOS",
+      "KNIGHT TYRANT"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "8\"",
+      "T": "12",
+      "SV": "3+",
+      "W": "28",
+      "LD": "6+",
+      "OC": "10",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Brimstone volcano lance (blast)",
+            "range": "60\"",
+            "a": "D3",
+            "bs": "3+",
+            "s": "20",
+            "ap": "-5",
+            "d": "D6+8"
+          },
+          {
+            "name": "Darkflame cannon (ignores cover, torrent)",
+            "range": "18\"",
+            "a": "3D6",
+            "bs": "N/A",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Ectoplasma decimator – standard (blast)",
+            "range": "36\"",
+            "a": "D6+3",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-3",
+            "d": "2"
+          },
+          {
+            "name": "Ectoplasma decimator – supercharge (blast, hazardous)",
+            "range": "36\"",
+            "a": "D6+3",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-4",
+            "d": "3"
+          },
+          {
+            "name": "Gheiststrike missile launcher (anti-titanic 4+, devastating wounds)",
+            "range": "72\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-6",
+            "d": "D6+1"
+          },
+          {
+            "name": "Twin daemonbreath meltagun (melta 2, twin-linked)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Twin Desecrator cannon (blast, twin-linked)",
+            "range": "36\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Warpshock harpoon (blast, devastating wounds)",
+            "range": "12\"",
+            "a": "D3",
+            "bs": "3+",
+            "s": "24",
+            "ap": "-6",
+            "d": "12"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Titanic feet",
+            "range": "Melee",
+            "a": "4",
+            "ws": "4+",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s 2 gheiststrike missile launchers and twin Desecrator cannon can be replaced with 1 gheiststrike missile launcher and 2 twin Desecrator cannons.",
+      "This model’s brimstone volcano lance and ectoplasma decimator can be replaced with 1 darkflame cannon and 1 warpshock harpoon."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6+2",
+      "FACTION: Harbingers of Dread, Super-heavy Walker",
+      "Infernal Aegis (Aura): While a friendly WAR DOG model is within 6\" of this model, that WAR DOG model has the Benefit of Cover.Bastion of Corruption: Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
+    ],
+    "composition": [
+      "1 Knight Tyrant",
+      "This model is equipped with: brimstone volcano lance; ectoplasma decimator; 2 gheiststrike missile launchers; 2 twin daemonbreath meltaguns; twin Desecrator cannon; titanic feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 400
+      },
+      {
+        "label": "1 model",
+        "pts": 420
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "RUNE-CURSED STRONGHOLD",
+        "cp": 0,
+        "source": "Bastions of Tyranny Stratagem"
+      },
+      {
+        "name": "PITILESS FOCUS",
+        "cp": 0,
+        "source": "Bastions of Tyranny Stratagem"
+      },
+      {
+        "name": "INTIMIDATING REMINDER",
+        "cp": 0,
+        "source": "Bastions of Tyranny Stratagem"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "CORRUPTING TAINT",
+        "cp": 1,
+        "source": "Infernal Lance – Epic Deed"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "SPITEFUL DEMISE",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CLAIMED FOR THE DARK GODS",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "CRUSHED LIKE VERMIN",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "RUNES OF DISDAIN",
+        "cp": 2,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TITANIC DUEL",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "TROPHY HUNTER",
+        "cp": 1,
+        "source": "Lords of Dread – Epic Deed"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Masters of the Pack",
+      "Annihilate the Unworthy",
+      "Nightmare’s Master20",
+      "Tyrant’s Shadow25",
+      "Malevolent Heraldry30",
+      "Veil of Medrengard35",
+      "Iconoclast Idol (Aura)20",
+      "Cruel Lashmaster (Aura)25",
+      "Knight Diabolus25",
+      "Bestial Aspect30",
+      "Blasphemous Engine35",
+      "Fleshmetal Fusion35",
+      "Blessing of the Dark Master20",
+      "Throne Mechanicum of Skulls25",
+      "Warp-borne Stalker25",
+      "Mirror of Fates30",
+      "Putrid Carapace30",
+      "Blade of Celerity35",
+      "Hunter’s Helm15",
+      "Throne Tyrannicus25",
+      "Aspect of the Beast30",
+      "Hate-Filled Dominion20",
+      "Pterrorshade Rookery20"
+    ]
+  },
+  "WAR DOG BRIGAND": {
+    "slug": "War-Dog-Brigand",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/War-Dog-Brigand",
+    "base": "100mm",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "WAR DOG",
+      "BRIGAND"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "6",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Avenger chaincannon",
+            "range": "24\"",
+            "a": "12",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Daemonbreath spear (melta 4)",
+            "range": "18\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Diabolus heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Havoc multi-launcher (blast, indirect fire)",
+            "range": "48\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured feet",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Harbingers of Dread",
+      "Brigand: Each time this model makes a ranged attack that targets a unit that is within range of one or more objective markers, that attack has the [IGNORES COVER] ability."
+    ],
+    "composition": [
+      "1 War Dog Brigand",
+      "This model is equipped with: avenger chaincannon; daemonbreath spear; diabolus heavy stubber; armoured feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 140
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CUNNING HUNTER",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "HARRYING HOUNDS",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "ANIMALISTIC RAGE",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "HUNGRY FOR COMBAT",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING PACK",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "INSENSATE BLOODTHIRST",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "LEASH OF THE MASTERS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "STALKING FOCUS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Marked Prey",
+      "Scenting Fear",
+      "Loping Predator10",
+      "Panoply of the Cursed Knight15",
+      "Preyslayer’s Mantle15",
+      "Final Howl (Aura)20"
+    ]
+  },
+  "WAR DOG EXECUTIONER": {
+    "slug": "War-Dog-Executioner",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/War-Dog-Executioner",
+    "base": "100mm",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "WAR DOG",
+      "EXECUTIONER"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "6",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Daemonbreath meltagun (melta 2)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Diabolus heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "War Dog autocannon",
+            "range": "48\"",
+            "a": "4",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-1",
+            "d": "3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured feet",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s diabolus heavy stubber can be replaced with 1 daemonbreath meltagun."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Harbingers of Dread",
+      "Executioner: Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll. Each time an enemy unit is destroyed as the result of this model’s attacks, before removing the last model in that unit from the battlefield, each unit from your opponent’s army that is within 3\" of it must take a Battle-shock test."
+    ],
+    "composition": [
+      "1 War Dog Executioner",
+      "This model is equipped with: diabolus heavy stubber; 2 War Dog autocannons; armoured feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 130
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CUNNING HUNTER",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "HARRYING HOUNDS",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "ANIMALISTIC RAGE",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "HUNGRY FOR COMBAT",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING PACK",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "INSENSATE BLOODTHIRST",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "LEASH OF THE MASTERS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "STALKING FOCUS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Marked Prey",
+      "Scenting Fear",
+      "Loping Predator10",
+      "Panoply of the Cursed Knight15",
+      "Preyslayer’s Mantle15",
+      "Final Howl (Aura)20",
+      "Snarling Rivalry10"
+    ]
+  },
+  "WAR DOG HUNTSMAN": {
+    "slug": "War-Dog-Huntsman",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/War-Dog-Huntsman",
+    "base": "100mm",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "WAR DOG",
+      "HUNTSMAN"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "6",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Daemonbreath meltagun (melta 2)",
+            "range": "12\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Daemonbreath spear (melta 4)",
+            "range": "18\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Diabolus heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaper chaintalon – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "10",
+            "ap": "-3",
+            "d": "3"
+          },
+          {
+            "name": "Reaper chaintalon – sweep",
+            "range": "Melee",
+            "a": "8",
+            "ws": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s diabolus heavy stubber can be replaced with 1 daemonbreath meltagun."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Harbingers of Dread",
+      "Huntsman: Each time this model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Wound roll."
+    ],
+    "composition": [
+      "1 War Dog Huntsman",
+      "This model is equipped with: daemonbreath spear; diabolus heavy stubber; reaper chaintalon."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 135
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CUNNING HUNTER",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "HARRYING HOUNDS",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "ANIMALISTIC RAGE",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "HUNGRY FOR COMBAT",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING PACK",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "INSENSATE BLOODTHIRST",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "LEASH OF THE MASTERS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "STALKING FOCUS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Marked Prey",
+      "Scenting Fear",
+      "Loping Predator10",
+      "Panoply of the Cursed Knight15",
+      "Preyslayer’s Mantle15",
+      "Final Howl (Aura)20",
+      "Soul-Spoor Auspicator15"
+    ]
+  },
+  "WAR DOG KARNIVORE": {
+    "slug": "War-Dog-Karnivore",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/War-Dog-Karnivore",
+    "base": "100mm",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "WAR DOG",
+      "KARNIVORE"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "6",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Diabolus heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Havoc multi-launcher (blast, indirect fire)",
+            "range": "48\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaper chaintalon (sustained hits 1)",
+            "range": "Melee",
+            "a": "12",
+            "ws": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Slaughterclaw (sustained hits 1)",
+            "range": "Melee",
+            "a": "6",
+            "ws": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Harbingers of Dread",
+      "Karnivore: You can re-roll Advance and Charge rolls made for this model."
+    ],
+    "composition": [
+      "1 War Dog Karnivore",
+      "This model is equipped with: diabolus heavy stubber; reaper chaintalon; slaughterclaw."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 155
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CUNNING HUNTER",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "HARRYING HOUNDS",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "ANIMALISTIC RAGE",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "HUNGRY FOR COMBAT",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING PACK",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "INSENSATE BLOODTHIRST",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "LEASH OF THE MASTERS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "STALKING FOCUS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Marked Prey",
+      "Scenting Fear",
+      "Loping Predator10",
+      "Panoply of the Cursed Knight15",
+      "Preyslayer’s Mantle15",
+      "Final Howl (Aura)20"
+    ]
+  },
+  "WAR DOG MOIRAX": {
+    "slug": "War-Dog-Moirax",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/War-Dog-Moirax",
+    "base": "100mm",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "WAR DOG",
+      "MOIRAX"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "10",
+      "SV": "3+",
+      "W": "12",
+      "LD": "7+",
+      "OC": "8",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Conversion beam cannon (conversion, sustained hits d3)",
+            "range": "24\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "10",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Graviton pulsar (ANTI-VEHICLE 2+, BLAST)",
+            "range": "24\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Lightning lock (sustained hits 2)",
+            "range": "36\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "8",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Rad cleanser (anti-infantry 2+, ignores cover, torrent)",
+            "range": "12\"",
+            "a": "D6",
+            "bs": "N/A",
+            "s": "2",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Volkite veuglaire (devastating wounds)",
+            "range": "36\"",
+            "a": "4",
+            "bs": "3+",
+            "s": "8",
+            "ap": "0",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Armoured feet",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "6",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Siege claw",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s graviton pulsar can be replaced with one of the following;",
+      "1 siege claw and 1 rad cleanser",
+      "1 lightning lock",
+      "1 conversion beam cannon",
+      "1 volkite veuglaire",
+      "This model’s volkite veuglaire can be replaced with one of the following:",
+      "1 siege claw and 1 rad cleanser",
+      "1 graviton pulsar",
+      "1 lightning lock",
+      "1 conversion beam cannon"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3",
+      "FACTION: Harbingers of Dread",
+      "Protection Protocols: You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:That use is -1 CP.That use does not prevent any uses of that stratagem on other units this phase."
+    ],
+    "composition": [
+      "1 War Dog Moirax",
+      "This model is equipped with: graviton pulsar; volkite veuglaire; armoured feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 150
+      },
+      {
+        "label": "1 model",
+        "pts": 160
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CUNNING HUNTER",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "HARRYING HOUNDS",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "ANIMALISTIC RAGE",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "HUNGRY FOR COMBAT",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING PACK",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "INSENSATE BLOODTHIRST",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "LEASH OF THE MASTERS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "STALKING FOCUS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Marked Prey",
+      "Scenting Fear",
+      "Loping Predator10",
+      "Panoply of the Cursed Knight15",
+      "Preyslayer’s Mantle15",
+      "Final Howl (Aura)20"
+    ]
+  },
+  "WAR DOG STALKER": {
+    "slug": "War-Dog-Stalker",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/chaos-knights/War-Dog-Stalker",
+    "base": "100mm",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "CHAOS",
+      "WAR DOG",
+      "STALKER"
+    ],
+    "factionKeywords": [
+      "CHAOS KNIGHTS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "9",
+      "SV": "3+",
+      "W": "14",
+      "LD": "7+",
+      "OC": "6",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Avenger chaincannon",
+            "range": "24\"",
+            "a": "12",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Daemonbreath spear (melta 4)",
+            "range": "18\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-4",
+            "d": "D6"
+          },
+          {
+            "name": "Diabolus heavy stubber (rapid fire 3)",
+            "range": "36\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Havoc multi-launcher (blast, indirect fire)",
+            "range": "48\"",
+            "a": "D6",
+            "bs": "3+",
+            "s": "5",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaper chaintalon – strike",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "10",
+            "ap": "-3",
+            "d": "3"
+          },
+          {
+            "name": "Reaper chaintalon – sweep",
+            "range": "Melee",
+            "a": "8",
+            "ws": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "1"
+          },
+          {
+            "name": "Slaughterclaw",
+            "range": "Melee",
+            "a": "4",
+            "ws": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s avenger chaincannon can be replaced with 1 daemonbreath spear.",
+      "This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher.",
+      "This model’s slaughterclaw can be replaced with 1 reaper chaintalon."
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D3, Scouts 6\"",
+      "FACTION: Harbingers of Dread",
+      "Stalker: Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll."
+    ],
+    "composition": [
+      "1 War Dog Stalker",
+      "This model is equipped with: avenger chaincannon; diabolus heavy stubber; slaughterclaw."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 135
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "FERAL ARROGANCE",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONTEMPTUOUS VOLLEYS",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "FLUSH THE QUARRY",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "BEASTHIDE MANIFESTATION",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "MERCILESS FUSILLADE",
+        "cp": 0,
+        "source": "Helhunt Lance – Battle Tactic"
+      },
+      {
+        "name": "GOADED BEAST",
+        "cp": 0,
+        "source": "Helhunt Lance – Strategic Ploy"
+      },
+      {
+        "name": "CUNNING HUNTER",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "HARRYING HOUNDS",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "ANIMALISTIC RAGE",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "HUNGRY FOR COMBAT",
+        "cp": 1,
+        "source": "Houndpack Lance – Battle Tactic"
+      },
+      {
+        "name": "ENCIRCLING PACK",
+        "cp": 1,
+        "source": "Houndpack Lance – Strategic Ploy"
+      },
+      {
+        "name": "INSENSATE BLOODTHIRST",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "LEASH OF THE MASTERS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "STALKING FOCUS",
+        "cp": 0,
+        "source": "Hunting Warpack Stratagem"
+      },
+      {
+        "name": "AVENGE THE MASTERS!",
+        "cp": 0,
+        "source": "Iconoclast Fiefdom Stratagem"
+      },
+      {
+        "name": "PROFANE SYMBIOSIS",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "UNLEASH BALEFIRE",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "WARP VISION",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "DIABOLIC BULWARK",
+        "cp": 1,
+        "source": "Infernal Lance – Wargear"
+      },
+      {
+        "name": "HELLFORGED CONSTRUCTION",
+        "cp": 1,
+        "source": "Infernal Lance – Battle Tactic"
+      },
+      {
+        "name": "PTERRORSHADES",
+        "cp": 1,
+        "source": "Traitoris Lance – Wargear"
+      },
+      {
+        "name": "A LONG LEASH",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "IMPERIOUS ADVANCE",
+        "cp": 1,
+        "source": "Traitoris Lance – Epic Deed"
+      },
+      {
+        "name": "STORM OF DARKNESS",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      },
+      {
+        "name": "CONQUERORS WITHOUT MERCY",
+        "cp": 1,
+        "source": "Traitoris Lance – Battle Tactic"
+      },
+      {
+        "name": "DISDAIN FOR THE WEAK",
+        "cp": 1,
+        "source": "Traitoris Lance – Strategic Ploy"
+      }
+    ],
+    "detachmentAbilities": [
+      "Paragons of Terror",
+      "Malefic Surge",
+      "Tyrannical Court",
+      "Marked Prey",
+      "Scenting Fear",
+      "Loping Predator10",
+      "Panoply of the Cursed Knight15",
+      "Preyslayer’s Mantle15",
+      "Final Howl (Aura)20"
+    ]
+  }
+}

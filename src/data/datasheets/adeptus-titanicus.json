@@ -1,0 +1,1700 @@
+{
+  "CHAOS REAVER TITAN": {
+    "slug": "Reaver-Titan",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-titanicus/Reaver-Titan",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "FRAME",
+      "IMPERIUM",
+      "REAVER TITAN"
+    ],
+    "factionKeywords": [
+      "ADEPTUS TITANICUS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "60",
+      "LD": "6+",
+      "OC": "20",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaver apocalypse launcher (blast, indirect fire)",
+            "range": "200\"",
+            "a": "3D6",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Reaver gatling blaster (sustained hits 1)",
+            "range": "72\"",
+            "a": "12",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Reaver laser blaster (blast)",
+            "range": "72\"",
+            "a": "8",
+            "bs": "3+",
+            "s": "20",
+            "ap": "-3",
+            "d": "D6+2"
+          },
+          {
+            "name": "Reaver melta cannon (blast, melta 4)",
+            "range": "48\"",
+            "a": "D6+2",
+            "bs": "3+",
+            "s": "13",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Reaver volcano cannon (blast, heavy)",
+            "range": "120\"",
+            "a": "D3+1",
+            "bs": "3+",
+            "s": "24",
+            "ap": "-5",
+            "d": "14"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaver feet",
+            "range": "Melee",
+            "a": "8",
+            "ws": "4+",
+            "s": "12",
+            "ap": "-2",
+            "d": "4"
+          },
+          {
+            "name": "Reaver power fist – strike",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "20",
+            "ap": "-4",
+            "d": "14"
+          },
+          {
+            "name": "Reaver power fist – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "6"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Reaver gatling blaster can be replaced with one of the following:",
+      "1 Reaver laser blaster",
+      "1 Reaver melta cannon",
+      "1 Reaver volcano cannon",
+      "1 Reaver power fist",
+      "This model’s Reaver laser blaster can be replaced with one of the following:",
+      "1 Reaver gatling blaster",
+      "1 Reaver melta cannon",
+      "1 Reaver volcano cannon"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6+6",
+      "FACTION: Super-heavy Walker",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.God-machine: This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    ],
+    "composition": [
+      "1 Reaver Titan",
+      "This model is equipped with: Reaver apocalypse launcher; Reaver gatling blaster; Reaver laser blaster; Reaver feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 2200
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      }
+    ]
+  },
+  "CHAOS WARBRINGER NEMESIS TITAN": {
+    "slug": "Warbringer-Nemesis-Titan",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-titanicus/Warbringer-Nemesis-Titan",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "FRAME",
+      "IMPERIUM",
+      "WARBRINGER NEMESIS TITAN"
+    ],
+    "factionKeywords": [
+      "ADEPTUS TITANICUS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "80",
+      "LD": "6+",
+      "OC": "20",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Anvillus defence battery (anti-fly 4+)",
+            "range": "72\"",
+            "a": "8",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Ardex-defensor mauler",
+            "range": "36\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Nemesis quake cannon (blast, indirect fire)",
+            "range": "480\"",
+            "a": "D6+6",
+            "bs": "3+",
+            "s": "16",
+            "ap": "-4",
+            "d": "4"
+          },
+          {
+            "name": "Nemesis volcano cannon (blast)",
+            "range": "120\"",
+            "a": "D3+3",
+            "bs": "3+",
+            "s": "24",
+            "ap": "-5",
+            "d": "14"
+          },
+          {
+            "name": "Reaver gatling blaster (sustained hits 1)",
+            "range": "72\"",
+            "a": "12",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Reaver laser blaster (blast)",
+            "range": "72\"",
+            "a": "8",
+            "bs": "3+",
+            "s": "20",
+            "ap": "-3",
+            "d": "D6+2"
+          },
+          {
+            "name": "Reaver melta cannon (blast, melta 4)",
+            "range": "48\"",
+            "a": "D6+2",
+            "bs": "3+",
+            "s": "13",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Reaver volcano cannon (blast, heavy)",
+            "range": "120\"",
+            "a": "D3+1",
+            "bs": "3+",
+            "s": "24",
+            "ap": "-5",
+            "d": "14"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Nemesis feet",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "12",
+            "ap": "-2",
+            "d": "4"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Nemesis quake cannon can be replaced with 1 Nemesis volcano cannon.",
+      "This model’s Reaver gatling blaster can be replaced with one of the following:",
+      "1 Reaver laser blaster",
+      "1 Reaver melta cannon",
+      "1 Reaver volcano cannon",
+      "This model’s Reaver laser blaster can be replaced with one of the following:",
+      "1 Reaver gatling blaster",
+      "1 Reaver melta cannon",
+      "1 Reaver volcano cannon"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6+6",
+      "FACTION: Super-heavy Walker",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Imperium model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "composition": [
+      "1 Warbringer Nemesis Titan",
+      "This model is equipped with: 2 anvillus defence batteries; 3 ardex-defensor maulers; Nemesis quake cannon; Reaver gatling blaster; Reaver laser blaster; Nemesis feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 2600
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      }
+    ]
+  },
+  "CHAOS WARHOUND TITAN": {
+    "slug": "Warhound-Titan",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-titanicus/Warhound-Titan",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "FRAME",
+      "IMPERIUM",
+      "WARHOUND TITAN"
+    ],
+    "factionKeywords": [
+      "ADEPTUS TITANICUS"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "40",
+      "LD": "6+",
+      "OC": "16",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Warhound inferno gun (ignores cover, torrent)",
+            "range": "24\"",
+            "a": "3D6",
+            "bs": "N/A",
+            "s": "7",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Warhound plasma blastgun – standard (blast)",
+            "range": "72\"",
+            "a": "2D6+3",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-3",
+            "d": "4"
+          },
+          {
+            "name": "Warhound plasma blastgun – supercharge (blast, hazardous)",
+            "range": "72\"",
+            "a": "2D6+3",
+            "bs": "3+",
+            "s": "10",
+            "ap": "-3",
+            "d": "5"
+          },
+          {
+            "name": "Warhound turbo-laser destructor (blast)",
+            "range": "72\"",
+            "a": "D3+3",
+            "bs": "3+",
+            "s": "20",
+            "ap": "-3",
+            "d": "2D6"
+          },
+          {
+            "name": "Warhound vulcan mega-bolter (sustained hits 1)",
+            "range": "48\"",
+            "a": "20",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Warhound feet",
+            "range": "Melee",
+            "a": "8",
+            "ws": "4+",
+            "s": "10",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Warhound plasma blastgun can be replaced with one of the following:",
+      "1 Warhound inferno gun",
+      "1 Warhound turbo-laser destructor",
+      "1 Warhound vulcan mega-bolter",
+      "This model’s Warhound vulcan mega-bolter can be replaced with one of the following:",
+      "1 Warhound inferno gun",
+      "1 Warhound plasma blastgun",
+      "1 Warhound turbo-laser destructor"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise 2D6",
+      "FACTION: Super-heavy Walker",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so.Flank Speed: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model."
+    ],
+    "composition": [
+      "1 Warhound Titan",
+      "This model is equipped with: Warhound plasma blastgun; Warhound vulcan mega-bolter; Warhound feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 1100
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      }
+    ]
+  },
+  "CHAOS WARLORD TITAN": {
+    "slug": "Warlord-Titan",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-titanicus/Warlord-Titan",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "FRAME",
+      "IMPERIUM",
+      "WARLORD TITAN"
+    ],
+    "factionKeywords": [
+      "ADEPTUS TITANICUS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "16",
+      "SV": "2+",
+      "W": "100",
+      "LD": "6+",
+      "OC": "30",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Apocalypse launcher (blast, indirect fire)",
+            "range": "200\"",
+            "a": "20",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Ardex-defensor lascannon",
+            "range": "48\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Ardex-defensor mauler",
+            "range": "36\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Arioch power claw (sustained hits 1)",
+            "range": "48\"",
+            "a": "20",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Belicosa volcano cannon (blast)",
+            "range": "120\"",
+            "a": "D3+3",
+            "bs": "3+",
+            "s": "32",
+            "ap": "-5",
+            "d": "18"
+          },
+          {
+            "name": "Laser blaster (blast)",
+            "range": "72\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "16",
+            "ap": "-4",
+            "d": "D6+3"
+          },
+          {
+            "name": "Macro gatling blaster (sustained hits 1)",
+            "range": "100\"",
+            "a": "30",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Mori quake cannon (blast, ignores cover)",
+            "range": "280\"",
+            "a": "3D6",
+            "bs": "3+",
+            "s": "16",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Sunfury plasma annihilator – standard (blast)",
+            "range": "72\"",
+            "a": "2D6+6",
+            "bs": "3+",
+            "s": "10",
+            "ap": "-3",
+            "d": "5"
+          },
+          {
+            "name": "Sunfury plasma annihilator – supercharge (blast, hazardous)",
+            "range": "72\"",
+            "a": "2D6+6",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "8"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Arioch power claw – strike",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "20",
+            "ap": "-4",
+            "d": "24"
+          },
+          {
+            "name": "Arioch power claw – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "8"
+          },
+          {
+            "name": "Warlord feet",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "12",
+            "ap": "-2",
+            "d": "4"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s 2 apocalypse launchers can be replaced with 2 laser blasters.",
+      "This model’s arioch power claw can be replaced with one of the following:",
+      "1 belicosa volcano cannon",
+      "1 macro gatling blaster",
+      "1 mori quake cannon",
+      "1 sunfury plasma annihilator",
+      "This model’s macro gatling blaster can be replaced with one of the following:",
+      "1 arioch power claw",
+      "1 belicosa volcano cannon",
+      "1 mori quake cannon",
+      "1 sunfury plasma annihilator"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise 2D6+6",
+      "FACTION: Super-heavy Walker",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.Wrath of the Omnissiah: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+    ],
+    "composition": [
+      "1 Warlord Titan",
+      "This model is equipped with: 2 apocalypse launchers; 2 ardex-defensor lascannons; 2 ardex-defensor maulers; macro gatling blaster; arioch power claw; Warlord feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 3500
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      }
+    ]
+  },
+  "REAVER TITAN": {
+    "slug": "Reaver-Titan",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-titanicus/Reaver-Titan",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "FRAME",
+      "IMPERIUM",
+      "REAVER TITAN"
+    ],
+    "factionKeywords": [
+      "ADEPTUS TITANICUS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "60",
+      "LD": "6+",
+      "OC": "20",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaver apocalypse launcher (blast, indirect fire)",
+            "range": "200\"",
+            "a": "3D6",
+            "bs": "3+",
+            "s": "7",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Reaver gatling blaster (sustained hits 1)",
+            "range": "72\"",
+            "a": "12",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Reaver laser blaster (blast)",
+            "range": "72\"",
+            "a": "8",
+            "bs": "3+",
+            "s": "20",
+            "ap": "-3",
+            "d": "D6+2"
+          },
+          {
+            "name": "Reaver melta cannon (blast, melta 4)",
+            "range": "48\"",
+            "a": "D6+2",
+            "bs": "3+",
+            "s": "13",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Reaver volcano cannon (blast, heavy)",
+            "range": "120\"",
+            "a": "D3+1",
+            "bs": "3+",
+            "s": "24",
+            "ap": "-5",
+            "d": "14"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Reaver feet",
+            "range": "Melee",
+            "a": "8",
+            "ws": "4+",
+            "s": "12",
+            "ap": "-2",
+            "d": "4"
+          },
+          {
+            "name": "Reaver power fist – strike",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "20",
+            "ap": "-4",
+            "d": "14"
+          },
+          {
+            "name": "Reaver power fist – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "6"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Reaver gatling blaster can be replaced with one of the following:",
+      "1 Reaver laser blaster",
+      "1 Reaver melta cannon",
+      "1 Reaver volcano cannon",
+      "1 Reaver power fist",
+      "This model’s Reaver laser blaster can be replaced with one of the following:",
+      "1 Reaver gatling blaster",
+      "1 Reaver melta cannon",
+      "1 Reaver volcano cannon"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6+6",
+      "FACTION: Super-heavy Walker",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.God-machine: This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    ],
+    "composition": [
+      "1 Reaver Titan",
+      "This model is equipped with: Reaver apocalypse launcher; Reaver gatling blaster; Reaver laser blaster; Reaver feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 2200
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      }
+    ]
+  },
+  "WARBRINGER NEMESIS TITAN": {
+    "slug": "Warbringer-Nemesis-Titan",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-titanicus/Warbringer-Nemesis-Titan",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "FRAME",
+      "IMPERIUM",
+      "WARBRINGER NEMESIS TITAN"
+    ],
+    "factionKeywords": [
+      "ADEPTUS TITANICUS"
+    ],
+    "characteristics": {
+      "M": "12\"",
+      "T": "14",
+      "SV": "2+",
+      "W": "80",
+      "LD": "6+",
+      "OC": "20",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Anvillus defence battery (anti-fly 4+)",
+            "range": "72\"",
+            "a": "8",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Ardex-defensor mauler",
+            "range": "36\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Nemesis quake cannon (blast, indirect fire)",
+            "range": "480\"",
+            "a": "D6+6",
+            "bs": "3+",
+            "s": "16",
+            "ap": "-4",
+            "d": "4"
+          },
+          {
+            "name": "Nemesis volcano cannon (blast)",
+            "range": "120\"",
+            "a": "D3+3",
+            "bs": "3+",
+            "s": "24",
+            "ap": "-5",
+            "d": "14"
+          },
+          {
+            "name": "Reaver gatling blaster (sustained hits 1)",
+            "range": "72\"",
+            "a": "12",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Reaver laser blaster (blast)",
+            "range": "72\"",
+            "a": "8",
+            "bs": "3+",
+            "s": "20",
+            "ap": "-3",
+            "d": "D6+2"
+          },
+          {
+            "name": "Reaver melta cannon (blast, melta 4)",
+            "range": "48\"",
+            "a": "D6+2",
+            "bs": "3+",
+            "s": "13",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Reaver volcano cannon (blast, heavy)",
+            "range": "120\"",
+            "a": "D3+1",
+            "bs": "3+",
+            "s": "24",
+            "ap": "-5",
+            "d": "14"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Nemesis feet",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "12",
+            "ap": "-2",
+            "d": "4"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Nemesis quake cannon can be replaced with 1 Nemesis volcano cannon.",
+      "This model’s Reaver gatling blaster can be replaced with one of the following:",
+      "1 Reaver laser blaster",
+      "1 Reaver melta cannon",
+      "1 Reaver volcano cannon",
+      "This model’s Reaver laser blaster can be replaced with one of the following:",
+      "1 Reaver gatling blaster",
+      "1 Reaver melta cannon",
+      "1 Reaver volcano cannon"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise D6+6",
+      "FACTION: Super-heavy Walker",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Imperium model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "composition": [
+      "1 Warbringer Nemesis Titan",
+      "This model is equipped with: 2 anvillus defence batteries; 3 ardex-defensor maulers; Nemesis quake cannon; Reaver gatling blaster; Reaver laser blaster; Nemesis feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 2600
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      }
+    ]
+  },
+  "WARHOUND TITAN": {
+    "slug": "Warhound-Titan",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-titanicus/Warhound-Titan",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "FRAME",
+      "IMPERIUM",
+      "WARHOUND TITAN"
+    ],
+    "factionKeywords": [
+      "ADEPTUS TITANICUS"
+    ],
+    "characteristics": {
+      "M": "14\"",
+      "T": "13",
+      "SV": "2+",
+      "W": "40",
+      "LD": "6+",
+      "OC": "16",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Warhound inferno gun (ignores cover, torrent)",
+            "range": "24\"",
+            "a": "3D6",
+            "bs": "N/A",
+            "s": "7",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Warhound plasma blastgun – standard (blast)",
+            "range": "72\"",
+            "a": "2D6+3",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-3",
+            "d": "4"
+          },
+          {
+            "name": "Warhound plasma blastgun – supercharge (blast, hazardous)",
+            "range": "72\"",
+            "a": "2D6+3",
+            "bs": "3+",
+            "s": "10",
+            "ap": "-3",
+            "d": "5"
+          },
+          {
+            "name": "Warhound turbo-laser destructor (blast)",
+            "range": "72\"",
+            "a": "D3+3",
+            "bs": "3+",
+            "s": "20",
+            "ap": "-3",
+            "d": "2D6"
+          },
+          {
+            "name": "Warhound vulcan mega-bolter (sustained hits 1)",
+            "range": "48\"",
+            "a": "20",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Warhound feet",
+            "range": "Melee",
+            "a": "8",
+            "ws": "4+",
+            "s": "10",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s Warhound plasma blastgun can be replaced with one of the following:",
+      "1 Warhound inferno gun",
+      "1 Warhound turbo-laser destructor",
+      "1 Warhound vulcan mega-bolter",
+      "This model’s Warhound vulcan mega-bolter can be replaced with one of the following:",
+      "1 Warhound inferno gun",
+      "1 Warhound plasma blastgun",
+      "1 Warhound turbo-laser destructor"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise 2D6",
+      "FACTION: Super-heavy Walker",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so.Flank Speed: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model."
+    ],
+    "composition": [
+      "1 Warhound Titan",
+      "This model is equipped with: Warhound plasma blastgun; Warhound vulcan mega-bolter; Warhound feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 1100
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      }
+    ]
+  },
+  "WARLORD TITAN": {
+    "slug": "Warlord-Titan",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/adeptus-titanicus/Warlord-Titan",
+    "keywords": [
+      "VEHICLE",
+      "WALKER",
+      "TITANIC",
+      "TOWERING",
+      "FRAME",
+      "IMPERIUM",
+      "WARLORD TITAN"
+    ],
+    "factionKeywords": [
+      "ADEPTUS TITANICUS"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "16",
+      "SV": "2+",
+      "W": "100",
+      "LD": "6+",
+      "OC": "30",
+      "INSV": "5+"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Apocalypse launcher (blast, indirect fire)",
+            "range": "200\"",
+            "a": "20",
+            "bs": "3+",
+            "s": "8",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Ardex-defensor lascannon",
+            "range": "48\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "D6+1"
+          },
+          {
+            "name": "Ardex-defensor mauler",
+            "range": "36\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "2"
+          },
+          {
+            "name": "Arioch power claw (sustained hits 1)",
+            "range": "48\"",
+            "a": "20",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-1",
+            "d": "2"
+          },
+          {
+            "name": "Belicosa volcano cannon (blast)",
+            "range": "120\"",
+            "a": "D3+3",
+            "bs": "3+",
+            "s": "32",
+            "ap": "-5",
+            "d": "18"
+          },
+          {
+            "name": "Laser blaster (blast)",
+            "range": "72\"",
+            "a": "6",
+            "bs": "3+",
+            "s": "16",
+            "ap": "-4",
+            "d": "D6+3"
+          },
+          {
+            "name": "Macro gatling blaster (sustained hits 1)",
+            "range": "100\"",
+            "a": "30",
+            "bs": "3+",
+            "s": "9",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Mori quake cannon (blast, ignores cover)",
+            "range": "280\"",
+            "a": "3D6",
+            "bs": "3+",
+            "s": "16",
+            "ap": "-4",
+            "d": "6"
+          },
+          {
+            "name": "Sunfury plasma annihilator – standard (blast)",
+            "range": "72\"",
+            "a": "2D6+6",
+            "bs": "3+",
+            "s": "10",
+            "ap": "-3",
+            "d": "5"
+          },
+          {
+            "name": "Sunfury plasma annihilator – supercharge (blast, hazardous)",
+            "range": "72\"",
+            "a": "2D6+6",
+            "bs": "3+",
+            "s": "12",
+            "ap": "-3",
+            "d": "8"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Arioch power claw – strike",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "20",
+            "ap": "-4",
+            "d": "24"
+          },
+          {
+            "name": "Arioch power claw – sweep",
+            "range": "Melee",
+            "a": "12",
+            "ws": "4+",
+            "s": "12",
+            "ap": "-3",
+            "d": "8"
+          },
+          {
+            "name": "Warlord feet",
+            "range": "Melee",
+            "a": "6",
+            "ws": "4+",
+            "s": "12",
+            "ap": "-2",
+            "d": "4"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "This model’s 2 apocalypse launchers can be replaced with 2 laser blasters.",
+      "This model’s arioch power claw can be replaced with one of the following:",
+      "1 belicosa volcano cannon",
+      "1 macro gatling blaster",
+      "1 mori quake cannon",
+      "1 sunfury plasma annihilator",
+      "This model’s macro gatling blaster can be replaced with one of the following:",
+      "1 arioch power claw",
+      "1 belicosa volcano cannon",
+      "1 mori quake cannon",
+      "1 sunfury plasma annihilator"
+    ],
+    "abilities": [
+      "CORE: Deadly Demise 2D6+6",
+      "FACTION: Super-heavy Walker",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so.Wrath of the Omnissiah: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+    ],
+    "composition": [
+      "1 Warlord Titan",
+      "This model is equipped with: 2 apocalypse launchers; 2 ardex-defensor lascannons; 2 ardex-defensor maulers; macro gatling blaster; arioch power claw; Warlord feet."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 3500
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "CRUSHING IMPACT",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      }
+    ]
+  }
+}
