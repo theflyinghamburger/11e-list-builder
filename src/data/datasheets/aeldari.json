@@ -1393,6 +1393,231 @@
       "Unerring Strike"
     ]
   },
+  "CLANBLADE": {
+    "slug": "Clanblade",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/aeldari/Clanblade",
+    "keywords": [
+      "MOUNTED",
+      "AELDARI",
+      "CHARACTER",
+      "EXODITE",
+      "MOBILE"
+    ],
+    "factionKeywords": [
+      "ASURYANI, YNNARI"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "6+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Solar Carbine (Rapid Fire 2)",
+            "range": "18\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Drakesteed Fangs and Talons (Extra Attacks)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Moonblades (Lethal Hits, Twin-linked)",
+            "range": "Melee",
+            "a": "5",
+            "ws": "2+",
+            "s": "4",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Leader",
+      "FACTION: Battle Focus",
+      "Blade of the Clans: This unit’s melee attacks have [Sustained Hits 1].Cornered Prey: When an enemy unit engaged with this unit is selected to make a fall-back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle-shocked, -1 from those hazard rolls."
+    ],
+    "composition": [
+      "1 Clanblade model",
+      "This model is equipped with: 1 Drakesteed Fangs and Talons; 1 Moonblades; 1 Solar Carbine."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 70
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "LETHAL RUSE",
+        "cp": 0,
+        "source": "Corsair Coterie – Strategic Ploy"
+      },
+      {
+        "name": "PIRATES’ DUE",
+        "cp": 0,
+        "source": "Corsair Coterie – Battle Tactic"
+      },
+      {
+        "name": "FEIGNED RETREAT",
+        "cp": 1,
+        "source": "Warhost – Strategic Ploy"
+      },
+      {
+        "name": "LIGHTNING-FAST REACTIONS",
+        "cp": 1,
+        "source": "Warhost – Battle Tactic"
+      },
+      {
+        "name": "BLITZING FIREPOWER",
+        "cp": 1,
+        "source": "Warhost – Battle Tactic"
+      },
+      {
+        "name": "DARING RIDERS",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "WIND OF BLADES",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "DEATH FROM ON HIGH",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      },
+      {
+        "name": "OVERFLIGHT",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "FOCUSED FIREPOWER",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      },
+      {
+        "name": "SPIRALLING EVASION",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Martial Grace",
+      "Ride the Wind",
+      "Strands of Fate",
+      "Yriel’s Own",
+      "Gift of Foresight15",
+      "Timeless Strategist15",
+      "Phoenix Gem35",
+      "Firstdrawn Blade10",
+      "Echoes of Ulthanesh20",
+      "Mirage Field25",
+      "Breath of Vaul10",
+      "Protector of the Paths20",
+      "Craftworld’s Champion25",
+      "Ethereal Pathway30"
+    ]
+  },
   "CORSAIR SKYREAVERS": {
     "slug": "Corsair-Skyreavers",
     "url": "https://wahapedia.ru/wh40k11ed/factions/aeldari/Corsair-Skyreavers",
@@ -3854,6 +4079,232 @@
       "Yriel’s Own",
       "Unerring Strike",
       "Determined Defence"
+    ]
+  },
+  "DRAGON KNIGHTS": {
+    "slug": "Dragon-Knights",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/aeldari/Dragon-Knights",
+    "keywords": [
+      "MOUNTED",
+      "AELDARI",
+      "EXODITE",
+      "MOBILE"
+    ],
+    "factionKeywords": [
+      "ASURYANI, YNNARI"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Laser Lance (assault)",
+            "range": "6\"",
+            "a": "1",
+            "bs": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Solar Carbine (Rapid Fire 2)",
+            "range": "18\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Drakesteed Fangs and Talons (Extra Attacks)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Laser Lance (Lance)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "6",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      }
+    ],
+    "wargear": [
+      "For every 3 models in this unit, this unit can be equipped with 2 Drakolithe."
+    ],
+    "abilities": [
+      "FACTION: Battle Focus",
+      "On the Hunt: When this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.Agile Reach: When this unit is selected to fight, melee weapons equipped by unengaged models in this unit that are within 3\" of an enemy unit that is engaged with this unit can target that enemy unit.Drakolithe (Once per battle, per token): When an enemy unit ends a move within 8\" of this unit, if this unit is unengaged or if that enemy unit ended that move engaged with this unit, you can use this ability. If you do, roll one D6:On a 3+, that enemy unit suffers 1 mortal wound.Place one Drakolithe token next to the unit for each Drakolithe the unit is equipped with, removing one each time this ability is used."
+    ],
+    "composition": [
+      "1 Dragon Knight Leader model",
+      "2-5 Dragon Knights models",
+      "Every model is equipped with: 1 Drakesteed Fangs and Talons; 1 Laser Lance; 1 Solar Carbine."
+    ],
+    "costs": [
+      {
+        "label": "3 models",
+        "pts": 90
+      },
+      {
+        "label": "6 models",
+        "pts": 180
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "LETHAL RUSE",
+        "cp": 0,
+        "source": "Corsair Coterie – Strategic Ploy"
+      },
+      {
+        "name": "PIRATES’ DUE",
+        "cp": 0,
+        "source": "Corsair Coterie – Battle Tactic"
+      },
+      {
+        "name": "FEIGNED RETREAT",
+        "cp": 1,
+        "source": "Warhost – Strategic Ploy"
+      },
+      {
+        "name": "LIGHTNING-FAST REACTIONS",
+        "cp": 1,
+        "source": "Warhost – Battle Tactic"
+      },
+      {
+        "name": "BLITZING FIREPOWER",
+        "cp": 1,
+        "source": "Warhost – Battle Tactic"
+      },
+      {
+        "name": "DARING RIDERS",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "WIND OF BLADES",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "DEATH FROM ON HIGH",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      },
+      {
+        "name": "OVERFLIGHT",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "FOCUSED FIREPOWER",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      },
+      {
+        "name": "SPIRALLING EVASION",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      }
+    ],
+    "ledBy": [
+      "CLANBLADE"
+    ],
+    "supportedBy": [
+      "STONESINGER"
+    ],
+    "detachmentAbilities": [
+      "Martial Grace",
+      "Ride the Wind",
+      "Strands of Fate",
+      "Yriel’s Own"
     ]
   },
   "ELDRAD ULTHRAN": {
@@ -7235,6 +7686,231 @@
       "Infamy (Aura)25",
       "Webway Pathstone25",
       "Archraider35"
+    ]
+  },
+  "LEYSTALKER": {
+    "slug": "Leystalker",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/aeldari/Leystalker",
+    "keywords": [
+      "MOUNTED",
+      "AELDARI",
+      "CHARACTER",
+      "EXODITE",
+      "MOBILE"
+    ],
+    "factionKeywords": [
+      "ASURYANI, YNNARI"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Long Rifle (DEVASTATING WOUNDS: non-MONSTER/VEHICLE, Precision)",
+            "range": "36\"",
+            "a": "2",
+            "bs": "2+",
+            "s": "6",
+            "ap": "-2",
+            "d": "3"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Drakesteed Fangs and Talons (Extra Attacks)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Hunting Blades",
+            "range": "Melee",
+            "a": "2",
+            "ws": "3+",
+            "s": "3",
+            "ap": "-1",
+            "d": "1"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Lone Operative, Scouts 9\", Stealth",
+      "FACTION: Battle Focus",
+      "Panicked Quarry: In your Shooting phase, when this unit has shot, select one enemy unit (excluding MONSTER/VEHICLE units) hit by those attacks. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll.Drakolithe (Once per battle, per token): When an enemy unit ends a move within 8\" of this unit, if this unit is unengaged or if that enemy unit ended that move engaged with this unit, you can use this ability. If you do, roll one D6:On a 3+, that enemy unit suffers 1 mortal wound.Place one Drakolithe token next to the unit for each Drakolithe the unit is equipped with, removing one each time this ability is used."
+    ],
+    "composition": [
+      "1 Leystalker model",
+      "This model is equipped with: 2 Drakolithe; 1 Drakesteed Fangs and Talons; 1 Long Rifle; 1 Hunting Blades."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 80
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "LETHAL RUSE",
+        "cp": 0,
+        "source": "Corsair Coterie – Strategic Ploy"
+      },
+      {
+        "name": "PIRATES’ DUE",
+        "cp": 0,
+        "source": "Corsair Coterie – Battle Tactic"
+      },
+      {
+        "name": "FEIGNED RETREAT",
+        "cp": 1,
+        "source": "Warhost – Strategic Ploy"
+      },
+      {
+        "name": "LIGHTNING-FAST REACTIONS",
+        "cp": 1,
+        "source": "Warhost – Battle Tactic"
+      },
+      {
+        "name": "BLITZING FIREPOWER",
+        "cp": 1,
+        "source": "Warhost – Battle Tactic"
+      },
+      {
+        "name": "DARING RIDERS",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "WIND OF BLADES",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "DEATH FROM ON HIGH",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      },
+      {
+        "name": "OVERFLIGHT",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "FOCUSED FIREPOWER",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      },
+      {
+        "name": "SPIRALLING EVASION",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Martial Grace",
+      "Ride the Wind",
+      "Strands of Fate",
+      "Yriel’s Own",
+      "Gift of Foresight15",
+      "Timeless Strategist15",
+      "Phoenix Gem35",
+      "Firstdrawn Blade10",
+      "Echoes of Ulthanesh20",
+      "Mirage Field25",
+      "Breath of Vaul10",
+      "Protector of the Paths20",
+      "Craftworld’s Champion25",
+      "Ethereal Pathway30"
     ]
   },
   "LHYKHIS": {
@@ -11224,6 +11900,279 @@
       "Yriel’s Own",
       "Acrobatic Onslaught",
       "Dance of Distortion"
+    ]
+  },
+  "STONESINGER": {
+    "slug": "Stonesinger",
+    "url": "https://wahapedia.ru/wh40k11ed/factions/aeldari/Stonesinger",
+    "keywords": [
+      "MOUNTED",
+      "AELDARI",
+      "CHARACTER",
+      "EXODITE",
+      "MOBILE",
+      "PSYKER"
+    ],
+    "factionKeywords": [
+      "ASURYANI, YNNARI"
+    ],
+    "characteristics": {
+      "M": "10\"",
+      "T": "5",
+      "SV": "4+",
+      "W": "4",
+      "LD": "7+",
+      "OC": "2"
+    },
+    "profiles": [
+      {
+        "title": "RANGED WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "BS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Song of Waning (ANTI-MONSTER/VEHICLE 3+, PSYCHIC)",
+            "range": "24\"",
+            "a": "3",
+            "bs": "3+",
+            "s": "4",
+            "ap": "-2",
+            "d": "3"
+          },
+          {
+            "name": "Solar Carbine (Rapid Fire 2)",
+            "range": "18\"",
+            "a": "2",
+            "bs": "3+",
+            "s": "4",
+            "ap": "0",
+            "d": "1"
+          },
+          {
+            "name": "Venomcrest Spit (ANTI-non-MONSTER/VEHICLE 3+, BLAST 1, Torrent)",
+            "range": "12\"",
+            "a": "3",
+            "bs": "6+",
+            "s": "3",
+            "ap": "-2",
+            "d": "2"
+          }
+        ]
+      },
+      {
+        "title": "MELEE WEAPONS",
+        "headers": [
+          "RANGE",
+          "A",
+          "WS",
+          "S",
+          "AP",
+          "D"
+        ],
+        "rows": [
+          {
+            "name": "Drakesteed Fangs and Talons (Extra Attacks)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "5",
+            "ap": "-1",
+            "d": "1"
+          },
+          {
+            "name": "Stone Stave (ANTI-non-MONSTER/VEHICLE 2+, PSYCHIC)",
+            "range": "Melee",
+            "a": "3",
+            "ws": "3+",
+            "s": "3",
+            "ap": "-1",
+            "d": "2"
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      "CORE: Support",
+      "FACTION: Battle Focus",
+      "Elemental Ensnarement: At the end of your Fight phase, if this unit is not battle-shocked, you can use this ability. If you do, roll one D6:On a 1, this unit is battle-shocked.Select one visible enemy MONSTER/VEHICLE unit (excluding TITANIC units) within 18\" of this unit. That enemy unit is ensnared until the start of your next turn:While a unit is ensnared, that unit has -2\" M and cannot be pinned."
+    ],
+    "composition": [
+      "1 Stonesinger model",
+      "This model is equipped with: 1 Drakesteed Fangs and Talons; 1 Song of Waning; 1 Solar Carbine; 1 Stone Stave; 1 Venomcrest Spit."
+    ],
+    "costs": [
+      {
+        "label": "1 model",
+        "pts": 60
+      }
+    ],
+    "stratagems": [
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "FIRE OVERWATCH",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "RAPID INGRESS",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "HEROIC INTERVENTION",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "EPIC CHALLENGE",
+        "cp": 1,
+        "source": "Core"
+      },
+      {
+        "name": "COUNTEROFFENSIVE",
+        "cp": 2,
+        "source": "Core"
+      },
+      {
+        "name": "BATTLEFIELD COMMAND",
+        "cp": 1,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "COMMAND RE-ROLL",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "INSANE BRAVERY",
+        "cp": 1,
+        "source": "Boarding Actions – Epic Deed"
+      },
+      {
+        "name": "EXPLOSIVE CLEARANCE",
+        "cp": 1,
+        "source": "Boarding Actions – Battle Tactic"
+      },
+      {
+        "name": "COUNTER-OFFENSIVE",
+        "cp": 2,
+        "source": "Boarding Actions – Strategic Ploy"
+      },
+      {
+        "name": "LETHAL RUSE",
+        "cp": 0,
+        "source": "Corsair Coterie – Strategic Ploy"
+      },
+      {
+        "name": "PIRATES’ DUE",
+        "cp": 0,
+        "source": "Corsair Coterie – Battle Tactic"
+      },
+      {
+        "name": "PRESENTIMENT OF DREAD",
+        "cp": 1,
+        "source": "Seer Council – Strategic Ploy"
+      },
+      {
+        "name": "ISHA’S FURY",
+        "cp": 1,
+        "source": "Seer Council – Epic Deed"
+      },
+      {
+        "name": "SOUL BRIDGE",
+        "cp": 1,
+        "source": "Spirit Conclave – Strategic Ploy"
+      },
+      {
+        "name": "SEER’S EYE",
+        "cp": 1,
+        "source": "Spirit Conclave – Battle Tactic"
+      },
+      {
+        "name": "FEIGNED RETREAT",
+        "cp": 1,
+        "source": "Warhost – Strategic Ploy"
+      },
+      {
+        "name": "LIGHTNING-FAST REACTIONS",
+        "cp": 1,
+        "source": "Warhost – Battle Tactic"
+      },
+      {
+        "name": "BLITZING FIREPOWER",
+        "cp": 1,
+        "source": "Warhost – Battle Tactic"
+      },
+      {
+        "name": "DARING RIDERS",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "WIND OF BLADES",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "DEATH FROM ON HIGH",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      },
+      {
+        "name": "OVERFLIGHT",
+        "cp": 1,
+        "source": "Windrider Host – Strategic Ploy"
+      },
+      {
+        "name": "FOCUSED FIREPOWER",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      },
+      {
+        "name": "SPIRALLING EVASION",
+        "cp": 1,
+        "source": "Windrider Host – Battle Tactic"
+      }
+    ],
+    "detachmentAbilities": [
+      "Martial Grace",
+      "Ride the Wind",
+      "Shepherds of the Dead",
+      "Strands of Fate",
+      "Yriel’s Own",
+      "Spirit Stone of Raelyth20",
+      "Guiding Presence25",
+      "Gift of Foresight15",
+      "Timeless Strategist15",
+      "Psychic Destroyer30",
+      "Phoenix Gem35",
+      "Firstdrawn Blade10",
+      "Seersight Strike15",
+      "Echoes of Ulthanesh20",
+      "Mirage Field25",
+      "Breath of Vaul10",
+      "Protector of the Paths20",
+      "Craftworld’s Champion25",
+      "Ethereal Pathway30",
+      "Stone of Eldritch Fury15",
+      "Torc of Morai-Heg20",
+      "Runes of Warding25",
+      "Lucid Eye30"
     ]
   },
   "STORM GUARDIANS": {

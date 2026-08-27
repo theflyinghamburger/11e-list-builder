@@ -183,7 +183,7 @@ const armyTotal = (a, data) => {
 };
 assert.equal(armyTotal(nr, admech), 605, 'fixture: app total (units + normed wargear + enhancements)');
 
-// 12. Live NR file (skipped when absent): the original regression input, 1995 pts
+// 12. Live NR file (skipped when absent): the original regression input, NR total was 1995 pts
 const live = '/mnt/g/DownloadEdge/Remove That Direction 2k.rosz';
 if (existsSync(live)) {
   const entry = Object.values(unzipSync(readFileSync(live)))[0];
@@ -195,8 +195,9 @@ if (existsSync(live)) {
   assert.equal(a.pointLimit, 2000, 'live: pointLimit');
   assert.deepEqual(a.detachments, [{ name: 'ERADICATION COHORT', enhancements: ['Omnissiah’s Fury', 'Belicosa-class Capacitor Vanes'] }], 'live: detachment + enhancements');
   assert.ok(!a.units.some((u) => Object.keys(u.wargear).some((w) => /close combat|combat weapon/i.test(w))), 'live: weapon options not wargear');
-  assert.equal(armyTotal(a, admech), 1995, 'live: matches NR total');
-  console.log('live .rosz check passed (1995/2000 pts, 16 units, 1 detachment)');
+  // ponytail: 1990 = NR's 1995 minus MFM's reprice (Tech-Priest Dominus 65→60); update with the data
+  assert.equal(armyTotal(a, admech), 1990, 'live: matches NR total');
+  console.log('live .rosz check passed (1990/2000 pts, 16 units, 1 detachment)');
 } else {
   console.log('live .rosz check skipped (file absent)');
 }

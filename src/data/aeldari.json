@@ -18,7 +18,7 @@
     {
       "name": "ASPECT HOST",
       "dpCost": 3,
-      "doctrine": "DISRUPTION",
+      "doctrine": "PRIORITY ASSETS",
       "enhancements": [
         {
           "name": "Aspect of Murder",
@@ -380,6 +380,18 @@
       ]
     },
     {
+      "name": "Clanblade",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 70
+        }
+      ],
+      "leaderOf": [
+        "Dragon Knights"
+      ]
+    },
+    {
       "name": "Corsair Skyreavers",
       "modelOptions": [
         {
@@ -432,11 +444,11 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 100
+          "cost": 95
         },
         {
           "count": 10,
-          "cost": 210
+          "cost": 200
         }
       ]
     },
@@ -469,11 +481,24 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 75
+          "cost": 70
         },
         {
           "count": 10,
-          "cost": 150
+          "cost": 140
+        }
+      ]
+    },
+    {
+      "name": "Dragon Knights",
+      "modelOptions": [
+        {
+          "count": 3,
+          "cost": 90
+        },
+        {
+          "count": 6,
+          "cost": 180
         }
       ]
     },
@@ -482,13 +507,12 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 130
+          "cost": 120
         }
       ],
       "leaderOf": [
         "Guardian Defenders",
-        "Storm Guardians",
-        "Warlock Conclave"
+        "Storm Guardians"
       ]
     },
     {
@@ -510,8 +534,7 @@
       ],
       "leaderOf": [
         "Guardian Defenders",
-        "Storm Guardians",
-        "Warlock Conclave"
+        "Storm Guardians"
       ]
     },
     {
@@ -641,6 +664,15 @@
       ]
     },
     {
+      "name": "Leystalker",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 80
+        }
+      ]
+    },
+    {
       "name": "Lhykhis",
       "modelOptions": [
         {
@@ -693,7 +725,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 2
+          "cost": 100
         }
       ]
     },
@@ -728,7 +760,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 1
+          "cost": 100
         }
       ]
     },
@@ -772,7 +804,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 55
+          "cost": 50
         }
       ]
     },
@@ -790,11 +822,23 @@
       ]
     },
     {
+      "name": "Stonesinger",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 60
+        }
+      ],
+      "supportFor": [
+        "Dragon Knights"
+      ]
+    },
+    {
       "name": "Storm Guardians",
       "modelOptions": [
         {
           "count": 11,
-          "cost": 110
+          "cost": 100
         }
       ]
     },
@@ -874,7 +918,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 45
+          "cost": 40
         }
       ],
       "supportFor": [
@@ -894,7 +938,7 @@
           "cost": 120
         }
       ],
-      "leaderOf": [
+      "supportFor": [
         "Guardian Defenders",
         "Storm Guardians"
       ]
@@ -904,14 +948,14 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 55
+          "cost": 45
         },
         {
           "count": 2,
           "cost": 90
         }
       ],
-      "leaderOf": [
+      "supportFor": [
         "Windriders"
       ]
     },
@@ -956,7 +1000,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
+          "cost": 80
         },
         {
           "count": 2,
@@ -1196,15 +1240,14 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 90
+          "cost": 80
         }
       ],
-      "leaderOf": [
+      "supportFor": [
         "Corsair Voidreavers",
         "Corsair Voidscarred",
         "Guardian Defenders",
         "Storm Guardians",
-        "Ynnari Incubi",
         "Ynnari Kabalite Warriors",
         "Ynnari Wyches"
       ]

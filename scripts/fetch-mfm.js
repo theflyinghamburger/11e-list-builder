@@ -27,13 +27,18 @@ async function main() {
 
   // Build cost map: template ID (P:X) → cost in pts
   // MFM uses hidden divs with $RS() to map S:X → P:X
+  // ponytail: some cost spans carry delta hints ("▼ (-5) 180 pts") — take the number before "pts"
+  const parsePts = (text) => {
+    const m = text.match(/(-?\d+(?:\.\d+)?)\s*pts\b/);
+    return m ? parseInt(m[1], 10) : NaN;
+  };
   const costMap = {};
   const modelTextMap = {};
   for (const [targetId, srcId] of Object.entries(rsMap)) {
     const srcDiv = $(`#S\\:${srcId}`);
     const text = srcDiv.find('span').text().trim();
     if (text.includes('pts')) {
-      const pts = parseInt(text.replace('pts', '').trim(), 10);
+      const pts = parsePts(text);
       if (!isNaN(pts)) costMap[`P:${targetId}`] = pts;
     } else if (text.includes('model')) {
       const count = parseInt(text.replace('models', '').trim(), 10);
@@ -88,7 +93,7 @@ async function main() {
         const parts = row.find('span');
         const enhName = parts.eq(0)?.text().trim() || '';
         const ptsText = parts.eq(1)?.text().trim() || '';
-        const pts = parseInt(ptsText.replace('pts', '').trim(), 10) || 0;
+        const pts = parsePts(ptsText) || 0;
 
         if (enhName && pts) {
           enhancements.push({ name: enhName, pts });
@@ -129,7 +134,16 @@ async function main() {
 
   // Parse units - all cards with unit name headers on the page
   $('.flex.flex-col.space-y-1.m-1').each((_, card) => {
-      const nameEl = $(card).find('.bg-slate-500.font-bold.text-xl.text-white').first();
+      let nameEl = $(card).find('.bg-slate-500.font-bold.text-xl.text-white').first();
+      if (!nameEl.length) {
+        // ponytail: new MFM header template — colored (non-slate) row, text-xl moved to inner span
+        nameEl = $(card).find('span.text-xl').filter((_, el) => {
+          const row = $(el).parent();
+          const c = row.attr('class') || '';
+          // ponytail: detachment cards share the m-1 wrapper but their header row carries "N DP"
+          return /font-bold/.test(c) && /text-white/.test(c) && !/slate/.test(c) && !/DP/.test(row.text() || '');
+        }).first();
+      }
       const name = toTitleCase(nameEl.text().trim());
       if (!name) return;
 
@@ -166,7 +180,7 @@ async function main() {
           if (templates[0]) {
             cost = costMap[templates[0]] || 0;
           } else if (spans[1] && spans[1].includes('pts')) {
-            cost = parseInt(spans[1].replace('pts', '').trim(), 10) || 0;
+            cost = parsePts(spans[1]) || 0;
           }
 
           if (match) {
@@ -222,7 +236,7 @@ async function main() {
             cost = costMap[tplId] || 0;
           } else {
             const costText = $(li).find('span').last().text().trim();
-            if (costText.includes('pts')) cost = parseInt(costText.replace('pts', '').trim(), 10) || 0;
+            if (costText.includes('pts')) cost = parsePts(costText) || 0;
           }
           wargear.push({
             name: toTitleCase(liText.replace('per ', '')),

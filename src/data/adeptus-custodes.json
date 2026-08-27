@@ -25,8 +25,8 @@
     },
     {
       "name": "LIONS OF THE EMPEROR",
-      "dpCost": 2,
-      "doctrine": "DISRUPTION",
+      "dpCost": 3,
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "Admonimortis",
@@ -171,7 +171,7 @@
     {
       "name": "THARANATOI HAMMERBLOW",
       "dpCost": 1,
-      "doctrine": "PRIORITY ASSETS",
+      "doctrine": "DISRUPTION",
       "enhancements": [
         {
           "name": "Efficient Aggression",
@@ -225,13 +225,52 @@
         },
         {
           "count": 5,
-          "cost": 275
+          "cost": 280
         },
         {
           "count": 6,
-          "cost": 330
+          "cost": 340
         }
-      ]
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 2,
+            "cost": 110
+          },
+          {
+            "count": 3,
+            "cost": 165
+          },
+          {
+            "count": 5,
+            "cost": 280
+          },
+          {
+            "count": 6,
+            "cost": 340
+          }
+        ],
+        "secondary": [
+          {
+            "count": 2,
+            "cost": 140
+          },
+          {
+            "count": 3,
+            "cost": 195
+          },
+          {
+            "count": 5,
+            "cost": 310
+          },
+          {
+            "count": 6,
+            "cost": 370
+          }
+        ]
+      }
     },
     {
       "name": "Anathema Psykana Rhino",
@@ -795,7 +834,30 @@
           "count": 3,
           "cost": 215
         }
-      ]
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 2,
+            "cost": 145
+          },
+          {
+            "count": 3,
+            "cost": 215
+          }
+        ],
+        "secondary": [
+          {
+            "count": 2,
+            "cost": 170
+          },
+          {
+            "count": 3,
+            "cost": 240
+          }
+        ]
+      }
     },
     {
       "name": "Vigilators",

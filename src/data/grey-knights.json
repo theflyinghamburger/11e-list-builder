@@ -478,7 +478,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 250
+          "cost": 260
         }
       ],
       "tiered": {
@@ -486,13 +486,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 250
+            "cost": 260
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 270
+            "cost": 280
           }
         ]
       }
@@ -544,7 +544,7 @@
         },
         {
           "count": 10,
-          "cost": 450
+          "cost": 460
         }
       ],
       "tiered": {
@@ -564,25 +564,25 @@
           },
           {
             "count": 10,
-            "cost": 450
+            "cost": 460
           }
         ],
         "secondary": [
           {
             "count": 4,
-            "cost": 185
+            "cost": 210
           },
           {
             "count": 5,
-            "cost": 230
+            "cost": 255
           },
           {
             "count": 8,
-            "cost": 375
+            "cost": 400
           },
           {
             "count": 10,
-            "cost": 465
+            "cost": 500
           }
         ]
       },
@@ -598,11 +598,11 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 110
+          "cost": 105
         },
         {
           "count": 10,
-          "cost": 220
+          "cost": 210
         }
       ],
       "tiered": {
@@ -610,21 +610,21 @@
         "primary": [
           {
             "count": 5,
-            "cost": 110
+            "cost": 105
           },
           {
             "count": 10,
-            "cost": 220
+            "cost": 210
           }
         ],
         "secondary": [
           {
             "count": 5,
-            "cost": 120
+            "cost": 115
           },
           {
             "count": 10,
-            "cost": 230
+            "cost": 220
           }
         ]
       },
@@ -672,8 +672,20 @@
       },
       "wargearOptions": [
         {
-          "name": "Psycannon",
-          "costPerModel": 5
+          "name": "5 Models",
+          "costPerModel": 130
+        },
+        {
+          "name": "10 Models",
+          "costPerModel": 260
+        },
+        {
+          "name": "5 Models",
+          "costPerModel": 140
+        },
+        {
+          "name": "10 Models",
+          "costPerModel": 270
         }
       ]
     },

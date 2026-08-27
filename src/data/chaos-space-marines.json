@@ -171,7 +171,7 @@
     {
       "name": "HURON’S MARAUDERS",
       "dpCost": 3,
-      "doctrine": "DISRUPTION",
+      "doctrine": "PURGE THE FOE",
       "enhancements": [
         {
           "name": "Dread Reputation",
@@ -768,7 +768,7 @@
         "secondary": [
           {
             "count": 1,
-            "cost": 340
+            "cost": 350
           }
         ]
       },
@@ -922,7 +922,6 @@
         "Chaos Terminator Squad",
         "Chosen",
         "Legionaries",
-        "Masters Of The Maelstrom",
         "Red Corsairs Raiders"
       ]
     },

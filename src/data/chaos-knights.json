@@ -247,7 +247,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 395
+          "cost": 385
         }
       ],
       "tiered": {
@@ -255,7 +255,7 @@
         "primary": [
           {
             "count": 1,
-            "cost": 395
+            "cost": 385
           }
         ],
         "secondary": [
@@ -295,7 +295,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 395
+          "cost": 385
         }
       ],
       "tiered": {
@@ -303,7 +303,7 @@
         "primary": [
           {
             "count": 1,
-            "cost": 395
+            "cost": 385
           }
         ],
         "secondary": [
@@ -415,7 +415,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 380
+          "cost": 360
         }
       ],
       "tiered": {
@@ -423,13 +423,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 380
+            "cost": 360
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 400
+            "cost": 390
           }
         ]
       },
@@ -440,7 +440,7 @@
         },
         {
           "name": "Despoiler Battle Cannon",
-          "costPerModel": 15
+          "costPerModel": 10
         }
       ]
     },
@@ -449,7 +449,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 365
+          "cost": 355
         }
       ],
       "tiered": {
@@ -457,13 +457,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 365
+            "cost": 355
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 380
+            "cost": 370
           }
         ]
       }
@@ -521,7 +521,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 140
+          "cost": 135
         }
       ]
     },
@@ -548,7 +548,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 155
+          "cost": 145
         }
       ]
     },

@@ -15,11 +15,11 @@
         },
         {
           "name": "Possessed Blade",
-          "pts": 25
+          "pts": 35
         },
         {
           "name": "Warp Walker",
-          "pts": 30
+          "pts": 35
         }
       ]
     },
@@ -344,7 +344,7 @@
         "secondary": [
           {
             "count": 1,
-            "cost": 340
+            "cost": 350
           }
         ]
       },
@@ -408,7 +408,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 80
+          "cost": 90
         }
       ],
       "tiered": {
@@ -416,13 +416,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 80
+            "cost": 90
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 90
+            "cost": 100
           }
         ]
       },
@@ -536,7 +536,7 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 90
+          "cost": 100
         }
       ]
     },
@@ -549,7 +549,7 @@
         },
         {
           "count": 6,
-          "cost": 180
+          "cost": 190
         }
       ]
     },
@@ -558,7 +558,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 255
+          "cost": 265
         }
       ],
       "tiered": {
@@ -566,13 +566,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 255
+            "cost": 265
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 270
+            "cost": 280
           }
         ]
       }
@@ -582,7 +582,7 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 80
+          "cost": 85
         },
         {
           "count": 10,

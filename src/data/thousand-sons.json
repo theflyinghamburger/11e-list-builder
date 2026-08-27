@@ -42,7 +42,7 @@
         },
         {
           "name": "Umbralefic Crystal",
-          "pts": 20
+          "pts": 30
         }
       ]
     },
@@ -383,7 +383,7 @@
         "secondary": [
           {
             "count": 1,
-            "cost": 340
+            "cost": 350
           }
         ]
       },
@@ -403,7 +403,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 90
+          "cost": 95
         }
       ],
       "leaderOf": [
@@ -477,7 +477,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 95
+          "cost": 100
         }
       ],
       "leaderOf": [
@@ -654,33 +654,6 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 85
-        }
-      ],
-      "tiered": {
-        "split": 2,
-        "primary": [
-          {
-            "count": 1,
-            "cost": 85
-          }
-        ],
-        "secondary": [
-          {
-            "count": 1,
-            "cost": 95
-          }
-        ]
-      },
-      "leaderOf": [
-        "Rubric Marines"
-      ]
-    },
-    {
-      "name": "Sorcerer In Terminator Armour",
-      "modelOptions": [
-        {
-          "count": 1,
           "cost": 95
         }
       ],
@@ -696,6 +669,33 @@
           {
             "count": 1,
             "cost": 105
+          }
+        ]
+      },
+      "leaderOf": [
+        "Rubric Marines"
+      ]
+    },
+    {
+      "name": "Sorcerer In Terminator Armour",
+      "modelOptions": [
+        {
+          "count": 1,
+          "cost": 100
+        }
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 100
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 110
           }
         ]
       },

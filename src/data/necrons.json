@@ -624,7 +624,7 @@
         },
         {
           "count": 6,
-          "cost": 170
+          "cost": 175
         }
       ],
       "tiered": {
@@ -644,25 +644,25 @@
           },
           {
             "count": 6,
-            "cost": 170
+            "cost": 175
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 50
+            "cost": 70
           },
           {
             "count": 2,
-            "cost": 65
+            "cost": 85
           },
           {
             "count": 3,
-            "cost": 90
+            "cost": 110
           },
           {
             "count": 6,
-            "cost": 180
+            "cost": 205
           }
         ]
       }
@@ -680,7 +680,7 @@
         },
         {
           "count": 3,
-          "cost": 160
+          "cost": 165
         }
       ],
       "tiered": {
@@ -696,7 +696,7 @@
           },
           {
             "count": 3,
-            "cost": 160
+            "cost": 165
           }
         ],
         "secondary": [
@@ -710,7 +710,7 @@
           },
           {
             "count": 3,
-            "cost": 170
+            "cost": 175
           }
         ]
       }
@@ -720,7 +720,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 70
+          "cost": 80
         }
       ],
       "leaderOf": [
@@ -770,7 +770,7 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 80
+          "cost": 85
         },
         {
           "count": 20,
@@ -829,7 +829,7 @@
         },
         {
           "count": 6,
-          "cost": 145
+          "cost": 150
         }
       ],
       "tiered": {
@@ -841,7 +841,7 @@
           },
           {
             "count": 6,
-            "cost": 145
+            "cost": 150
           }
         ],
         "secondary": [
@@ -851,7 +851,7 @@
           },
           {
             "count": 6,
-            "cost": 155
+            "cost": 160
           }
         ]
       }
@@ -902,7 +902,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 55
+          "cost": 60
         }
       ],
       "supportFor": [
@@ -1001,7 +1001,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 90
+          "cost": 95
         }
       ],
       "tiered": {
@@ -1009,13 +1009,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 90
+            "cost": 95
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 100
+            "cost": 105
           }
         ]
       },

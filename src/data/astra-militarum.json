@@ -170,7 +170,7 @@
     },
     {
       "name": "RECON ELEMENT",
-      "dpCost": 3,
+      "dpCost": 2,
       "doctrine": "RECONNAISSANCE",
       "enhancements": [
         {
@@ -495,7 +495,7 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 75
+          "cost": 70
         },
         {
           "count": 20,
@@ -520,7 +520,7 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 65
+          "cost": 70
         }
       ]
     },
@@ -529,11 +529,11 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 75
+          "cost": 70
         },
         {
           "count": 20,
-          "cost": 145
+          "cost": 135
         }
       ]
     },
@@ -674,11 +674,11 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 75
+          "cost": 70
         },
         {
           "count": 20,
-          "cost": 145
+          "cost": 135
         }
       ]
     },
@@ -915,7 +915,7 @@
       "modelOptions": [
         {
           "count": 4,
-          "cost": 60
+          "cost": 70
         }
       ],
       "wargearOptions": [
@@ -930,7 +930,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 185
+          "cost": 160
         }
       ],
       "tiered": {
@@ -938,23 +938,37 @@
         "primary": [
           {
             "count": 1,
-            "cost": 185
+            "cost": 160
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 195
+            "cost": 175
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Multi-Melta",
+          "costPerModel": 5
+        },
+        {
+          "name": "Lascannon",
+          "costPerModel": 5
+        },
+        {
+          "name": "Plasma Cannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Leman Russ Commander",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 215
+          "cost": 195
         }
       ],
       "tiered": {
@@ -962,13 +976,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 215
+            "cost": 195
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 230
+            "cost": 210
           }
         ]
       },
@@ -976,6 +990,18 @@
         {
           "name": "Demolisher Battle Cannon",
           "costPerModel": 15
+        },
+        {
+          "name": "Multi-Melta",
+          "costPerModel": 5
+        },
+        {
+          "name": "Lascannon",
+          "costPerModel": 5
+        },
+        {
+          "name": "Plasma Cannon",
+          "costPerModel": 5
         }
       ]
     },
@@ -984,7 +1010,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 180
+          "cost": 160
         }
       ],
       "tiered": {
@@ -992,23 +1018,37 @@
         "primary": [
           {
             "count": 1,
-            "cost": 180
+            "cost": 160
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 190
+            "cost": 175
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Multi-Melta",
+          "costPerModel": 5
+        },
+        {
+          "name": "Lascannon",
+          "costPerModel": 5
+        },
+        {
+          "name": "Plasma Cannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Leman Russ Eradicator",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 170
+          "cost": 145
         }
       ],
       "tiered": {
@@ -1016,23 +1056,37 @@
         "primary": [
           {
             "count": 1,
-            "cost": 170
+            "cost": 145
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 180
+            "cost": 160
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Multi-Melta",
+          "costPerModel": 5
+        },
+        {
+          "name": "Lascannon",
+          "costPerModel": 5
+        },
+        {
+          "name": "Plasma Cannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Leman Russ Executioner",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 170
+          "cost": 145
         }
       ],
       "tiered": {
@@ -1040,23 +1094,37 @@
         "primary": [
           {
             "count": 1,
-            "cost": 170
+            "cost": 145
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 180
+            "cost": 160
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Multi-Melta",
+          "costPerModel": 5
+        },
+        {
+          "name": "Lascannon",
+          "costPerModel": 5
+        },
+        {
+          "name": "Plasma Cannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Leman Russ Exterminator",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 180
+          "cost": 160
         }
       ],
       "tiered": {
@@ -1064,23 +1132,37 @@
         "primary": [
           {
             "count": 1,
-            "cost": 180
+            "cost": 160
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 190
+            "cost": 175
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Multi-Melta",
+          "costPerModel": 5
+        },
+        {
+          "name": "Lascannon",
+          "costPerModel": 5
+        },
+        {
+          "name": "Plasma Cannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Leman Russ Punisher",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 150
+          "cost": 130
         }
       ],
       "tiered": {
@@ -1088,23 +1170,37 @@
         "primary": [
           {
             "count": 1,
-            "cost": 150
+            "cost": 130
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 160
+            "cost": 145
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Multi-Melta",
+          "costPerModel": 5
+        },
+        {
+          "name": "Lascannon",
+          "costPerModel": 5
+        },
+        {
+          "name": "Plasma Cannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Leman Russ Vanquisher",
       "modelOptions": [
         {
           "count": 1,
-          "cost": 150
+          "cost": 130
         }
       ],
       "tiered": {
@@ -1112,16 +1208,30 @@
         "primary": [
           {
             "count": 1,
-            "cost": 150
+            "cost": 130
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 160
+            "cost": 145
           }
         ]
-      }
+      },
+      "wargearOptions": [
+        {
+          "name": "Multi-Melta",
+          "costPerModel": 5
+        },
+        {
+          "name": "Lascannon",
+          "costPerModel": 5
+        },
+        {
+          "name": "Plasma Cannon",
+          "costPerModel": 5
+        }
+      ]
     },
     {
       "name": "Lord Marshal Dreir",

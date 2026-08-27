@@ -737,19 +737,19 @@
       "modelOptions": [
         {
           "count": 4,
-          "cost": 105
+          "cost": 100
         },
         {
           "count": 5,
-          "cost": 130
+          "cost": 125
         },
         {
           "count": 9,
-          "cost": 235
+          "cost": 225
         },
         {
           "count": 10,
-          "cost": 260
+          "cost": 250
         }
       ],
       "tiered": {
@@ -757,19 +757,19 @@
         "primary": [
           {
             "count": 4,
-            "cost": 105
+            "cost": 100
           },
           {
             "count": 5,
-            "cost": 130
+            "cost": 125
           },
           {
             "count": 9,
-            "cost": 235
+            "cost": 225
           },
           {
             "count": 10,
-            "cost": 260
+            "cost": 250
           }
         ],
         "secondary": [
@@ -783,11 +783,11 @@
           },
           {
             "count": 9,
-            "cost": 250
+            "cost": 245
           },
           {
             "count": 10,
-            "cost": 275
+            "cost": 270
           }
         ]
       }
@@ -1667,7 +1667,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 250
+          "cost": 260
         }
       ],
       "tiered": {
@@ -1675,13 +1675,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 250
+            "cost": 260
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 270
+            "cost": 280
           }
         ]
       }

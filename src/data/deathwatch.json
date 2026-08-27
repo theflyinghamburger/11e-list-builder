@@ -948,7 +948,7 @@
         },
         {
           "count": 6,
-          "cost": 350
+          "cost": 365
         }
       ],
       "wargearOptions": [
@@ -1520,7 +1520,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 250
+          "cost": 260
         }
       ],
       "tiered": {
@@ -1528,13 +1528,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 250
+            "cost": 260
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 270
+            "cost": 280
           }
         ]
       }
@@ -1607,7 +1607,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 85
         }
       ],
       "leaderOf": [

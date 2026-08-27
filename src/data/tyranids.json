@@ -141,7 +141,7 @@
         },
         {
           "name": "Synaptoprescience (Upgrade)",
-          "pts": 25
+          "pts": 30
         }
       ]
     },
@@ -277,7 +277,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 140
+          "cost": 135
         }
       ],
       "tiered": {
@@ -285,13 +285,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 140
+            "cost": 135
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 150
+            "cost": 145
           }
         ]
       }
@@ -537,7 +537,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 190
+          "cost": 180
         }
       ],
       "tiered": {
@@ -545,13 +545,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 190
+            "cost": 180
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 200
+            "cost": 190
           }
         ]
       }
@@ -712,15 +712,15 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 45
+          "cost": 40
         },
         {
           "count": 2,
-          "cost": 65
+          "cost": 70
         },
         {
           "count": 3,
-          "cost": 95
+          "cost": 100
         }
       ],
       "tiered": {
@@ -728,29 +728,29 @@
         "primary": [
           {
             "count": 1,
-            "cost": 45
+            "cost": 40
           },
           {
             "count": 2,
-            "cost": 65
+            "cost": 70
           },
           {
             "count": 3,
-            "cost": 95
+            "cost": 100
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 55
+            "cost": 50
           },
           {
             "count": 2,
-            "cost": 75
+            "cost": 80
           },
           {
             "count": 3,
-            "cost": 105
+            "cost": 110
           }
         ]
       }
@@ -973,7 +973,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 180
+          "cost": 170
         }
       ],
       "tiered": {
@@ -981,13 +981,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 180
+            "cost": 170
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 190
+            "cost": 180
           }
         ]
       },
@@ -1011,7 +1011,7 @@
         },
         {
           "count": 6,
-          "cost": 160
+          "cost": 170
         }
       ]
     },
@@ -1073,7 +1073,7 @@
         },
         {
           "count": 6,
-          "cost": 200
+          "cost": 190
         }
       ]
     }

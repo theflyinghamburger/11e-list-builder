@@ -712,7 +712,7 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 120
+          "cost": 115
         },
         {
           "count": 10,
@@ -724,7 +724,7 @@
         "primary": [
           {
             "count": 5,
-            "cost": 120
+            "cost": 115
           },
           {
             "count": 10,
@@ -734,7 +734,7 @@
         "secondary": [
           {
             "count": 5,
-            "cost": 135
+            "cost": 130
           },
           {
             "count": 10,
@@ -760,7 +760,7 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 125
+          "cost": 120
         },
         {
           "count": 6,
@@ -772,7 +772,7 @@
         "primary": [
           {
             "count": 3,
-            "cost": 125
+            "cost": 120
           },
           {
             "count": 6,
@@ -782,7 +782,7 @@
         "secondary": [
           {
             "count": 3,
-            "cost": 145
+            "cost": 140
           },
           {
             "count": 6,
@@ -831,7 +831,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 130
+          "cost": 120
         }
       ]
     },
@@ -1817,7 +1817,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 250
+          "cost": 260
         }
       ],
       "tiered": {
@@ -1825,13 +1825,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 250
+            "cost": 260
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 270
+            "cost": 280
           }
         ]
       }
@@ -1904,7 +1904,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 85
         }
       ],
       "leaderOf": [

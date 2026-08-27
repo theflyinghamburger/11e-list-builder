@@ -41,7 +41,7 @@
     {
       "name": "DAEMONIC INCURSION",
       "dpCost": 3,
-      "doctrine": "DISRUPTION",
+      "doctrine": "TAKE AND HOLD",
       "enhancements": [
         {
           "name": "A’rgath, The King of Blades",
@@ -186,11 +186,11 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 75
+          "cost": 80
         },
         {
           "count": 2,
-          "cost": 140
+          "cost": 150
         }
       ]
     },
@@ -212,7 +212,7 @@
         },
         {
           "count": 6,
-          "cost": 190
+          "cost": 200
         }
       ],
       "tiered": {
@@ -224,17 +224,17 @@
           },
           {
             "count": 6,
-            "cost": 190
+            "cost": 200
           }
         ],
         "secondary": [
           {
             "count": 3,
-            "cost": 115
+            "cost": 135
           },
           {
             "count": 6,
-            "cost": 210
+            "cost": 240
           }
         ]
       }
@@ -320,9 +320,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 100
+          "cost": 115
         }
       ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 115
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 125
+          }
+        ]
+      },
       "leaderOf": [
         "Daemonettes"
       ]
@@ -332,7 +347,7 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 90
+          "cost": 100
         }
       ]
     },
@@ -408,9 +423,32 @@
         },
         {
           "count": 6,
-          "cost": 180
+          "cost": 190
         }
-      ]
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 3,
+            "cost": 90
+          },
+          {
+            "count": 6,
+            "cost": 190
+          }
+        ],
+        "secondary": [
+          {
+            "count": 3,
+            "cost": 105
+          },
+          {
+            "count": 6,
+            "cost": 205
+          }
+        ]
+      }
     },
     {
       "name": "Flamers",
@@ -538,7 +576,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 255
+          "cost": 265
         }
       ],
       "tiered": {
@@ -546,13 +584,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 255
+            "cost": 265
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 270
+            "cost": 280
           }
         ]
       }
@@ -630,9 +668,24 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 55
+          "cost": 60
         }
       ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 60
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 70
+          }
+        ]
+      },
       "leaderOf": [
         "Plaguebearers"
       ]
@@ -642,7 +695,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 150
+          "cost": 160
         }
       ],
       "tiered": {
@@ -650,13 +703,13 @@
         "primary": [
           {
             "count": 1,
-            "cost": 150
+            "cost": 160
           }
         ],
         "secondary": [
           {
             "count": 1,
-            "cost": 170
+            "cost": 180
           }
         ]
       }
@@ -688,7 +741,7 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 80
+          "cost": 85
         },
         {
           "count": 10,
@@ -728,7 +781,7 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 90
+          "cost": 100
         }
       ]
     },

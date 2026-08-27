@@ -251,7 +251,7 @@
         },
         {
           "count": 6,
-          "cost": 160
+          "cost": 170
         }
       ],
       "tiered": {
@@ -263,7 +263,7 @@
           },
           {
             "count": 6,
-            "cost": 160
+            "cost": 170
           }
         ],
         "secondary": [
@@ -273,7 +273,7 @@
           },
           {
             "count": 6,
-            "cost": 170
+            "cost": 180
           }
         ]
       }
@@ -292,11 +292,11 @@
       "modelOptions": [
         {
           "count": 5,
-          "cost": 100
+          "cost": 95
         },
         {
           "count": 10,
-          "cost": 200
+          "cost": 190
         }
       ]
     },
@@ -305,7 +305,7 @@
       "modelOptions": [
         {
           "count": 2,
-          "cost": 110
+          "cost": 100
         }
       ]
     },
@@ -374,7 +374,7 @@
       "modelOptions": [
         {
           "count": 10,
-          "cost": 100
+          "cost": 90
         }
       ]
     },
@@ -456,7 +456,7 @@
         },
         {
           "count": 6,
-          "cost": 160
+          "cost": 170
         }
       ],
       "tiered": {
@@ -468,7 +468,7 @@
           },
           {
             "count": 6,
-            "cost": 160
+            "cost": 170
           }
         ],
         "secondary": [
@@ -478,7 +478,7 @@
           },
           {
             "count": 6,
-            "cost": 170
+            "cost": 180
           }
         ]
       }
@@ -488,11 +488,11 @@
       "modelOptions": [
         {
           "count": 3,
-          "cost": 80
+          "cost": 75
         },
         {
           "count": 6,
-          "cost": 160
+          "cost": 150
         }
       ],
       "tiered": {
@@ -500,21 +500,21 @@
         "primary": [
           {
             "count": 3,
-            "cost": 80
+            "cost": 75
           },
           {
             "count": 6,
-            "cost": 160
+            "cost": 150
           }
         ],
         "secondary": [
           {
             "count": 3,
-            "cost": 90
+            "cost": 85
           },
           {
             "count": 6,
-            "cost": 170
+            "cost": 160
           }
         ]
       }
@@ -561,13 +561,36 @@
       "modelOptions": [
         {
           "count": 1,
-          "cost": 65
+          "cost": 70
         },
         {
           "count": 2,
-          "cost": 130
+          "cost": 140
         }
-      ]
+      ],
+      "tiered": {
+        "split": 2,
+        "primary": [
+          {
+            "count": 1,
+            "cost": 70
+          },
+          {
+            "count": 2,
+            "cost": 140
+          }
+        ],
+        "secondary": [
+          {
+            "count": 1,
+            "cost": 80
+          },
+          {
+            "count": 2,
+            "cost": 150
+          }
+        ]
+      }
     },
     {
       "name": "Memnyr Strategist",
